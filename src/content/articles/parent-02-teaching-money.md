@@ -16,7 +16,7 @@ The statistics are brutal. And consistent.
 
 This isn't speculation. It's documented reality across cultures, across centuries, across economic systems. The wealthy family's children graduate to poverty with remarkable predictability.
 
-The Chinese have a saying: "Shirtsleeves to shirtsleeves in three generations." Americans say the same thing. So do Germans, Brazilians, Italians. The words differ. The pattern doesn't.
+"Hard times create strong men, strong men create good times, good times create weak men, and weak men create hard times." The same pattern plays out with family wealth — generation after generation, across every culture. The words differ. The pattern doesn't.
 
 Why does this happen? And more importantly, how do you stop it?
 
@@ -122,7 +122,7 @@ Knowledge compounds faster than money. And it's harder to lose.
 
 Implementing this approach requires intentional action:
 
-**Start with policy ownership structure.** Establish policies on your children when they're young. You maintain ownership and control. They benefit from death benefit protection and cash value growth.
+**Start with yourself.** As the first generation practicing IBC, establish policies on yourself first. As you reach maximum insurability and your cash flow permits, expand to policies on your children. You maintain ownership and control. They benefit from death benefit protection and cash value growth.
 
 **Use the system for real purchases.** When children need cars, education funding, or business capital, use policy loans instead of external financing. Show them the mechanics.
 
@@ -244,7 +244,7 @@ The goal is producing children who think like bankers, not customers. Who unders
 
 You don't need perfect knowledge to begin. You need sufficient understanding and willingness to learn alongside your children.
 
-Start with establishing policies on your children if you haven't already. Use those policies for real financing needs as they arise. Explain the mechanics. Document the process.
+Start with policies on yourself — you are the first generation practicing the banking function. As you reach maximum insurability and your cash flow allows, fund policies on the second generation. Once your children have children, then you fund policies on the third generation. This is Nash's Even Distribution of Age Classes in practice — building a forest, not planting a single tree.
 
 **Most importantly, change your own relationship with money** so your children observe better habits.
 
