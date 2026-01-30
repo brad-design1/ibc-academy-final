@@ -44,12 +44,16 @@ After attending one of Nelson Nash's Think Tank meetings in Birmingham, Robert a
 - Cash value year 1: ~$8,500
 - Projected cash value year 10: ~$92,000
 
+<br/>
+
 **Mary's Policy (Age 63):**
 - Death benefit: $400,000
 - Annual premium: $8,000
 - Design: 40% base premium, 60% paid-up additions
 - Cash value year 1: ~$6,800
 - Projected cash value year 10: ~$74,000
+
+<br/>
 
 **Combined Generation 1 death benefits: $900,000**
 
@@ -81,6 +85,8 @@ David and Sarah, inspired by Robert and Mary's commitment, decide to fund their 
 - Projected cash value year 10: ~$138,000
 - Projected cash value year 20: ~$295,000
 
+<br/>
+
 **Sarah's Policy (Age 33):**
 - Death benefit: $500,000
 - Annual premium: $12,000
@@ -88,6 +94,8 @@ David and Sarah, inspired by Robert and Mary's commitment, decide to fund their 
 - Cash value year 1: ~$10,200
 - Projected cash value year 10: ~$115,000
 - Projected cash value year 20: ~$250,000
+
+<br/>
 
 **Combined Generation 2 death benefits: $1,250,000**
 
