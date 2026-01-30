@@ -31,7 +31,7 @@ By Year Forty, you have achieved the holy grail of forest management: even distr
 
 Income flowing every year. No single-point failures. No betting your entire operation on one harvest in one year.
 
-Nash saw families making the opposite mistake. All their "trees" the same age. All their wealth tied to one generation's earning peak. All their capital scheduled to transfer at the same moment — when the parents die.
+Nash saw families making the opposite mistake. All their "trees" the same age. All their wealth tied to one generation's earning peak. All their capital scheduled to transfer at the same moment - when the parents die.
 
 That's not forestry. That's clear-cutting. And clear-cutting leads to erosion.
 
@@ -45,7 +45,7 @@ The 70-year-old grandfather has policies that are harvestable timber. Enormous c
 
 The 45-year-old father has policies in their growth phase. Cash values building. Loans available. Still paying premiums but starting to see the acceleration.
 
-The 16-year-old son has a sapling. Tiny cash value today. Minimal death benefit. But time — the most valuable input in any compounding system — working in his favor.
+The 16-year-old son has a sapling. Tiny cash value today. Minimal death benefit. But time - the most valuable input in any compounding system - working in his favor.
 
 The family now has policies at every stage of life. Some ready to produce income. Others building toward future production. Others just planted, waiting for time to work its mathematics.
 
@@ -91,17 +91,15 @@ Here's where Nash's forestry wisdom creates something magical: the waterfall eff
 
 When the grandfather graduates, his $2 million death benefit doesn't just provide income replacement. It becomes seed capital for the next generation's policies.
 
-The family takes a portion of that death benefit — say $500,000 — and starts policies on the newest generation. The great-grandchildren. Babies who just entered the system.
+The family takes a portion of that death benefit — say $500,000 — and uses it to fund policies on the five grandchildren. $5,000 per year per child for 20 years. Total outlay: $100,000 per grandchild, $500,000 across the family.
 
-The remaining $1.5 million funds the family's immediate needs, pays off any debts, and provides the surviving spouse with income via her own policies.
+The remaining $1.5 million funds the family's immediate needs, pays off any policy loans, and provides the surviving spouse with income via her own policies.
 
-But here's the compound effect: the new policies started with the grandfather's death benefit are larger than any policies the family could have afforded from earned income alone.
+But here's the compound effect: the new policies started with the grandfather's death benefit give each grandchild a banking system they never had to build from scratch.
 
-A $500,000 premium into a policy on a newborn creates cash values and death benefits that dwarf what most families accumulate over a lifetime of regular savings.
+By age 22, each grandchild has roughly $125,000 in cash value. Available for college funding, business startup capital, or real estate investment. Capital they never earned. Capital that was passed down from their great-grandfather's foresight decades earlier.
 
-When that child reaches age 22, she has $300,000 in cash value. Available for college funding, business startup capital, or real estate investment. Capital she never earned. Capital that was passed down from her great-grandfather's foresight three decades earlier.
-
-By age 70, with no additional premiums, that cash value has grown to over $4 million. She can withdraw $225,000 annually in tax-free income and still leave $6 million in death benefit to her own grandchildren.
+By age 70, with no additional premiums, each policy has grown to approximately $1.5 million in cash value. Each grandchild can access $80,000–$100,000 annually in tax-free income and still leave over $2 million in death benefit to their own grandchildren. Multiply that across five grandchildren, and the family system holds $7.5 million in cash value and over $10 million in death benefit — from an original $500,000 allocation.
 
 Each generation's death benefit is larger than the last because it compounds on the foundation of all previous generations.
 
@@ -111,7 +109,7 @@ The waterfall effect. Capital flowing downward, growing larger at each level, ca
 
 Traditional estate planning requires a small army of professionals. Attorneys to draft wills and trusts. CPAs to navigate tax implications. Financial advisors to manage investments. Estate planners to coordinate everything.
 
-And every time tax law changes — which happens roughly every four years — the entire structure needs updating. More attorney fees. More complexity. More opportunities for something to go wrong.
+And every time tax law changes - which happens roughly every four years - the entire structure needs updating. More attorney fees. More complexity. More opportunities for something to go wrong.
 
 IBC estate planning looks different. Beneficiary designations. Death benefits. Clean transfers.
 
@@ -135,7 +133,7 @@ Nash inverted the question: What if the system got stronger with each generation
 
 Under his system, each generation receives more than the last. Not through speculation or investment gambling. Through the mathematical certainty of compound growth and clean wealth transfers.
 
-The grandfather starts with $50,000 in annual premium capacity. By the time his great-grandson enters the system, the family's annual premium capacity has grown to $200,000 — funded by the accumulated death benefits of previous generations.
+The grandfather starts with $50,000 in annual premium capacity. By the time his great-grandson enters the system, the family's annual premium capacity has grown to $200,000 - funded by the accumulated death benefits of previous generations.
 
 The pool of capital grows. The next generation enters with advantages the previous generation never had. The system becomes self-reinforcing.
 
@@ -171,11 +169,11 @@ A 45-year-old couple can still create a multi-generational system. Policies on t
 
 Will they see the full effect? No. Their children will. Their grandchildren certainly will.
 
-But even a partial system — two or three policies at different stages of growth — creates advantages that compound over decades.
+But even a partial system - two or three policies at different stages of growth - creates advantages that compound over decades.
 
 The key is thinking beyond your own lifespan. Building for the family name. Creating infrastructure that serves people who aren't born yet.
 
-Start with the adults. Add the children. Plan for the grandchildren. 
+Start with the adults. Add the children. Plan for the grandchildren.
 
 Let time work its mathematics.
 

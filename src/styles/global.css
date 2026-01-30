@@ -271,3 +271,13 @@ body {
   margin-bottom: 0.5rem !important;
   color: white !important;
 }
+
+/* Tighter spacing: bold label → its bullet list */
+.prose p + ul {
+  margin-top: 0.25em !important;
+}
+
+/* More spacing: bullet list → next bold label or paragraph */
+.prose ul + p {
+  margin-top: 2em !important;
+}
