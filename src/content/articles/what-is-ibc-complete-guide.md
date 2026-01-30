@@ -7,7 +7,6 @@ tags: ["ibc", "infinite banking", "nelson nash", "whole life insurance"]
 featured: true
 draft: false
 ---
-
 ## Introduction
 
 The Infinite Banking Concept (IBC) is a process " not a product. Created by Nelson Nash and outlined in his book *Becoming Your Own Banker*, IBC teaches you how to recapture the banking function in your life using dividend-paying whole life insurance from mutual companies.

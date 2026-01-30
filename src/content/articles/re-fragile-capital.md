@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["real-estate", "risk", "leverage", "liquidity", "capital-structure", "banking-function"]
 featured: false
 ---
-
 # The Fragility of Laddered Capital
 
 You've built something sophisticated.

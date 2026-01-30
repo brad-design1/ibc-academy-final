@@ -1,5 +1,5 @@
 ---
-title: "Proverbs 13:22 " Building an Inheritance"
+title: "Proverbs 13:22 — Building an Inheritance"
 description: "Most Christians can quote this verse but few have a system to fulfill it. Money gets spent, but a financial system persists across generations."
 pubDate: 2026-01-29
 category: parent
@@ -9,10 +9,9 @@ draft: false
 series: "parent"
 seriesOrder: 3
 ---
-
 # Proverbs 13:22 " Building an Inheritance
 
-*"A good man leaves an inheritance to his children's children." " Proverbs 13:22*
+* â€” A good man leaves an inheritance to his children's children." " Proverbs 13:22*
 
 Most Christians can quote this verse. Few have a plan to fulfill it.
 
@@ -42,7 +41,7 @@ They understood something most Americans missed: you don't inherit money. You in
 
 Scripture is clear about our relationship to wealth. We don't truly own anything. We're stewards. Managers. Links in a chain, not endpoints.
 
-*"The earth is the Lord's, and everything in it." " Psalm 24:1*
+* â€” The earth is the Lord's, and everything in it." " Psalm 24:1*
 
 This means your money isn't really your money. It's capital that's been entrusted to you for a season. Your job isn't to accumulate the biggest pile before you die. Your job is to be a faithful steward and pass that capital forward in better condition than you received it.
 

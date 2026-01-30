@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["banking-function", "nelson-nash", "capitalization"]
 featured: false
 ---
-
 # The Banking Function Explained
 
 If you take one idea away from the Infinite Banking Concept, let it be this: **banking is a function, not a place.**

@@ -9,7 +9,6 @@ draft: false
 series: "real-estate"
 seriesOrder: 3
 ---
-
 ## The $346,000 Mistake
 
 David bought his first rental property in 2010. $180,000 purchase price, financed with a 30-year mortgage at 5.5% interest. Great deal, he thought. Monthly payment of $1,022, rental income of $1,400. Positive cash flow from day one.
@@ -87,7 +86,7 @@ I know investors who've owned properties for 20 years and have refinanced multip
 
 The bank loves these customers. Every refinance generates fees. Every refinance extends the period of interest payments. Every refinance keeps the wealth transfer flowing.
 
-**"Accessing equity" is often just converting equity into debt " trading an asset you own for an obligation you owe.**
+** â€” Accessing equity" is often just converting equity into debt " trading an asset you own for an obligation you owe.**
 
 ## The Leverage Lie
 

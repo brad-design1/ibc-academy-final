@@ -6,10 +6,9 @@ category: fundamentals
 tags: ["ibc", "legacy", "family", "generational-wealth", "faith"]
 featured: false
 ---
-
 # Proverbs 13:22 — Building an Inheritance
 
-*"A good man leaves an inheritance to his children's children."*
+* â€” A good man leaves an inheritance to his children's children."*
 
 That's not a suggestion. It's not a nice idea. In the context of Proverbs, it's a marker of wisdom — a distinguishing characteristic of the person who understands how the world actually works.
 

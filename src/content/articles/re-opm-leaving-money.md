@@ -6,7 +6,6 @@ category: mechanics
 tags: ["real-estate", "opportunity-cost", "banking-function", "opm", "policy-loans", "leverage"]
 featured: false
 ---
-
 # OPM: The Money You're Leaving on the Table
 
 Go to any real estate investing meetup. Hang around for ten minutes. You'll hear it.
@@ -109,7 +108,7 @@ Nelson Nash taught something that reframes this entire conversation.
 
 When someone asks, "What's the interest rate?"—they're asking the wrong question.
 
-The right question is: **"Compared to what?"**
+The right question is: ** â€” Compared to what?"**
 
 Compared to what? That's the question that unlocks everything.
 

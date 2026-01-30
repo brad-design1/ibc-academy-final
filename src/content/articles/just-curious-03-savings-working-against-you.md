@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Why Your Savings Account Is Working Against You"
 description: "Your savings account is supposed to help you build wealth. Instead, it's quietly destroying your purchasing power. Here's how."
 pubDate: 2026-01-29
@@ -9,7 +9,6 @@ draft: false
 series: "just-curious"
 seriesOrder: 3
 ---
-
 # Why Your Savings Account Is Working Against You
 
 Quick quiz: If you put $10,000 in a savings account earning 0.5% interest, how much money will you have after one year?

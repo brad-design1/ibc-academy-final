@@ -6,7 +6,6 @@ category: compared-to-what
 tags: ["401k", "retirement", "comparison", "ira"]
 featured: false
 ---
-
 # IBC vs. 401(k): Why Your Retirement Plan Might Be a Trap
 
 Nelson Nash ran the numbers. He put a 21-year-old woman through a properly funded whole life policy for seven years, then let it run. He compared it to the same money sitting in bank CDs earning 4% after taxes.

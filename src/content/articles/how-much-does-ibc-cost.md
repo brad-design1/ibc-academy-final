@@ -6,7 +6,6 @@ category: compared-to-what
 tags: ["cost", "premium", "getting-started", "practical"]
 featured: false
 ---
-
 # How Much Does IBC Cost? A Realistic Breakdown
 
 "How much does IBC cost?" is the most common question new people ask. It's also the wrong question — because it starts from the wrong frame.

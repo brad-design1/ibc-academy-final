@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["family-banking", "multi-generational", "nelson-nash", "capitalization", "legacy"]
 featured: false
 ---
-
 # The Family Banking System Explained
 
 Nelson Nash spent years as a consulting forester before he discovered the banking function hiding inside dividend-paying whole life insurance. That background shaped everything about how he thought — and nowhere is that clearer than in his vision of a family banking system.

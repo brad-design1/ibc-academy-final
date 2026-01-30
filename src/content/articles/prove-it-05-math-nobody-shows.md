@@ -9,7 +9,6 @@ draft: false
 series: "prove-it"
 seriesOrder: 5
 ---
-
 ## The Numbers They Don't Want You to See
 
 When critics attack whole life insurance, they love throwing around numbers.

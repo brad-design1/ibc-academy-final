@@ -6,7 +6,6 @@ category: compared-to-what
 tags: ["dave-ramsey", "btid", "buy-term", "comparison", "myths"]
 featured: false
 ---
-
 # The "Buy Term and Invest the Difference" Myth
 
 "Buy term and invest the difference" is perhaps the most famous piece of financial advice in America. Dave Ramsey has built an empire on it. The logic sounds airtight: whole life insurance is expensive, term is cheap, so buy the cheap insurance and invest what you save into mutual funds earning 12%.

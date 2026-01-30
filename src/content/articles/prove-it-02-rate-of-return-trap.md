@@ -9,7 +9,6 @@ draft: false
 series: "prove-it"
 seriesOrder: 2
 ---
-
 ## The Question That Reveals Everything
 
 Ask any financial advisor about whole life insurance and watch what happens.
@@ -157,7 +156,7 @@ Meanwhile, whole life cash value grows tax-deferred. Policy loans are not taxabl
 
 Stop asking: "What's the rate of return?"
 
-Start asking: **"Compared to what?"**
+Start asking: ** â€” Compared to what?"**
 
 **Compared to banking:** Would you rather pay interest to Chase Bank or access your own capital?
 

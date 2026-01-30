@@ -6,7 +6,6 @@ category: mechanics
 tags: ["policy-loans", "cash-value", "mechanics"]
 featured: false
 ---
-
 # How Policy Loans Work
 
 Policy loans are the engine of the Infinite Banking Concept. They're also the most misunderstood part. If you've ever wondered, "Why would I pay interest to borrow my own money?" — this article is for you.

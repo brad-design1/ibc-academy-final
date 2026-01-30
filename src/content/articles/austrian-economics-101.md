@@ -6,7 +6,6 @@ category: austrian-economics
 tags: ["austrian-economics", "freedom", "federal-reserve", "nelson-nash", "sound-money", "liberty"]
 featured: true
 ---
-
 # Austrian Economics 101: Why It Matters for IBC
 
 Most people think the Infinite Banking Concept is about life insurance. They're wrong.
@@ -166,7 +165,7 @@ Nelson Nash spent 54 years studying Austrian economics before he wrote *Becoming
 
 In interviews late in his life, when asked about the connection between Austrian economics and IBC, Nash was direct: "When one understands the teachings of Austrian Economics, and also understands how dividend-paying whole life insurance works, it is easy to connect the dots."
 
-Many people had emailed him to say the same thing after reading his book: **"This is Austrian Economics in action."**
+Many people had emailed him to say the same thing after reading his book: ** â€” This is Austrian Economics in action."**
 
 That's exactly what it is.
 

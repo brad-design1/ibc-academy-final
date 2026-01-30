@@ -9,7 +9,6 @@ draft: false
 series: "freedom-seeker"
 seriesOrder: 5
 ---
-
 "Buy term and invest the difference."
 
 Six words that sound like common sense. Until you think about them.

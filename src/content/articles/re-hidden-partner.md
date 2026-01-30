@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["real-estate", "banking-function", "leverage", "OPM", "opportunity-cost"]
 featured: true
 ---
-
 # The Real Estate Investor's Hidden Partner
 
 You've closed deals. You understand leverage. You know that the magic of real estate is using Other People's Money to control appreciating assets while your tenants pay down the debt.

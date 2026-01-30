@@ -6,7 +6,6 @@ category: case-study
 tags: ["ibc", "case-study", "intergenerational-wealth", "family-banking", "death-benefit"]
 featured: false
 ---
-
 # A Family of Four Implements IBC: A Multi-Generational Case Study
 
 Let me tell you about the Mitchell family.

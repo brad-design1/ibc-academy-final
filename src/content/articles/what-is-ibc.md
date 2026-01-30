@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["ibc", "nelson-nash", "introduction", "whole-life"]
 featured: true
 ---
-
 # What Is the Infinite Banking Concept?
 
 The Infinite Banking Concept (IBC) is a strategy developed by Nelson Nash, detailed in his book *Becoming Your Own Banker*. At its core, IBC is about **recapturing the banking function** in your personal financial life.
@@ -15,7 +14,7 @@ The Infinite Banking Concept (IBC) is a strategy developed by Nelson Nash, detai
 
 Every time you make a major purchase — a car, equipment, education, real estate — you finance it. The question isn't *whether* you finance it, but **who gets the banking function**: a traditional bank, or you?
 
-When you use a bank's money, you pay interest to them. When you use your own money (even cash), you lose the interest you *could* have earned. Either way, there's a cost. Nelson Nash called this the **"economic problem."**
+When you use a bank's money, you pay interest to them. When you use your own money (even cash), you lose the interest you *could* have earned. Either way, there's a cost. Nelson Nash called this the ** â€” economic problem."**
 
 ## The Process, Not the Product
 
@@ -38,11 +37,11 @@ The whole life policy is the ideal vehicle for IBC because of its unique charact
 
 ## Common Misconceptions
 
-**"It's just whole life insurance."** No — IBC is a process. The policy is the vehicle, not the concept.
+** â€” It's just whole life insurance."** No — IBC is a process. The policy is the vehicle, not the concept.
 
-**"You can do this with any savings account."** Not quite. No savings account offers uninterrupted compounding during loans, tax-free access, and a death benefit.
+** â€” You can do this with any savings account."** Not quite. No savings account offers uninterrupted compounding during loans, tax-free access, and a death benefit.
 
-**"It's too good to be true."** IBC isn't a get-rich-quick scheme. It requires discipline, patience, and a long-term mindset. It's Nelson Nash's observation about how money works, applied consistently.
+** â€” It's too good to be true."** IBC isn't a get-rich-quick scheme. It requires discipline, patience, and a long-term mindset. It's Nelson Nash's observation about how money works, applied consistently.
 
 ## Getting Started
 

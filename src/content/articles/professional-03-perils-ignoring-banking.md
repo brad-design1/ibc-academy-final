@@ -9,7 +9,6 @@ draft: false
 series: "professional"
 seriesOrder: 3
 ---
-
 # The Perils of Ignoring the Banking Function
 
 Meet Sarah Chen, VP of Marketing at a Fortune 500 company. MBA from Wharton. $185,000 salary plus bonus. She's forty-two and doing everything the financial planning industry tells her to do.
@@ -34,7 +33,7 @@ You optimize for accumulation while ignoring cash flow. You lock money away in r
 
 **You become asset-rich and cash-poor.**
 
-This isn't a income problem"you earn plenty. It's not a savings problem"you save diligently. It's a **liquidity and control problem.**
+This isn't a income problem â€” you earn plenty. It's not a savings problem â€” you save diligently. It's a **liquidity and control problem.**
 
 When your capital is locked in 401ks and IRAs until age 59Â½, and your "accessible" money earns 4% in savings accounts, you create a gap. Life happens faster than your savings mature. Opportunities arise before your investments vest.
 
@@ -68,7 +67,7 @@ Now consider Sarah's financing requirements over the past five years:
 - **Kitchen renovation**: $65,000 (HELOC)  
 - **Son's car accident repair**: $12,000 (personal loan)
 - **Daughter's college tuition**: $50,000 (HELOC)
-- **Business investment opportunity**: $25,000 (passed up"no liquid capital)
+- **Business investment opportunity**: $25,000 (passed up â€” no liquid capital)
 
 **Total borrowed: $135,500**
 **Total interest paid over term: $38,000**
@@ -84,7 +83,7 @@ The retirement savings complex has convinced professionals that maximizing 401k 
 
 **Control**: You can't choose specific investments in most plans. You can't adjust strategy based on market conditions. You can't use the capital for opportunities that arise.
 
-**Tax Liability**: Every dollar in your 401k is a future tax liability. When you withdraw in retirement, it's ordinary income. Today's tax deduction becomes tomorrow's tax bill"and you don't know what tax rates will be in 20 years.
+**Tax Liability**: Every dollar in your 401k is a future tax liability. When you withdraw in retirement, it's ordinary income. Today's tax deduction becomes tomorrow's tax bill â€” and you don't know what tax rates will be in 20 years.
 
 **Sequence Risk**: If markets crash during your early retirement years, your withdrawal rate could deplete your account faster than expected. (More on this in the next article.)
 
@@ -201,11 +200,11 @@ Ludwig von Mises, the Austrian economist, wrote: "The role of saving is to provi
 
 **Saving isn't about accumulation for its own sake. It's about capital formation for future productivity.**
 
-Your 401k doesn't form capital"it forms claims on other people's capital. You own mutual fund shares that own stock shares in companies that actually own productive assets.
+Your 401k doesn't form capital â€” it forms claims on other people's capital. You own mutual fund shares that own stock shares in companies that actually own productive assets.
 
 **You're twice removed from real capital formation.**
 
-IBC creates actual capital within your control. Cash value represents real reserves that can be deployed for productive purposes"business investments, real estate, education, equipment.
+IBC creates actual capital within your control. Cash value represents real reserves that can be deployed for productive purposes â€” business investments, real estate, education, equipment.
 
 **You move from owning claims to controlling capital.**
 

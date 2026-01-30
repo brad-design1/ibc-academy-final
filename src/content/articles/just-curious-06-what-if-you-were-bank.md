@@ -9,7 +9,6 @@ draft: false
 series: "just-curious"
 seriesOrder: 6
 ---
-
 # What If You Were the Bank?
 
 Let's recap what we've discovered:
@@ -53,7 +52,7 @@ Whole life insurance, when structured properly, **functions as a private banking
 
 Developed by Nelson Nash, a forestry consultant who nearly went bankrupt paying 23% interest in the 1980s. His crisis led him to a revelation:
 
-**"Your need for finance during your lifetime is greater than your need for death benefit."**
+** â€” Your need for finance during your lifetime is greater than your need for death benefit."**
 
 **IBC uses the banking characteristics of whole life insurance** to solve every problem we've identified in this series.
 
@@ -117,7 +116,7 @@ Better yet: **as you repay the loan to your policy, you recapture the entire fin
 **Whole life insurance** has consistently outpaced inflation for over 150 years.
 
 **Why?**
-- **Conservative investments:** Mutual life insurance companies invest in bonds, real estate, and blue-chip stocks"assets that appreciate with inflation
+- **Conservative investments:** Mutual life insurance companies invest in bonds, real estate, and blue-chip stocks â€” assets that appreciate with inflation
 - **Compounding growth:** Your cash value compounds year after year **without** tax interruption  
 - **Dividend payments:** Mutual companies pay dividends to policyholders from company profits
 
@@ -234,16 +233,16 @@ When you control your own banking function, **every financial decision improves 
 
 ## The Objections (And The Answers)
 
-**"Life insurance is expensive."**
+** â€” Life insurance is expensive."**
 - **Answer:** Compared to what? Losing 50% of your income to banks and financial institutions forever? The premiums you pay **come back to you** with interest. Money paid to banks is gone forever.
 
-**"The returns are too low."**  
-- **Answer:** You're thinking like an investor, not a banker. IBC isn't about beating the stock market. It's about **controlling the banking function** in your life. Banks don't try to beat the stock market"they focus on **predictable spreads** and **capital control.**
+** â€” The returns are too low."**  
+- **Answer:** You're thinking like an investor, not a banker. IBC isn't about beating the stock market. It's about **controlling the banking function** in your life. Banks don't try to beat the stock market â€” they focus on **predictable spreads** and **capital control.**
 
-**"What if I need the money?"**
+** â€” What if I need the money?"**
 - **Answer:** That's the point. You **always** have access to your capital through policy loans. Try calling Vanguard and asking for a loan against your 401(k) with no qualification, no approval, and no questions asked.
 
-**"I don't want life insurance."**
+** â€” I don't want life insurance."**
 - **Answer:** You're not buying life insurance. You're **building a bank.** The death benefit is a bonus. Your real asset is the **capital access and control** the policy provides.
 
 ## Your Next Step
@@ -314,7 +313,7 @@ He simply **recognized** how whole life insurance really works and **systematize
 
 ---
 
-**Ready to learn more?** The next step is understanding how to properly structure and implement an IBC system. This isn't something you do alone"you need guidance from practitioners who understand the banking concept, not just insurance agents who understand death benefits.
+**Ready to learn more?** The next step is understanding how to properly structure and implement an IBC system. This isn't something you do alone â€” you need guidance from practitioners who understand the banking concept, not just insurance agents who understand death benefits.
 
 **Want to explore whether IBC makes sense for your situation?** The conversation starts with understanding your current cash flow, your financial goals, and your timeline. Every situation is different, but the principles remain the same.
 

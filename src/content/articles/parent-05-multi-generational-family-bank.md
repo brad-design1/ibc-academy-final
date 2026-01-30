@@ -9,7 +9,6 @@ draft: false
 series: "parent"
 seriesOrder: 5
 ---
-
 Most families approach estate planning as a one-time event. Accumulate assets. Write a will. Update it when tax laws change. Die and hope the attorneys get it right.
 
 What if estate planning wasn't an event but a continuous process?

@@ -9,7 +9,6 @@ draft: false
 series: "professional"
 seriesOrder: 2
 ---
-
 # The Banking Function: What Nelson Nash Really Meant
 
 You analyze cash flows for a living. You understand ROIC, WACC, and NPV calculations. You know the difference between operating income and free cash flow.
@@ -18,11 +17,11 @@ But here's a question that might stop you cold: **What percentage of every dolla
 
 Nelson Nash had the answer: **34.5 cents.**
 
-More than one-third of every dollar moves through some form of banking intermediation. Not sometimes. Always. Every transaction. Every purchase. Every investment. Every economic exchange requires the movement of money"and someone profits from that movement.
+More than one-third of every dollar moves through some form of banking intermediation. Not sometimes. Always. Every transaction. Every purchase. Every investment. Every economic exchange requires the movement of money â€” and someone profits from that movement.
 
 **That someone is usually not you.**
 
-Today we're going deep into Nash's core insight. Not the mechanics of policy loans or cash value accumulation"we'll cover those later. Today is about understanding the function itself. The invisible system that shapes every financial decision you make.
+Today we're going deep into Nash's core insight. Not the mechanics of policy loans or cash value accumulation â€” we'll cover those later. Today is about understanding the function itself. The invisible system that shapes every financial decision you make.
 
 ## The Pilot and the Headwind
 
@@ -38,7 +37,7 @@ The headwind doesn't change your destination. It doesn't change your aircraft. B
 
 **The banking function is the headwind in your financial life.**
 
-Every time you finance a purchase"whether through explicit borrowing or implicit opportunity cost"you're flying against that wind. The question isn't whether the wind exists. The question is: **who benefits from it?**
+Every time you finance a purchase â€” whether through explicit borrowing or implicit opportunity cost â€” you're flying against that wind. The question isn't whether the wind exists. The question is: **who benefits from it?**
 
 In traditional finance, banks benefit from the headwind. They profit from the friction. They earn interest on the resistance you face when moving your capital from one place to another.
 
@@ -48,7 +47,7 @@ In traditional finance, banks benefit from the headwind. They profit from the fr
 
 Where did Nash get that 34.5% number?
 
-He studied the flow of money through the economy and tracked how much profit gets extracted at each stage of financial intermediation. Banks don't just profit from direct lending"they profit from payment processing, currency exchange, transaction clearing, capital allocation, and dozens of other services that make commerce possible.
+He studied the flow of money through the economy and tracked how much profit gets extracted at each stage of financial intermediation. Banks don't just profit from direct lending â€” they profit from payment processing, currency exchange, transaction clearing, capital allocation, and dozens of other services that make commerce possible.
 
 Consider a simple transaction: you buy a car.
 
@@ -66,17 +65,17 @@ The banking function operates with or without your participation as an owner. Th
 
 ## The Austrian Foundation
 
-Nash was influenced by Austrian economics"particularly Ludwig von Mises' work on money and credit. The Austrians understood something that mainstream economics missed:
+Nash was influenced by Austrian economics â€” particularly Ludwig von Mises' work on money and credit. The Austrians understood something that mainstream economics missed:
 
 **Money isn't neutral. The control of money creation and allocation is the ultimate economic power.**
 
-Whoever controls the money creation process"whether government central banks or private commercial banks"controls the flow of capital to productive uses. They determine which projects get funded and which don't. They decide who gets access to cheap capital and who pays premium rates.
+Whoever controls the money creation process â€” whether government central banks or private commercial banks â€” controls the flow of capital to productive uses. They determine which projects get funded and which don't. They decide who gets access to cheap capital and who pays premium rates.
 
 **This power generates enormous profits for those who wield it.**
 
 Nash asked a radical question: What if individuals could wield that power at the personal level? What if you could become the central banker of your own financial life?
 
-This isn't about eliminating banks entirely"that's impossible in a modern economy. It's about **capturing the banking function within your personal financial system.**
+This isn't about eliminating banks entirely â€” that's impossible in a modern economy. It's about **capturing the banking function within your personal financial system.**
 
 ## How the Banking Function Manifests in Your Life
 
@@ -92,7 +91,7 @@ Let's examine how the banking function shows up in a typical professional's fina
 
 **Business Line of Credit**: $100,000 line for equipment purchases at prime + 2%. Annual interest expense: $6,000+. **Banking function profit.**
 
-**Add it all up**: Over your 30-year career, you'll pay hundreds of thousands of dollars in interest to financial institutions. This isn't counting opportunity costs"the profits you could have earned if you had been the lender instead of the borrower.
+**Add it all up**: Over your 30-year career, you'll pay hundreds of thousands of dollars in interest to financial institutions. This isn't counting opportunity costs â€” the profits you could have earned if you had been the lender instead of the borrower.
 
 **Every dollar of interest you pay is a dollar you didn't capture for yourself.**
 
@@ -100,7 +99,7 @@ Let's examine how the banking function shows up in a typical professional's fina
 
 But there's a deeper issue than just interest payments: velocity.
 
-Money sitting idle earns nothing. Money in motion can be productive multiple times. Banks understand this"they don't let deposits sit in vaults. They lend them out immediately, earning spreads on the velocity.
+Money sitting idle earns nothing. Money in motion can be productive multiple times. Banks understand this â€” they don't let deposits sit in vaults. They lend them out immediately, earning spreads on the velocity.
 
 **Your money moves slowly. Bank money moves fast.**
 
@@ -110,7 +109,7 @@ Now consider your 401k. You contribute $25,000 annually. It sits in mutual funds
 
 **Your capital moves at retirement speed. Your needs move at life speed.**
 
-Banks solve this timing mismatch by keeping capital liquid and lending against collateral. You could solve it the same way"if you controlled your own banking function.
+Banks solve this timing mismatch by keeping capital liquid and lending against collateral. You could solve it the same way â€” if you controlled your own banking function.
 
 ## IBC as Banking Function Capture
 
@@ -124,7 +123,7 @@ A properly designed policy accumulates capital (cash value) that you can borrow 
 
 **The cash value becomes your bank's deposits. The policy loans become your bank's lending portfolio. The dividends become your bank's profits.**
 
-You're not just earning a return on investment"you're capturing the banking function profit that would otherwise flow to institutions.
+You're not just earning a return on investment â€” you're capturing the banking function profit that would otherwise flow to institutions.
 
 Let's make this concrete:
 
@@ -144,7 +143,7 @@ The banking function compounds over time. Every interest payment you recapture b
 
 **IBC professionals**: Capture banking profits for 30 years while simultaneously building capital, creating both wealth and cash flow.
 
-The difference isn't just mathematical"it's philosophical. You stop thinking like a customer of the banking system and start thinking like an owner within it.
+The difference isn't just mathematical â€” it's philosophical. You stop thinking like a customer of the banking system and start thinking like an owner within it.
 
 ## Why Professionals Miss This
 
@@ -168,7 +167,7 @@ Every lost opportunity to capture velocity becomes visible.
 
 ## The Control Question
 
-Nash boiled everything down to a simple question: **"Who controls the banking function in your life?"**
+Nash boiled everything down to a simple question: ** â€” Who controls the banking function in your life?"**
 
 Right now, the answer is probably:
 - Wells Fargo controls your mortgage
@@ -181,7 +180,7 @@ Right now, the answer is probably:
 
 IBC asks: What if you controlled that function instead?
 
-Not by eliminating banks"you can't. But by building parallel capacity. By creating your own pool of capital that responds to your needs on your timeline at your rates.
+Not by eliminating banks â€” you can't. But by building parallel capacity. By creating your own pool of capital that responds to your needs on your timeline at your rates.
 
 **By becoming your own banker in the truest sense.**
 

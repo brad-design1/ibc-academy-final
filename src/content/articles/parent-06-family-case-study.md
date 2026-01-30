@@ -9,12 +9,11 @@ draft: false
 series: "parent"
 seriesOrder: 6
 ---
-
 Let me show you what this looks like with real numbers.
 
 You've read about the theory. You understand the concepts. You know whole life insurance can be a powerful financial tool. But what does it actually look like when a family commits to implementing Infinite Banking across generations?
 
-Meet the Thompson family. What you're about to see are realistic numbers based on actual IBC implementations. This isn't theory"it's a roadmap you can follow.
+Meet the Thompson family. What you're about to see are realistic numbers based on actual IBC implementations. This isn't theory â€” it's a roadmap you can follow.
 
 ## Meet the Thompson Family
 
@@ -127,7 +126,7 @@ At age 82, after 17 years of policy ownership and premium payments, Robert gradu
 - Original face amount: $500,000
 - Dividend additions and compound growth: $440,000
 
-Mary, as the primary beneficiary, receives $470,000. David and Sarah receive $235,000 each. But this isn't just inheritance"it's capital injection for system expansion.
+Mary, as the primary beneficiary, receives $470,000. David and Sarah receive $235,000 each. But this isn't just inheritance â€” it's capital injection for system expansion.
 
 ### The Recapitalization Strategy
 
@@ -227,7 +226,7 @@ What made the Thompson family's implementation successful?
 
 4. **They maintained the 40/60 split.** Base premium provided the life insurance foundation while PUA maximized cash value growth.
 
-5. **They borrowed from their policies regularly.** This wasn't money they were afraid to touch"it was their primary banking system.
+5. **They borrowed from their policies regularly.** This wasn't money they were afraid to touch â€” it was their primary banking system.
 
 6. **Each generation started the next generation's policies early.** Juvenile policies provided maximum compounding time.
 
@@ -252,7 +251,7 @@ These numbers are illustrative based on current dividend scales and typical poli
 - Loan repayment discipline
 - Economic conditions over the policy lifetime
 
-But families across America are implementing these exact strategies right now. The Thompson family isn't fictional in their approach"only in their name.
+But families across America are implementing these exact strategies right now. The Thompson family isn't fictional in their approach â€” only in their name.
 
 ## This Isn't Theoretical
 

@@ -6,7 +6,6 @@ category: principles
 tags: ["banking", "investing", "principles", "nelson-nash"]
 featured: true
 ---
-
 # Banking vs. Investing: Know the Difference
 
 Nelson Nash made a critical observation that most people miss entirely: **banking and investing are two completely different functions.** Confusing them is one of the most expensive mistakes in personal finance.
@@ -37,7 +36,7 @@ Investing is important. But it is a *different* function than banking.
 
 ## The Critical Mistake
 
-Most people **combine banking and investing** into one decision. They ask: *"Where should I put my money to get the best return?"* — and they evaluate everything on the same axis.
+Most people **combine banking and investing** into one decision. They ask: * â€” Where should I put my money to get the best return?"* — and they evaluate everything on the same axis.
 
 This leads to absurd comparisons like:
 

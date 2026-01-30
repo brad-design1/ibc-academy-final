@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["ibc", "freedom", "control", "nelson-nash", "introduction", "liberty"]
 featured: false
 ---
-
 # What Is the Infinite Banking Concept? A Freedom Seeker's Introduction
 
 Here's a word that doesn't appear in most financial planning conversations: **freedom**.
@@ -99,7 +98,7 @@ And you have zero control over it.
 
 Nelson Nash asked a question I've never forgotten:
 
-*"When the government creates a problem (onerous taxation) then gives you the solution (government-sponsored retirement plans), are you not the least bit suspicious?"*
+* â€” When the government creates a problem (onerous taxation) then gives you the solution (government-sponsored retirement plans), are you not the least bit suspicious?"*
 
 Think about it.
 

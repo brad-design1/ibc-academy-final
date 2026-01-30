@@ -9,8 +9,7 @@ draft: false
 series: "freedom-seeker"
 seriesOrder: 3
 ---
-
-*"You finance everything you buy. Either you pay interest to someone else, or you give up interest you could have earned. There is no third option."* " Nelson Nash
+* â€” You finance everything you buy. Either you pay interest to someone else, or you give up interest you could have earned. There is no third option."* " Nelson Nash
 
 ## The Invisible Shackles
 
@@ -62,7 +61,7 @@ But he'll spend the entire break telling you about his 12%.
 
 **Rate versus volume**. He's proud of the rate of return on the 5% he saves while ignoring the volume of interest bleeding out on the 95% he finances.
 
-Nelson put it perfectly: *"When you go to the doctor's office to get a shot, the criteria is not the rate at which the medicine is injected into you " it is the volume! Too little, and it won't do any good " too much and it can kill you!"*
+Nelson put it perfectly: * â€” When you go to the doctor's office to get a shot, the criteria is not the rate at which the medicine is injected into you " it is the volume! Too little, and it won't do any good " too much and it can kill you!"*
 
 The volume of interest flowing out of your life is what determines your financial outcome. Not the performance of your portfolio.
 

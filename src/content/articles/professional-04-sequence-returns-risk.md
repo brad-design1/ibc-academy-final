@@ -9,7 +9,6 @@ draft: false
 series: "professional"
 seriesOrder: 4
 ---
-
 # Sequence of Returns Risk: When Your 401k Crashes at the Worst Time
 
 Michael Thompson, engineering director at Intel, retired in January 2000 with $1.2 million in his 401k. Conservative 4% withdrawal rate. $48,000 annual income. He should have been set for life.
@@ -195,7 +194,7 @@ The only way to eliminate sequence risk is to eliminate dependence on market tim
 
 Austrian economists understood something that modern portfolio theory ignores: **uncertainty is not the same as risk.**
 
-Risk can be calculated and managed through diversification. Uncertainty cannot be diversified away because it represents unknown unknowns"events that haven't happened before and can't be modeled.
+Risk can be calculated and managed through diversification. Uncertainty cannot be diversified away because it represents unknown unknowns â€” events that haven't happened before and can't be modeled.
 
 **Sequence risk is uncertainty, not risk.**
 
@@ -244,7 +243,7 @@ You face a fundamental choice about sequence risk:
 
 **Option 2**: Eliminate sequence risk by building guaranteed cash value that provides loan-based distributions regardless of market conditions.
 
-**Option 3**: Hybrid approach"maintain some 401k savings for company matches while building IBC capacity to reduce dependence on market timing.
+**Option 3**: Hybrid approach â€” maintain some 401k savings for company matches while building IBC capacity to reduce dependence on market timing.
 
 **There is no Option 4.** You cannot diversify away sequence risk within market-dependent accounts.
 

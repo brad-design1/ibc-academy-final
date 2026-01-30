@@ -9,7 +9,6 @@ draft: false
 series: "just-curious"
 seriesOrder: 5
 ---
-
 # The Question Nobody Asks About Retirement
 
 You're sitting across from a financial advisor. The retirement planning meeting.
@@ -39,7 +38,7 @@ Traditional retirement planning focuses entirely on **accumulation**.
 
 **But accumulation is only half the puzzle.**
 
-The other half"the half no one talks about"is **distribution**.
+The other half â€” the half no one talks about â€” is **distribution**.
 
 **How do you turn your retirement pile into spendable money?**
 
@@ -244,7 +243,7 @@ Once you understand the banking question, **a different retirement strategy emer
 
 ## The Question That Changes Everything
 
-**"What's your banking strategy?"** is really asking:
+** â€” What's your banking strategy?"** is really asking:
 
 **Do you control your capital, or does your capital control you?**
 

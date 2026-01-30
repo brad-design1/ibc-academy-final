@@ -6,7 +6,6 @@ category: mechanics
 tags: ["cash-value", "compounding", "mechanics", "growth"]
 featured: false
 ---
-
 # Understanding Cash Value Growth in IBC
 
 The most common complaint about whole life insurance is that "cash value grows slowly." People look at year one on an illustration, see less cash value than they paid in premiums, and conclude the product is a bad deal. They're wrong — but not because the numbers are wrong. They're wrong because they don't understand what cash value is, how it grows, or why the early years look the way they do.

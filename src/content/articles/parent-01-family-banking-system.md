@@ -9,7 +9,6 @@ draft: false
 series: "parent"
 seriesOrder: 1
 ---
-
 When most people hear "family banking," they picture one thing: a single whole life insurance policy.
 
 That's not family banking. That's individual banking with good intentions.

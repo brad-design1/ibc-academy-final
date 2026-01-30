@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["real-estate", "advanced", "system-building", "policy-design", "generational-wealth", "strategy"]
 featured: true
 ---
-
 # The Infinite Deal Machine: Building Your Real Estate Banking System
 
 Nelson Nash was a forester before he was anything else. He spent decades managing timber—planting trees, watching them grow, harvesting them on forty-year rotations. That background shaped everything about the Infinite Banking Concept, including its most ambitious application.

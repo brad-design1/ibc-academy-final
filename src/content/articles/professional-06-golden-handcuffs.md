@@ -9,12 +9,11 @@ draft: false
 series: "professional"
 seriesOrder: 6
 ---
-
 Sarah Chen knew the exact amount of her prison sentence.
 
 $347,000.
 
-That was the unvested compensation keeping her locked in place"stock options that wouldn't fully vest for eighteen months, a deferred bonus program tied to company performance, RSUs on a four-year schedule. Money she'd technically earned but couldn't access without Bradley's permission.
+That was the unvested compensation keeping her locked in place â€” stock options that wouldn't fully vest for eighteen months, a deferred bonus program tied to company performance, RSUs on a four-year schedule. Money she'd technically earned but couldn't access without Bradley's permission.
 
 Bradley was the new CEO. Former McKinsey consultant. The kind of executive who used words like "synergy" and "optimization" while systematically destroying everything that made the company worth working for.
 
@@ -32,7 +31,7 @@ That's the question Sarah never asked. She compared staying versus leaving. She 
 
 The golden handcuffs aren't made of money. They're made of dependency.
 
-Sarah's entire financial life was structured around corporate promises. Her 401k match. Her health insurance. Her unvested equity. Even her vesting schedule"eighteen months, forty-two months, sixty months out"all designed to maximize her captivity.
+Sarah's entire financial life was structured around corporate promises. Her 401k match. Her health insurance. Her unvested equity. Even her vesting schedule â€” eighteen months, forty-two months, sixty months out â€” all designed to maximize her captivity.
 
 She'd built substantial wealth on paper. Net worth that looked impressive in spreadsheets. But it was wealth she couldn't access, couldn't control, couldn't deploy when opportunities arose. It was hostage value masquerading as net worth.
 
@@ -98,7 +97,7 @@ Here's what Sarah learned about policy loans that no corporate benefits counselo
 
 The loan comes from the insurance company's general account. It's their money, not hers. Her cash value remains in the policy, continuing to earn interest and dividends. The death benefit continues to grow.
 
-The collateral is her death benefit, not her cash value. The insurance company doesn't seize assets if she defaults"they simply deduct the outstanding balance from the death benefit when she dies. No foreclosure process. No credit reporting. No collection calls.
+The collateral is her death benefit, not her cash value. The insurance company doesn't seize assets if she defaults â€” they simply deduct the outstanding balance from the death benefit when she dies. No foreclosure process. No credit reporting. No collection calls.
 
 The interest rate is contractually limited. No adjustable rates based on Federal Reserve policy. No callability provisions that let the lender demand immediate repayment. No prepayment penalties if she pays the loan back early.
 
@@ -132,11 +131,11 @@ Sarah knew exactly what she was walking away from. More importantly, she knew wh
 
 She took six weeks off. The first real break in fifteen years. She slept. She had dinner with her family every night. She read novels. She didn't check email once.
 
-In month eight, she started consulting. Three clients within the first thirty days"two companies she'd worked with previously, one referral from a former colleague who'd quietly admired her decision to leave.
+In month eight, she started consulting. Three clients within the first thirty days â€” two companies she'd worked with previously, one referral from a former colleague who'd quietly admired her decision to leave.
 
 She set her rate at $275 per hour. She set her maximum at thirty hours per week. She made $97,000 in the first six months of consulting while working half the hours she used to work for Bradley.
 
-The policy loan sits at $127,000 now. She's paid back $23,000, not because she had to"the insurance company sets no repayment requirements"but because she wanted to replenish her capital reservoir for whatever comes next.
+The policy loan sits at $127,000 now. She's paid back $23,000, not because she had to â€” the insurance company sets no repayment requirements â€” but because she wanted to replenish her capital reservoir for whatever comes next.
 
 ## The Broader Question
 
@@ -154,7 +153,7 @@ But capital you control? Capital that answers to you? Capital with contractual g
 
 ## The IBC Philosophy
 
-Nelson Nash understood this. He lived it. In the early 1980s, he was trapped by corporate debt at 23% interest. He did everything the financial gurus recommended"leverage, real estate, other people's money.
+Nelson Nash understood this. He lived it. In the early 1980s, he was trapped by corporate debt at 23% interest. He did everything the financial gurus recommended â€” leverage, real estate, other people's money.
 
 When rates spiked, he nearly lost everything. The experience taught him that access to capital on your own terms is more valuable than any corporate benefit package.
 
@@ -168,17 +167,17 @@ IBC doesn't eliminate the need for income. It eliminates the need for corporate 
 
 The process Sarah followed isn't complicated, but it requires thinking differently about money.
 
-First: understand that banking is a function, not a building. Every time you finance something"a car, a house, equipment, education"you pay interest to someone. The question is: who controls that function in your life?
+First: understand that banking is a function, not a building. Every time you finance something â€” a car, a house, equipment, education â€” you pay interest to someone. The question is: who controls that function in your life?
 
 Second: recognize that accumulation and access are different problems. A 401k might accumulate wealth, but it doesn't provide access. Golden handcuffs might promise future wealth, but they eliminate present options.
 
 Third: build capital inside a contractual vehicle where you control the banking function. Dividend-paying whole life insurance from a mutual company, structured for maximum cash accumulation.
 
-Fourth: use that capital as collateral for accessing other capital. Policy loans, lines of credit, business financing. You're not spending your cash value"you're leveraging it.
+Fourth: use that capital as collateral for accessing other capital. Policy loans, lines of credit, business financing. You're not spending your cash value â€” you're leveraging it.
 
 Fifth: repay the capital to yourself instead of to corporate lenders. Every dollar of interest you don't pay to Chase or Wells Fargo is a dollar that compounds inside your own system.
 
-Over time"this is the part that transforms everything"you accumulate more capital than you ever put in. The dividends, the compound growth, the interest you've recaptured, the opportunities you've funded. It becomes a self-reinforcing cycle of capital accumulation and deployment.
+Over time â€” this is the part that transforms everything â€” you accumulate more capital than you ever put in. The dividends, the compound growth, the interest you've recaptured, the opportunities you've funded. It becomes a self-reinforcing cycle of capital accumulation and deployment.
 
 ## The Long View
 

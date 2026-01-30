@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["children", "family-banking", "intergenerational-wealth", "529-comparison", "getting-started"]
 featured: false
 ---
-
 # Insuring Your Children: Starting Early
 
 One of the least understood applications of the Infinite Banking Concept is also one of the most powerful: starting whole life insurance policies on children and grandchildren.

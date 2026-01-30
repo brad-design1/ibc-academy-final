@@ -6,7 +6,6 @@ category: mechanics
 tags: ["paid-up-additions", "pua", "mechanics", "policy-design"]
 featured: false
 ---
-
 # Paid-Up Additions: The Engine of Your Banking System
 
 If cash value is what makes the Infinite Banking Concept work, then the Paid-Up Additions (PUA) rider is what makes cash value grow fast enough to be useful. Without PUA, a whole life policy still builds cash value — but it takes decades to accumulate anything substantial. With PUA, you can capitalize your banking system in years instead of generations.
@@ -15,7 +14,7 @@ Understanding PUA isn't optional for IBC practitioners. It's the single most imp
 
 ## What "Paid-Up Additions" Actually Means
 
-Let's break the name apart. **"Additions"** means additional death benefit — stacked on top of what your base premium already purchased. **"Paid-Up"** means the new death benefit is fully paid for the moment you buy it. No future premiums required. You hand over the money, you own the death benefit, end of transaction.
+Let's break the name apart. ** â€” Additions"** means additional death benefit — stacked on top of what your base premium already purchased. ** â€” Paid-Up"** means the new death benefit is fully paid for the moment you buy it. No future premiums required. You hand over the money, you own the death benefit, end of transaction.
 
 Think about the difference between financing a truck and paying cash. If you finance, you owe monthly payments for years. If you pay cash, that truck is yours. Nobody's coming for it. That's what "paid up" means — **ownership with no strings attached.**
 
@@ -45,7 +44,7 @@ An IBC-designed policy flips the ratio. A common structure is roughly **40% base
 
 The base premium establishes the contractual foundation. The PUA premium capitalizes the bank — building usable cash value from year one.
 
-This is why Nash taught people to **"capitalize the policy."** Without PUA, you'd be waiting twenty years to accumulate meaningful capital. PUA lets you front-load the capitalization so your policy becomes a useful financing tool in years, not decades.
+This is why Nash taught people to ** â€” capitalize the policy."** Without PUA, you'd be waiting twenty years to accumulate meaningful capital. PUA lets you front-load the capitalization so your policy becomes a useful financing tool in years, not decades.
 
 ## The MEC Trap: Too Much, Too Fast
 
@@ -65,7 +64,7 @@ When you add a **term rider** to your whole life policy, you temporarily inflate
 
 Think of it this way: the IRS says you can't fill the container too fast. **A term rider makes the container bigger.** A bigger container accepts more capital while staying within the rules.
 
-This is why Nelson Nash said to **"snuggle up to the MEC line"** — pay as much PUA as legally allowed without triggering MEC status. The term rider is the structural tool that makes this possible.
+This is why Nelson Nash said to ** â€” snuggle up to the MEC line"** — pay as much PUA as legally allowed without triggering MEC status. The term rider is the structural tool that makes this possible.
 
 When the term rider eventually expires — after 20 or 30 years — the container shrinks. Your death benefit drops. But by then, you've already accumulated decades of cash value. The banking system is built. The capital is in the books and doesn't get unwound.
 

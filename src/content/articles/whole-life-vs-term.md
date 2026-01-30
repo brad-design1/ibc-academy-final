@@ -6,7 +6,6 @@ category: mechanics
 tags: ["whole-life", "term-life", "comparison", "mechanics"]
 featured: false
 ---
-
 # Whole Life vs. Term Life: What IBC Practitioners Actually Think
 
 If you've spent any time researching life insurance, you've probably encountered the "whole life vs. term" debate. The internet is full of confident voices telling you one is always better than the other. Most of that advice misses the point entirely — especially when it comes to the Infinite Banking Concept.

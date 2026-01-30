@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["nelson-nash", "byob", "introduction"]
 featured: false
 ---
-
 # Nelson Nash & Becoming Your Own Banker
 
 R. Nelson Nash was not a Wall Street insider, a hedge fund manager, or a university economist. He was a forester by training, a real estate investor by practice, and — ultimately — a man who discovered one of the most counterintuitive financial principles of the last century.

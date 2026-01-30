@@ -6,7 +6,6 @@ category: mechanics
 tags: ["real-estate", "policy-loans", "speed", "capital-access", "liquidity", "deal-flow"]
 featured: false
 ---
-
 # Speed Kills Deals: The Capital Access Problem
 
 You found the deal.

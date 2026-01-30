@@ -6,7 +6,6 @@ category: mechanics
 tags: ["dividends", "mutual-companies", "whole-life", "mechanics"]
 featured: false
 ---
-
 # How Dividends Work in Whole Life Insurance
 
 One of the most misunderstood features of whole life insurance is the dividend. People hear "dividend" and think of stock market payouts. Others see "not guaranteed" on their illustration and assume dividends are unreliable. Both reactions miss what's actually happening.

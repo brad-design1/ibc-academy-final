@@ -9,7 +9,6 @@ draft: false
 series: "freedom-seeker"
 seriesOrder: 1
 ---
-
 You've done everything "right."
 
 You've saved 10% of your income. You've maxed out your 401(k). You've built an emergency fund. You've got great credit. Kyle down at the credit union knows you by name and fast-tracks your loan applications.
@@ -38,13 +37,13 @@ The difference between financial dependence and financial freedom isn't working 
 
 ## Meet Kyle at the Credit Union
 
-Let's talk about the hidden costs of borrowing. Not just the interest rate"the real costs that nobody calculates.
+Let's talk about the hidden costs of borrowing. Not just the interest rate â€” the real costs that nobody calculates.
 
 You want to buy a rental property. You call Kyle. He's friendly. He knows your name. He says he can "probably" get you approved.
 
 Here's what happens next:
 
-You spend 2 hours putting together a loan application. Another hour gathering documents. Your CPA spends 3 hours preparing financial statements"that's $900 right there. You provide personal guarantees on business assets you've spent years building.
+You spend 2 hours putting together a loan application. Another hour gathering documents. Your CPA spends 3 hours preparing financial statements â€” that's $900 right there. You provide personal guarantees on business assets you've spent years building.
 
 Then you wait. Kyle's loan committee meets next Tuesday. They want updated bank statements. They question a $500 expense from six months ago. They want a higher down payment.
 
@@ -58,7 +57,7 @@ Almost every third-party loan is callable. They can change the rules anytime the
 
 Here's where it gets really interesting. The same government that created the problem offers you the solution.
 
-Income taxes became permanent in 1913. Suddenly, you're losing 20-40% of your income to Washington. But don't worry"they've got a plan to help you.
+Income taxes became permanent in 1913. Suddenly, you're losing 20-40% of your income to Washington. But don't worry â€” they've got a plan to help you.
 
 401(k)s arrived in the late 1980s. IRAs followed. Roth IRAs. SEP IRAs. Every acronym imaginable, all with the same promise: We'll let you defer taxes if you follow our rules.
 
@@ -122,7 +121,7 @@ But here's what they don't want you to know: Life insurance predates the income 
 
 As Willie Sutton (the famous bank robber) might have said: "IBC is not an exception to the Internal Revenue Code."
 
-Life insurance was designed to create liquidity when you need it most. The tax advantages are just a bonus"not the main event.
+Life insurance was designed to create liquidity when you need it most. The tax advantages are just a bonus â€” not the main event.
 
 When you understand this distinction, you realize you're not gaming the system. You're using a legitimate financial tool the way it was designed to work.
 

@@ -9,7 +9,6 @@ draft: false
 series: "just-curious"
 seriesOrder: 2
 ---
-
 # The Silent Partner in Every Purchase
 
 Picture this: You walk into a Honda dealership with $28,000 in cash. No loan application. No credit check. No monthly payments. You buy the car outright.
@@ -85,7 +84,7 @@ When you pay cash for a car:
 
 Nelson Nash, who developed the Infinite Banking Concept, put it this way:
 
-*"You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."*
+* â€” You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."*
 
 **There is no third option.**
 
@@ -116,7 +115,7 @@ Think about it:
 
 Dave's way costs $3,360 in lost opportunity. The bank's way costs $6,920 in direct interest.
 
-Dave's way is **cheaper**"by $3,560. But it's not **free.**
+Dave's way is **cheaper** â€” by $3,560. But it's not **free.**
 
 The problem is that Dave never tells you about the $3,360 you're giving up. He just tells you that you "avoided debt." So you think you won, when really you just paid a hidden financing cost instead of a visible one.
 
@@ -144,13 +143,13 @@ Who gets that $25?
 
 You're right. **$25 is nothing.**
 
-But you make thousands of cash purchases every year. Groceries, gas, restaurants, clothes, utilities, insurance, entertainment, gifts, maintenance, repairs"the list goes on.
+But you make thousands of cash purchases every year. Groceries, gas, restaurants, clothes, utilities, insurance, entertainment, gifts, maintenance, repairs â€” the list goes on.
 
 If you spend $40,000 per year on living expenses, and that money comes from accounts earning 2%, your annual opportunity cost is **$800.**
 
 **That's $800 per year in hidden financing costs for the privilege of "paying cash for everything."**
 
-Over 40 years, that's **$32,000** in lost wealth"assuming no growth in income or opportunity cost rates.
+Over 40 years, that's **$32,000** in lost wealth â€” assuming no growth in income or opportunity cost rates.
 
 Your silent partner has been busy.
 
@@ -207,7 +206,7 @@ What if, instead of giving up interest when you pay cash, you could:
 - Pay cash for purchases
 - **And still earn interest** on the money you spent?
 
-What if there was a way to eliminate the silent partner"or better yet, **make the silent partner work for you instead of against you?**
+What if there was a way to eliminate the silent partner â€” or better yet, **make the silent partner work for you instead of against you?**
 
 Most people have never asked this question because they've never seen the silent partner. They've been taught to think in terms of "debt good" or "debt bad" instead of thinking in terms of **cash flow and opportunity cost.**
 

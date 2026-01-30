@@ -6,7 +6,6 @@ category: compared-to-what
 tags: ["btid", "freedom", "401k", "buy-term", "control", "banking-function", "myths"]
 featured: false
 ---
-
 # Buy Term and Invest the Difference: The Freedom Perspective
 
 "Buy term and invest the difference."

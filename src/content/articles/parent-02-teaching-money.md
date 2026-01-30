@@ -9,7 +9,6 @@ draft: false
 series: "parent"
 seriesOrder: 2
 ---
-
 The statistics are brutal. And consistent.
 
 **Ninety percent of wealthy families lose their fortune by the third generation.** Seventy percent squander it by the second.
@@ -64,7 +63,7 @@ This is why wealthy families lose their money. The parents accumulate wealth thr
 
 Nash approached this differently. He didn't teach his children about money. **He included them in his banking system.**
 
-When Nash's children needed car financing, they didn't go to Chase or Ford Credit. They borrowed from the family banking system"the whole life policies Nash had established.
+When Nash's children needed car financing, they didn't go to Chase or Ford Credit. They borrowed from the family banking system â€” the whole life policies Nash had established.
 
 When they made payments, they weren't enriching some distant bank. They were capitalizing their own family's pool of wealth.
 
@@ -102,7 +101,7 @@ When that same child reaches 25 and needs business startup capital, they underst
 
 Traditional financial education teaches children to be **consumers of financial services**. They learn to shop for the best rates, the best funds, the best loans.
 
-Nash's approach teaches children to be **providers of financial services**"to themselves and their families.
+Nash's approach teaches children to be **providers of financial services** â€” to themselves and their families.
 
 The child who grows up in a family banking environment asks different questions:
 
@@ -160,7 +159,7 @@ Note what this doesn't say. It doesn't mention leaving money to your children. I
 
 **This suggests a multi-generational perspective.** The inheritance isn't just wealth. It's the system that creates and preserves wealth across generations.
 
-The Hebrew word for inheritance"*nachalah*"implies something passed down that continues to produce value. Not a one-time transfer. An ongoing resource.
+The Hebrew word for inheritance"*nachalah* â€” implies something passed down that continues to produce value. Not a one-time transfer. An ongoing resource.
 
 When you teach your children the banking function, you're creating *nachalah*. A system that works for them, their children, and their children's children.
 
@@ -214,7 +213,7 @@ The deepest benefit isn't financial. It's psychological.
 
 Children who grow up in a family banking environment learn **they don't need external institutions to meet their financial needs**. They learn their family can be self-sufficient.
 
-This creates confidence that transcends money. It creates what psychologists call an **internal locus of control**"the belief that you can influence outcomes through your own actions.
+This creates confidence that transcends money. It creates what psychologists call an **internal locus of control** â€” the belief that you can influence outcomes through your own actions.
 
 Children from families that depend on banks, mortgage companies, and investment firms learn the opposite. They learn to seek external validation for financial decisions. They learn dependence.
 

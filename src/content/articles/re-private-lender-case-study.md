@@ -6,7 +6,6 @@ category: case-study
 tags: ["real-estate", "case-study", "policy-loans", "rental-property", "private-lending"]
 readingTime: 12
 ---
-
 # Becoming Your Own Private Lender: A Real Estate Case Study
 
 Most real estate investors spend their careers making two people wealthy: themselves, and their lender.

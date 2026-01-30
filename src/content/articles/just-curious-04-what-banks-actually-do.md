@@ -9,7 +9,6 @@ draft: false
 series: "just-curious"
 seriesOrder: 4
 ---
-
 # What Banks Actually Do With Your Money
 
 You deposit $10,000 in your bank account.
@@ -47,7 +46,7 @@ This is called **fractional reserve banking**. And it's completely legal.
 
 ## The Shell Game Continues
 
-But wait"it gets crazier.
+But wait â€” it gets crazier.
 
 The person who borrowed that $9,000? They're probably going to deposit it in a bank too.
 
@@ -180,7 +179,7 @@ Let's look at how this works for a typical bank:
 
 **They used your deposits as free raw material** to manufacture $27 billion in profit.
 
-And remember"most of the money they lent out **didn't exist until they created it** through the fractional reserve system.
+And remember â€” most of the money they lent out **didn't exist until they created it** through the fractional reserve system.
 
 ## The Credit Card Goldmine
 
@@ -256,7 +255,7 @@ Instead, wealthy families:
 - Use debt to purchase appreciating assets while keeping cash working
 - **Become the bank** instead of feeding the bank
 
-They understand that **the banking business is incredibly profitable**"so profitable that they want to be on the **ownership side**, not the **customer side.**
+They understand that **the banking business is incredibly profitable** â€” so profitable that they want to be on the **ownership side**, not the **customer side.**
 
 ## The Question You Should Be Asking
 
@@ -294,7 +293,7 @@ Not just inefficient. Not just suboptimal.
 
 Because no one has ever asked you the most important question about retirement:
 
-**"What's your banking strategy?"**
+** â€” What's your banking strategy?"**
 
 We'll explore that question next.
 

@@ -6,7 +6,6 @@ category: compared-to-what
 tags: ["dave-ramsey", "freedom", "myths", "banking-function", "debt-free"]
 featured: true
 ---
-
 # Dave Ramsey Got You Out of Debt. Now What?
 
 If you've ever called into the Dave Ramsey show to scream "We're debt free!" — you know the moment. The studio plays that famous Braveheart clip. Mel Gibson's William Wallace, painted blue and defiant, bellowing "FREEEDOM!" at the top of his lungs.

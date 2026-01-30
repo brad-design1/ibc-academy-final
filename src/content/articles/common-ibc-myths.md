@@ -6,7 +6,6 @@ category: compared-to-what
 tags: ["myths", "debunking", "objections", "faq"]
 featured: false
 ---
-
 # 10 Common IBC Myths Debunked
 
 The Infinite Banking Concept generates strong reactions. Critics call it a scam. Skeptics say it's too good to be true. Even well-meaning financial commentators get the mechanics wrong.

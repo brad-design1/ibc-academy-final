@@ -9,7 +9,6 @@ draft: false
 series: "real-estate"
 seriesOrder: 4
 ---
-
 ## The 72-Hour Window
 
 Jennifer found the deal of the decade on a Tuesday morning.

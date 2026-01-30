@@ -6,7 +6,6 @@ category: fundamentals
 tags: ["estate-planning", "legacy", "family-banking", "generational-wealth", "death-benefit"]
 featured: false
 ---
-
 # The Multi-Generational Family Bank
 
 Nelson Nash spent years as a consulting forester before he ever wrote about banking. That background shaped everything about the Infinite Banking Concept—including its most overlooked idea.
