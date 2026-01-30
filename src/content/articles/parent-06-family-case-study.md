@@ -65,6 +65,8 @@ But Robert doesn't stop there. Following Nash's recommendation to fund policies 
 - Projected cash value at 22: ~$75,000
 - Projected death benefit at 22: ~$200,000
 
+<br/>
+
 **Jack's Juvenile Policy (Funded by Robert):**
 - Annual premium: $3,000
 - Starting age: 2
@@ -145,10 +147,14 @@ David and Sarah use Robert's death benefit strategically:
 - Invests $50,000 as a lump sum PUA on Sarah's existing policy
 - Uses $85,000 to start a new policy on their unborn third child (Sarah is pregnant)
 
+<br/>
+
 **Sarah's moves:**
 - Takes $75,000 to purchase additional PUA on her existing policy
 - Starts $300,000 policy on David and Sarah's new baby
 - Holds $160,000 in their existing policies' cash values for opportunities
+
+<br/>
 
 Meanwhile, Emma (now 22) and Jack (now 19) have substantial cash values:
 - Emma: $75,000 cash value, $200,000 death benefit
@@ -179,6 +185,8 @@ By this point, Emma and Jack have become sophisticated family bankers.
 - New policy started at 25: $125,000 cash value, $750,000 death benefit
 - Total: $290,000 cash value, $1,100,000 death benefit
 
+<br/>
+
 **Jack (now 27):**
 - Original juvenile policy: $185,000 cash value, $380,000 death benefit
 - Business owner policy: $200,000 cash value, $1,200,000 death benefit
@@ -191,6 +199,8 @@ Emma and Jack are now funding policies on their own children (Generation 4), usi
 **Year 35:** David graduates at age 70. His death benefit portfolio totals $2,100,000:
 - Original policy (35 years old): $1,400,000
 - Second policy (18 years old): $700,000
+
+<br/>
 
 **Year 38:** Sarah graduates at age 71. Her death benefit portfolio totals $1,850,000:
 - Original policy (38 years old): $1,200,000
@@ -207,16 +217,22 @@ Let's look at the total death benefits available at each generation's peak:
 - Years of premium payments: 34 years combined
 - Total premiums paid: ~$612,000
 
+<br/>
+
 **Generation 2 (David & Sarah):**
 - Combined death benefits: $3,950,000
 - Includes capital from Generation 1
 - Years of premium payments: 76 years combined
 - Total premiums paid: ~$1,800,000
 
+<br/>
+
 **Generation 3 Projection (Emma & Jack at age 70):**
 - Projected combined death benefits: $8,200,000
 - Includes compound growth and capital injections from Generations 1 & 2
 - Started with juvenile policies, maximum compounding time
+
+<br/>
 
 **Generation 4 Projection (Emma and Jack's children):**
 - Projected combined death benefits: $16,500,000+
