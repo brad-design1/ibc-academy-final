@@ -1,6 +1,6 @@
-﻿---
+---
 title: "The Cash Flow Problem Nobody Talks About"
-description: "Your business is profitable. Your life is comfortable. So why is there never enough capital sitting around when opportunity knocks? The problem isn't your revenueâ€”it's the flow."
+description: "Your business is profitable. Your life is comfortable. So why is there never enough capital sitting around when opportunity knocks? The problem isn't your revenue"it's the flow."
 pubDate: 2026-01-29
 category: "business-owner"
 tags: ["business owner", "cash flow", "working capital", "opportunity cost"]
@@ -12,7 +12,7 @@ seriesOrder: 2
 
 ## It Wasn't Supposed to Be This Hard
 
-Your business made $320,000 last year. After expenses and your salary, there was real profit. You're not strugglingâ€”quite the opposite. Compared to most people, you're doing exceptionally well.
+Your business made $320,000 last year. After expenses and your salary, there was real profit. You're not struggling"quite the opposite. Compared to most people, you're doing exceptionally well.
 
 So why does it feel like you're always scrambling for capital?
 
@@ -46,7 +46,7 @@ But here's what nobody points out:
 
 **You're using someone else's banking system to smooth your cash flow. And they're charging you handsomely for the privilege.**
 
-That line of credit isn't free. Those 60-day payment terms from clients aren't free. The gap between when you pay expenses and when revenue hits your accountâ€”that gap gets filled by borrowed money. And borrowed money has a cost.
+That line of credit isn't free. Those 60-day payment terms from clients aren't free. The gap between when you pay expenses and when revenue hits your account"that gap gets filled by borrowed money. And borrowed money has a cost.
 
 ---
 
@@ -54,7 +54,7 @@ That line of credit isn't free. Those 60-day payment terms from clients aren't f
 
 Let's talk numbers. Real ones.
 
-A successful business ownerâ€”let's call her Sarahâ€”runs a marketing consultancy. Good margins. Steady clients. Annual revenue around $580,000.
+A successful business owner"let's call her Sarah"runs a marketing consultancy. Good margins. Steady clients. Annual revenue around $580,000.
 
 Sarah's cash flow pattern looks like this:
 
@@ -64,15 +64,15 @@ Sarah's cash flow pattern looks like this:
 - **Average balance on line of credit:** $48,000
 - **Interest rate:** 8.5%
 
-Sarah pays roughly **$4,000 a year** in interest just to cover the gap between her expenses and her collections. That's money leaving her business permanentlyâ€”not building anything, not buying anything, just covering the timing mismatch between cash in and cash out.
+Sarah pays roughly **$4,000 a year** in interest just to cover the gap between her expenses and her collections. That's money leaving her business permanently"not building anything, not buying anything, just covering the timing mismatch between cash in and cash out.
 
 Over a 20-year career? **$80,000** in interest payments. Just to manage normal cash flow.
 
-But here's the real costâ€”the one that doesn't show up on her P&L:
+But here's the real cost"the one that doesn't show up on her P&L:
 
 **Opportunity cost.**
 
-Last year, Sarah could have picked up three distressed client contracts at a steep discountâ€”$45,000 in annual recurring revenue for a $25,000 upfront investment. But her available cash was tied up in operations. She couldn't move fast enough.
+Last year, Sarah could have picked up three distressed client contracts at a steep discount"$45,000 in annual recurring revenue for a $25,000 upfront investment. But her available cash was tied up in operations. She couldn't move fast enough.
 
 That $45,000 in annual revenue, compounded over even five years, represents hundreds of thousands in lost opportunity. Because Sarah didn't have **immediately accessible capital**.
 
@@ -96,11 +96,11 @@ Here's a story from a client I'll call Marcus.
 
 Marcus owns a successful plumbing company. Twenty-two employees, commercial and residential, gross revenue around $3.2 million. By any measure, he's built something impressive.
 
-In March 2023, Marcus got a call. A competitorâ€”similar size operationâ€”wanted to retire. Solid customer base, good employees, profitable contracts. But the owner wanted to move fast. Family health issues. He was willing to sell for **$1.8 million**, roughly 60% of what the business was actually worth.
+In March 2023, Marcus got a call. A competitor"similar size operation"wanted to retire. Solid customer base, good employees, profitable contracts. But the owner wanted to move fast. Family health issues. He was willing to sell for **$1.8 million**, roughly 60% of what the business was actually worth.
 
 Catch? He wanted to close in 45 days. Cash only.
 
-Marcus scrambled. Called his banker. Explained the opportunity. The bank was interestedâ€”after they completed their due diligence. After appraisals. After committee reviews. After, after, after.
+Marcus scrambled. Called his banker. Explained the opportunity. The bank was interested"after they completed their due diligence. After appraisals. After committee reviews. After, after, after.
 
 Timeline? Four to six months. **Minimum**.
 
@@ -141,7 +141,7 @@ Instead, you feel like you're always one bad month away from stress. One missed 
 
 That's not failure. That's not weakness. **That's what happens when you build wealth inside a system designed to keep you dependent on outside capital.**
 
-Your business generates the wealth. Banks capture the financing function. You get the stress of managing bothâ€”without controlling either.
+Your business generates the wealth. Banks capture the financing function. You get the stress of managing both"without controlling either.
 
 ---
 
@@ -183,11 +183,11 @@ The solution isn't to generate more revenue. Revenue isn't the problem.
 
 ---
 
-**In the next article, we're going to talk about who's really in the banking businessâ€”and it's not who you think.**
+**In the next article, we're going to talk about who's really in the banking business"and it's not who you think.**
 
 Your bank tells you they're providing a service. What they're actually doing is borrowing your money at one rate and lending it back to you at another. And they're making a fortune doing it.
 
-Time to understand how the banking business really worksâ€”and why you're on the wrong side of it.
+Time to understand how the banking business really works"and why you're on the wrong side of it.
 
 ---
 

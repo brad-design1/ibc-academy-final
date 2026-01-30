@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Your Bank Is in the Banking Business"
-description: "They don't create money from thin air. They borrow your money at one rate and lend it back to you at another. And they're making a fortune doing itâ€”with capital you provided."
+description: "They don't create money from thin air. They borrow your money at one rate and lend it back to you at another. And they're making a fortune doing it"with capital you provided."
 pubDate: 2026-01-29
 category: "business-owner"
 tags: ["banking", "financial intermediation", "business financing", "interest spread"]
@@ -16,7 +16,7 @@ Picture this phone call. It's Tuesday afternoon. Jim Rodriguez, who owns three a
 
 "Mr. Rodriguez? This is Amanda from First National. I wanted to let you know that we'll need to discuss the terms of your equipment line of credit. Market conditions have changed, and we'll be adjusting rates across our commercial portfolio."
 
-Jim's stomach drops. Not because he's behind on paymentsâ€”he's not. Not because his business is strugglingâ€”it's not. His shops are profitable. He pays his bills. He's been with this bank for eight years.
+Jim's stomach drops. Not because he's behind on payments"he's not. Not because his business is struggling"it's not. His shops are profitable. He pays his bills. He's been with this bank for eight years.
 
 But Amanda is calling to tell him that the cost of capital just went up. **Because the bank decided it should.**
 
@@ -173,15 +173,15 @@ You're not their customer. **You're their inventory.**
 
 Here's what this system costs you over a career:
 
-**Interest paid on business loans:** Let's be conservativeâ€”$3,500 per year on average across equipment, vehicles, and working capital.
+**Interest paid on business loans:** Let's be conservative"$3,500 per year on average across equipment, vehicles, and working capital.
 
-**Opportunity cost of low deposit rates:** The difference between what you earn in bank accounts versus what you could earn elsewhereâ€”maybe $2,200 per year.
+**Opportunity cost of low deposit rates:** The difference between what you earn in bank accounts versus what you could earn elsewhere"maybe $2,200 per year.
 
 **Total annual cost of the banking relationship: $5,700**
 
 Over a 25-year career: **$142,500**
 
-That's the cost of letting someone else control the banking function in your life. Not the cost of capital itselfâ€”capital always has a cost. **The cost of the intermediation.**
+That's the cost of letting someone else control the banking function in your life. Not the cost of capital itself"capital always has a cost. **The cost of the intermediation.**
 
 The cost of letting someone else sit between you and your own money.
 
@@ -215,7 +215,7 @@ We've been conditioned to think this function can only happen inside marble buil
 
 **But functions can be performed anywhere. By anyone.**
 
-What if the banking functionâ€”the pooling, the lending, the spreadâ€”happened inside something you controlled? What if the profits from managing money flowed to your family instead of to distant shareholders?
+What if the banking function"the pooling, the lending, the spread"happened inside something you controlled? What if the profits from managing money flowed to your family instead of to distant shareholders?
 
 What if you could become your own source of capital?
 

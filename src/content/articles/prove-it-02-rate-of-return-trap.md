@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Rate of Return Trap"
 description: "Why comparing whole life 'returns' to stock market performance is asking the wrong question entirely."
 pubDate: 2026-01-29
@@ -76,7 +76,7 @@ The real comparison isn't whole life versus the stock market.
 
 **The real comparison is whole life versus the banking system.**
 
-Every time you need capital â€” for a car, a house, business equipment, an emergency â€” you have two choices:
+Every time you need capital " for a car, a house, business equipment, an emergency " you have two choices:
 
 1. Borrow from a commercial bank
 2. Access your own capital
@@ -220,7 +220,7 @@ You can do exactly that with a properly-funded whole life policy.
 
 - What's the rate of return on never having to qualify for a loan again?
 
-**In the next article, we're going to examine Dave Ramsey's specific claims about whole life insurance â€” and count how many factual errors he makes in a single radio call.**
+**In the next article, we're going to examine Dave Ramsey's specific claims about whole life insurance " and count how many factual errors he makes in a single radio call.**
 
 ---
 

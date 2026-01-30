@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What Is the Infinite Banking Concept?"
 description: "Every paycheck flows through banks. Every 401k loan comes from banks. Every mortgage payment goes to banks. What if you could be on the other side of that equation?"
 pubDate: 2026-01-30
@@ -39,7 +39,7 @@ Nelson Nash was a forester who owed half a million dollars when interest rates h
 
 There is no third option.
 
-Even when you pay cash, you're financing the purchaseâ€”you're surrendering the interest that cash could have earned elsewhere. The only question is: who profits from that financing?
+Even when you pay cash, you're financing the purchase"you're surrendering the interest that cash could have earned elsewhere. The only question is: who profits from that financing?
 
 Nash looked at his whole life insurance policies and realized something profound. These policies gave him contractual access to capital at predictable rates. No credit checks. No loan applications. No explaining to a loan committee why he needed the money.
 
@@ -70,7 +70,7 @@ Instead of enriching Wells Fargo, you're capitalizing your own financial institu
 Here's how a high-earning professional typically implements IBC:
 
 **Step 1: Policy Design**
-You work with an IBC practitioner to design a whole life policy optimized for cash value accumulation. This isn't your grandfather's life insuranceâ€”it's engineered to build capital quickly while maintaining the tax advantages and guarantees of life insurance.
+You work with an IBC practitioner to design a whole life policy optimized for cash value accumulation. This isn't your grandfather's life insurance"it's engineered to build capital quickly while maintaining the tax advantages and guarantees of life insurance.
 
 **Step 2: Capitalize the System**
 Instead of maximizing your 401k contribution, you redirect that cash flow into policy premiums. A $25,000 annual premium builds substantial cash value within 3-5 years.
@@ -99,7 +99,7 @@ Here's what financial decisions look like when you control the banking function:
 
 **Monday:** Your car lease expires. Instead of signing another lease, you take a $45,000 policy loan and buy the car outright. No dealership financing. No credit approval. You own the asset.
 
-**Tuesday:** Your policy loan documentation arrives. One page. You set your own repayment scheduleâ€”maybe $800/month over five years. That "interest" stays within your policy system.
+**Tuesday:** Your policy loan documentation arrives. One page. You set your own repayment schedule"maybe $800/month over five years. That "interest" stays within your policy system.
 
 **Wednesday:** Your annual policy statement shows cash value grew by $12,000 last year despite having loans outstanding. The system keeps working whether you're borrowing or not.
 
@@ -125,7 +125,7 @@ IBC says: keep that profit yourself.
 
 **"I can earn more in my 401k":** Maybe. But can you access those earnings without penalties? Can you borrow against your 401k for business opportunities? Can you use your 401k to finance your daughter's wedding without taxes or early withdrawal penalties? Return isn't the only variable that matters.
 
-**"Whole life insurance seems expensive":** Compared to what? You're already paying premiumsâ€”they're called interest payments to banks. Instead of those payments disappearing into someone else's coffers, they build capital you control.
+**"Whole life insurance seems expensive":** Compared to what? You're already paying premiums"they're called interest payments to banks. Instead of those payments disappearing into someone else's coffers, they build capital you control.
 
 **"I need my company's 401k match":** Take the match, then redirect additional savings to your IBC system. Nobody says this has to be all-or-nothing.
 

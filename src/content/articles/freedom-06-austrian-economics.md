@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Austrian Economics 101: Why It Matters for IBC"
 description: "Nelson Nash wasn't just an insurance guy. He was an economist. And that changes everything about how you understand IBC and individual liberty."
 pubDate: 2026-01-29
@@ -20,7 +20,7 @@ The Infinite Banking Concept was his answer.
 
 ## Austrian Economics in 5 Minutes
 
-Let's start with the basics. Austrian economics is the school of thought that explains how real economies workâ€”not how governments want them to work.
+Let's start with the basics. Austrian economics is the school of thought that explains how real economies work"not how governments want them to work.
 
 Here are the core ideas you need to understand:
 

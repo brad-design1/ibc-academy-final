@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Question Nobody Asks About Retirement"
 description: "Everyone talks about saving for retirement. Nobody talks about how you'll access money during retirement. Here's the question that changes everything."
 pubDate: 2026-01-29
@@ -39,7 +39,7 @@ Traditional retirement planning focuses entirely on **accumulation**.
 
 **But accumulation is only half the puzzle.**
 
-The other halfâ€”the half no one talks aboutâ€”is **distribution**.
+The other half"the half no one talks about"is **distribution**.
 
 **How do you turn your retirement pile into spendable money?**
 
@@ -49,7 +49,7 @@ This isn't a simple question. And the answer determines whether your retirement 
 
 Let's meet David. He's 66 and just retired.
 
-David did everything right. He maxed out his 401(k) for 30 years. He's got $1.2 million in retirement accounts. He followed the "4% rule"â€”he can withdraw $48,000 per year and his money should last 30 years.
+David did everything right. He maxed out his 401(k) for 30 years. He's got $1.2 million in retirement accounts. He followed the "4% rule""he can withdraw $48,000 per year and his money should last 30 years.
 
 David feels good. **Until real life happens.**
 

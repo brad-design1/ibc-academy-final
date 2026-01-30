@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Two Businesses: Your Primary Business and Your Banking Business"
 description: "Every successful business owner eventually discovers they're running two businesses. Most only optimize one. The wealthy optimize both."
 pubDate: 2026-01-29
@@ -20,9 +20,9 @@ But three years ago, Sarah had a realization that changed how she thought about 
 
 **She wasn't running one business. She was running two.**
 
-The first businessâ€”the obvious oneâ€”was marketing consulting. That's what generated revenue. What served clients. What everyone could see.
+The first business"the obvious one"was marketing consulting. That's what generated revenue. What served clients. What everyone could see.
 
-The second businessâ€”the invisible oneâ€”was **finance**. Every equipment purchase. Every vehicle lease. Every line of credit. Every cash flow gap. All of it required financing decisions. All of it involved interest payments. All of it had to flow through someone's banking system.
+The second business"the invisible one"was **finance**. Every equipment purchase. Every vehicle lease. Every line of credit. Every cash flow gap. All of it required financing decisions. All of it involved interest payments. All of it had to flow through someone's banking system.
 
 **The question was whose.**
 
@@ -38,7 +38,7 @@ Whether you realize it or not, you're already running a finance business.
 
 Every time you make a capital allocation decision, you're banking. Every time you manage cash flow timing, you're banking. Every time you finance equipment or manage working capital or structure payment terms, **you're performing the banking function.**
 
-The only question is whether you're profiting from that functionâ€”or whether someone else is.
+The only question is whether you're profiting from that function"or whether someone else is.
 
 Look at your business expenses for last year:
 - Equipment loan payments
@@ -179,7 +179,7 @@ The right question is: "How do I integrate both so they amplify each other?"
 Here's the strategy:
 
 ### Phase 1: Capital Foundation (Months 1-36)
-Build your finance business through systematic whole life premiums. Think of this as building the vault. No borrowing yetâ€”just pure capitalization.
+Build your finance business through systematic whole life premiums. Think of this as building the vault. No borrowing yet"just pure capitalization.
 
 ### Phase 2: Equipment Capture (Months 36+)  
 Finance business equipment through your own system instead of banks. Capture the financing spread that you're paying anyway.
@@ -199,13 +199,13 @@ Structure ownership and succession to optimize both businesses for the next gene
 
 ## The Recognition Moment
 
-There's a momentâ€”different for every business ownerâ€”when this all clicks.
+There's a moment"different for every business owner"when this all clicks.
 
 For Sarah, it happened during a client acquisition in year four of building her finance business.
 
-A competitor was selling their agency. Good client list, solid team, asking $280,000. But they needed to close fastâ€”the owner was relocating for family reasons.
+A competitor was selling their agency. Good client list, solid team, asking $280,000. But they needed to close fast"the owner was relocating for family reasons.
 
-Sarah's bank was willing to lend the moneyâ€”after completing due diligence, reviewing client contracts, and getting committee approval. **Timeline: 8-12 weeks.**
+Sarah's bank was willing to lend the money"after completing due diligence, reviewing client contracts, and getting committee approval. **Timeline: 8-12 weeks.**
 
 The seller couldn't wait that long.
 
@@ -243,7 +243,7 @@ When Sarah eventually graduates, her family won't just inherit a marketing consu
 
 ## Why Every Business Owner Should Be in Banking
 
-Nelson Nash was right: **"Everyone should be in two businessesâ€”the one in which you make your living and the other should be the banking business that finances whatever you do for a living."**
+Nelson Nash was right: **"Everyone should be in two businesses"the one in which you make your living and the other should be the banking business that finances whatever you do for a living."**
 
 **Of the two businesses, banking is the most important.**
 
@@ -251,7 +251,7 @@ Businesses come and go. Industries evolve. Technology disrupts everything. But p
 
 The question isn't whether you'll participate in the banking business. **You already are.** Every financing decision, every interest payment, every capital allocation is part of the banking function.
 
-The question is whether you'll profit from that participationâ€”or whether you'll keep enriching other people's banking businesses while ignoring your own.
+The question is whether you'll profit from that participation"or whether you'll keep enriching other people's banking businesses while ignoring your own.
 
 ---
 

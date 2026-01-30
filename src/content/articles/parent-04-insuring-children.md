@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Insuring Your Children: Starting Early"
 description: "Why starting a policy at birth gives your child 18 years of uninterrupted compounding and guaranteed insurability for life."
 pubDate: 2026-01-29
@@ -22,7 +22,7 @@ When you buy life insurance on yourself, you're solving today's problems. When y
 
 Life insurance is available to healthy people. This sounds obvious until it isn't.
 
-Your child is healthy today. They may not be healthy at 25, 35, or 45. Diabetes, cancer, heart conditions, autoimmune disordersâ€”these can develop at any age. Once they do, traditional life insurance becomes expensive or impossible to obtain.
+Your child is healthy today. They may not be healthy at 25, 35, or 45. Diabetes, cancer, heart conditions, autoimmune disorders"these can develop at any age. Once they do, traditional life insurance becomes expensive or impossible to obtain.
 
 Starting a policy at birth locks in insurability for life. No matter what health challenges arise later, your child will always have access to life insurance. The policy you start today becomes the foundation for additional coverage they can add as adults.
 
@@ -88,7 +88,7 @@ Life insurance policies are private contracts. The terms are guaranteed and cann
 
 529 funds must be used for "qualified education expenses." Use the money for anything else, and you pay taxes plus a 10% penalty on the earnings.
 
-Policy cash value can be accessed for any purpose without penalties. Education, business, travel, real estate, emergenciesâ€”all are valid uses. The money adapts to your child's needs rather than forcing their needs to fit the money's restrictions.
+Policy cash value can be accessed for any purpose without penalties. Education, business, travel, real estate, emergencies"all are valid uses. The money adapts to your child's needs rather than forcing their needs to fit the money's restrictions.
 
 ### Tax Treatment
 
@@ -118,7 +118,7 @@ The result is an educational arms race. Everyone "needs" a college degree, which
 
 Students graduate with massive debt loads that follow them into their thirties. Instead of building wealth in their twenties, they're paying off educational expenses.
 
-Nash calculated what happens when you redirect college money into a life insurance policy instead. Take $20,000 per year for four yearsâ€”typical college costs in his era. Rather than spending it on education, fund a life insurance policy.
+Nash calculated what happens when you redirect college money into a life insurance policy instead. Take $20,000 per year for four years"typical college costs in his era. Rather than spending it on education, fund a life insurance policy.
 
 The results were startling. With no additional premiums, no loans, and no financing activity, the policy grows to approximately $2.4 million in cash value by age 70, generating $145,000 per year in passive dividend income.
 

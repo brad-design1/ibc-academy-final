@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Everything You Heard Is Wrong"
-description: "The complete reframe: IBC isn't an investment strategy â€” it's a banking strategy. Here's what smart skeptics discover when they see the full picture."
+description: "The complete reframe: IBC isn't an investment strategy " it's a banking strategy. Here's what smart skeptics discover when they see the full picture."
 pubDate: 2026-01-29
 category: "prove-it"
 tags: ["banking strategy", "reframe", "IBC", "investment myth"]
@@ -145,7 +145,7 @@ Critics love pointing out that whole life "only" returns 4-5% compared to stock 
 
 **The ultra-wealthy don't optimize for maximum returns. They optimize for maximum control.**
 
-**That's why Congress created the MEC rules â€” to stop them from putting unlimited money into life insurance.**
+**That's why Congress created the MEC rules " to stop them from putting unlimited money into life insurance.**
 
 ---
 

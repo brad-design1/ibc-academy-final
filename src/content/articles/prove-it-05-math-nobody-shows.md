@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Math Nobody Shows You"
 description: "Real policy mechanics, actual numbers, and the research from Wade Pfau that changes everything about retirement planning."
 pubDate: 2026-01-29
@@ -103,7 +103,7 @@ Dr. Wade Pfau is a professor at The American College of Financial Services and o
 
 **His finding that should terrify every financial advisor:**
 
-Traditional retirement withdrawal strategies â€” the 4% rule, Monte Carlo simulations, portfolio rebalancing â€” dramatically underperform when **sequence of returns risk** is properly understood.
+Traditional retirement withdrawal strategies " the 4% rule, Monte Carlo simulations, portfolio rebalancing " dramatically underperform when **sequence of returns risk** is properly understood.
 
 **Sequence of returns risk:** The risk that bad market years happen early in retirement when you're withdrawing money.
 
@@ -318,7 +318,7 @@ Found whole life insurance's combination of growth, liquidity, and tax treatment
 
 ## The Uncomfortable Truth
 
-When you run the actual numbers â€” including taxes, liquidity, control, and lifetime financing costs â€” whole life insurance often outperforms the alternatives.
+When you run the actual numbers " including taxes, liquidity, control, and lifetime financing costs " whole life insurance often outperforms the alternatives.
 
 **Not because it has the highest returns. Because it solves problems the alternatives can't.**
 
@@ -330,7 +330,7 @@ When you run the actual numbers â€” including taxes, liquidity, control, an
 
 **For the right person, in the right situation, with the right design, the math works.**
 
-**In the next article, we'll put all the pieces together and examine the complete reframe: Why IBC isn't an investment strategy â€” it's a banking strategy.**
+**In the next article, we'll put all the pieces together and examine the complete reframe: Why IBC isn't an investment strategy " it's a banking strategy.**
 
 ---
 

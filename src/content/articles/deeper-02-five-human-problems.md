@@ -1,6 +1,6 @@
-﻿---
+---
 title: "The Five Human Problems Nash Identified: Why Traditional Finance Fails"
-description: "Nelson Nash didn't just create a financial strategyâ€”he diagnosed the fundamental problems with how humans handle money. Discover the five systemic issues that keep families trapped in financial mediocrity, and why conventional advice makes these problems worse."
+description: "Nelson Nash didn't just create a financial strategy"he diagnosed the fundamental problems with how humans handle money. Discover the five systemic issues that keep families trapped in financial mediocrity, and why conventional advice makes these problems worse."
 pubDate: 2026-01-30
 category: "deeper-understanding"
 tags: ["Nelson Nash", "human problems", "BYOB", "financial behavior", "capital formation", "banking function"]
@@ -14,15 +14,15 @@ seriesOrder: 2
 
 When Nelson Nash wrote *Becoming Your Own Banker*, he wasn't trying to sell life insurance. **He was diagnosing a disease.**
 
-Nash had spent decades observing American familiesâ€”including his ownâ€”make seemingly rational financial decisions that consistently produced irrational results. **Smart people doing smart things were somehow ending up financially stressed, debt-laden, and dependent on institutions they couldn't control.**
+Nash had spent decades observing American families"including his own"make seemingly rational financial decisions that consistently produced irrational results. **Smart people doing smart things were somehow ending up financially stressed, debt-laden, and dependent on institutions they couldn't control.**
 
 The problem wasn't intelligence. It wasn't education. It wasn't even income level.
 
 **The problem was systemic.**
 
-After years of studyâ€”both of Austrian economics and of household financial behaviorâ€”Nash identified five human problems that plague virtually every American family. These problems are so fundamental, so embedded in how we're taught to think about money, that **most people never realize they're operating under these constraints**.
+After years of study"both of Austrian economics and of household financial behavior"Nash identified five human problems that plague virtually every American family. These problems are so fundamental, so embedded in how we're taught to think about money, that **most people never realize they're operating under these constraints**.
 
-Traditional financial advice not only fails to solve these problemsâ€”**it actually makes them worse**.
+Traditional financial advice not only fails to solve these problems"**it actually makes them worse**.
 
 ## Problem #1: The Loss of Control Over the Banking Function
 
@@ -30,11 +30,11 @@ The first and most fundamental problem Nash identified is what he called **"the 
 
 Think about this carefully. **Banking is the most important business in the world**. Why? Because banking is the mechanism by which capital flows from savers to borrowers, from present consumption to future production. Banking makes economic progress possible.
 
-Every transaction you makeâ€”buying a house, financing a car, funding education, starting a businessâ€”involves the banking function. **Someone is providing the capital. Someone is earning the interest. Someone is controlling the terms.**
+Every transaction you make"buying a house, financing a car, funding education, starting a business"involves the banking function. **Someone is providing the capital. Someone is earning the interest. Someone is controlling the terms.**
 
 For most families, that someone is never them.
 
-**Nash's insight was profound**: When you outsource the banking function to third parties, you lose control over the most important aspect of your financial lifeâ€”your cost of capital.
+**Nash's insight was profound**: When you outsource the banking function to third parties, you lose control over the most important aspect of your financial life"your cost of capital.
 
 Consider what this means practically:
 
@@ -57,7 +57,7 @@ This isn't their fault. **The government school system and the financial service
 
 Consider these common misunderstandings:
 
-**"Debt is leverage."** No, debt is the transfer of control from you to a lender. True leverage is using other people's money while maintaining control over your own capital. That's exactly what happens with a policy loanâ€”you access capital while your own money continues to compound undisturbed.
+**"Debt is leverage."** No, debt is the transfer of control from you to a lender. True leverage is using other people's money while maintaining control over your own capital. That's exactly what happens with a policy loan"you access capital while your own money continues to compound undisturbed.
 
 **"Inflation is rising prices."** No, inflation is the increase in the money supply. Rising prices are the effect of monetary expansion. When you understand this distinction, you realize that **inflation is a form of hidden taxation that specifically targets savers**. The only protection is to hold assets that appreciate faster than the currency depreciates.
 
@@ -75,7 +75,7 @@ The third problem Nash diagnosed was what he called **"the abdication of financi
 
 Most families have been convinced that financial planning is too complicated for normal people. You need experts. You need professionals. **You need to trust others to manage your money because you're not smart enough to do it yourself**.
 
-This is what Nash called **"the arrival syndrome"**â€”the idea that someone else is going to solve your financial problems for you.
+This is what Nash called **"the arrival syndrome"**"the idea that someone else is going to solve your financial problems for you.
 
 Consider how pervasive this thinking has become:
 
@@ -83,7 +83,7 @@ Consider how pervasive this thinking has become:
 
 **"Let the bank handle your financing."** Why? Because interest rates and loan terms are too complex for you to understand. But here's what they don't tell you: **banks profit specifically from your ignorance**. The more you understand about financing, the less you'll need their services.
 
-**"Let the government handle your retirement."** Why? Because retirement planning is too complicated and risky for individuals. But here's what they don't tell you: **Social Security is a Ponzi scheme** that will fail mathematically. Your retirement security depends on the willingness of future workers to pay taxes to support you. That's not a planâ€”it's a hope.
+**"Let the government handle your retirement."** Why? Because retirement planning is too complicated and risky for individuals. But here's what they don't tell you: **Social Security is a Ponzi scheme** that will fail mathematically. Your retirement security depends on the willingness of future workers to pay taxes to support you. That's not a plan"it's a hope.
 
 **"Let the insurance company handle your risk management."** Why? Because insurance is complicated and you need professional guidance. But here's what they don't tell you: **most insurance is designed to benefit the insurer, not the insured**. Term life insurance, for example, has a 98% lapse rate. The house always wins.
 
@@ -158,7 +158,7 @@ The conventional financial advice you receive from these institutions is **speci
 
 ## The IBC Solution: Systematic, Not Linear
 
-Nash's solution to these five problems wasn't a productâ€”**it was a system**.
+Nash's solution to these five problems wasn't a product"**it was a system**.
 
 **Instead of outsourcing the banking function, families could internalize it** by using dividend-paying whole life insurance as a capital accumulation vehicle.
 
@@ -180,7 +180,7 @@ This systematic approach solves all five problems simultaneously:
 
 But there's a meta-problem that underlies all five of Nash's human problems: **most people don't recognize that these problems exist**.
 
-The current financial system works well for the institutions that designed it. **It's not broken from their perspectiveâ€”it's working exactly as intended**. Your dependence is their profit. Your confusion is their advantage. **Your financial mediocrity is their business model**.
+The current financial system works well for the institutions that designed it. **It's not broken from their perspective"it's working exactly as intended**. Your dependence is their profit. Your confusion is their advantage. **Your financial mediocrity is their business model**.
 
 Nash spent 30 years in the life insurance industry before he figured this out. **Most people never figure it out at all**. They spend their entire lives operating under these five constraints, never realizing there's an alternative.
 
@@ -188,7 +188,7 @@ Nash spent 30 years in the life insurance industry before he figured this out. *
 
 As you consider Nash's diagnosis of these five human problems, here's the question that cuts to the heart of the matter:
 
-**If these problems are systemic rather than individualâ€”if they're built into the structure of how Americans are taught to handle moneyâ€”what does that tell you about the financial advice you've been following?**
+**If these problems are systemic rather than individual"if they're built into the structure of how Americans are taught to handle money"what does that tell you about the financial advice you've been following?**
 
 Most financial advice assumes these problems don't exist. **Nash built IBC specifically to solve them**.
 

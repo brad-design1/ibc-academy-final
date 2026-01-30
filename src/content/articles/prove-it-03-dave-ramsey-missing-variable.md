@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Dave Ramsey's Missing Variable"
-description: "Why 'Buy Term and Invest the Difference' fails when you actually do the math â€” and count how many factual errors Dave makes in one phone call."
+description: "Why 'Buy Term and Invest the Difference' fails when you actually do the math " and count how many factual errors Dave makes in one phone call."
 pubDate: 2026-01-29
 category: "prove-it"
 tags: ["Dave Ramsey", "buy term invest difference", "BTID", "math"]
@@ -12,7 +12,7 @@ seriesOrder: 3
 
 ## When Dave Ramsey Gets Angry, He Gets Sloppy
 
-A guy calls into the Dave Ramsey show. His name is Jason. He's from Detroit. He's done everything right by Dave's standards â€” debt-free, full emergency fund, building wealth. He's a millionaire.
+A guy calls into the Dave Ramsey show. His name is Jason. He's from Detroit. He's done everything right by Dave's standards " debt-free, full emergency fund, building wealth. He's a millionaire.
 
 And his financial advisor has pitched him something called the Infinite Banking Concept.
 
@@ -20,7 +20,7 @@ Dave's response? **"Jesus, you're kidding me."**
 
 The man gets angry. That's the tell.
 
-Later in the call: "What pisses me off â€” infinite banking, my butt." He tells Jason his advisor is trying to sell him "a load of manure." He calls anyone academically trained who doesn't laugh at Northwestern Mutual an idiot.
+Later in the call: "What pisses me off " infinite banking, my butt." He tells Jason his advisor is trying to sell him "a load of manure." He calls anyone academically trained who doesn't laugh at Northwestern Mutual an idiot.
 
 **Here's what I noticed rewatching this call: When Dave gets emotional, he gets sloppy. When he gets sloppy, he gets facts wrong.**
 
@@ -34,7 +34,7 @@ By the end of this article, we'll count exactly how many he gets wrong in a sing
 
 Dave's go-to move is citing the IRS. He tells callers that mutual company dividends are, in the IRS's language, "a refund of a deliberate overcharge."
 
-Then he builds his gotcha: if you're both owner and customer, and the dividend comes from profits, and those profits came from you â€” then they just overcharged you and gave some back.
+Then he builds his gotcha: if you're both owner and customer, and the dividend comes from profits, and those profits came from you " then they just overcharged you and gave some back.
 
 **Here's what Dave's leaving out.**
 
@@ -60,7 +60,7 @@ Dave tells Jason his advisor works for "Northwestern Mutual or Prudential," then
 Wrong. Prudential is a stock company. Has been since 2001 when they demutualized. You can look up their stock price right now (NYSE: PRU).
 
 **Error #2: Quote Engine Claims**
-Dave says if you quote term through Zander â€” his endorsed company â€” you won't find "any mutual companies in the 42 different companies" because "they're not competitive."
+Dave says if you quote term through Zander " his endorsed company " you won't find "any mutual companies in the 42 different companies" because "they're not competitive."
 
 Also wrong. SBLI (Savings Bank Mutual Life) and Mutual of Omaha both appear in Zander quotes. Both are mutual companies.
 
@@ -74,13 +74,13 @@ Dave mocks this phrase constantly. "You're borrowing your own money and paying t
 
 **He's wrong about the mechanics.**
 
-In a policy loan, you borrow money **FROM** the insurance company. Your cash value is collateral â€” not the source of the loan. The cash value stays in the policy, keeps earning interest, keeps participating in dividends.
+In a policy loan, you borrow money **FROM** the insurance company. Your cash value is collateral " not the source of the loan. The cash value stays in the policy, keeps earning interest, keeps participating in dividends.
 
 The insurance company lends you **their** money, secured by your policy values.
 
 **Here's the technical point Dave never addresses:** The lien isn't against the cash value. It's against the death benefit. The cash value tells you how much of that death benefit you can borrow against.
 
-Think home equity. The collateral on a home equity line isn't the equity itself â€” it's the house. Same principle.
+Think home equity. The collateral on a home equity line isn't the equity itself " it's the house. Same principle.
 
 **You're not paying interest to access your own money. You're paying interest to a lender who lends you their money, using an asset they fully control and guarantee as collateral.**
 
@@ -92,7 +92,7 @@ Dave's co-host offered what they thought was devastating: Paying premium to buil
 
 **This analogy reveals they don't understand what cash value is.**
 
-Cash value isn't money. **Money** is the medium of exchange â€” what you hand a clerk at a store. **Capital** is the abstract monetary value of an asset.
+Cash value isn't money. **Money** is the medium of exchange " what you hand a clerk at a store. **Capital** is the abstract monetary value of an asset.
 
 You can't pay for groceries by waving policy documents at the cashier any more than you can pay by showing them your house title.
 
@@ -100,7 +100,7 @@ You can't pay for groceries by waving policy documents at the cashier any more t
 
 When you take a policy loan, nothing exits the policy. The cash value stays put, keeps growing. The insurance company sends you **their** money.
 
-And over time â€” this is what Dave will never address â€” **more rocks show up than you put there yourself.**
+And over time " this is what Dave will never address " **more rocks show up than you put there yourself.**
 
 A policy owner who systematically pays premium will eventually have cash value equal to **a multiple** of total premiums paid. The total capital growth exceeds premium payments by triple-digit percentages.
 
@@ -116,7 +116,7 @@ This is Dave's most emotionally effective argument. When you die, he says, the i
 
 Think about a mortgage. When you make payments, you build equity. When the mortgage is paid off, you get the deed free and clear. You wouldn't expect the bank to give you "equity" **plus** the deed.
 
-**Same with cash value.** It's the present value of your death benefit minus future premiums. As time passes and fewer premiums remain, cash value rises. It's not something **on top of** the death benefit â€” it's an anticipation of it.
+**Same with cash value.** It's the present value of your death benefit minus future premiums. As time passes and fewer premiums remain, cash value rises. It's not something **on top of** the death benefit " it's an anticipation of it.
 
 **Dave says "Northwestern Mutual doesn't have a policy that pays more than face value."**
 
@@ -134,9 +134,9 @@ He also claims whole life earns "about 1.2% on average."
 
 **Both numbers are wrong.**
 
-Dave posted his "buy term" advice in October 2010. The S&P 500 stood at 1198. Twenty years earlier: 312. That's only 7% annualized â€” not 12%. And that ignores fees, taxes, and two crashes.
+Dave posted his "buy term" advice in October 2010. The S&P 500 stood at 1198. Twenty years earlier: 312. That's only 7% annualized " not 12%. And that ignores fees, taxes, and two crashes.
 
-**Worse:** October 1995 to October 2010 â€” just 15 years â€” the S&P returned under 5% annually.
+**Worse:** October 1995 to October 2010 " just 15 years " the S&P returned under 5% annually.
 
 If you bought in 1999 or 2000, over a decade later you still hadn't broken even.
 
@@ -154,7 +154,7 @@ Dave says banks don't use whole life. "Not ever."
 
 **Factually wrong.**
 
-Bank-Owned Life Insurance (BOLI) reached **$156.2 billion** in 2015. Over 3,700 banks â€” more than 60% of all commercial banks â€” hold life insurance on their balance sheets.
+Bank-Owned Life Insurance (BOLI) reached **$156.2 billion** in 2015. Over 3,700 banks " more than 60% of all commercial banks " hold life insurance on their balance sheets.
 
 Some hold BOLI exceeding 25% of their Tier I capital.
 
@@ -170,11 +170,11 @@ Dave loves asking: "Would you rather have $25 million or $2.5 million?"
 
 **But this is theater, not analysis.**
 
-IBC doesn't tell you to put all your money in life insurance and leave it there. Nelson Nash's framework uses the policy as a **warehouse** â€” a place to store capital with favorable terms, then deploy it into other investments.
+IBC doesn't tell you to put all your money in life insurance and leave it there. Nelson Nash's framework uses the policy as a **warehouse** " a place to store capital with favorable terms, then deploy it into other investments.
 
 **Dave's missing the entire point:** Who controls the banking function in your life?
 
-Every time you finance anything â€” car, house, equipment â€” you pay interest to someone. Nash observed that **your need for finance during your lifetime is greater than your need for death benefit.**
+Every time you finance anything " car, house, equipment " you pay interest to someone. Nash observed that **your need for finance during your lifetime is greater than your need for death benefit.**
 
 The money you'll pay in interest over your life dwarfs what you'll ever pay in premiums.
 
@@ -188,7 +188,7 @@ You can't call Vanguard asking to borrow $50,000 with no application, no questio
 
 ---
 
-## Buy Term and Invest the Difference â€” The Real Math
+## Buy Term and Invest the Difference " The Real Math
 
 Let's run Dave's strategy with actual numbers.
 
@@ -211,7 +211,7 @@ Mutual fund growth is taxable annually. Whole life growth is tax-deferred. Polic
 **Problem #4: Access**
 Try accessing mutual fund money without selling shares. You can't. Every withdrawal is a taxable event. Meanwhile, policy loans don't affect your cash value growth.
 
-**When you run the actual math â€” including taxes, sequence risk, and term renewal costs â€” the comparison gets much closer.**
+**When you run the actual math " including taxes, sequence risk, and term renewal costs " the comparison gets much closer.**
 
 ---
 
@@ -219,7 +219,7 @@ Try accessing mutual fund money without selling shares. You can't. Every withdra
 
 Dave loves framing insurance agents as commission-hungry villains.
 
-**Here's what he won't tell you:** When you design a policy for maximum cash value â€” the IBC approach â€” you're **minimizing** the agent's commission.
+**Here's what he won't tell you:** When you design a policy for maximum cash value " the IBC approach " you're **minimizing** the agent's commission.
 
 Base premium (where commission lives) gets minimized. Paid-up additions (minimal commission) gets maximized.
 
@@ -262,7 +262,7 @@ Don't take my word for it. Don't take Dave's word for it.
 
 And then decide for yourself who's actually running the shell game.
 
-**In the next article, we'll examine why your financial advisor tells you to avoid whole life â€” and it has nothing to do with what's best for you.**
+**In the next article, we'll examine why your financial advisor tells you to avoid whole life " and it has nothing to do with what's best for you.**
 
 ---
 

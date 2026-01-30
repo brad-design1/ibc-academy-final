@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What Banks Actually Do With Your Money"
 description: "Banks aren't safekeeping your money. They're using it to get rich. Here's exactly how the banking business really works."
 pubDate: 2026-01-29
@@ -47,7 +47,7 @@ This is called **fractional reserve banking**. And it's completely legal.
 
 ## The Shell Game Continues
 
-But waitâ€”it gets crazier.
+But wait"it gets crazier.
 
 The person who borrowed that $9,000? They're probably going to deposit it in a bank too.
 
@@ -69,7 +69,7 @@ This process continues until your original $10,000 creates approximately **$100,
 
 **One deposit. Ten times the money.**
 
-This is how banks **create money**. Not print itâ€”**create it** through lending.
+This is how banks **create money**. Not print it"**create it** through lending.
 
 ## The Interest Collection Machine
 
@@ -180,7 +180,7 @@ Let's look at how this works for a typical bank:
 
 **They used your deposits as free raw material** to manufacture $27 billion in profit.
 
-And rememberâ€”most of the money they lent out **didn't exist until they created it** through the fractional reserve system.
+And remember"most of the money they lent out **didn't exist until they created it** through the fractional reserve system.
 
 ## The Credit Card Goldmine
 
@@ -256,7 +256,7 @@ Instead, wealthy families:
 - Use debt to purchase appreciating assets while keeping cash working
 - **Become the bank** instead of feeding the bank
 
-They understand that **the banking business is incredibly profitable**â€”so profitable that they want to be on the **ownership side**, not the **customer side.**
+They understand that **the banking business is incredibly profitable**"so profitable that they want to be on the **ownership side**, not the **customer side.**
 
 ## The Question You Should Be Asking
 

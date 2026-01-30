@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence of Returns Risk: When Your 401k Crashes at the Worst Time"
 description: "Two professionals retire with identical average returns. One lives comfortably for 30 years. The other runs out of money in 15. The difference? Timing."
 pubDate: 2026-01-30
@@ -94,7 +94,7 @@ Sounds safe, right? But look deeper:
 
 **If you retire at the wrong time, you're almost guaranteed to fail.**
 
-2000, 1973, 1966, 1937â€”these were all terrible times to retire with a 401k-dependent strategy. But you don't get to choose your retirement timing based on market conditions. You retire when your career ends, your health fails, or your company downsizes.
+2000, 1973, 1966, 1937"these were all terrible times to retire with a 401k-dependent strategy. But you don't get to choose your retirement timing based on market conditions. You retire when your career ends, your health fails, or your company downsizes.
 
 **Sequence risk makes 401k retirement a timing lottery.**
 
@@ -195,7 +195,7 @@ The only way to eliminate sequence risk is to eliminate dependence on market tim
 
 Austrian economists understood something that modern portfolio theory ignores: **uncertainty is not the same as risk.**
 
-Risk can be calculated and managed through diversification. Uncertainty cannot be diversified away because it represents unknown unknownsâ€”events that haven't happened before and can't be modeled.
+Risk can be calculated and managed through diversification. Uncertainty cannot be diversified away because it represents unknown unknowns"events that haven't happened before and can't be modeled.
 
 **Sequence risk is uncertainty, not risk.**
 
@@ -244,7 +244,7 @@ You face a fundamental choice about sequence risk:
 
 **Option 2**: Eliminate sequence risk by building guaranteed cash value that provides loan-based distributions regardless of market conditions.
 
-**Option 3**: Hybrid approachâ€”maintain some 401k savings for company matches while building IBC capacity to reduce dependence on market timing.
+**Option 3**: Hybrid approach"maintain some 401k savings for company matches while building IBC capacity to reduce dependence on market timing.
 
 **There is no Option 4.** You cannot diversify away sequence risk within market-dependent accounts.
 

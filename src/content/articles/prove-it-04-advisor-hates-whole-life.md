@@ -1,6 +1,6 @@
-﻿---
+---
 title: "What Your Financial Advisor Won't Tell You About Whole Life"
-description: "Why financial advisors hate whole life insurance â€” and it has nothing to do with what's best for you."
+description: "Why financial advisors hate whole life insurance " and it has nothing to do with what's best for you."
 pubDate: 2026-01-29
 category: "prove-it"
 tags: ["financial advisors", "fees", "conflicts", "whole life"]
@@ -22,7 +22,7 @@ And that tells you everything you need to know about their "objective" analysis.
 
 **Most registered investment advisors (RIAs) are legally prohibited from selling insurance products.** Even fee-only planners who could recommend it choose not to because there's no ongoing fee structure.
 
-**When someone steers you away from a product they can't sell toward products they can sell and earn fees on â€” what exactly are they optimizing for?**
+**When someone steers you away from a product they can't sell toward products they can sell and earn fees on " what exactly are they optimizing for?**
 
 ---
 
@@ -44,7 +44,7 @@ To sell life insurance, you need a separate state insurance license. Most financ
 
 Financial advisors make money in three ways:
 
-1. **Assets Under Management (AUM) fees** â€” usually 0.75% to 1.5% annually
+1. **Assets Under Management (AUM) fees** " usually 0.75% to 1.5% annually
 2. **Commissions** on products they sell
 3. **Hourly fees** for planning work
 
@@ -152,7 +152,7 @@ Many RIAs operate under the "fiduciary standard," which legally requires them to
 
 If they can't sell life insurance, they don't have to include it in their analysis. They can legally ignore whole life insurance entirely and still claim they're acting as a fiduciary.
 
-**It's like a Toyota dealer claiming they gave you objective advice about which car to buy â€” while only showing you Toyotas.**
+**It's like a Toyota dealer claiming they gave you objective advice about which car to buy " while only showing you Toyotas.**
 
 ---
 
@@ -208,7 +208,7 @@ Advisors often claim whole life is "too complex" for regular people to understan
 
 Here's an uncomfortable fact for financial advisors:
 
-Banks â€” the most conservative financial institutions in America â€” hold over $156 billion in life insurance on their balance sheets.
+Banks " the most conservative financial institutions in America " hold over $156 billion in life insurance on their balance sheets.
 
 **60% of all commercial banks** own life insurance as a core asset.
 
@@ -305,7 +305,7 @@ The next time they tell you whole life is a terrible investment, ask them:
 
 **Those three questions reveal everything you need to know about their "objective" analysis.**
 
-**In the next article, we'll examine the actual math nobody shows you â€” real policy illustrations, real costs, and real benefits.**
+**In the next article, we'll examine the actual math nobody shows you " real policy illustrations, real costs, and real benefits.**
 
 ---
 

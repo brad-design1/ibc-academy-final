@@ -1,5 +1,5 @@
-﻿---
-title: "Buy Term and Invest the Difference â€” Debunked"
+---
+title: "Buy Term and Invest the Difference " Debunked"
 description: "The financial planning industry's most sacred advice crumbles under mathematical scrutiny. Here's what really happens over 30 years when you 'invest the difference.'"
 pubDate: 2026-01-30
 category: professional
@@ -10,7 +10,7 @@ series: "professional"
 seriesOrder: 5
 ---
 
-# Buy Term and Invest the Difference â€” Debunked
+# Buy Term and Invest the Difference " Debunked
 
 **"Buy term and invest the difference."**
 
@@ -102,7 +102,7 @@ BTID proponents claim 8-12% annual stock market returns. **But professional inve
 
 ## The 30-Year Reality Check
 
-**Professional A (BTID) â€” Real Outcome:**
+**Professional A (BTID) " Real Outcome:**
 - **Years 1-7**: Invests $4,600 annually â†’ $38,500 accumulated
 - **Years 8-10**: Financial stress, reduces investment to $2,000 annually â†’ $44,000 accumulated  
 - **Years 11-15**: Market crash, panics, sells at loss â†’ $35,000 remaining
@@ -110,7 +110,7 @@ BTID proponents claim 8-12% annual stock market returns. **But professional inve
 - **Years 26-30**: Term insurance expired, no death benefit, health issues prevent renewal
 - **Final result at age 65**: $75,000 investment account, $0 life insurance
 
-**Professional B (Whole Life) â€” Real Outcome:**  
+**Professional B (Whole Life) " Real Outcome:**  
 - **Years 1-30**: Pays $5,000 annually â†’ $150,000 total premiums
 - **Age 65 cash value**: $280,000 (conservative estimate)
 - **Age 65 death benefit**: $750,000 (with paid-up additions)

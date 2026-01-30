@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Family Banking System Explained"
 description: "How Nelson Nash's 'Even Distribution of Age Classes' creates a generational banking system that spans multiple lifetimes, building wealth while maintaining control."
 pubDate: 2026-01-29
@@ -16,7 +16,7 @@ That's not family banking. That's individual banking with good intentions.
 
 True family banking is a system. A coordinated approach across multiple generations. A way of thinking that spans decades, not years.
 
-Nelson Nash understood this better than anyone. In his forestry days, he learned to think in terms of age classes â€” young trees, mature trees, and everything in between. A healthy forest isn't one age. It's an even distribution across all ages.
+Nelson Nash understood this better than anyone. In his forestry days, he learned to think in terms of age classes " young trees, mature trees, and everything in between. A healthy forest isn't one age. It's an even distribution across all ages.
 
 The same principle applies to family wealth.
 
@@ -61,7 +61,9 @@ The forest works as a system.
 Nash applied this same thinking to policies. Different age classes serve different purposes:
 
 **Young policies** (0-20 years): High growth potential, long time horizon
-**Mature policies** (20-40 years): Peak efficiency, maximum flexibility  
+
+**Mature policies** (20-40 years): Peak efficiency, maximum flexibility
+
 **Harvesting policies** (40+ years): Income generation, estate transfer
 
 Each generation owns policies in different age classes. The system becomes self-reinforcing.
@@ -96,7 +98,7 @@ The grandparent owns the policy on the grandchild. They can access cash value wh
 
 Meanwhile, the grandchild enjoys death benefit protection and watches cash value grow. They benefit from the system without being burdened by management decisions.
 
-This creates what Nash called "honest money" â€” value that grows predictably, accessible when needed, controlled by those with experience.
+This creates what Nash called "honest money" " value that grows predictably, accessible when needed, controlled by those with experience.
 
 ## Building the Distribution
 
@@ -175,7 +177,7 @@ That's not just financial planning. That's financial independence.
 
 That's the difference between leaving money to your children's children and leaving them a system that creates money for generations to come.
 
-As Nash wrote, referencing Proverbs 13:22: "A good man leaves an inheritance to his children's children."
+As King Solomon wrote in Proverbs 13:22: "A good man leaves an inheritance to his children's children."
 
 Not just money. A system. A forest, not just trees.
 

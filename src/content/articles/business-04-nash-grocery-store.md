@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Nash's Grocery Store: The Business Case for IBC"
 description: "A forester from Alabama discovered something in 1980 that the banking industry hoped nobody would notice. His grocery store analogy explains everything."
 pubDate: 2026-01-29
@@ -16,15 +16,15 @@ November 1980. Nelson Nash sits on his living room floor at 3 a.m., head in his 
 
 His 52-year-old brother dropped dead from a heart attack. His infant granddaughter was fighting cancer. Someone broke into his home and cleaned him out. And interest rates had just hit **23 percent**.
 
-Nelson owed $500,000. Not at primeâ€”he didn't qualify for prime. At 23 percent.
+Nelson owed $500,000. Not at prime"he didn't qualify for prime. At 23 percent.
 
 That's $115,000 a year in interest alone. In today's money, that's over $350,000 bleeding out annually.
 
 He'd done everything the financial gurus taught. Buy real estate. Use leverage. Other people's money. But now other people's money was destroying him.
 
-And somewhere in those dark hoursâ€”praying for a miracleâ€”**the answer came to him like a baseball bat across the eyes.**
+And somewhere in those dark hours"praying for a miracle"**the answer came to him like a baseball bat across the eyes.**
 
-You are standing in the midst of everything it takes to get outâ€”but you don't see it because you look at things like everyone else.
+You are standing in the midst of everything it takes to get out"but you don't see it because you look at things like everyone else.
 
 Nelson had been making premium payments on whole life insurance policies for years. Those policies gave him contractual access to capital at 5 to 8 percent. **While he was paying 23 percent to banks.**
 
@@ -62,7 +62,7 @@ Let me break down Nelson's grocery store step by step, because this analogy expl
 
 ### Step 1: Capitalization Comes First
 
-Before you can sell anything, you need to build and stock the store. Land. Building. Refrigeration. Shelves. And most importantlyâ€”**inventory**. Actual food on the shelves.
+Before you can sell anything, you need to build and stock the store. Land. Building. Refrigeration. Shelves. And most importantly"**inventory**. Actual food on the shelves.
 
 You cannot open the doors with nothing to sell. An empty grocery store isn't a grocery store. It's just a building.
 
@@ -78,11 +78,11 @@ Once the store is stocked, what creates profit?
 
 **Inventory turnover.**
 
-You buy a can of peas from your supplier for 57 cents. You sell it for 60 cents. Three cents profitâ€”razor-thin margins.
+You buy a can of peas from your supplier for 57 cents. You sell it for 60 cents. Three cents profit"razor-thin margins.
 
 But if you can turn that inventory 15 times a year, you break even. Turn it 17 times, you're profitable. Turn it 20 times, you can retire early.
 
-**In IBC terms, your cash value is your inventory.** Every premium payment adds more cans to the shelf. The longer those "cans" sit there compounding, the more valuable they become. And when you take a policy loan, you're not removing inventoryâ€”you're using it as collateral while it keeps growing.
+**In IBC terms, your cash value is your inventory.** Every premium payment adds more cans to the shelf. The longer those "cans" sit there compounding, the more valuable they become. And when you take a policy loan, you're not removing inventory"you're using it as collateral while it keeps growing.
 
 ### Step 3: You Are Both Producer and Consumer
 
@@ -90,7 +90,7 @@ Here's where it gets personal.
 
 You own the grocery store. Your family shops at the grocery store. **You can't stop being both.**
 
-Most people never think about this clearly. They supply capital to institutions they don't own (stock someone else's store). Then when they need a loan, they apply for credit and pay interestâ€”on capital they helped create in the first place (shop at someone else's store).
+Most people never think about this clearly. They supply capital to institutions they don't own (stock someone else's store). Then when they need a loan, they apply for credit and pay interest"on capital they helped create in the first place (shop at someone else's store).
 
 **No rational grocery store owner would stock competitors and then buy groceries back at a markup.**
 
@@ -152,7 +152,7 @@ Because every dollar of interest you pay goes right back into your own policy. I
 
 Now let's connect this to your business.
 
-You need a new truck. $52,000. You can finance it through Ford Credit at 8.2% over 48 months. Or you can finance it through your own "grocery store"â€”your whole life policy.
+You need a new truck. $52,000. You can finance it through Ford Credit at 8.2% over 48 months. Or you can finance it through your own "grocery store""your whole life policy.
 
 Most people think: "If I'm borrowing from myself, I'll just pay 3% and pocket the difference."
 
@@ -190,7 +190,7 @@ Here's how this applies to your business:
 
 **Your business generates cash flow.** Currently, all that cash flow passes through someone else's banking system before it reaches you.
 
-**The goal of IBC is to capture as much of that flow as possible**â€”to run it through your own system instead of theirs.
+**The goal of IBC is to capture as much of that flow as possible**"to run it through your own system instead of theirs.
 
 You start with one policy on yourself. You build cash value. You finance business equipment through policy loans instead of bank loans. You pay the loans back to yourself instead of to Ford Credit or Wells Fargo.
 
@@ -220,7 +220,7 @@ Nelson Nash figured this out while drowning in debt at 3 a.m. Not because he was
 
 **In the next article, we're going to look at real numbers from real businesses.**
 
-Equipment financing. Vehicle replacements. Expansion capital. The math that shows exactly how much wealth leaves business owners' handsâ€”and how the grocery store model captures it instead.
+Equipment financing. Vehicle replacements. Expansion capital. The math that shows exactly how much wealth leaves business owners' hands"and how the grocery store model captures it instead.
 
 Time to stop stocking other people's stores.
 
