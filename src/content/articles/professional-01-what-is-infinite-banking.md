@@ -34,7 +34,7 @@ The Infinite Banking Concept flips that equation. Instead of being a customer of
 
 Nelson Nash was a forester who owed half a million dollars when interest rates hit 23% in the early 1980s. Facing financial ruin, he had what he called "a baseball bat across the eyes" realization:
 
-** â€” You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."**
+** — You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."**
 
 There is no third option.
 
@@ -122,13 +122,13 @@ IBC says: keep that profit yourself.
 
 ## Common Professional Objections (And Responses)
 
-** â€” I can earn more in my 401k":** Maybe. But can you access those earnings without penalties? Can you borrow against your 401k for business opportunities? Can you use your 401k to finance your daughter's wedding without taxes or early withdrawal penalties? Return isn't the only variable that matters.
+** — I can earn more in my 401k":** Maybe. But can you access those earnings without penalties? Can you borrow against your 401k for business opportunities? Can you use your 401k to finance your daughter's wedding without taxes or early withdrawal penalties? Return isn't the only variable that matters.
 
-** â€” Whole life insurance seems expensive":** Compared to what? You're already paying premiums—they're called interest payments to banks. Instead of those payments disappearing into someone else's coffers, they build capital you control.
+** — Whole life insurance seems expensive":** Compared to what? You're already paying premiums—they're called interest payments to banks. Instead of those payments disappearing into someone else's coffers, they build capital you control.
 
-** â€” I need my company's 401k match":** Take the match, then redirect additional savings to your IBC system. Nobody says this has to be all-or-nothing.
+** — I need my company's 401k match":** Take the match, then redirect additional savings to your IBC system. Nobody says this has to be all-or-nothing.
 
-** â€” This seems complicated":** More complicated than managing a 401k, a HELOC, multiple savings accounts, and a mortgage? IBC consolidates financial functions into one system you control.
+** — This seems complicated":** More complicated than managing a 401k, a HELOC, multiple savings accounts, and a mortgage? IBC consolidates financial functions into one system you control.
 
 ## Compared to What?
 

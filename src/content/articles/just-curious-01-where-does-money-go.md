@@ -127,7 +127,7 @@ Either way, the banking system wins:
 
 The bank gets the spread either way.
 
-This is what Nelson Nash meant when he wrote: ** â€” You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."**
+This is what Nelson Nash meant when he wrote: ** — You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."**
 
 There is no third option.
 

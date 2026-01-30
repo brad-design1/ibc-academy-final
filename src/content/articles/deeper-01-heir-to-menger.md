@@ -19,7 +19,7 @@ The experience frustrated Nash so much that he found himself "mouthing off" at a
 
 "Try reading this," he said.
 
-Two weeks later, Nash finished the book and asked two questions that would shape the rest of his life: ** â€” Where have you folks been hiding this stuff?" and "Why did you hide it from me?"**
+Two weeks later, Nash finished the book and asked two questions that would shape the rest of his life: ** — Where have you folks been hiding this stuff?" and "Why did you hide it from me?"**
 
 Nash had discovered Austrian economics. He just didn't know it yet.
 
@@ -122,7 +122,7 @@ This isn't just insurance—**it's a private monetary system that operates indep
 
 ## Why Banking Is the Most Important Business
 
-Nelson Nash often said that ** â€” banking is the most important business in the world."** From an Austrian perspective, this statement is economically precise.
+Nelson Nash often said that ** — banking is the most important business in the world."** From an Austrian perspective, this statement is economically precise.
 
 Banking, properly understood, is the process of **intermediating between savers and borrowers—between present consumption and future production**. Banks collect capital from those who want to defer consumption and direct it toward those who can employ it productively.
 

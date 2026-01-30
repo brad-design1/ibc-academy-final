@@ -86,7 +86,7 @@ I know investors who've owned properties for 20 years and have refinanced multip
 
 The bank loves these customers. Every refinance generates fees. Every refinance extends the period of interest payments. Every refinance keeps the wealth transfer flowing.
 
-** â€” Accessing equity" is often just converting equity into debt — trading an asset you own for an obligation you owe.**
+** — Accessing equity" is often just converting equity into debt — trading an asset you own for an obligation you owe.**
 
 ## The Leverage Lie
 

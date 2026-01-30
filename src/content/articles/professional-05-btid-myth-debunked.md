@@ -11,7 +11,7 @@ seriesOrder: 5
 ---
 # Buy Term and Invest the Difference — Debunked
 
-** â€” Buy term and invest the difference."**
+** — Buy term and invest the difference."**
 
 Four words that built an industry. Four words that dominate every financial planning conversation. Four words that sound so logical, so mathematically obvious, that questioning them feels like challenging gravity itself.
 
@@ -307,7 +307,7 @@ The real comparison is between:
 
 Here's the question that destroys the BTID argument:
 
-** â€” If BTID is such obviously superior advice, why do the people who promote it carry whole life insurance policies themselves?"**
+** — If BTID is such obviously superior advice, why do the people who promote it carry whole life insurance policies themselves?"**
 
 Dave Ramsey's company carries key-person life insurance on Dave. Financial planning firms carry coverage on their key principals. Mutual fund companies' executives participate in deferred compensation plans that function like private whole life policies.
 

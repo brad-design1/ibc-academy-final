@@ -95,7 +95,7 @@ If whole life is such a scam, why are America's most conservative financial inst
 
 Most agents sell whole life wrong. Completely wrong.
 
-They focus on **death benefits** and **rate of return projections** and ** â€” beating the market"** and ** â€” tax-free retirement income."**
+They focus on **death benefits** and **rate of return projections** and ** — beating the market"** and ** — tax-free retirement income."**
 
 All of that misses the point.
 

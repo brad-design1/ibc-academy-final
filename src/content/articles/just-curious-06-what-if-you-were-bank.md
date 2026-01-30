@@ -52,7 +52,7 @@ Whole life insurance, when structured properly, **functions as a private banking
 
 Developed by Nelson Nash, a forestry consultant who nearly went bankrupt paying 23% interest in the 1980s. His crisis led him to a revelation:
 
-** â€” Your need for finance during your lifetime is greater than your need for death benefit."**
+** — Your need for finance during your lifetime is greater than your need for death benefit."**
 
 **IBC uses the banking characteristics of whole life insurance** to solve every problem we've identified in this series.
 
@@ -233,16 +233,16 @@ When you control your own banking function, **every financial decision improves 
 
 ## The Objections (And The Answers)
 
-** â€” Life insurance is expensive."**
+** — Life insurance is expensive."**
 - **Answer:** Compared to what? Losing 50% of your income to banks and financial institutions forever? The premiums you pay **come back to you** with interest. Money paid to banks is gone forever.
 
-** â€” The returns are too low."**  
+** — The returns are too low."**  
 - **Answer:** You're thinking like an investor, not a banker. IBC isn't about beating the stock market. It's about **controlling the banking function** in your life. Banks don't try to beat the stock market—they focus on **predictable spreads** and **capital control.**
 
-** â€” What if I need the money?"**
+** — What if I need the money?"**
 - **Answer:** That's the point. You **always** have access to your capital through policy loans. Try calling Vanguard and asking for a loan against your 401(k) with no qualification, no approval, and no questions asked.
 
-** â€” I don't want life insurance."**
+** — I don't want life insurance."**
 - **Answer:** You're not buying life insurance. You're **building a bank.** The death benefit is a bonus. Your real asset is the **capital access and control** the policy provides.
 
 ## Your Next Step

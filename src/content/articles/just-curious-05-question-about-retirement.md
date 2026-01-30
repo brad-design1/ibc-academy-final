@@ -243,7 +243,7 @@ Once you understand the banking question, **a different retirement strategy emer
 
 ## The Question That Changes Everything
 
-** â€” What's your banking strategy?"** is really asking:
+** — What's your banking strategy?"** is really asking:
 
 **Do you control your capital, or does your capital control you?**
 

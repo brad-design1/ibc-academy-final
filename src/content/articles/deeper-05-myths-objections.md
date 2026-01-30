@@ -23,7 +23,7 @@ But we're going to do it properly. Not with emotion or rhetoric, but with math, 
 
 ## The "Too Expensive" Myth: A Question of Context
 
-* â€” Whole life insurance is too expensive. You're paying way more than you need for death benefit coverage, and the returns are pathetic."*
+* — Whole life insurance is too expensive. You're paying way more than you need for death benefit coverage, and the returns are pathetic."*
 
 This objection reveals a fundamental category error. The speaker is comparing whole life insurance to term insurance and treating them as substitutable products. It's like comparing the price of a house to the price of a hotel room and concluding that houses are "too expensive."
 
@@ -43,7 +43,7 @@ Compared to maintaining equivalent purchasing power through a combination that p
 
 ## The Timeline Fallacy: Impatience as Financial Strategy
 
-* â€” It takes too long to build meaningful cash value. You don't break even for seven or eight years. That's terrible performance."*
+* — It takes too long to build meaningful cash value. You don't break even for seven or eight years. That's terrible performance."*
 
 This objection contains several analytical errors worth unpacking.
 
@@ -99,7 +99,7 @@ James Neathery, one of the original IBC practitioners, puts it succinctly: "Ther
 
 ## The "Outdated Technology" Misconception
 
-* â€” Whole life insurance is old technology. It's outdated. Modern financial products do everything better."*
+* — Whole life insurance is old technology. It's outdated. Modern financial products do everything better."*
 
 This objection reveals a fundamental misunderstanding of what whole life insurance actually is and why it was structured the way it was structured.
 
@@ -135,7 +135,7 @@ This isn't a ringing endorsement from a life insurance advocate. It's a measured
 
 ## The Commission Red Herring
 
-* â€” Agents only recommend whole life because of the high commissions. They don't care about your financial success."*
+* — Agents only recommend whole life because of the high commissions. They don't care about your financial success."*
 
 This objection contains an ironic flaw: it assumes that commission-motivated behavior automatically produces bad client outcomes. But for IBC-designed policies, the commission structure actually aligns agent incentives with client objectives.
 

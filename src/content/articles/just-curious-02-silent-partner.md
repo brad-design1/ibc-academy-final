@@ -84,7 +84,7 @@ When you pay cash for a car:
 
 Nelson Nash, who developed the Infinite Banking Concept, put it this way:
 
-* â€” You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."*
+* — You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."*
 
 **There is no third option.**
 

@@ -76,7 +76,7 @@ These advantages allow insurance companies to offer **loan terms that would be i
 
 ## Interest Rates: The Red Herring
 
-The most common objection to policy loans is ** â€” Why would I pay interest to borrow my own money?"**
+The most common objection to policy loans is ** — Why would I pay interest to borrow my own money?"**
 
 This objection reveals two fundamental misunderstandings:
 

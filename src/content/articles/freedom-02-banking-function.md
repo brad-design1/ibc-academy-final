@@ -9,7 +9,7 @@ draft: false
 series: "freedom-seeker"
 seriesOrder: 2
 ---
-* â€” When you know what's going on, you'll know what to do."* — Nelson Nash
+* — When you know what's going on, you'll know what to do."* — Nelson Nash
 
 ## The Invisible Shackles
 

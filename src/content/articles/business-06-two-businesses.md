@@ -58,7 +58,7 @@ Sarah did this calculation and nearly fell out of her chair. Over the previous f
 
 ## Banking: The Most Important Business in the World
 
-Nelson Nash put it plainly: ** â€” Banking is the most important business in the world. Without it, all business comes to a screeching halt."**
+Nelson Nash put it plainly: ** — Banking is the most important business in the world. Without it, all business comes to a screeching halt."**
 
 Think about that. Every transaction requires financing. Every purchase involves capital allocation. Every business decision connects to the availability and cost of money.
 
@@ -226,7 +226,7 @@ Because Sarah could move when opportunity moved.
 
 After six years of optimizing both businesses, Sarah made the ultimate realization:
 
-** â€” The banking business might be more valuable than the marketing business."**
+** — The banking business might be more valuable than the marketing business."**
 
 Her marketing business serves clients, generates revenue, provides jobs. It's real value creation.
 
@@ -242,7 +242,7 @@ When Sarah eventually graduates, her family won't just inherit a marketing consu
 
 ## Why Every Business Owner Should Be in Banking
 
-Nelson Nash was right: ** â€” Everyone should be in two businesses—the one in which you make your living and the other should be the banking business that finances whatever you do for a living."**
+Nelson Nash was right: ** — Everyone should be in two businesses—the one in which you make your living and the other should be the banking business that finances whatever you do for a living."**
 
 **Of the two businesses, banking is the most important.**
 

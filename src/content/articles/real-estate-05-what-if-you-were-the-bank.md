@@ -35,7 +35,7 @@ But Nash already owned something that would change everything. He had whole life
 
 Had he capitalized his insurance system earlier—built more cash value—he could have refinanced 23% debt into single-digit rates. Had he taken the banking function seriously from the start, he never would have been at the mercy of third-party lenders.
 
-Out of that crisis came his thesis: * â€” You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."*
+Out of that crisis came his thesis: * — You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."*
 
 There is no third option.
 
