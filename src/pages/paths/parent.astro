@@ -1,0 +1,242 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PersonaHero from '../../components/PersonaHero.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+
+const accent = '#18D2B5';
+const rgb = '24, 210, 181';
+
+const curatedContent = [
+  {
+    badge: 'Start Here',
+    title: 'Building a Family Banking System',
+    description: 'Your children don\'t need to make the same financial mistakes you did. Here\'s how to create a banking system that serves multiple generations.',
+    readTime: '10 min read',
+    href: '/learn/articles/parent-01-family-banking-system',
+  },
+  {
+    badge: 'Foundation',
+    title: 'Teaching Your Kids About Money (The Right Way)',
+    description: 'Schools teach your kids to be employees. Banks teach them to be borrowers. What if you taught them to be bankers?',
+    readTime: '8 min read',
+    href: '/learn/articles/parent-02-teaching-money',
+  },
+  {
+    badge: 'Legacy',
+    title: 'Proverbs 13:22 and Your Family\'s Future',
+    description: '"A good man leaves an inheritance to his children\'s children." Most parents try to accumulate wealth. IBC lets you institutionalize it.',
+    readTime: '9 min read',
+    href: '/learn/articles/parent-03-proverbs-1322',
+  },
+  {
+    badge: 'Strategy',
+    title: 'Why You Should Insure Your Children',
+    description: 'Start a policy on a 5-year-old, and by age 30 they have a banking system most adults never achieve. Here\'s the math.',
+    readTime: '11 min read',
+    href: '/learn/articles/parent-04-insuring-children',
+  },
+  {
+    badge: 'Deep Dive',
+    title: 'The Multi-Generational Family Bank',
+    description: 'Your grandfather finances your cousin\'s business. Your daughter pays for medical school. How family banking creates perpetual wealth.',
+    readTime: '13 min read',
+    href: '/learn/articles/parent-05-multi-generational-family-bank',
+  },
+  {
+    badge: 'Case Study',
+    title: 'A Real Family Banking Case Study',
+    description: 'Three generations, seven policies, $2.3M in death benefits, and a banking system that grows stronger every year. Here\'s how they did it.',
+    readTime: '15 min read',
+    href: '/learn/articles/parent-06-family-case-study',
+  },
+];
+
+const whyItems = [
+  {
+    icon: '🌱',
+    title: 'Start Before They Can Walk',
+    description: 'Policies started on children have decades to grow. By the time they need capital, the banking system is already mature.',
+  },
+  {
+    icon: '🔗',
+    title: 'Interconnected Policies',
+    description: 'A family banking system is not one policy — it\'s a network. Parents, children, and grandchildren all participate.',
+  },
+  {
+    icon: '📚',
+    title: 'Financial Education Built In',
+    description: 'IBC teaches your children about capital, interest, and repayment through real experience — not theory.',
+  },
+  {
+    icon: '🏛️',
+    title: 'A Legacy That Compounds',
+    description: 'Unlike an inheritance that gets spent, a banking system grows stronger with each generation that uses it.',
+  },
+];
+---
+
+<Layout title="The Parent's Path — Build a Legacy That Outlasts You" description="Learn how IBC creates generational wealth through family banking. Free education for parents who want their children to have what they didn't.">
+
+  <!-- Hero -->
+  <PersonaHero
+    badge="The Parent's Path"
+    headline="Build a Legacy That Outlasts You"
+    highlightWord="Legacy"
+    subhead="Generational wealth isn't about leaving money behind. It's about building a system your children inherit, operate, and pass forward. IBC makes that real."
+    primaryCta={{ text: 'Start the Family Banking Track', href: '#curriculum' }}
+    secondaryCta={{ text: 'Back to Home', href: '/' }}
+    accentHex={accent}
+    quote="A good man leaves an inheritance to his children's children."
+    quoteSource="Proverbs 13:22"
+  />
+
+  <!-- Why IBC for Families -->
+  <section class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-900 to-navy-dark/50"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">Why Families Choose IBC</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          A Banking System for <span style={`color: ${accent};`}>Your Family</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          Most wealth is gone by the third generation. IBC families are different — here's why.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-6 lg:gap-8 stagger-children">
+        {whyItems.map((item) => (
+          <div class="glass-card rounded-2xl p-6 lg:p-8">
+            <span class="text-3xl mb-4 block">{item.icon}</span>
+            <h3 class="text-xl font-bold text-white mb-2">{item.title}</h3>
+            <p class="text-slate-400 leading-relaxed">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- The Family Banking Concept Visual -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0 bg-navy-dark/30"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center fade-in-up">
+        <div class="glass-surface rounded-2xl p-8 lg:p-12">
+          <h3 class="text-2xl font-bold text-white mb-4">How Family Banking Works</h3>
+          <div class="space-y-6 text-left">
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>1</div>
+              <div>
+                <h4 class="text-white font-semibold">Parents Establish the Banking System</h4>
+                <p class="text-slate-400 text-sm mt-1">Start with a properly designed dividend-paying whole life policy. This is the family's first bank.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>2</div>
+              <div>
+                <h4 class="text-white font-semibold">Children Are Added to the System</h4>
+                <p class="text-slate-400 text-sm mt-1">Policies on children start compounding from day one. By age 18, they have a functioning bank.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>3</div>
+              <div>
+                <h4 class="text-white font-semibold">The Family Finances Internally</h4>
+                <p class="text-slate-400 text-sm mt-1">Cars, education, homes, businesses — all financed through the family banking system, recapturing interest.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>4</div>
+              <div>
+                <h4 class="text-white font-semibold">The System Transfers Across Generations</h4>
+                <p class="text-slate-400 text-sm mt-1">Children inherit not just wealth, but a process. They add their children. The system compounds forever.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Content Track -->
+  <section id="curriculum" class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/30 to-navy-900"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">Your Curriculum</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          The Family Banking <span style={`color: ${accent};`}>Track</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          Curated lessons to take you from concept to implementation. Start at the top.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
+        {curatedContent.map((item, index) => (
+          <a href={item.href} class="group glass-card rounded-2xl p-6 block hover-accent-card">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>{index + 1}</span>
+              <span class="text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider" style={`color: ${accent}; background: rgba(${rgb}, 0.1);`}>{item.badge}</span>
+            </div>
+            <h3 class="text-lg font-bold text-white transition-colors duration-300 mb-2 leading-snug" style={`--hover-color: ${accent};`}>
+              {item.title}
+            </h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">{item.description}</p>
+            <div class="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+              <span class="text-slate-500 text-xs font-medium">{item.readTime}</span>
+              <svg class="w-5 h-5 text-slate-600 group-hover:translate-x-1 transition-all duration-300" style={`--hover-color: ${accent};`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0" style={`background: linear-gradient(to bottom right, rgba(${rgb}, 0.1), rgb(10, 22, 40));`}></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+        Ready to Build Your <span style={`color: ${accent};`}>Family Bank</span>?
+      </h2>
+      <p class="mt-4 text-lg text-slate-400">
+        Start with the free course. Understand the concept. Then decide if it's right for your family.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/learn/start-here"
+          class="inline-flex items-center justify-center px-8 py-4 text-navy-900 font-extrabold text-base rounded-xl transition-all duration-300 shadow-lg hover:-translate-y-0.5 min-h-[48px]"
+          style={`background: linear-gradient(to right, ${accent}, ${accent}dd); box-shadow: 0 10px 15px -3px rgba(${rgb}, 0.25);`}
+        >
+          Start Learning — It's Free
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/"
+          class="inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-white font-semibold text-base rounded-xl transition-all duration-300 min-h-[48px] path-secondary-cta"
+          style={`--hover-color: ${accent}; --hover-border: rgba(${rgb}, 0.4);`}
+        >
+          Explore Other Paths
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <EmailCapture />
+</Layout>
+
+<style>
+  .path-secondary-cta:hover {
+    color: var(--hover-color);
+    border-color: var(--hover-border);
+  }
+  .hover-accent-card h3 { transition: color 0.3s; }
+  .hover-accent-card:hover h3 { color: var(--hover-color) !important; }
+  .hover-accent-card:hover svg { color: var(--hover-color) !important; }
+</style>

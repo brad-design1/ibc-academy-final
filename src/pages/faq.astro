@@ -1,0 +1,370 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const categories = [
+  {
+    name: 'Getting Started',
+    id: 'getting-started',
+    faqs: [
+      {
+        question: 'What is the Infinite Banking Concept (IBC)?',
+        answer: `<p>The Infinite Banking Concept is a strategy for recapturing the banking function in your financial life. Developed by R. Nelson Nash, IBC uses dividend-paying whole life insurance from mutual companies as the foundation for a personal banking system you own and control.</p>
+<p>The core insight is simple: <strong>you finance everything you buy.</strong> Either you pay interest to someone else, or you give up the interest you could have earned. There is no third option. Every purchase is financed — the only question is who profits from the financing.</p>
+<p>IBC exists to answer that question in your favor. Instead of sending interest payments to banks, credit unions, and finance companies, you build a pool of capital inside whole life insurance policies that you can borrow against — on your terms, for any purpose, without credit checks or mandatory repayment schedules — while your capital continues to grow uninterrupted.</p>
+<p>It's not an investment strategy. It's a <em>capitalization</em> strategy — a way to build, control, and deploy capital so that the banking function works for you instead of against you.</p>`
+      },
+      {
+        question: 'Who created IBC?',
+        answer: `<p>R. Nelson Nash (1930–2019) developed the Infinite Banking Concept and published his foundational book, <em>Becoming Your Own Banker</em>, in 2000. Nash was a forester by education, a pilot for over 53 years, and a lifelong student of Austrian economics.</p>
+<p>The idea wasn't born in a boardroom. It was forged in a furnace. In 1980, Nash owed $500,000 at interest rates climbing toward 23%. His home had been burglarized, his brother had died suddenly, and his infant granddaughter was fighting cancer. During many sleepless nights — on his knees at 3 and 4 a.m. — the answer came to him "like a baseball bat across the eyes."</p>
+<p>He realized he already owned whole life policies that gave him contractual access to capital at 5% to 8%. The system was already there. He just couldn't see it because he was looking at things the way everyone else did.</p>
+<p>Nash spent the rest of his life teaching this concept. His legacy continues through the <strong>Nelson Nash Institute (NNI)</strong>, which trains and certifies Authorized IBC Practitioners.</p>`
+      },
+      {
+        question: 'How is IBC different from just buying whole life insurance?',
+        answer: `<p>Buying whole life insurance and practicing IBC are related but fundamentally different things. The difference is <em>intent and design</em>.</p>
+<p>A conventional whole life purchase typically maximizes death benefit for the lowest premium — it's bought as protection. An IBC-designed policy flips this entirely: you <strong>minimize the death benefit and maximize the cash value</strong>. You push as close to IRS limits (the Modified Endowment Contract line) as possible without crossing them.</p>
+<p>More importantly, IBC is a <em>process</em>, not a product. Nash was clear about this: banking is a function you perform, not a thing you buy. The policy is infrastructure — like a building for a grocery store. What matters is how you capitalize it, how you use policy loans, how you repay those loans, and the discipline you bring to the system over decades.</p>
+<p>Simply owning whole life insurance doesn't make you a banker any more than owning a building makes you a grocer. You have to stock the shelves, serve customers, manage inventory, and treat the operation like the business it is.</p>`
+      },
+      {
+        question: 'Do I need a lot of money to start IBC?',
+        answer: `<p>No. Nelson Nash built his teaching around what he called the "All-American family" — a 29-year-old making $28,500 a year after taxes. IBC wasn't designed for the wealthy. It was designed for anyone willing to redirect existing cash flow.</p>
+<p>The question isn't how much money you <em>have</em> — it's how much of your existing cash flow you're willing to redirect from someone else's banking system into your own. Most people are already sending 34.5 cents of every disposable dollar to interest payments on cars, mortgages, credit cards, and other financing. IBC recaptures that flow.</p>
+<p>Premiums can start in a range that works for your budget. Some practitioners work with clients paying a few hundred dollars per month. The key is consistency and discipline, not size. As Nash's grocery store analogy teaches: you have to stock the shelves before you can sell groceries. Start with what you can commit to reliably, and build from there.</p>`
+      },
+      {
+        question: 'How long does it take for IBC to "work"?',
+        answer: `<p>IBC starts working from day one — you have cash value and borrowing access early in the policy. But the system becomes increasingly powerful over time because of <strong>uninterrupted compounding</strong>.</p>
+<p>Nash used an aviation analogy: loading a Boeing 747 for a 10,000-mile flight. At takeoff, the plane is heavy and sluggish — that's years one through four of your policy. But every mile you fly, you burn fuel and the airplane gets lighter while the engines produce the same power. By mile 8,000, the plane can do things you'd never attempt at takeoff. The policy works the same way — it becomes more efficient every single year, and you can't stop it.</p>
+<p>Most policies cross the "break-even" point (where cash value exceeds total premiums paid) somewhere between years 4 and 7, depending on design. But thinking in terms of break-even misses the point. You're building infrastructure for a lifetime. The gains at the <em>end</em> of the compounding period dwarf everything that came before — like a penny doubling daily that's worth $5,243 on day 20 but over $5.3 million on day 30.</p>
+<p>Patience isn't optional. It's the price of admission.</p>`
+      }
+    ]
+  },
+  {
+    name: 'How It Works',
+    id: 'how-it-works',
+    faqs: [
+      {
+        question: 'Why does IBC use whole life insurance specifically?',
+        answer: `<p>IBC requires a financial vehicle with specific characteristics: <strong>guaranteed growth</strong>, <strong>contractual access to capital</strong>, <strong>uninterrupted compounding</strong>, and <strong>protection from outside interference</strong>. Dividend-paying whole life insurance from a mutual company is the only product that delivers all four.</p>
+<p>Whole life has existed since the mid-1600s. It was the primary savings mechanism for American households before the Federal Reserve arrived in 1913. The death benefit, cash value, and premium are calculated together using the same actuarial assumptions. The premium is level — locked in. The cash value is guaranteed — contractually, not illustrated. At age 121, the policy endows.</p>
+<p>Universal life, variable life, and indexed universal life don't work for IBC because they "unbundle" the components. The moving parts that make them cheaper on day one make them unstable over time. Nelson Nash examined universal life illustrations when the product launched in the 1980s and found they kept "falling apart" around age 65–70 as rising mortality costs consumed the account value. He never sold one and wouldn't buy one.</p>
+<p>The mutual company structure matters too. Policyholders are owners, not customers. Surplus flows back as dividends. You're building on 200+ years of actuarial science — not hope, not speculation, not index performance.</p>`
+      },
+      {
+        question: 'What are paid-up additions (PUAs)?',
+        answer: `<p>Paid-up additions are additional premium payments that purchase small blocks of fully paid-up whole life insurance inside your existing policy. They are the turbocharger of an IBC-designed policy.</p>
+<p>Here's how they work: your base premium builds the policy foundation — the guaranteed death benefit, the guaranteed cash values, the structure. PUAs dump additional capital directly into cash value. Each PUA payment buys a miniature, fully paid-up life insurance policy that immediately has cash value, immediately earns dividends, and immediately increases your death benefit.</p>
+<p>In an IBC-designed policy, the PUA rider carries the heavy lifting. The base premium is kept relatively low (to minimize the foundation cost), while PUA contributions are maximized — pushing cash value growth as close to IRS limits as possible without triggering Modified Endowment Contract (MEC) status.</p>
+<p>The compounding effect is powerful: PUAs earn dividends. Those dividends buy more paid-up additions. Those additional PUAs earn more dividends. The system becomes self-reinforcing — a compounding engine that accelerates over time.</p>`
+      },
+      {
+        question: 'How do policy loans work in IBC?',
+        answer: `<p>A policy loan is a loan <em>from the insurance company</em>, using your death benefit as collateral. This distinction matters enormously.</p>
+<p>You are not "borrowing your own money." The insurance company lends you <em>their</em> money, secured by your policy values. Your cash value determines how much of the death benefit you can collateralize — similar to how home equity determines how much a bank will lend against your house.</p>
+<p>The terms are unlike any other credit instrument in existence:</p>
+<ul class="list-disc pl-6 mt-2 space-y-1">
+  <li>No credit check — the company already knows exactly what your policy is worth</li>
+  <li>No income verification</li>
+  <li>No mandatory repayment schedule — you decide when and how much to repay</li>
+  <li>No restrictions on use — cars, real estate, business, emergencies, anything</li>
+  <li>Funds typically available within days</li>
+</ul>
+<p class="mt-3">Why such favorable terms? Because the insurance company faces zero risk. If you don't repay during your lifetime, the loan balance is deducted from the death benefit. They're getting paid either way. There's no risk premium — only true interest for the time value of money.</p>
+<p>Interest on policy loans accrues daily but compounds only once per year. Any repayments you make during the year go 100% to principal — no amortization table rigged in the lender's favor.</p>`
+      },
+      {
+        question: 'What happens to my cash value when I take a loan?',
+        answer: `<p>This is one of the most important things to understand about IBC: <strong>your cash value stays in the policy and continues to grow</strong> — even while a loan is outstanding.</p>
+<p>When you take a policy loan, you are not withdrawing from your cash value. You are leveraging it. The insurance company places a lien against your death benefit equal to the loan amount, but your cash value remains in the general account of the insurance company, continuing to earn guaranteed interest and participate in dividends.</p>
+<p>This creates what practitioners call the <strong>velocity of money</strong> — your capital works in two places simultaneously. The cash value earns inside the policy while the borrowed funds are deployed outside the policy for whatever purpose you choose.</p>
+<p>This is fundamentally different from withdrawing money from a savings account or 401(k), where accessing your capital means <em>removing</em> it from the growth engine. With IBC, access doesn't interrupt compounding. That's what makes the system unique in all of finance.</p>
+<p>One critical caveat: you should always repay policy loans with discipline. Nash's grocery store analogy warns against "stealing the peas" — taking inventory out the back door without restocking. Borrow and don't repay, and you'll starve the system of the capital it needs to compound.</p>`
+      },
+      {
+        question: "What's the difference between direct and non-direct recognition?",
+        answer: `<p>These terms describe how a life insurance company treats your dividend when you have an outstanding policy loan.</p>
+<p><strong>Non-direct recognition:</strong> The company pays you the same dividend regardless of whether you have policy loans outstanding. Your full cash value participates in dividends even while a loan is active. The loan doesn't affect your ownership compensation.</p>
+<p><strong>Direct recognition:</strong> The company reserves the right to adjust (typically reduce) the dividend credited to the portion of your cash value that's been collateralized by a loan. Outstanding loans affect your dividend.</p>
+<p>Think of it this way: a dividend is compensation for ownership — your share of the company's surplus. Interest is the price of credit. These are different categories of cash flow. Reducing your ownership compensation because you exercised a contractual right (the policy loan) is like a grocery store giving the owner's family a smaller discount because they used their store credit card. Economically, it's incoherent.</p>
+<p>Direct recognition companies typically offer fixed loan rates; non-direct recognition companies typically offer variable rates. The variable rate can cause anxiety, but the favorable loan structure (annual compounding, no mandatory repayment, all repayments go to principal) often makes the actual cost lower than it appears on paper.</p>
+<p>Both types of policies work for IBC. But given the choice, many practitioners — and Nash himself — prefer non-direct recognition.</p>`
+      }
+    ]
+  },
+  {
+    name: 'Comparisons',
+    id: 'comparisons',
+    faqs: [
+      {
+        question: 'Is IBC better than investing in the stock market?',
+        answer: `<p>This question reveals a common misunderstanding. <strong>IBC is not an investment strategy — it's a capitalization strategy.</strong> Comparing it to stock market investing is like comparing a bank vault to a stock ticker. They serve different functions.</p>
+<p>Investment asks: what asset can I acquire that will appreciate or produce income? Capitalization asks: how do I build a pool of financial value I control, that grows reliably, that serves as a foundation for everything else?</p>
+<p>IBC doesn't promise to beat the market. It promises guaranteed growth, every year, regardless of who's president or what the Fed does. Cash value cannot go down. As one practitioner puts it: "I don't care what time of day it is, whether the markets are open or closed, or whether the government has declared a bank holiday. So long as time is going by, cash values are going up."</p>
+<p>The real comparison isn't rate of return — it's <em>control</em>. With IBC, you can deploy capital via policy loans into investments (including the stock market, real estate, or your own business) while your cash value continues growing. You don't have to choose one or the other. IBC becomes the <em>foundation</em> from which you invest — not a replacement for investing.</p>
+<p>Nash put it bluntly: most people obsess over getting an extra 2% return on the small fraction of income they save, while 34.5 cents of every dollar bleeds out through interest payments to other people's banks. Control the banking function first. Investments come second.</p>`
+      },
+      {
+        question: 'What does Dave Ramsey get wrong about whole life?',
+        answer: `<p>Dave Ramsey has helped millions of people get out of debt, and that contribution is real. But on whole life insurance and IBC, he makes several factual errors that mislead his audience:</p>
+<p><strong>He claims whole life earns "about 1.2%."</strong> Actual illustrations show 3.5% to 4.3% depending on design — and that growth is tax-free, which makes the pre-tax equivalent significantly higher. He understates returns by 70–75%.</p>
+<p><strong>He claims mutual funds return 12%.</strong> In the 20 years before he published this advice, the S&amp;P 500 returned about 7% annualized — and that ignores fees, taxes, and the two crashes investors endured. He overstates stock returns by roughly 70%.</p>
+<p><strong>He says "you're borrowing your own money."</strong> Mechanically wrong. The insurance company lends you <em>their</em> money, secured by your death benefit. Your cash value is the collateral, not the source of the loan. It continues earning dividends while the loan is outstanding.</p>
+<p><strong>He says banks don't use whole life insurance.</strong> Bank-Owned Life Insurance (BOLI) is a $156+ billion asset class. Over 3,700 banks — more than 60% of U.S. commercial banks — hold whole life on their balance sheets, sometimes exceeding 25% of their Tier I capital.</p>
+<p><strong>He says the cash value "dies with you."</strong> In an IBC-designed policy with paid-up additions, the death benefit grows over time — often to multiples of the original face amount. The cash value isn't something separate from the death benefit; it's the present value of it.</p>
+<p>If whole life insurance were truly a terrible product, the IRS wouldn't have needed to create the MEC rules in 1988 specifically to stop wealthy people from stuffing money into it.</p>`
+      },
+      {
+        question: 'How does IBC compare to a 401(k) or IRA?',
+        answer: `<p>They solve different problems — and the conventional retirement framework has a structural flaw most people never examine.</p>
+<p>A 401(k) asks: <em>how do we pile up the biggest number by age 65?</em> IBC asks: <em>how do we build reliable, accessible capital for an unknowable duration?</em> Those are different questions that produce fundamentally different strategies.</p>
+<p><strong>Key differences:</strong></p>
+<ul class="list-disc pl-6 mt-2 space-y-1">
+  <li><strong>Access:</strong> 401(k) money is locked away until 59½ with penalties for early access. IBC capital is available anytime via policy loans — no penalties, no permission from HR.</li>
+  <li><strong>Control:</strong> Your 401(k) is invested in assets whose value depends on markets you can't control. Your cash value grows on a guaranteed schedule regardless of market conditions.</li>
+  <li><strong>Taxes:</strong> 401(k) contributions are tax-deferred — the bill comes due at withdrawal, often at higher rates than expected. Policy loans are not taxable events.</li>
+  <li><strong>Sequence risk:</strong> If a market crash hits at the wrong time during retirement, your 401(k) can be devastated. Cash value doesn't have down years.</li>
+</ul>
+<p class="mt-3">Nash compared both methods directly. Same contribution schedule, same withdrawal rate. The qualified plan ran dry in under six years. The properly-funded whole life policy generated income <em>indefinitely</em> — and still left a seven-figure death benefit to heirs.</p>
+<p>This doesn't mean you should abandon a 401(k) — especially with employer matching. But understand what you're giving up: control, access, and certainty. IBC offers all three.</p>`
+      },
+      {
+        question: 'Can I use IBC instead of a savings account?',
+        answer: `<p>IBC can replace much of what a savings account does — and do it better — but with an important caveat about timing.</p>
+<p>A savings account gives you instant liquidity at near-zero returns. Your cash value in a whole life policy gives you access within days via policy loans, with guaranteed growth that typically exceeds savings account rates — and that growth is tax-advantaged.</p>
+<p>The difference: a savings account is fully liquid from day one. A whole life policy requires <strong>capitalization time</strong>. In the early years, your cash value will be less than your total premiums paid. You're building the foundation — stocking the shelves of your grocery store. You can't open for business with empty shelves.</p>
+<p>For this reason, most practitioners recommend keeping a basic emergency reserve in a liquid account while you build your IBC system. Once the system is capitalized — typically a few years in — your policy can serve as your primary capital reserve. You'll have guaranteed growth, tax-free access via loans, and your capital continues compounding even when you borrow against it.</p>
+<p>Over time, the whole life policy becomes a far superior place to warehouse capital compared to a savings account, where your money earns almost nothing and loses purchasing power to inflation every year.</p>`
+      },
+      {
+        question: "What about indexed universal life (IUL) — isn't that better?",
+        answer: `<p>No. IUL and whole life get the same label — "permanent insurance" — but they are fundamentally different animals. Confusing the two is a categorical error.</p>
+<p><strong>Whole life</strong> is one integrated product. Death benefit, cash value, and premium are calculated together. The premium is level and guaranteed. The cash value grows every year — contractually, not based on illustrations. The company carries the risk.</p>
+<p><strong>IUL</strong> is two separate pieces stapled together: a side fund (the "account value") and a one-year term insurance policy that renews annually at increasing cost. The cost of that internal term insurance isn't fixed — it's recalculated each year based on your attained age, and the curve is exponential. By age 70–75, it can become a monster consuming your account value from the inside.</p>
+<p>IUL illustrations assume indices will return 6–8% annually for 20–30 years. That assumption is, as one practitioner puts it, "a prayer dressed up as a spreadsheet." The NAIC had to impose limits on illustrated rates because the projections were so misleading.</p>
+<p>The most critical difference: <strong>who holds the risk?</strong> With whole life, the insurance company carries it. With IUL, the risk transfers back to <em>you</em>. You carry the risk that the account value will cover rising mortality costs. You carry the risk that illustrations will materialize. That violates the basic principle of insurance — you're paying premiums to assume your own risk.</p>
+<p>Nash examined universal life illustrations when the product launched and found they kept "falling apart." He never sold one. We've seen clients with 20+ years of faithful IUL premium payments receive letters demanding tens of thousands more just to keep the policy alive. Whole life doesn't do that. Ever.</p>`
+      }
+    ]
+  },
+  {
+    name: 'Practical',
+    id: 'practical',
+    faqs: [
+      {
+        question: 'How much should my first premium be?',
+        answer: `<p>There's no universal number — it depends entirely on your financial situation. But the guiding principle is this: <strong>your premium should be the maximum amount you can commit to consistently without putting your household under stress.</strong></p>
+<p>Nash's framework helps here. Look at where your money currently goes. The average American sends 34.5 cents of every disposable dollar to interest payments — car loans, mortgages, credit cards. Your premium is a redirection of cash flow that's already leaving your control. The question isn't "can I afford this?" It's "can I redirect what I'm already spending?"</p>
+<p>An Authorized IBC Practitioner will help you design a policy based on your actual cash flow, not a generic template. The policy needs to be structured so you can pay premiums in both good years and lean years. Overcommitting leads to the one thing that kills IBC systems: lapsed premiums.</p>
+<p>Some people start with $300/month. Others start with $3,000/month. The amount matters less than the consistency. Remember Nash's grocery store: you have to stock the shelves before you can sell groceries. Capitalization comes first, and it requires discipline over time.</p>`
+      },
+      {
+        question: 'Which insurance companies are best for IBC?',
+        answer: `<p>Not all whole life insurance is created equal, and not all companies are suitable for IBC. Look for these characteristics:</p>
+<ul class="list-disc pl-6 mt-2 space-y-1">
+  <li><strong>Mutual company structure:</strong> You want a company owned by its policyholders, not by Wall Street shareholders. Profits return to you as dividends.</li>
+  <li><strong>Long dividend history:</strong> The major mutual companies have paid dividends for 100+ consecutive years — through the Great Depression, world wars, financial crises, and pandemics.</li>
+  <li><strong>Non-direct recognition (preferred):</strong> Companies that don't reduce your dividend when you have outstanding policy loans. Your full cash value participates in dividends regardless of loan activity.</li>
+  <li><strong>Strong financial ratings:</strong> Look for companies rated highly by AM Best, Moody's, and S&amp;P. These companies manage billions in conservative, long-term investments.</li>
+  <li><strong>Policy loan provisions:</strong> Favorable loan terms — including how interest is charged, compounding frequency, and repayment flexibility.</li>
+</ul>
+<p class="mt-3">IBC Academy doesn't recommend specific companies because we're purely educational and not affiliated with any carrier. An Authorized IBC Practitioner certified through the Nelson Nash Institute will know which companies meet these criteria and can help you select one appropriate for your situation.</p>`
+      },
+      {
+        question: 'Can I implement IBC if I have debt?',
+        answer: `<p>Yes — and in many cases, having debt makes the argument for IBC <em>stronger</em>, not weaker.</p>
+<p>Here's why: if you have debt, you're already sending money to someone else's banking system. Every interest payment you make is profit for a bank, credit union, or finance company. IBC doesn't ask you to find new money. It asks you to <strong>redirect existing cash flow</strong> into a system you own.</p>
+<p>Nash's airplane analogy is instructive: 95% of Americans are flying into a 345 mph financial headwind — 34.5 cents of every dollar going to interest. If you can turn that headwind into a tailwind, the difference isn't 345 mph. It's 690 mph — twice the wind.</p>
+<p>That said, implementation with debt requires careful planning:</p>
+<ul class="list-disc pl-6 mt-2 space-y-1">
+  <li>High-interest consumer debt (credit cards at 20%+) may need to be addressed first or simultaneously</li>
+  <li>Your premium must be sustainable alongside existing obligations</li>
+  <li>The goal is to eventually use policy loans to refinance higher-cost debt into your own system — paying yourself the interest instead of a bank</li>
+</ul>
+<p class="mt-3">An Authorized IBC Practitioner can help you design a strategy that accounts for your current debt load while beginning to build your banking system. The two objectives — eliminating debt and building capital — are not opposed. They're complementary.</p>`
+      },
+      {
+        question: 'Is IBC Academy affiliated with any insurance company?',
+        answer: `<p><strong>No.</strong> IBC Academy is a purely educational platform. We don't sell insurance products, earn commissions, or represent any insurance company.</p>
+<p>Our mission is to teach the Infinite Banking Concept as Nelson Nash intended it — faithfully, accurately, and without the distortion that comes from sales incentives. We believe that understanding the <em>principles</em> of IBC is a prerequisite to implementing it well, and that education should be separated from the point of sale.</p>
+<p>We draw our content directly from Nash's writings, the Austrian economic tradition that informed his thinking, and the work of practitioners and educators in the IBC community — including authors like Robert Murphy, Carlos Lara, and Ryan Griggs.</p>
+<p>When you're ready to implement IBC, we recommend working with an <strong>Authorized IBC Practitioner</strong> — someone trained and certified through the Nelson Nash Institute who understands proper policy design and the philosophy behind it.</p>`
+      },
+      {
+        question: 'Where do I go to actually set up an IBC policy?',
+        answer: `<p>To implement IBC properly, you need to work with an <strong>Authorized IBC Practitioner</strong> — a licensed insurance professional who has been trained and certified through the <strong>Nelson Nash Institute (NNI)</strong>.</p>
+<p>This matters because IBC policy design is specific and counterintuitive. A conventional insurance agent will likely design a policy that maximizes death benefit for minimum premium — the exact opposite of what IBC requires. An IBC Practitioner knows how to minimize death benefit and maximize cash value, structure paid-up additions properly, avoid MEC status, and select appropriate companies.</p>
+<p>You can find an Authorized IBC Practitioner through the Nelson Nash Institute's official directory at <strong>infinitebanking.org</strong>.</p>
+<p>Before meeting with a practitioner, we recommend:</p>
+<ul class="list-disc pl-6 mt-2 space-y-1">
+  <li>Reading Nelson Nash's <em>Becoming Your Own Banker</em> — the foundational text</li>
+  <li>Exploring our free educational resources here at IBC Academy</li>
+  <li>Understanding the principles before focusing on product specifics</li>
+</ul>
+<p class="mt-3">Education first. Implementation second. That's the Nash way — and it's why IBC Academy exists.</p>`
+      }
+    ]
+  }
+];
+
+// Build Schema.org FAQPage structured data
+const schemaFaqs = categories.flatMap(cat => cat.faqs).map(faq => ({
+  '@type': 'Question',
+  name: faq.question,
+  acceptedAnswer: {
+    '@type': 'Answer',
+    text: faq.answer.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim()
+  }
+}));
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: schemaFaqs
+};
+---
+
+<Layout title="Frequently Asked Questions" description="20 common questions about the Infinite Banking Concept — what it is, how it works, how it compares to alternatives, and how to get started. Nash-aligned answers only.">
+
+  <!-- Schema.org FAQPage structured data -->
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+
+  <section class="py-16 lg:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Page Header -->
+      <div class="mb-16">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+          Frequently Asked <span class="text-gold">Questions</span>
+        </h1>
+        <p class="mt-4 text-xl text-slate-300 max-w-2xl">
+          Honest, Nash-aligned answers to the most common questions about the Infinite Banking Concept. No sales pitch. Just principles.
+        </p>
+      </div>
+
+      <!-- Category Navigation -->
+      <nav class="mb-12 flex flex-wrap gap-3" aria-label="FAQ categories">
+        {categories.map((cat) => (
+          <a
+            href={`#${cat.id}`}
+            class="px-4 py-2 rounded-lg text-sm font-medium bg-navy/30 border border-navy-light/20 text-slate-300 hover:border-gold/40 hover:text-gold transition-all duration-200"
+          >
+            {cat.name}
+          </a>
+        ))}
+      </nav>
+
+      <!-- FAQ Categories -->
+      <div class="space-y-16">
+        {categories.map((cat) => (
+          <div id={cat.id}>
+            <h2 class="text-2xl font-bold text-gold mb-6 flex items-center gap-3">
+              <span class="w-8 h-0.5 bg-gold/50 hidden sm:block"></span>
+              {cat.name}
+            </h2>
+
+            <div class="space-y-3">
+              {cat.faqs.map((faq, index) => (
+                <div
+                  class="faq-item bg-navy/30 border border-navy-light/20 rounded-xl overflow-hidden hover:border-gold/20 transition-all duration-200"
+                  data-faq
+                >
+                  <button
+                    class="faq-toggle w-full text-left px-6 py-5 flex items-start justify-between gap-4 cursor-pointer group"
+                    aria-expanded="false"
+                  >
+                    <span class="text-lg font-semibold text-white group-hover:text-gold transition-colors duration-200 pr-2">
+                      {faq.question}
+                    </span>
+                    <span class="faq-icon flex-shrink-0 mt-1 w-6 h-6 flex items-center justify-center rounded-full border border-gold/40 text-gold text-sm font-bold transition-transform duration-300">
+                      +
+                    </span>
+                  </button>
+                  <div class="faq-content hidden px-6 pb-6">
+                    <div class="text-slate-300 leading-relaxed prose-sm prose-p:mb-3 prose-strong:text-white prose-em:text-gold/80 prose-ul:mt-2 prose-li:text-slate-300" set:html={faq.answer} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="mt-20 bg-navy/40 border border-navy-light/20 rounded-2xl p-8 sm:p-10 text-center">
+        <h3 class="text-2xl font-bold text-white mb-3">Still have questions?</h3>
+        <p class="text-slate-300 mb-6 max-w-lg mx-auto">
+          Start with Nelson Nash's book, explore our free lessons, or find an Authorized IBC Practitioner when you're ready.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="/learn"
+            class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-gold text-navy-900 font-bold hover:bg-gold/90 transition-colors duration-200"
+          >
+            Start Learning
+          </a>
+          <a
+            href="https://infinitebanking.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-gold/40 text-gold font-bold hover:bg-gold/10 transition-colors duration-200"
+          >
+            Find a Practitioner ↗
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Accordion Toggle Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const faqItems = document.querySelectorAll('[data-faq]');
+
+      faqItems.forEach((item) => {
+        const toggle = item.querySelector('.faq-toggle') as HTMLButtonElement;
+        const content = item.querySelector('.faq-content') as HTMLElement;
+        const icon = item.querySelector('.faq-icon') as HTMLElement;
+
+        if (!toggle || !content || !icon) return;
+
+        toggle.addEventListener('click', () => {
+          const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+
+          // Close all other open items
+          faqItems.forEach((otherItem) => {
+            if (otherItem === item) return;
+            const otherToggle = otherItem.querySelector('.faq-toggle') as HTMLButtonElement;
+            const otherContent = otherItem.querySelector('.faq-content') as HTMLElement;
+            const otherIcon = otherItem.querySelector('.faq-icon') as HTMLElement;
+            if (otherToggle && otherContent && otherIcon) {
+              otherToggle.setAttribute('aria-expanded', 'false');
+              otherContent.classList.add('hidden');
+              otherIcon.textContent = '+';
+              otherIcon.classList.remove('rotate-45');
+              otherItem.classList.remove('border-gold/30');
+            }
+          });
+
+          // Toggle current item
+          if (isOpen) {
+            toggle.setAttribute('aria-expanded', 'false');
+            content.classList.add('hidden');
+            icon.textContent = '+';
+            icon.classList.remove('rotate-45');
+            item.classList.remove('border-gold/30');
+          } else {
+            toggle.setAttribute('aria-expanded', 'true');
+            content.classList.remove('hidden');
+            icon.textContent = '−';
+            icon.classList.add('rotate-45');
+            item.classList.add('border-gold/30');
+          }
+        });
+      });
+    });
+  </script>
+</Layout>

@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const sections = [
+  {
+    title: 'About the Book',
+    description: "Learn why \"Becoming Your Own Banker\" by R. Nelson Nash is the foundational text for understanding the Infinite Banking Concept.",
+    href: '#about',
+    icon: '📖',
+  },
+  {
+    title: 'Purchase',
+    description: 'Get your copy of the book and start your IBC education journey.',
+    href: '/book/purchase',
+    icon: '🛒',
+  },
+  {
+    title: 'Free Chapter',
+    description: 'Read a sample chapter before committing. See if the concepts resonate with you.',
+    href: '/book/free-chapter',
+    icon: '🎁',
+  },
+  {
+    title: 'Reading Guide',
+    description: 'A companion guide to help you get the most out of each chapter.',
+    href: '/book/reading-guide',
+    icon: '🗺️',
+  },
+];
+---
+
+<Layout title="The Book" description="Becoming Your Own Banker by R. Nelson Nash — the foundational text for understanding IBC.">
+  <section class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Hero -->
+      <div class="grid lg:grid-cols-2 gap-12 items-center mb-20">
+        <div>
+          <span class="inline-block text-xs font-medium text-gold bg-gold/10 px-2.5 py-1 rounded-md mb-4">Essential Reading</span>
+          <h1 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight">
+            Becoming Your Own <span class="text-gold">Banker</span>
+          </h1>
+          <p class="mt-4 text-xl text-slate-300">by R. Nelson Nash</p>
+          <p class="mt-6 text-slate-400 text-lg leading-relaxed">
+            The foundational text for understanding the Infinite Banking Concept. Short, dense, and paradigm-shifting. Read it at least twice — you'll discover something new each time.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="/book/purchase" class="px-6 py-3 bg-gold text-navy-900 font-bold rounded-xl hover:bg-gold-light transition-colors">
+              Get the Book
+            </a>
+            <a href="/book/free-chapter" class="px-6 py-3 border-2 border-slate-600 text-white font-semibold rounded-xl hover:border-gold/50 hover:text-gold transition-colors">
+              Read Free Chapter
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="w-64 h-80 bg-gradient-to-br from-gold/20 to-gold/5 border border-gold/30 rounded-2xl flex items-center justify-center">
+            <div class="text-center p-6">
+              <p class="text-gold font-bold text-lg mb-2">BECOMING YOUR OWN BANKER</p>
+              <p class="text-slate-400 text-sm">R. Nelson Nash</p>
+              <div class="mt-4 w-16 h-px bg-gold/30 mx-auto"></div>
+              <p class="mt-4 text-slate-500 text-xs">Book cover placeholder</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sections -->
+      <div id="about" class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {sections.map((section) => (
+          <a href={section.href} class="group block bg-navy/30 border border-navy-light/20 rounded-2xl p-6 hover:border-gold/30 transition-all duration-300">
+            <span class="text-3xl block mb-4">{section.icon}</span>
+            <h2 class="text-lg font-bold text-white group-hover:text-gold transition-colors mb-2">{section.title}</h2>
+            <p class="text-slate-400 text-sm leading-relaxed">{section.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,285 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PersonaHero from '../../components/PersonaHero.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+
+const accent = '#1E6BFF';
+const rgb = '30, 107, 255';
+
+const curatedContent = [
+  {
+    badge: 'Wake Up Call',
+    title: 'The Lender\'s Leash',
+    description: 'You think you\'re building wealth with OPM. But what happens when the bank decides your portfolio is too risky? Meet investors who learned the hard way.',
+    readTime: '9 min read',
+    href: '/learn/articles/real-estate-01-the-lenders-leash',
+  },
+  {
+    badge: 'Foundation',
+    title: 'The Fragile Ladder',
+    description: 'Leverage is powerful — until it\'s not. Why depending on bank financing creates systemic risk in your real estate portfolio.',
+    readTime: '8 min read',
+    href: '/learn/articles/real-estate-02-the-fragile-ladder',
+  },
+  {
+    badge: 'Truth',
+    title: 'OPM Isn\'t Free Money',
+    description: 'Other People\'s Money sounds smart. But when you calculate what it actually costs — in interest, fees, and opportunity cost — the math is sobering.',
+    readTime: '10 min read',
+    href: '/learn/articles/real-estate-03-opm-isnt-free-money',
+  },
+  {
+    badge: 'Strategy',
+    title: 'Speed Kills Deals',
+    description: 'The best deals go to the fastest closers. Banks need 30-45 days. Policy loans fund in 5-7 days. Guess who wins.',
+    readTime: '8 min read',
+    href: '/learn/articles/real-estate-04-speed-kills-deals',
+  },
+  {
+    badge: 'Vision',
+    title: 'What If You Were the Bank?',
+    description: 'Stop paying mortgage companies. Stop waiting for loan committees. Stop explaining your deals to underwriters. Start thinking like a bank.',
+    readTime: '11 min read',
+    href: '/learn/articles/real-estate-05-what-if-you-were-the-bank',
+  },
+  {
+    badge: 'Blueprint',
+    title: 'Building Your RE Banking System',
+    description: 'From concept to reality. How to structure policies for real estate investing, fund deals, and create a self-sustaining acquisition machine.',
+    readTime: '14 min read',
+    href: '/learn/articles/real-estate-06-building-your-re-banking-system',
+  },
+];
+
+const dealFlow = [
+  {
+    step: '1',
+    title: 'Build Your Banking System',
+    description: 'Establish a properly designed whole life policy with a mutual company. Your cash value grows guaranteed plus dividends.',
+  },
+  {
+    step: '2',
+    title: 'Identify Your Deal',
+    description: 'Find the rental property, flip, or commercial acquisition. Run your numbers the same way you always do.',
+  },
+  {
+    step: '3',
+    title: 'Borrow From Yourself',
+    description: 'Take a policy loan against your cash value. No application. No credit check. No committee. Funds in days, not weeks.',
+  },
+  {
+    step: '4',
+    title: 'Close the Deal',
+    description: 'Use the capital for down payments, rehab costs, or full acquisitions. Your policy continues earning dividends on the full value.',
+  },
+  {
+    step: '5',
+    title: 'Repay Yourself',
+    description: 'Rental income, sale proceeds, or refinance — pay yourself back with interest. That interest goes back into YOUR system.',
+  },
+  {
+    step: '6',
+    title: 'Repeat — Infinitely',
+    description: 'The capital recycles. Each deal strengthens your banking system. Each repayment adds more capital for the next acquisition.',
+  },
+];
+
+const advantages = [
+  {
+    icon: '⚡',
+    title: 'Speed to Close',
+    description: 'Policy loans fund in days. No underwriting, no committee. When a deal hits the market, you move first.',
+  },
+  {
+    icon: '🔄',
+    title: 'Infinite Recycling',
+    description: 'Capital doesn\'t disappear after a deal. You repay yourself, and the money is ready for the next acquisition.',
+  },
+  {
+    icon: '📈',
+    title: 'Uninterrupted Compounding',
+    description: 'Even when you borrow against your policy, the full cash value continues earning dividends. Your money works twice.',
+  },
+  {
+    icon: '🎯',
+    title: 'No Third-Party Dependency',
+    description: 'Banks can freeze credit lines, change terms, or say no. Your banking system answers to you — always.',
+  },
+];
+---
+
+<Layout title="The Real Estate Investor's Path — Finance Every Deal From Your Own Bank" description="Learn how real estate investors use IBC as a private financing engine. Be your own bank for every deal. Free education, no products sold.">
+
+  <!-- Hero -->
+  <PersonaHero
+    badge="The Real Estate Investor's Path"
+    headline="Finance Every Deal From Your Own Bank"
+    highlightWord="Your Own Bank"
+    subhead="Stop depending on hard money lenders, conventional banks, and other people's terms. IBC turns your capital into a self-replenishing deal machine."
+    primaryCta={{ text: 'Start the Business IBC Track', href: '#curriculum' }}
+    secondaryCta={{ text: 'Back to Home', href: '/' }}
+    accentHex={accent}
+  />
+
+  <!-- How IBC Works for Real Estate -->
+  <section class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-900 to-navy-dark/50"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">The Deal Machine</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          How IBC Works for <span style={`color: ${accent};`}>Real Estate</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          Every deal flows through your banking system. Here's the process.
+        </p>
+      </div>
+
+      <!-- Deal flow steps -->
+      <div class="max-w-3xl mx-auto">
+        <div class="space-y-6 stagger-children">
+          {dealFlow.map((item) => (
+            <div class="glass-card rounded-2xl p-6 flex gap-5 items-start">
+              <div class="w-12 h-12 rounded-xl flex items-center justify-center font-bold text-lg flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>
+                {item.step}
+              </div>
+              <div>
+                <h3 class="text-lg font-bold text-white mb-1">{item.title}</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Advantages for RE Investors -->
+  <section class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-navy-dark/30"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">The Edge</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Why Investors Choose <span style={`color: ${accent};`}>IBC</span>
+        </h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-6 lg:gap-8 stagger-children">
+        {advantages.map((item) => (
+          <div class="glass-card rounded-2xl p-6 lg:p-8">
+            <span class="text-3xl mb-4 block">{item.icon}</span>
+            <h3 class="text-xl font-bold text-white mb-2">{item.title}</h3>
+            <p class="text-slate-400 leading-relaxed">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- The Numbers -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/30 to-navy-900"></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <div class="glass-surface rounded-2xl p-8 lg:p-12">
+        <h3 class="text-2xl font-bold text-white mb-6">The Math That Matters</h3>
+        <div class="grid grid-cols-3 gap-8">
+          <div>
+            <div class="text-3xl lg:text-4xl font-black counter-animate" style={`color: ${accent};`} data-target="100" data-suffix="%">0%</div>
+            <div class="text-sm text-slate-400 mt-2">Of your cash value continues earning even during a loan</div>
+          </div>
+          <div>
+            <div class="text-3xl lg:text-4xl font-black" style={`color: ${accent};`}>$0</div>
+            <div class="text-sm text-slate-400 mt-2">Application fees, origination costs, or bank charges</div>
+          </div>
+          <div>
+            <div class="text-3xl lg:text-4xl font-black" style={`color: ${accent};`}>∞</div>
+            <div class="text-sm text-slate-400 mt-2">Times you can recycle the same capital through deals</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Content Track -->
+  <section id="curriculum" class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/30 to-navy-900"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">Your Curriculum</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          The Business IBC <span style={`color: ${accent};`}>Track</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          From concept to implementation. Everything a real estate investor needs to understand IBC.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
+        {curatedContent.map((item, index) => (
+          <a href={item.href} class="group hover-accent-card glass-card rounded-2xl p-6 block" style={`--hover-color: ${accent};`}>
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>{index + 1}</span>
+              <span class="text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider" style={`color: ${accent}; background: rgba(${rgb}, 0.1);`}>{item.badge}</span>
+            </div>
+            <h3 class="text-lg font-bold text-white transition-colors duration-300 mb-2 leading-snug">
+              {item.title}
+            </h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">{item.description}</p>
+            <div class="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+              <span class="text-slate-500 text-xs font-medium">{item.readTime}</span>
+              <svg class="w-5 h-5 text-slate-600 group-hover:translate-x-1 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0" style={`background: linear-gradient(to bottom right, rgba(${rgb}, 0.1), rgb(10, 22, 40));`}></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+        Ready to Become Your Own <span style={`color: ${accent};`}>Lender</span>?
+      </h2>
+      <p class="mt-4 text-lg text-slate-400">
+        Start with the free course. Understand the mechanics. Then decide if IBC belongs in your deal stack.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/learn/start-here"
+          class="inline-flex items-center justify-center px-8 py-4 text-white font-extrabold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 min-h-[48px]"
+          style={`background: linear-gradient(to right, ${accent}, ${accent}dd); box-shadow: 0 10px 15px -3px rgba(${rgb}, 0.25);`}
+        >
+          Start Learning — It's Free
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/"
+          class="path-secondary-cta inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-white font-semibold text-base rounded-xl transition-all duration-300 min-h-[48px]"
+          style={`--hover-color: ${accent}; --hover-border: rgba(${rgb}, 0.4);`}
+        >
+          Explore Other Paths
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <EmailCapture />
+
+<style>
+  .path-secondary-cta:hover {
+    color: var(--hover-color);
+    border-color: var(--hover-border);
+  }
+  .hover-accent-card h3 { transition: color 0.3s; }
+  .hover-accent-card:hover h3 { color: var(--hover-color) !important; }
+  .hover-accent-card:hover svg { color: var(--hover-color) !important; }
+</style>
+</Layout>

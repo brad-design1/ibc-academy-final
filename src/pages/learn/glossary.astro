@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const terms = [
+  { term: 'Infinite Banking Concept (IBC)', definition: 'A strategy developed by Nelson Nash for recapturing the banking function in your financial life using dividend-paying whole life insurance from a mutual company.' },
+  { term: 'Banking Function', definition: 'The process of storing, lending, and earning interest on capital. Every financial transaction involves the banking function — the question is who controls it.' },
+  { term: 'Whole Life Insurance', definition: 'A permanent life insurance product with guaranteed cash value growth, level premiums, and (from mutual companies) dividend participation.' },
+  { term: 'Cash Value', definition: 'The savings component of a whole life insurance policy. It grows guaranteed each year and can be accessed via policy loans.' },
+  { term: 'Policy Loan', definition: 'A loan from the insurance company using your cash value as collateral. Crucially, your cash value continues to earn dividends during the loan.' },
+  { term: 'Paid-Up Additions (PUA)', definition: 'Additional premium payments that purchase small blocks of fully paid-up insurance, dramatically accelerating cash value growth.' },
+  { term: 'Mutual Company', definition: 'An insurance company owned by its policyholders (not shareholders). Profits are returned to policyholders as dividends.' },
+  { term: 'Dividend', definition: 'A return of excess premium paid to policyholders by a mutual insurance company. Not guaranteed, but major mutuals have paid them for 100+ consecutive years.' },
+  { term: 'Non-Direct Recognition', definition: 'A company practice where policy loans do not affect dividend calculations — meaning your full cash value earns dividends even while a loan is outstanding.' },
+  { term: 'Direct Recognition', definition: 'A company practice where outstanding policy loans may affect (typically reduce) the dividend credited to the loaned portion of cash value.' },
+  { term: 'MEC (Modified Endowment Contract)', definition: 'A life insurance policy that has been overfunded beyond IRS limits (7-pay test). MEC policies lose some tax advantages, which is why proper policy design avoids this.' },
+  { term: 'Velocity of Money', definition: 'The concept that money can work in multiple places simultaneously. In IBC, your cash value earns dividends while your loaned capital is deployed elsewhere.' },
+  { term: 'Becoming Your Own Banker (BYOB)', definition: 'The foundational book by R. Nelson Nash (first published 2000) that introduces and explains the Infinite Banking Concept.' },
+  { term: 'Austrian Economics', definition: 'A school of economic thought emphasizing individual action, sound money, and free markets. Provides the philosophical foundation for many IBC principles.' },
+  { term: 'Human Life Value', definition: 'The economic concept that a person\'s earning potential over their lifetime represents their most valuable asset — and the basis for proper life insurance amounts.' },
+];
+---
+
+<Layout title="Glossary" description="Key terms and definitions for understanding the Infinite Banking Concept and whole life insurance.">
+  <section class="py-16 lg:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-16">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+          <span class="text-gold">Glossary</span>
+        </h1>
+        <p class="mt-4 text-xl text-slate-300">
+          Key terms and definitions for understanding IBC and whole life insurance.
+        </p>
+      </div>
+
+      <div class="space-y-6">
+        {terms.map((item) => (
+          <div class="bg-navy/30 border border-navy-light/20 rounded-xl p-6 hover:border-gold/30 transition-all duration-200">
+            <h3 class="text-lg font-bold text-gold mb-2">{item.term}</h3>
+            <p class="text-slate-300 leading-relaxed">{item.definition}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,111 @@
+---
+interface Props {
+  badge: string;
+  headline: string;
+  highlightWord: string;
+  subhead: string;
+  primaryCta: { text: string; href: string };
+  secondaryCta?: { text: string; href: string };
+  accentHex?: string;
+  quote?: string;
+  quoteSource?: string;
+}
+
+const {
+  badge,
+  headline,
+  highlightWord,
+  subhead,
+  primaryCta,
+  secondaryCta,
+  accentHex = '#C9A84C',
+  quote,
+  quoteSource,
+} = Astro.props;
+
+// Parse hex to RGB for rgba() usage
+function hexToRgb(hex: string) {
+  const h = hex.replace('#', '');
+  return `${parseInt(h.substring(0,2),16)}, ${parseInt(h.substring(2,4),16)}, ${parseInt(h.substring(4,6),16)}`;
+}
+
+const rgb = hexToRgb(accentHex);
+---
+
+<section class="relative overflow-hidden min-h-[80vh] flex items-center" style={`--accent: ${accentHex}; --accent-rgb: ${rgb};`}>
+  <!-- Background layers -->
+  <div class="absolute inset-0 bg-gradient-to-br from-navy-900 via-[#0d1b30] to-navy-900"></div>
+  <div class="absolute inset-0" style={`background: radial-gradient(ellipse at top right, rgba(${rgb}, 0.1) 0%, transparent 50%);`}></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(27,54,93,0.3)_0%,_transparent_50%)]"></div>
+
+  <!-- Subtle grid -->
+  <div class="absolute inset-0 opacity-[0.02]" style="background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 60px 60px;"></div>
+
+  <!-- Decorative glow -->
+  <div class="absolute top-20 right-[15%] w-96 h-96 rounded-full blur-[120px] pointer-events-none" style={`background: rgba(${rgb}, 0.06);`}></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 lg:py-32 w-full">
+    <div class="max-w-3xl fade-in-left">
+      <!-- Breadcrumb -->
+      <nav class="mb-8 flex items-center gap-2 text-sm text-slate-500">
+        <a href="/" class="hover:text-white transition-colors">Home</a>
+        <span>/</span>
+        <span class="font-medium" style={`color: ${accentHex};`}>{badge}</span>
+      </nav>
+
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2.5 pl-4 pr-8 py-2 rounded-full border mb-8" style={`background: rgba(${rgb}, 0.1); border-color: rgba(${rgb}, 0.2); color: ${accentHex};`}>
+        <div class="w-2 h-2 rounded-full pulse-subtle" style={`background: ${accentHex};`}></div>
+        <span class="text-sm font-semibold tracking-wide uppercase">{badge}</span>
+      </div>
+
+      <!-- Headline -->
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-white leading-[1.05] tracking-tight">
+        <Fragment set:html={headline.replace(highlightWord, `<span style="color: ${accentHex};">${highlightWord}</span>`)} />
+      </h1>
+
+      <!-- Quote (if provided) -->
+      {quote && (
+        <blockquote class="mt-6 pl-5 border-l-2 border-gold/30">
+          <p class="text-gold/80 text-lg italic font-medium">"{quote}"</p>
+          {quoteSource && <cite class="block text-slate-500 text-sm mt-1 not-italic">— {quoteSource}</cite>}
+        </blockquote>
+      )}
+
+      <!-- Subhead -->
+      <p class="mt-6 text-lg sm:text-xl text-slate-300/90 leading-relaxed max-w-2xl">
+        {subhead}
+      </p>
+
+      <!-- CTAs -->
+      <div class="mt-10 flex flex-col sm:flex-row gap-4">
+        <a
+          href={primaryCta.href}
+          class="inline-flex items-center justify-center px-8 py-4 text-navy-900 font-extrabold text-base rounded-xl transition-all duration-300 shadow-lg hover:-translate-y-0.5 min-h-[48px]"
+          style={`background: linear-gradient(to right, ${accentHex}, ${accentHex}dd); box-shadow: 0 10px 15px -3px rgba(${rgb}, 0.25);`}
+        >
+          {primaryCta.text}
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        {secondaryCta && (
+          <a
+            href={secondaryCta.href}
+            class="inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-white font-semibold text-base rounded-xl transition-all duration-300 bg-white/[0.02] hover:bg-white/[0.04] min-h-[48px] persona-secondary-cta"
+            style={`--hover-color: ${accentHex}; --hover-border: rgba(${rgb}, 0.4);`}
+          >
+            {secondaryCta.text}
+          </a>
+        )}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .persona-secondary-cta:hover {
+    color: var(--hover-color);
+    border-color: var(--hover-border);
+  }
+</style>

@@ -1,0 +1,245 @@
+---
+const accent = '#FF7A18';
+const rgb = '255, 122, 24';
+import Layout from '../../layouts/Layout.astro';
+import PersonaHero from '../../components/PersonaHero.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+
+const curatedContent = [
+  {
+    badge: 'Start Here',
+    title: 'What Is Infinite Banking (Really)?',
+    description: 'You\'ve been taught one way to build wealth. Here\'s the process your financial advisor never mentioned — and probably doesn\'t understand.',
+    readTime: '8 min read',
+    href: '/learn/articles/professional-01-what-is-infinite-banking',
+  },
+  {
+    badge: 'Core',
+    title: 'The Banking Function Explained',
+    description: 'Every financing decision is a banking decision. You\'re already doing it — the question is whether you control the profits or Wall Street does.',
+    readTime: '9 min read',
+    href: '/learn/articles/professional-02-banking-function-explained',
+  },
+  {
+    badge: 'Warning',
+    title: 'The Perils of Ignoring Banking',
+    description: 'What happens when high earners focus solely on investment returns while ignoring the banking function? Case studies in missed opportunity.',
+    readTime: '7 min read',
+    href: '/learn/articles/professional-03-perils-ignoring-banking',
+  },
+  {
+    badge: 'Risk',
+    title: 'Sequence of Returns Risk (The Real Killer)',
+    description: 'You can weather market volatility in accumulation. But in distribution, the order of returns can destroy 30 years of saving. Here\'s the protection.',
+    readTime: '10 min read',
+    href: '/learn/articles/professional-04-sequence-returns-risk',
+  },
+  {
+    badge: 'Challenge',
+    title: 'The BTID Myth (Debunked)',
+    description: 'Buy Term and Invest the Difference — the advice every high earner hears. Let\'s run the math your advisor never shows.',
+    readTime: '12 min read',
+    href: '/learn/articles/professional-05-btid-myth-debunked',
+  },
+  {
+    badge: 'Freedom',
+    title: 'Breaking the Golden Handcuffs',
+    description: 'High income, golden handcuffs, and the fear of losing it all. How IBC creates real optionality for professionals who feel trapped.',
+    readTime: '11 min read',
+    href: '/learn/articles/professional-06-golden-handcuffs',
+  },
+];
+
+const professionalPoints = [
+  {
+    icon: '🔓',
+    title: 'Break Free From 401(k) Dependency',
+    description: 'Your retirement plan was designed to benefit your employer and the fund managers — not you. Qualified plans lock your wealth behind age restrictions, penalties, and someone else\'s rules.',
+  },
+  {
+    icon: '🎯',
+    title: 'Tax-Advantaged Growth You Control',
+    description: 'Cash value grows tax-deferred with no contribution limits, no income phase-outs, and no government rule changes. Access it when you want — not when the IRS says you can.',
+  },
+  {
+    icon: '♾️',
+    title: 'No Income Limits or Contribution Caps',
+    description: 'Roth IRA phase-outs. 401(k) limits. Backdoor conversion complexity. IBC has none of that. Your premium is limited by your insurability — not an arbitrary government cap.',
+  },
+  {
+    icon: '🏛️',
+    title: 'Multi-Generational Wealth Transfer',
+    description: 'Death benefits pass income-tax-free to your heirs. No market risk. No sequence-of-returns risk. The wealth you built doesn\'t get cut in half the moment you\'re gone.',
+  },
+];
+---
+
+<Layout title="The Professional's Path — Make Your Money Work as Hard as You Do" description="High-income professionals: break free from 401k dependency, tax traps, and golden handcuffs. Learn how IBC gives you control over wealth you've already earned.">
+
+  <!-- Hero -->
+  <PersonaHero
+    badge="The Professional's Path"
+    headline="You Earn Well. Does Your Money Work as Hard as You?"
+    highlightWord="as Hard as You?"
+    subhead="You followed the playbook — degrees, credentials, six-figure income. But your wealth is locked in qualified plans you can't touch, managed by advisors who profit whether you do or not. There's a better way to build and control your financial life."
+    primaryCta={{ text: 'Start the Professional Track', href: '#curriculum' }}
+    secondaryCta={{ text: 'Back to Home', href: '/' }}
+    accentHex={accent}
+  />
+
+  <!-- Why the Conventional Playbook Fails Professionals -->
+  <section class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-900 to-navy-dark/50"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span class="text-sm font-semibold tracking-[0.2em] uppercase" style={`color: ${accent};`}>The Problem</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          The Golden Handcuffs <span style={`color: ${accent};`}>Are Real</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          You've accumulated wealth on paper. But try to access it before 59½ and you'll learn who really controls your money. Spoiler: it's not you.
+        </p>
+      </div>
+
+      <!-- The Problem / The Solution -->
+      <div class="grid lg:grid-cols-2 gap-8 mb-16">
+        <div class="glass-card rounded-2xl p-6 lg:p-8 border-rose-500/20 fade-in-left">
+          <h3 class="text-xl font-bold text-rose-400 mb-4 flex items-center gap-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            The Conventional Playbook
+          </h3>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Max out your 401(k) — then can't touch it for decades without penalties</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Earn too much for a Roth IRA — so you're stuck with tax-deferred-only options</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Pay a financial advisor 1% annually whether the market is up or down</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Retire into a "lower tax bracket" — which means retire poorer than you are now</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Unvested compensation and deferred bonuses keep you chained to a job you've outgrown</li>
+          </ul>
+        </div>
+        <div class="glass-card rounded-2xl p-6 lg:p-8 fade-in-right" style={`border-color: rgba(${rgb}, 0.2);`}>
+          <h3 class="text-xl font-bold mb-4 flex items-center gap-2" style={`color: ${accent};`}>
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            The IBC Way
+          </h3>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Build capital you can access at any age — no penalties, no permission</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> No income limits, no contribution caps, no government rule changes to fear</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Your cash value grows regardless of what the stock market does tomorrow</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Policy loans fund career transitions, opportunities, or early freedom — on your timeline</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Death benefit passes tax-free to your family — wealth that survives you intact</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Professional points -->
+      <div class="grid sm:grid-cols-2 gap-6 lg:gap-8 stagger-children">
+        {professionalPoints.map((item) => (
+          <div class="glass-card rounded-2xl p-6 lg:p-8">
+            <span class="text-3xl mb-4 block">{item.icon}</span>
+            <h3 class="text-xl font-bold text-white mb-2">{item.title}</h3>
+            <p class="text-slate-400 leading-relaxed">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Nelson Nash Quote -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0 bg-navy-dark/30"></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <div class="glass-surface rounded-2xl p-8 lg:p-12">
+        <svg class="w-10 h-10 mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24" style={`color: rgba(${rgb}, 0.4);`}>
+          <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+        </svg>
+        <blockquote class="text-xl lg:text-2xl text-white font-medium leading-relaxed italic">
+          "If you know what's happening, you'll know what to do."
+        </blockquote>
+        <cite class="block mt-4 font-semibold not-italic" style={`color: ${accent};`}>— Nelson Nash</cite>
+        <p class="text-slate-500 text-sm mt-1">Creator of the Infinite Banking Concept</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Content Track -->
+  <section id="curriculum" class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/30 to-navy-900"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span class="text-sm font-semibold tracking-[0.2em] uppercase" style={`color: ${accent};`}>Your Curriculum</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          The Professional <span style={`color: ${accent};`}>Track</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          You didn't get where you are by accepting the first answer. Apply that same rigor here. Study the concept. Challenge it. Then decide.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
+        {curatedContent.map((item, index) => (
+          <a href={item.href} class="group glass-card hover-accent-card rounded-2xl p-6 block" style={`--hover-color: ${accent};`}>
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>{index + 1}</span>
+              <span class="text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider" style={`color: ${accent}; background: rgba(${rgb}, 0.1);`}>{item.badge}</span>
+            </div>
+            <h3 class="text-lg font-bold text-white transition-colors duration-300 mb-2 leading-snug">
+              {item.title}
+            </h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">{item.description}</p>
+            <div class="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+              <span class="text-slate-500 text-xs font-medium">{item.readTime}</span>
+              <svg class="w-5 h-5 text-slate-600 group-hover:translate-x-1 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" style={`--hover-color: ${accent};`}>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0" style={`background: linear-gradient(to bottom right, rgba(${rgb}, 0.1), rgb(10, 22, 40));`}></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+        Ready to Take Back <span style={`color: ${accent};`}>Control</span>?
+      </h2>
+      <p class="mt-4 text-lg text-slate-400">
+        Start with the free course. See what the financial planning industry never showed you. Then decide if owning the banking function is worth your time.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/learn/start-here"
+          class="inline-flex items-center justify-center px-8 py-4 text-navy-900 font-extrabold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 min-h-[48px]"
+          style={`background: linear-gradient(to right, ${accent}, ${accent}dd); box-shadow: 0 10px 15px -3px rgba(${rgb}, 0.25);`}
+        >
+          Start Learning — It's Free
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/"
+          class="path-secondary-cta inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-white font-semibold text-base rounded-xl transition-all duration-300 min-h-[48px]"
+          style={`--hover-color: ${accent}; --hover-border: rgba(${rgb}, 0.4);`}
+        >
+          Explore Other Paths
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <EmailCapture />
+</Layout>
+
+<style>
+  .path-secondary-cta:hover {
+    color: var(--hover-color);
+    border-color: var(--hover-border);
+  }
+  .hover-accent-card h3 { transition: color 0.3s; }
+  .hover-accent-card:hover h3 { color: var(--hover-color) !important; }
+  .hover-accent-card:hover svg { color: var(--hover-color) !important; }
+</style>

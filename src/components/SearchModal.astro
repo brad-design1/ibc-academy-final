@@ -1,0 +1,207 @@
+---
+// SearchModal — Pagefind-powered global search overlay
+// Triggered by #search-trigger (desktop) or #mobile-search-trigger (mobile) in Header
+// Rendered once in Layout.astro so it's available on every page
+---
+
+<!-- Search modal overlay -->
+<div
+  id="search-modal"
+  class="fixed inset-0 z-[100] hidden"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Search"
+>
+  <!-- Backdrop -->
+  <div id="search-backdrop" class="absolute inset-0 bg-navy-900/80 backdrop-blur-sm"></div>
+
+  <!-- Modal content -->
+  <div class="relative flex flex-col items-center pt-[12vh] sm:pt-[15vh] px-4">
+    <div class="w-full max-w-2xl bg-navy-900 border border-white/[0.1] rounded-2xl shadow-2xl shadow-black/50 overflow-hidden">
+      <!-- Search input -->
+      <div class="flex items-center gap-3 px-5 py-4 border-b border-white/[0.08]">
+        <svg class="w-5 h-5 text-slate-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Search articles, topics, glossary..."
+          class="flex-1 bg-transparent text-white text-lg placeholder:text-slate-500 outline-none"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        />
+        <kbd class="hidden sm:inline-flex items-center px-2 py-1 rounded bg-white/[0.06] border border-white/[0.08] text-xs text-slate-500 font-mono">
+          ESC
+        </kbd>
+      </div>
+
+      <!-- Results container -->
+      <div id="search-results" class="max-h-[50vh] overflow-y-auto">
+        <!-- Empty state -->
+        <div id="search-empty" class="px-5 py-12 text-center">
+          <p class="text-slate-500 text-sm">Start typing to search across all content</p>
+        </div>
+        <!-- Results will be injected here -->
+        <div id="search-hits" class="hidden"></div>
+        <!-- No results state -->
+        <div id="search-no-results" class="hidden px-5 py-12 text-center">
+          <p class="text-slate-400 text-sm font-medium">No results found</p>
+          <p class="text-slate-500 text-xs mt-1">Try different keywords</p>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="px-5 py-3 border-t border-white/[0.06] flex items-center justify-between">
+        <div class="flex items-center gap-3 text-[11px] text-slate-600">
+          <span class="flex items-center gap-1"><kbd class="px-1 py-0.5 rounded bg-white/[0.04] border border-white/[0.06] font-mono">↑↓</kbd> Navigate</span>
+          <span class="flex items-center gap-1"><kbd class="px-1 py-0.5 rounded bg-white/[0.04] border border-white/[0.06] font-mono">↵</kbd> Open</span>
+          <span class="flex items-center gap-1"><kbd class="px-1 py-0.5 rounded bg-white/[0.04] border border-white/[0.06] font-mono">esc</kbd> Close</span>
+        </div>
+        <span class="text-[10px] text-slate-600">Powered by Pagefind</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById('search-modal');
+  const backdrop = document.getElementById('search-backdrop');
+  const input = document.getElementById('search-input') as HTMLInputElement;
+  const resultsContainer = document.getElementById('search-hits');
+  const emptyState = document.getElementById('search-empty');
+  const noResults = document.getElementById('search-no-results');
+
+  let pagefind: any = null;
+  let selectedIndex = -1;
+
+  async function loadPagefind() {
+    if (pagefind) return;
+    try {
+      pagefind = await import(/* @vite-ignore */ `${window.location.origin}/pagefind/pagefind.js`);
+      await pagefind.init();
+    } catch (e) {
+      console.warn('Pagefind not available:', e);
+    }
+  }
+
+  function openSearch() {
+    modal?.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    loadPagefind();
+    setTimeout(() => input?.focus(), 50);
+  }
+
+  function closeSearch() {
+    modal?.classList.add('hidden');
+    document.body.style.overflow = '';
+    if (input) input.value = '';
+    if (resultsContainer) resultsContainer.innerHTML = '';
+    resultsContainer?.classList.add('hidden');
+    emptyState?.classList.remove('hidden');
+    noResults?.classList.add('hidden');
+    selectedIndex = -1;
+  }
+
+  // Desktop trigger
+  document.getElementById('search-trigger')?.addEventListener('click', openSearch);
+  // Mobile trigger
+  document.getElementById('mobile-search-trigger')?.addEventListener('click', openSearch);
+
+  // Backdrop click closes
+  backdrop?.addEventListener('click', closeSearch);
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      modal?.classList.contains('hidden') ? openSearch() : closeSearch();
+    }
+    if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
+      closeSearch();
+    }
+
+    // Arrow navigation in results
+    if (!modal?.classList.contains('hidden')) {
+      const items = resultsContainer?.querySelectorAll('.search-result-item') || [];
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        selectedIndex = Math.min(selectedIndex + 1, items.length - 1);
+        updateSelection(items);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        selectedIndex = Math.max(selectedIndex - 1, 0);
+        updateSelection(items);
+      } else if (e.key === 'Enter' && selectedIndex >= 0 && items[selectedIndex]) {
+        e.preventDefault();
+        const link = (items[selectedIndex] as HTMLElement).querySelector('a') as HTMLAnchorElement;
+        if (link) window.location.href = link.href;
+      }
+    }
+  });
+
+  function updateSelection(items: NodeListOf<Element>) {
+    items.forEach((item, i) => {
+      if (i === selectedIndex) {
+        item.classList.add('bg-gold/[0.08]', 'border-gold/20');
+        item.classList.remove('border-transparent');
+        item.scrollIntoView({ block: 'nearest' });
+      } else {
+        item.classList.remove('bg-gold/[0.08]', 'border-gold/20');
+        item.classList.add('border-transparent');
+      }
+    });
+  }
+
+  // Search input with debounce
+  let debounceTimer: ReturnType<typeof setTimeout>;
+  input?.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(async () => {
+      const query = input.value.trim();
+      if (!query) {
+        resultsContainer?.classList.add('hidden');
+        emptyState?.classList.remove('hidden');
+        noResults?.classList.add('hidden');
+        if (resultsContainer) resultsContainer.innerHTML = '';
+        selectedIndex = -1;
+        return;
+      }
+
+      if (!pagefind) {
+        await loadPagefind();
+        if (!pagefind) return;
+      }
+
+      const search = await pagefind.search(query);
+      const results = await Promise.all(
+        search.results.slice(0, 8).map((r: any) => r.data())
+      );
+
+      emptyState?.classList.add('hidden');
+      selectedIndex = -1;
+
+      if (results.length === 0) {
+        resultsContainer?.classList.add('hidden');
+        noResults?.classList.remove('hidden');
+        return;
+      }
+
+      noResults?.classList.add('hidden');
+      resultsContainer?.classList.remove('hidden');
+
+      if (resultsContainer) {
+        resultsContainer.innerHTML = results.map((result: any) => `
+          <div class="search-result-item border-l-2 border-transparent transition-all duration-150">
+            <a href="${result.url}" class="flex flex-col gap-1 px-5 py-3.5 hover:bg-white/[0.03] transition-colors">
+              <span class="text-white font-semibold text-sm">${result.meta?.title || 'Untitled'}</span>
+              <span class="text-slate-400 text-xs leading-relaxed line-clamp-2">${result.excerpt || ''}</span>
+            </a>
+          </div>
+        `).join('');
+      }
+    }, 200);
+  });
+</script>

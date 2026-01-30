@@ -1,0 +1,87 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const videos = [
+  {
+    title: 'IBC Explained: The Infinite Banking Concept in 10 Minutes',
+    description: 'A concise overview of what IBC is, how it works, and why it matters.',
+    embedId: 'dQw4w9WgXcQ', // Placeholder - replace with actual video ID
+    category: 'Introduction',
+  },
+  {
+    title: 'The Banking Function: Why You Need Your Own Bank',
+    description: 'Understanding the banking function and why recapturing it changes everything.',
+    embedId: 'dQw4w9WgXcQ', // Placeholder
+    category: 'Fundamentals',
+  },
+  {
+    title: 'How Policy Loans Actually Work',
+    description: 'A visual walkthrough of the policy loan process and uninterrupted compounding.',
+    embedId: 'dQw4w9WgXcQ', // Placeholder
+    category: 'Mechanics',
+  },
+];
+---
+
+<Layout title="Watch" description="Video breakdowns and visual walkthroughs of IBC concepts.">
+  <section class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-16">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+          <span class="text-gold">Watch</span> & Learn
+        </h1>
+        <p class="mt-4 text-xl text-slate-300">
+          Visual breakdowns and walkthroughs of IBC concepts. Sometimes seeing it makes all the difference.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8">
+        {videos.map((video) => (
+          <div class="bg-navy/30 border border-navy-light/20 rounded-2xl overflow-hidden">
+            <div class="aspect-video bg-navy-dark flex items-center justify-center">
+              <div class="text-center p-8">
+                <svg class="w-16 h-16 text-gold/40 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+                <p class="text-slate-500 text-sm">Video coming soon</p>
+              </div>
+              <!-- Uncomment when you have real video IDs:
+              <iframe
+                src={`https://www.youtube.com/embed/${video.embedId}`}
+                title={video.title}
+                class="w-full h-full"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              -->
+            </div>
+            <div class="p-6">
+              <span class="inline-block text-xs font-medium text-gold bg-gold/10 px-2.5 py-1 rounded-md mb-3">{video.category}</span>
+              <h2 class="text-lg font-bold text-white mb-2">{video.title}</h2>
+              <p class="text-slate-400 text-sm">{video.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- YouTube Channel CTA -->
+      <div class="mt-12 bg-navy/30 border border-navy-light/20 rounded-2xl p-8 text-center">
+        <h3 class="text-xl font-bold text-white mb-2">Subscribe on YouTube</h3>
+        <p class="text-slate-400 mb-4">Get notified when new videos are published.</p>
+        <a
+          href="https://youtube.com/@ibcacademy"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center px-6 py-3 bg-red-600 text-white font-semibold rounded-xl hover:bg-red-700 transition-colors"
+        >
+          <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z" />
+            <path fill="white" d="M9.545 15.568V8.432L15.818 12z" />
+          </svg>
+          Subscribe
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

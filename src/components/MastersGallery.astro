@@ -1,0 +1,155 @@
+---
+const masters = [
+  {
+    name: 'Nelson Nash',
+    title: 'Creator of the Infinite Banking Concept',
+    img: '/images/masters/nelson-nash.jpg',
+    years: '1931–2019',
+    featured: true,
+  },
+  {
+    name: 'Robert Murphy',
+    title: 'Economist & IBC Educator',
+    img: '/images/masters/robert-murphy.jpg',
+    years: '',
+    featured: false,
+  },
+  {
+    name: 'Carlos Lara',
+    title: 'Author & IBC Strategist',
+    img: '/images/masters/carlos-lara.jpg',
+    years: '',
+    featured: false,
+  },
+  {
+    name: 'Leonard Read',
+    title: 'Founder of FEE',
+    img: '/images/masters/leonard-read.jpg',
+    years: '1898–1983',
+    featured: false,
+  },
+  {
+    name: 'Ludwig von Mises',
+    title: 'Austrian Economics Pioneer',
+    img: '/images/masters/ludwig-von-mises.jpg',
+    years: '1881–1973',
+    featured: false,
+  },
+  {
+    name: 'Murray Rothbard',
+    title: 'Economist & Libertarian Theorist',
+    img: '/images/masters/murray-rothbard.jpg',
+    years: '1926–1995',
+    featured: false,
+  },
+  {
+    name: 'Frédéric Bastiat',
+    title: 'French Economist & Author of "The Law"',
+    img: '/images/masters/frederic-bastiat.jpg',
+    years: '1801–1850',
+    featured: false,
+  },
+  {
+    name: 'Henry Hazlitt',
+    title: 'Author of "Economics in One Lesson"',
+    img: '/images/masters/henry-hazlitt.jpg',
+    years: '1894–1993',
+    featured: false,
+  },
+  {
+    name: 'Carl Menger',
+    title: 'Founder of the Austrian School',
+    img: '/images/masters/carl-menger.jpg',
+    years: '1840–1921',
+    featured: false,
+  },
+];
+---
+
+<section class="py-20 lg:py-28 relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-b from-navy-900 to-navy-dark/80"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+      <span class="text-gold text-sm font-semibold tracking-[0.2em] uppercase">Standing on the Shoulders of Giants</span>
+      <h2 class="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
+        Learn From the <span class="text-gold">Masters</span>
+      </h2>
+      <p class="mt-4 text-lg text-slate-400">
+        The ideas behind IBC span centuries of economic thought. These are the voices that shaped it.
+      </p>
+    </div>
+
+    <!-- Desktop: Grid layout -->
+    <div class="hidden lg:grid lg:grid-cols-3 gap-6 stagger-children">
+      {masters.map((master) => (
+        <div class:list={[
+          'group relative rounded-2xl border border-white/[0.08] overflow-hidden transition-all duration-500 hover:border-gold/30',
+          master.featured ? 'lg:row-span-1' : '',
+        ]}>
+          {/* Portrait with actual photo */}
+          <div class="relative aspect-[3/4] overflow-hidden portrait-desaturated">
+            <img
+              src={master.img}
+              alt={master.name}
+              class="w-full h-full object-cover object-center"
+              loading="lazy"
+            />
+
+            {/* Overlay on hover */}
+            <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/40 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500"></div>
+
+            {/* Info overlay */}
+            <div class="absolute bottom-0 left-0 right-0 p-6">
+              <h3 class:list={[
+                'font-bold text-gold',
+                master.featured ? 'text-2xl' : 'text-xl',
+              ]}>
+                {master.name}
+              </h3>
+              <p class="text-white/80 text-sm mt-1">{master.title}</p>
+              {master.years && (
+                <p class="text-slate-400 text-xs mt-1">{master.years}</p>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Mobile: Horizontal scroll -->
+    <div class="lg:hidden">
+      <div class="flex gap-4 overflow-x-auto horizontal-scroll pb-4 -mx-4 px-4 snap-x snap-mandatory">
+        {masters.map((master) => (
+          <div class="flex-shrink-0 w-64 snap-start">
+            <div class="group relative rounded-2xl border border-white/[0.08] overflow-hidden">
+              <div class="relative aspect-[3/4] overflow-hidden">
+                <img
+                  src={master.img}
+                  alt={master.name}
+                  class="w-full h-full object-cover object-center grayscale brightness-75"
+                  loading="lazy"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/40 to-transparent opacity-70"></div>
+                <div class="absolute bottom-0 left-0 right-0 p-5">
+                  <h3 class="text-lg font-bold text-gold">{master.name}</h3>
+                  <p class="text-white/80 text-xs mt-1">{master.title}</p>
+                  {master.years && (
+                    <p class="text-slate-400 text-xs mt-0.5">{master.years}</p>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      <!-- Scroll hint -->
+      <div class="flex justify-center mt-4 gap-1.5">
+        {masters.map((_, i) => (
+          <div class:list={['w-1.5 h-1.5 rounded-full', i === 0 ? 'bg-gold' : 'bg-slate-600']}></div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

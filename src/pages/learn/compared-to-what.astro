@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const comparisons = [
+  {
+    title: 'IBC vs. 401(k)',
+    description: "Why comparing your banking system to a retirement account misses the point — and what you should actually compare.",
+    status: 'Coming Soon',
+  },
+  {
+    title: 'IBC vs. Real Estate Investing',
+    description: "They're not competitors — they're complementary. Here's how IBC can finance your real estate portfolio.",
+    status: 'Coming Soon',
+  },
+  {
+    title: 'IBC vs. Buy Term & Invest the Difference',
+    description: "Dave Ramsey's favorite strategy. Let's examine what it actually means — and what it costs.",
+    status: 'Coming Soon',
+  },
+  {
+    title: 'IBC vs. IUL (Indexed Universal Life)',
+    description: "Why IBC specifically requires whole life, not indexed universal life. The differences are fundamental.",
+    status: 'Coming Soon',
+  },
+  {
+    title: 'IBC vs. Savings Account',
+    description: "What if you just kept your money in a high-yield savings account instead? Let's compare the full picture.",
+    status: 'Coming Soon',
+  },
+  {
+    title: 'IBC vs. Doing Nothing',
+    description: "The most important comparison of all. What's the cost of leaving the banking function to someone else?",
+    status: 'Coming Soon',
+  },
+];
+---
+
+<Layout title="Compared to What?" description="Nelson Nash's most important question: Compared to what? See how IBC compares to conventional financial strategies.">
+  <section class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-16">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+          Compared to <span class="text-gold">What?</span>
+        </h1>
+        <p class="mt-4 text-xl text-slate-300">
+          "Compared to what?" is the most important question in economics. You can't evaluate IBC in a vacuum — you have to compare it to the alternative.
+        </p>
+        <blockquote class="mt-6 pl-4 border-l-2 border-gold/40 text-slate-400 italic">
+          "Everything in life is a comparison. The question is never 'Is this good?' — it's 'Compared to what?'"
+          <span class="block mt-1 text-gold text-sm not-italic">— Nelson Nash</span>
+        </blockquote>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        {comparisons.map((comp) => (
+          <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-8 hover:border-gold/30 transition-all duration-300">
+            <div class="flex items-center justify-between mb-3">
+              <h2 class="text-xl font-bold text-white">{comp.title}</h2>
+              <span class="text-xs text-slate-500 font-medium shrink-0 ml-4">{comp.status}</span>
+            </div>
+            <p class="text-slate-400 leading-relaxed">{comp.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

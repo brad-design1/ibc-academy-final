@@ -1,0 +1,165 @@
+---
+const categories = [
+  { id: 'trending', icon: '🔥', label: 'Trending' },
+  { id: 'fundamentals', icon: '📖', label: 'Fundamentals' },
+  { id: 'how-it-works', icon: '⚙️', label: 'How It Works' },
+  { id: 'compared', icon: '🆚', label: 'Compared to What?' },
+  { id: 'business', icon: '💼', label: 'Business Cases' },
+  { id: 'family', icon: '👨‍👩‍👧‍👦', label: 'Family Banking' },
+  { id: 'austrian', icon: '📉', label: 'Austrian Economics' },
+];
+
+const contentItems = [
+  // Trending
+  { category: 'trending', badge: 'Trending', title: 'What Is the Infinite Banking Concept?', description: 'The definitive introduction to Nelson Nash\'s revolutionary idea. No jargon, just clarity.', readTime: '8 min read', href: '/learn/articles/what-is-ibc' },
+  { category: 'trending', badge: 'Popular', title: 'IBC vs. 401(k): The Real Comparison', description: 'Stop comparing apples to oranges. Learn the right framework for evaluating IBC.', readTime: '12 min read', href: '/learn/compared-to-what' },
+  { category: 'trending', badge: 'New', title: 'The Family Banking System Explained', description: 'How one policy can become a multi-generational financial engine.', readTime: '10 min read', href: '/learn/articles/who-should-consider-ibc' },
+
+  // Fundamentals
+  { category: 'fundamentals', badge: 'Start Here', title: 'The Banking Function: What Nash Really Meant', description: 'The most misunderstood concept in IBC. It\'s not about a product — it\'s about a process.', readTime: '7 min read', href: '/learn/articles/the-banking-function' },
+  { category: 'fundamentals', badge: 'Core', title: 'Why Whole Life Insurance? The Vehicle Explained', description: 'Understanding why dividend-paying whole life is the only vehicle for IBC.', readTime: '9 min read', href: '/learn/articles/why-whole-life' },
+  { category: 'fundamentals', badge: 'Core', title: 'Banking vs. Investing: Know the Difference', description: 'The fundamental distinction most financial educators miss entirely.', readTime: '6 min read', href: '/learn/articles/banking-vs-investing' },
+
+  // How It Works
+  { category: 'how-it-works', badge: 'Mechanics', title: 'Policy Loans: How They Actually Work', description: 'Borrow against your policy while it continues earning dividends. Here\'s the mechanics.', readTime: '11 min read', href: '/learn/articles/how-policy-loans-work' },
+  { category: 'how-it-works', badge: 'Mechanics', title: 'The MEC Line: What You Need to Know', description: 'Modified Endowment Contracts explained. Why overfunding too fast can change everything.', readTime: '8 min read', href: '/learn/articles/paid-up-additions' },
+  { category: 'how-it-works', badge: 'Mechanics', title: 'Dividends, Guaranteed Values & the General Account', description: 'How mutual insurance companies work and why it matters for your banking system.', readTime: '10 min read', href: '/learn/articles/dividends-explained' },
+
+  // Compared to What?
+  { category: 'compared', badge: 'Comparison', title: 'IBC vs. Dave Ramsey\'s Advice', description: 'A respectful but thorough examination of why Dave gets this one wrong.', readTime: '14 min read', href: '/learn/compared-to-what' },
+  { category: 'compared', badge: 'Comparison', title: 'Whole Life vs. IUL: Setting the Record Straight', description: 'Indexed Universal Life is not IBC. Here\'s why the vehicle matters.', readTime: '11 min read', href: '/learn/articles/whole-life-vs-term' },
+  { category: 'compared', badge: 'Analysis', title: 'Buy Term and Invest the Difference?', description: 'The most common objection to IBC, thoroughly dismantled with math.', readTime: '13 min read', href: '/learn/articles/dave-ramsey-btid-myth' },
+
+  // Business Cases
+  { category: 'business', badge: 'Case Study', title: 'Real Estate: Financing Deals From Your Policy', description: 'How investors use IBC to become their own private lender on every acquisition.', readTime: '12 min read', href: '/learn/case-studies' },
+  { category: 'business', badge: 'Case Study', title: 'The Chiropractor Who Became His Own Bank', description: 'A real-world case study of a business owner implementing IBC over 5 years.', readTime: '9 min read', href: '/learn/case-studies' },
+  { category: 'business', badge: 'Strategy', title: 'Business IBC: Equipment, Payroll, and Cash Flow', description: 'Using the banking function for every major business expenditure.', readTime: '10 min read', href: '/learn/case-studies' },
+
+  // Family Banking
+  { category: 'family', badge: 'Legacy', title: 'Proverbs 13:22 — A Good Man Leaves an Inheritance', description: 'The biblical principle behind generational wealth and how IBC makes it practical.', readTime: '7 min read', href: '/learn/articles/who-should-consider-ibc' },
+  { category: 'family', badge: 'Strategy', title: 'Insuring Your Children: Starting Early', description: 'Why starting policies on children creates the most powerful banking systems.', readTime: '8 min read', href: '/learn/articles/who-should-consider-ibc' },
+  { category: 'family', badge: 'Planning', title: 'The Multi-Generational Family Bank', description: 'How families create perpetual wealth through interconnected policies.', readTime: '11 min read', href: '/learn/case-studies' },
+
+  // Austrian Economics
+  { category: 'austrian', badge: 'Theory', title: 'Austrian Economics 101: Why It Matters for IBC', description: 'The economic framework that underpins everything Nelson Nash taught.', readTime: '9 min read', href: '/learn/articles/nelson-nash-byob' },
+  { category: 'austrian', badge: 'Theory', title: 'The Broken Window Fallacy & Your Money', description: 'How Bastiat\'s 170-year-old insight reveals what banks don\'t want you to see.', readTime: '6 min read', href: '/learn/articles/banking-vs-investing' },
+  { category: 'austrian', badge: 'Deep Dive', title: 'Sound Money, Time Preference & IBC', description: 'The connection between low time preference, savings, and the banking function.', readTime: '12 min read', href: '/learn/articles/the-banking-function' },
+];
+---
+
+<section class="py-20 lg:py-28 relative">
+  <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/50 to-navy-900"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="text-center max-w-2xl mx-auto mb-12 fade-in-up">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
+        Explore the <span class="text-gold">Curriculum</span>
+      </h2>
+      <p class="mt-4 text-lg text-slate-400">
+        50+ free lessons organized by topic. Start anywhere — go deep on what matters to you.
+      </p>
+    </div>
+
+    <!-- Category tabs -->
+    <div class="mb-10 fade-in-up">
+      <div class="flex overflow-x-auto horizontal-scroll gap-2 pb-2 -mx-4 px-4 lg:mx-0 lg:px-0 lg:flex-wrap lg:justify-center" id="content-tabs">
+        {categories.map((cat, i) => (
+          <button
+            data-category={cat.id}
+            class:list={[
+              'content-tab flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold whitespace-nowrap transition-all duration-300 min-h-[44px] border',
+              i === 0
+                ? 'bg-gold/[0.12] text-gold border-gold/30'
+                : 'bg-white/[0.03] text-slate-400 border-white/[0.06] hover:bg-white/[0.06] hover:text-white hover:border-white/[0.12]',
+            ]}
+          >
+            <span>{cat.icon}</span>
+            <span>{cat.label}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <!-- Content cards grid -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" id="content-grid">
+      {contentItems.map((item) => (
+        <a
+          href={item.href}
+          data-category={item.category}
+          class:list={[
+            'content-card group glass-card rounded-2xl p-6 block',
+            item.category !== 'trending' ? 'hidden' : '',
+          ]}
+        >
+          {/* Badge */}
+          <span class="inline-block text-xs font-bold text-gold bg-gold/[0.1] px-2.5 py-1 rounded-md mb-4 uppercase tracking-wider">
+            {item.badge}
+          </span>
+
+          {/* Title */}
+          <h3 class="text-lg font-bold text-white group-hover:text-gold transition-colors duration-300 mb-2 leading-snug">
+            {item.title}
+          </h3>
+
+          {/* Description */}
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            {item.description}
+          </p>
+
+          {/* Footer */}
+          <div class="flex items-center justify-between mt-auto pt-4 border-t border-white/[0.06]">
+            <span class="text-slate-500 text-xs font-medium">{item.readTime}</span>
+            <svg class="w-5 h-5 text-slate-600 group-hover:text-gold group-hover:translate-x-1 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- View all link -->
+    <div class="text-center mt-12 fade-in-up">
+      <a href="/learn" class="inline-flex items-center gap-2 text-gold font-semibold hover:text-gold-light transition-colors group">
+        <span>View all lessons</span>
+        <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.content-tab');
+    const cards = document.querySelectorAll('.content-card');
+
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const category = tab.getAttribute('data-category');
+
+        // Update tab styles
+        tabs.forEach((t) => {
+          t.classList.remove('bg-gold/[0.12]', 'text-gold', 'border-gold/30');
+          t.classList.add('bg-white/[0.03]', 'text-slate-400', 'border-white/[0.06]');
+        });
+        tab.classList.remove('bg-white/[0.03]', 'text-slate-400', 'border-white/[0.06]');
+        tab.classList.add('bg-gold/[0.12]', 'text-gold', 'border-gold/30');
+
+        // Filter cards with animation
+        cards.forEach((card) => {
+          const cardCategory = card.getAttribute('data-category');
+          if (cardCategory === category) {
+            card.classList.remove('hidden');
+            // Trigger reflow for animation
+            (card as HTMLElement).offsetHeight;
+            card.classList.remove('opacity-0');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+  });
+</script>

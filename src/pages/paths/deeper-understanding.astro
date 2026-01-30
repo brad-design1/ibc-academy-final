@@ -1,0 +1,215 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PersonaHero from '../../components/PersonaHero.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+
+const accent = '#7A2CFF';
+const rgb = '122, 44, 255';
+
+const curatedContent = [
+  {
+    badge: 'Foundation',
+    title: 'Nash: Heir to Menger',
+    description: 'Nelson Nash didn\'t invent IBC in isolation. He built upon 150 years of Austrian economic thought, starting with Carl Menger\'s insights into capital and interest.',
+    readTime: '12 min read',
+    href: '/learn/articles/deeper-01-heir-to-menger',
+  },
+  {
+    badge: 'Philosophy',
+    title: 'The Five Human Problems',
+    description: 'Nash identified five fundamental problems every human faces. IBC doesn\'t solve them — it gives you the financial flexibility to solve them yourself.',
+    readTime: '10 min read',
+    href: '/learn/articles/deeper-02-five-human-problems',
+  },
+  {
+    badge: 'Mechanics',
+    title: 'Policy Mechanics Deep Dive',
+    description: 'Beyond the surface. How cash value really accumulates, what drives dividends, and why the early years look different from years 20+.',
+    readTime: '13 min read',
+    href: '/learn/articles/deeper-03-policy-mechanics',
+  },
+  {
+    badge: 'Advanced',
+    title: 'Policy Loans: The Complete Picture',
+    description: 'You\'re not borrowing your own money. You\'re borrowing the insurance company\'s money against your policy. Here\'s why that distinction matters.',
+    readTime: '11 min read',
+    href: '/learn/articles/deeper-04-policy-loans',
+  },
+  {
+    badge: 'Mastery',
+    title: 'Myths, Objections, and Responses',
+    description: 'Every objection you\'ll encounter, why each contains a grain of truth, and how to respond with intellectual honesty.',
+    readTime: '15 min read',
+    href: '/learn/articles/deeper-05-myths-objections',
+  },
+  {
+    badge: 'Clarity',
+    title: 'The Lightbulb Moment',
+    description: 'When the pieces finally click together. The moment you stop thinking about IBC as a product and start seeing it as a financial worldview.',
+    readTime: '9 min read',
+    href: '/learn/articles/deeper-06-lightbulb-moment',
+  },
+];
+
+const deepTopics = [
+  {
+    icon: '⚙️',
+    title: 'Policy Design Matters',
+    description: 'Not all whole life policies are created equal. The ratio of base premium to PUA rider, the company selection, and the design philosophy all determine outcomes.',
+  },
+  {
+    icon: '📐',
+    title: 'The Mathematics of Banking',
+    description: 'Compound interest working for you instead of against you. Understand the volume of dollars flowing through your system — not just the rate of return.',
+  },
+  {
+    icon: '🧠',
+    title: 'Austrian Economics Foundation',
+    description: 'IBC isn\'t just a financial strategy — it\'s built on sound economic theory. Time preference, subjective value, and sound money principles all apply.',
+  },
+  {
+    icon: '🔄',
+    title: 'The Velocity of Money',
+    description: 'Capital that moves through your system multiple times per year creates more value than capital sitting idle. Velocity trumps volume.',
+  },
+];
+---
+
+<Layout title="The Deep Thinker's Path — Advanced IBC Education" description="You know the basics of IBC. Now go deeper. Advanced concepts, policy design, Austrian economics, and multi-generational strategies.">
+
+  <!-- Hero -->
+  <PersonaHero
+    badge="The Deep Thinker's Path"
+    headline="You Know the Basics. Now Master the System."
+    highlightWord="Master the System."
+    subhead="You understand the concept. You've read the intro material. Now it's time to go deeper — into policy design, the economics behind IBC, and the advanced strategies that separate practitioners from students."
+    primaryCta={{ text: 'Go Deeper', href: '#curriculum' }}
+    secondaryCta={{ text: 'Back to Home', href: '/' }}
+    accentHex={accent}
+  />
+
+  <!-- Advanced Topics -->
+  <section class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-900 to-navy-dark/50"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">Advanced Concepts</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          The Details That <span style={`color: ${accent};`}>Change Everything</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          The difference between knowing about IBC and truly understanding it lives in these details.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-6 lg:gap-8 stagger-children">
+        {deepTopics.map((item) => (
+          <div class="glass-card rounded-2xl p-6 lg:p-8">
+            <span class="text-3xl mb-4 block">{item.icon}</span>
+            <h3 class="text-xl font-bold text-white mb-2">{item.title}</h3>
+            <p class="text-slate-400 leading-relaxed">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Nelson Nash Quote -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0 bg-navy-dark/30"></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <div class="glass-surface rounded-2xl p-8 lg:p-12">
+        <svg class="w-10 h-10 mx-auto mb-6" style={`color: rgba(${rgb}, 0.4);`} fill="currentColor" viewBox="0 0 24 24">
+          <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+        </svg>
+        <blockquote class="text-xl lg:text-2xl text-white font-medium leading-relaxed italic">
+          "It's not about the rate of return. It's about the volume of dollars flowing through your banking system."
+        </blockquote>
+        <cite class="block mt-4 font-semibold not-italic" style={`color: ${accent};`}>— Nelson Nash</cite>
+        <p class="text-slate-500 text-sm mt-1">Creator of the Infinite Banking Concept</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Content Track -->
+  <section id="curriculum" class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/30 to-navy-900"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">Your Curriculum</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          The Advanced <span style={`color: ${accent};`}>Track</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          For those who already know the basics. These articles take you deeper into the mechanics and philosophy.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
+        {curatedContent.map((item, index) => (
+          <a href={item.href} class="group glass-card rounded-2xl p-6 block hover-accent-card">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>{index + 1}</span>
+              <span class="text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider" style={`color: ${accent}; background: rgba(${rgb}, 0.1);`}>{item.badge}</span>
+            </div>
+            <h3 class="text-lg font-bold text-white transition-colors duration-300 mb-2 leading-snug" style={`--hover-color: ${accent};`}>
+              {item.title}
+            </h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">{item.description}</p>
+            <div class="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+              <span class="text-slate-500 text-xs font-medium">{item.readTime}</span>
+              <svg class="w-5 h-5 text-slate-600 group-hover:translate-x-1 transition-all duration-300" style={`--hover-color: ${accent};`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0" style={`background: linear-gradient(to bottom right, rgba(${rgb}, 0.1), rgb(10, 22, 40));`}></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+        Ready to Go <span style={`color: ${accent};`}>Even Deeper</span>?
+      </h2>
+      <p class="mt-4 text-lg text-slate-400">
+        The advanced track. Policy design. Austrian economics. Multi-generational strategy. This is where understanding becomes mastery.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/learn/start-here"
+          class="inline-flex items-center justify-center px-8 py-4 text-white font-extrabold text-base rounded-xl transition-all duration-300 shadow-lg hover:-translate-y-0.5 min-h-[48px]"
+          style={`background: linear-gradient(to right, ${accent}, ${accent}dd); box-shadow: 0 10px 15px -3px rgba(${rgb}, 0.25);`}
+        >
+          Continue Learning
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/"
+          class="inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-white font-semibold text-base rounded-xl transition-all duration-300 min-h-[48px] path-secondary-cta"
+          style={`--hover-color: ${accent}; --hover-border: rgba(${rgb}, 0.4);`}
+        >
+          Explore Other Paths
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <EmailCapture />
+</Layout>
+
+<style>
+  .path-secondary-cta:hover {
+    color: var(--hover-color);
+    border-color: var(--hover-border);
+  }
+  .hover-accent-card h3 { transition: color 0.3s; }
+  .hover-accent-card:hover h3 { color: var(--hover-color) !important; }
+  .hover-accent-card:hover svg { color: var(--hover-color) !important; }
+</style>

@@ -1,0 +1,196 @@
+---
+const personas = [
+  { label: 'Build a Legacy', desc: 'I want to bless my children\'s children', href: '/paths/parent' },
+  { label: 'Find Freedom', desc: 'The rat race is exhausting — show me another way', href: '/paths/freedom-seeker' },
+  { label: 'Fund Deals', desc: 'I need capital on my terms, not the bank\'s', href: '/paths/real-estate' },
+  { label: 'Own a Business', desc: 'I want to finance growth without losing control', href: '/paths/business-owner' },
+  { label: 'Prove It', desc: 'I\'m skeptical — compare it to what I\'m doing', href: '/paths/skeptic' },
+  { label: 'Just Curious', desc: 'I keep hearing about this — show me what it is', href: '/paths/just-curious' },
+  { label: 'Go Deeper', desc: 'I already know the basics — take me further', href: '/paths/deeper-understanding' },
+  { label: 'Beyond 401(k)', desc: 'My retirement plan feels like someone else\'s idea', href: '/paths/professional' },
+];
+
+const masters = [
+  { name: 'Nelson Nash', img: '/images/masters/nelson-nash.jpg' },
+  { name: 'Robert Murphy', img: '/images/masters/robert-murphy.jpg' },
+  { name: 'Carlos Lara', img: '/images/masters/carlos-lara.jpg' },
+  { name: 'Leonard Read', img: '/images/masters/leonard-read.jpg' },
+  { name: 'Ludwig von Mises', img: '/images/masters/ludwig-von-mises.jpg' },
+  { name: 'Murray Rothbard', img: '/images/masters/murray-rothbard.jpg' },
+  { name: 'Frédéric Bastiat', img: '/images/masters/frederic-bastiat.jpg' },
+  { name: 'Henry Hazlitt', img: '/images/masters/henry-hazlitt.jpg' },
+  { name: 'Carl Menger', img: '/images/masters/carl-menger.jpg' },
+];
+
+// Distribute masters across 2 columns
+const col1 = [masters[0], masters[2], masters[4], masters[6], masters[8], masters[0], masters[2], masters[4], masters[6], masters[8]];
+const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], masters[3], masters[5], masters[7]];
+---
+
+<section class="relative overflow-hidden">
+  <!-- Layered background -->
+  <div class="absolute inset-0 bg-gradient-to-br from-navy-900 via-[#0d1b30] to-navy-900"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,168,76,0.07)_0%,_transparent_50%)]"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(27,54,93,0.3)_0%,_transparent_50%)]"></div>
+
+  <!-- Subtle grid pattern -->
+  <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 60px 60px;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8 lg:pt-10 pb-12 sm:pb-16 w-full">
+    <div class="grid lg:grid-cols-[1fr_0.9fr] gap-6 lg:gap-14 items-stretch">
+      <!-- Left: Text content + persona tiles -->
+      <div class="fade-in-left">
+        <!-- Headline -->
+        <h1 class="text-3xl sm:text-4xl lg:text-[2.75rem] xl:text-5xl font-black text-white leading-[1.1] tracking-tight">
+          Learn the
+          <span class="block text-gold">Banking Function</span>
+          <span class="block">from the Masters</span>
+        </h1>
+
+        <!-- Subhead -->
+        <p class="mt-3 text-base sm:text-lg text-slate-300/90 leading-relaxed max-w-xl">
+          Free courses on Nelson Nash's Infinite Banking Concept. No products. No sales pitch. Just the truth about how money works.
+        </p>
+
+        <!-- CTAs -->
+        <div class="mt-5 flex flex-col sm:flex-row gap-3">
+          <a
+            href="/learn/start-here"
+            class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-sm rounded-lg hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/25 hover:shadow-gold/40 hover:-translate-y-0.5 min-h-[44px]"
+          >
+            Start Here — It's Free
+            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+          <a
+            href="/watch"
+            class="inline-flex items-center justify-center px-6 py-3 border border-slate-600/50 text-white font-semibold text-sm rounded-lg hover:border-gold/40 hover:text-gold transition-all duration-300 bg-white/[0.02] hover:bg-white/[0.04] min-h-[44px]"
+          >
+            <svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+            Watch the Intro
+          </a>
+        </div>
+
+        <!-- "What brings you here?" — clickable tiles stacked -->
+        <div class="mt-6 lg:mt-8">
+          <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">What brings you here?</h2>
+          <div class="flex flex-col gap-1.5 max-w-xl">
+            {personas.map((persona) => (
+              <a
+                href={persona.href}
+                class="group flex items-center gap-3 px-3.5 py-2.5 rounded-lg bg-white/[0.03] border border-white/[0.06] hover:border-gold/30 hover:bg-gold/[0.05] transition-all duration-300"
+              >
+                <div class="flex-1 min-w-0">
+                  <span class="text-white font-semibold text-sm group-hover:text-gold transition-colors">{persona.label}</span>
+                  <span class="text-slate-500 text-xs ml-2 group-hover:text-slate-400 transition-colors">— {persona.desc}</span>
+                </div>
+                <svg class="w-4 h-4 text-slate-600 group-hover:text-gold group-hover:translate-x-0.5 transition-all duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: 2-column staggered scrolling photo columns — height matches left column -->
+      <div class="hidden lg:block relative overflow-hidden fade-in-right" id="masters-scroll-container">
+        <!-- Gradient fade top -->
+        <div class="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-navy-900 to-transparent z-10 pointer-events-none"></div>
+        <!-- Gradient fade bottom -->
+        <div class="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-navy-900 to-transparent z-10 pointer-events-none"></div>
+
+        <!-- Absolutely positioned so photos don't expand the grid row — left column controls height -->
+        <div class="absolute inset-0 flex gap-4">
+          <!-- Column 1 — scrolls up -->
+          <div class="flex-1 masters-col" data-speed="0.5" style="transform: translateY(0px);">
+            <div class="flex flex-col gap-4 masters-track" id="col1-track">
+              {col1.map((master) => (
+                <div class="relative rounded-xl overflow-hidden aspect-[3/4] flex-shrink-0">
+                  <img
+                    src={master.img}
+                    alt={master.name}
+                    class="w-full h-full object-cover object-center grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
+                    loading="lazy"
+                  />
+                  <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/70 to-transparent">
+                    <span class="text-white/90 text-xs font-semibold">{master.name}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- Column 2 — offset down, scrolls at different speed -->
+          <div class="flex-1 masters-col" data-speed="0.65" style="transform: translateY(80px);">
+            <div class="flex flex-col gap-4 masters-track" id="col2-track">
+              {col2.map((master) => (
+                <div class="relative rounded-xl overflow-hidden aspect-[3/4] flex-shrink-0">
+                  <img
+                    src={master.img}
+                    alt={master.name}
+                    class="w-full h-full object-cover object-center grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
+                    loading="lazy"
+                  />
+                  <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/70 to-transparent">
+                    <span class="text-white/90 text-xs font-semibold">{master.name}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile: horizontal scroll of master photos -->
+      <div class="lg:hidden -mx-4 px-4">
+        <div class="flex gap-3 overflow-x-auto horizontal-scroll pb-2 snap-x snap-mandatory">
+          {masters.map((master) => (
+            <div class="flex-shrink-0 w-28 snap-start">
+              <div class="relative rounded-lg overflow-hidden aspect-[3/4]">
+                <img
+                  src={master.img}
+                  alt={master.name}
+                  class="w-full h-full object-cover object-center grayscale brightness-75"
+                  loading="lazy"
+                />
+                <div class="absolute bottom-0 left-0 right-0 p-1.5 bg-gradient-to-t from-black/70 to-transparent">
+                  <span class="text-white/90 text-[10px] font-semibold leading-tight">{master.name}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Smooth infinite scroll animation for master photo columns
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('masters-scroll-container');
+    if (container) {
+      const columns = container.querySelectorAll('.masters-col');
+      columns.forEach((col) => {
+        const track = col.querySelector('.masters-track') as HTMLElement;
+        if (!track) return;
+        const speed = parseFloat((col as HTMLElement).dataset.speed || '0.5');
+        let offset = 0;
+        const clone = track.innerHTML;
+        track.innerHTML = clone + clone;
+        const halfHeight = track.scrollHeight / 2;
+        function animate() {
+          offset += speed;
+          if (offset >= halfHeight) offset = 0;
+          track.style.transform = `translateY(-${offset}px)`;
+          requestAnimationFrame(animate);
+        }
+        requestAnimationFrame(animate);
+      });
+    }
+  });
+</script>

@@ -1,0 +1,22 @@
+{
+  "name": "IBC Academy",
+  "short_name": "IBC Academy",
+  "description": "Free education on the Infinite Banking Concept",
+  "theme_color": "#0A1628",
+  "background_color": "#0A1628",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}

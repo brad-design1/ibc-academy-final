@@ -1,0 +1,67 @@
+---
+const sections = [
+  {
+    title: 'Latest Articles',
+    description: 'Deep dives into IBC concepts, Austrian economics, and sound money principles.',
+    link: '/learn/articles',
+    linkText: 'View All Articles',
+    items: [
+      { title: 'What Is the Infinite Banking Concept?', tag: 'Fundamentals', href: '/learn/articles/what-is-ibc' },
+      { title: 'Why Whole Life Insurance? The Vehicle Explained', tag: 'Mechanics', href: '/learn/articles/why-whole-life' },
+      { title: 'Banking vs. Investing: Know the Difference', tag: 'Principles', href: '/learn/articles/banking-vs-investing' },
+    ],
+  },
+  {
+    title: 'Recent Videos',
+    description: 'Visual breakdowns and walkthroughs of IBC concepts.',
+    link: '/watch',
+    linkText: 'Watch All Videos',
+    items: [
+      { title: 'IBC Explained in 10 Minutes', tag: 'Video', href: '/watch' },
+      { title: 'The Banking Function: A Visual Guide', tag: 'Video', href: '/watch' },
+      { title: 'Compared to What? IBC vs. 401(k)', tag: 'Series', href: '/learn/compared-to-what' },
+    ],
+  },
+];
+---
+
+<section class="py-20 lg:py-28 bg-navy-dark/30">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <h2 class="text-3xl sm:text-4xl font-bold text-white">
+        Latest from the <span class="text-gold">Academy</span>
+      </h2>
+      <p class="mt-4 text-slate-400 text-lg">
+        New content published regularly. Start wherever interests you most.
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12">
+      {sections.map((section) => (
+        <div>
+          <div class="flex items-center justify-between mb-6">
+            <h3 class="text-xl font-bold text-white">{section.title}</h3>
+            <a href={section.link} class="text-gold text-sm font-medium hover:text-gold-light transition-colors">
+              {section.linkText} →
+            </a>
+          </div>
+          <div class="space-y-4">
+            {section.items.map((item) => (
+              <a href={item.href} class="group block bg-navy/40 border border-navy-light/15 rounded-xl p-5 hover:border-gold/30 transition-all duration-200">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <span class="inline-block text-xs font-medium text-gold bg-gold/10 px-2 py-0.5 rounded-md mb-2">{item.tag}</span>
+                    <h4 class="text-white font-semibold group-hover:text-gold transition-colors">{item.title}</h4>
+                  </div>
+                  <svg class="w-5 h-5 text-slate-600 group-hover:text-gold transition-colors shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

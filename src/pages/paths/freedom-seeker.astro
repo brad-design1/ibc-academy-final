@@ -1,0 +1,246 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PersonaHero from '../../components/PersonaHero.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+
+const accent = '#FF2D2D';
+const rgb = '255, 45, 45';
+
+const curatedContent = [
+  {
+    badge: 'Start Here',
+    title: 'Freedom From the Financial System',
+    description: 'Break free from third-party lenders, government retirement plans, and the hidden costs that drain 34.5 cents of every dollar you earn.',
+    readTime: '9 min read',
+    href: '/learn/articles/freedom-01-freedom-from-system',
+  },
+  {
+    badge: 'Core',
+    title: 'The Banking Function Explained',
+    description: 'Every financing decision is a banking decision. You\'re already performing this function — the question is who captures the profits.',
+    readTime: '8 min read',
+    href: '/learn/articles/freedom-02-banking-function',
+  },
+  {
+    badge: 'Eye-Opening',
+    title: 'How the Debt Trap Actually Works',
+    description: 'Credit cards, mortgages, car loans — the system is designed to keep you borrowing. Here\'s how to escape the cycle entirely.',
+    readTime: '7 min read',
+    href: '/learn/articles/freedom-03-debt-trap',
+  },
+  {
+    badge: 'Challenge',
+    title: 'IBC vs. Dave Ramsey: The Missing Piece',
+    description: 'Dave got you out of debt. That\'s step one. But debt-free doesn\'t mean financially free. Here\'s what comes next.',
+    readTime: '10 min read',
+    href: '/learn/articles/freedom-04-ibc-vs-dave-ramsey',
+  },
+  {
+    badge: 'Challenge',
+    title: 'Buy Term and Invest the Difference',
+    description: 'The most common objection from freedom-seekers. Let\'s examine why this "logical" advice keeps you trapped in the system.',
+    readTime: '11 min read',
+    href: '/learn/articles/freedom-05-buy-term-invest-difference',
+  },
+  {
+    badge: 'Foundation',
+    title: 'Austrian Economics & Financial Freedom',
+    description: 'Understanding why the monetary system is rigged — and how IBC is individual secession from a corrupt financial regime.',
+    readTime: '12 min read',
+    href: '/learn/articles/freedom-06-austrian-economics',
+  },
+];
+
+const freedomPoints = [
+  {
+    icon: '🏦',
+    title: 'You Already Finance Everything',
+    description: 'Every purchase either uses your capital or someone else\'s. The question is who earns the interest — you or a bank.',
+  },
+  {
+    icon: '🔑',
+    title: 'No Permission Required',
+    description: 'Policy loans don\'t require credit checks, applications, or approvals. Your money. Your rules. Your timeline.',
+  },
+  {
+    icon: '🛡️',
+    title: 'Protection From the System',
+    description: 'Cash value in whole life has creditor protection in most states. It sits outside the reach of market crashes.',
+  },
+  {
+    icon: '♾️',
+    title: 'Recapture What Banks Take',
+    description: 'Every dollar you repay goes back into your system — not to a bank\'s shareholders. Interest becomes income.',
+  },
+];
+---
+
+<Layout title="The Freedom Seeker's Path — Your Money, Your Rules" description="Learn how IBC gives you sovereignty over your money. No more middlemen, no more permission. Free education on financial independence through infinite banking.">
+
+  <!-- Hero -->
+  <PersonaHero
+    badge="The Freedom Seeker's Path"
+    headline="Your Money. Your Rules. Your Bank."
+    highlightWord="Your Bank."
+    subhead="The conventional banking system wasn't designed to serve you. It was designed to profit from you. IBC flips the script. Become your own banker — and stop asking for permission."
+    primaryCta={{ text: 'Start the Fundamentals Track', href: '#curriculum' }}
+    secondaryCta={{ text: 'Back to Home', href: '/' }}
+    accentHex={accent}
+  />
+
+  <!-- Why Conventional Banking Fails -->
+  <section class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-900 to-navy-dark/50"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">The Problem</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Why the System <span style={`color: ${accent};`}>Doesn't Work</span> for You
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          You deposit your money. They lend it out at 10x leverage. You get 0.01% interest. Sound fair?
+        </p>
+      </div>
+
+      <!-- The Problem / The Solution -->
+      <div class="grid lg:grid-cols-2 gap-8 mb-16">
+        <div class="glass-card rounded-2xl p-6 lg:p-8 border-rose-500/20 fade-in-left">
+          <h3 class="text-xl font-bold text-rose-400 mb-4 flex items-center gap-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            The Conventional Way
+          </h3>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> You deposit money in a bank earning near-zero interest</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> The bank lends your money out at 5-25% interest</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> You need a loan? Fill out an application and hope</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Every purchase leaks capital out of your system forever</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span class="text-rose-400 mt-0.5">✗</span> You retire dependent on market performance and government promises</li>
+          </ul>
+        </div>
+        <div class="glass-card rounded-2xl p-6 lg:p-8 fade-in-right" style={`border-color: rgba(${rgb}, 0.2);`}>
+          <h3 class="text-xl font-bold mb-4 flex items-center gap-2" style={`color: ${accent};`}>
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            The IBC Way
+          </h3>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span style={`color: ${accent};`} class="mt-0.5">✓</span> Your capital earns guaranteed growth plus dividends</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span style={`color: ${accent};`} class="mt-0.5">✓</span> You lend to yourself — and pay yourself back with interest</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span style={`color: ${accent};`} class="mt-0.5">✓</span> Access capital instantly — no application, no credit check</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span style={`color: ${accent};`} class="mt-0.5">✓</span> Every dollar recirculates through your own system</li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm"><span style={`color: ${accent};`} class="mt-0.5">✓</span> You control the banking function — period</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Freedom points -->
+      <div class="grid sm:grid-cols-2 gap-6 lg:gap-8 stagger-children">
+        {freedomPoints.map((item) => (
+          <div class="glass-card rounded-2xl p-6 lg:p-8">
+            <span class="text-3xl mb-4 block">{item.icon}</span>
+            <h3 class="text-xl font-bold text-white mb-2">{item.title}</h3>
+            <p class="text-slate-400 leading-relaxed">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Nelson Nash Quote -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0 bg-navy-dark/30"></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <div class="glass-surface rounded-2xl p-8 lg:p-12">
+        <svg class="w-10 h-10 mx-auto mb-6" style={`color: rgba(${rgb}, 0.4);`} fill="currentColor" viewBox="0 0 24 24">
+          <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+        </svg>
+        <blockquote class="text-xl lg:text-2xl text-white font-medium leading-relaxed italic">
+          "Don't be afraid to see what you see."
+        </blockquote>
+        <cite class="block mt-4 font-semibold not-italic" style={`color: ${accent};`}>— Nelson Nash</cite>
+        <p class="text-slate-500 text-sm mt-1">Creator of the Infinite Banking Concept</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Content Track -->
+  <section id="curriculum" class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/30 to-navy-900"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">Your Curriculum</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          The Fundamentals <span style={`color: ${accent};`}>Track</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          Challenge what you've been taught. Learn how money actually works. Decide for yourself.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
+        {curatedContent.map((item, index) => (
+          <a href={item.href} class="group glass-card rounded-2xl p-6 block hover-accent-card">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>{index + 1}</span>
+              <span class="text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider" style={`color: ${accent}; background: rgba(${rgb}, 0.1);`}>{item.badge}</span>
+            </div>
+            <h3 class="text-lg font-bold text-white transition-colors duration-300 mb-2 leading-snug" style={`--hover-color: ${accent};`}>
+              {item.title}
+            </h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">{item.description}</p>
+            <div class="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+              <span class="text-slate-500 text-xs font-medium">{item.readTime}</span>
+              <svg class="w-5 h-5 text-slate-600 group-hover:translate-x-1 transition-all duration-300" style={`--hover-color: ${accent};`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0" style={`background: linear-gradient(to bottom right, rgba(${rgb}, 0.1), rgb(10, 22, 40));`}></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+        Ready to Take <span style={`color: ${accent};`}>Control</span>?
+      </h2>
+      <p class="mt-4 text-lg text-slate-400">
+        Start with the free course. Understand the process. Then decide if financial sovereignty is for you.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/learn/start-here"
+          class="inline-flex items-center justify-center px-8 py-4 text-navy-900 font-extrabold text-base rounded-xl transition-all duration-300 shadow-lg hover:-translate-y-0.5 min-h-[48px]"
+          style={`background: linear-gradient(to right, ${accent}, ${accent}dd); box-shadow: 0 10px 15px -3px rgba(${rgb}, 0.25);`}
+        >
+          Start Learning — It's Free
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/"
+          class="inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-white font-semibold text-base rounded-xl transition-all duration-300 min-h-[48px] path-secondary-cta"
+          style={`--hover-color: ${accent}; --hover-border: rgba(${rgb}, 0.4);`}
+        >
+          Explore Other Paths
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <EmailCapture />
+</Layout>
+
+<style>
+  .path-secondary-cta:hover {
+    color: var(--hover-color);
+    border-color: var(--hover-border);
+  }
+  .hover-accent-card h3 { transition: color 0.3s; }
+  .hover-accent-card:hover h3 { color: var(--hover-color) !important; }
+  .hover-accent-card:hover svg { color: var(--hover-color) !important; }
+</style>

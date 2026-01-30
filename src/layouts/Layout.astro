@@ -1,0 +1,112 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SearchModal from '../components/SearchModal.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const { title, description = 'Free education on the Infinite Banking Concept. No products sold. Just principles that work.', ogImage = '/og-default.png' } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacademy.org');
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href={canonicalURL.href} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <title>{title} | IBC Academy</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={`${title} | IBC Academy`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL.href} />
+    <meta property="og:site_name" content="IBC Academy" />
+    <meta property="og:image" content={new URL(ogImage, Astro.site || 'https://ibcacademy.org').href} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@theibcacademy" />
+    <meta name="twitter:title" content={`${title} | IBC Academy`} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={new URL(ogImage, Astro.site || 'https://ibcacademy.org').href} />
+  </head>
+  <body class="min-h-screen flex flex-col antialiased">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+
+    <!-- Global search modal (Pagefind) -->
+    <SearchModal />
+
+    <!-- Scroll-triggered animation observer -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+              }
+            });
+          },
+          {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px',
+          }
+        );
+
+        document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right, .fade-in, .stagger-children').forEach((el) => {
+          observer.observe(el);
+        });
+
+        // Counter animation
+        const counterObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const el = entry.target as HTMLElement;
+                const target = parseInt(el.getAttribute('data-target') || '0');
+                const suffix = el.getAttribute('data-suffix') || '';
+                const prefix = el.getAttribute('data-prefix') || '';
+                const duration = 2000;
+                const start = performance.now();
+
+                function animate(now: number) {
+                  const elapsed = now - start;
+                  const progress = Math.min(elapsed / duration, 1);
+                  const eased = 1 - Math.pow(1 - progress, 3);
+                  const current = Math.round(eased * target);
+                  el.textContent = prefix + current + suffix;
+                  if (progress < 1) requestAnimationFrame(animate);
+                }
+                requestAnimationFrame(animate);
+                counterObserver.unobserve(el);
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+
+        document.querySelectorAll('.counter-animate').forEach((el) => {
+          counterObserver.observe(el);
+        });
+      });
+    </script>
+  </body>
+</html>

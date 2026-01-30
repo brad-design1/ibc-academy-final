@@ -1,0 +1,233 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PersonaHero from '../../components/PersonaHero.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+
+const accent = '#FFD400';
+const rgb = '255, 212, 0';
+
+const curatedContent = [
+  {
+    badge: 'Start Here',
+    title: 'You Have Every Right to Be Skeptical',
+    description: 'Whole life insurance has a terrible reputation. IBC sounds too good to be true. Here\'s why your skepticism is completely justified.',
+    readTime: '8 min read',
+    href: '/learn/articles/prove-it-01-right-to-be-skeptical',
+  },
+  {
+    badge: 'Challenge',
+    title: 'The Rate of Return Trap',
+    description: 'IBC advocates say "don\'t focus on returns." But returns matter, right? Let\'s examine why this objection misses the point entirely.',
+    readTime: '10 min read',
+    href: '/learn/articles/prove-it-02-rate-of-return-trap',
+  },
+  {
+    badge: 'Economics',
+    title: 'Dave Ramsey\'s Missing Variable',
+    description: 'Dave\'s math works — if you ignore the banking function. But what happens when you include the variable he never mentions?',
+    readTime: '11 min read',
+    href: '/learn/articles/prove-it-03-dave-ramsey-missing-variable',
+  },
+  {
+    badge: 'Industry',
+    title: 'Why Your Advisor Hates Whole Life',
+    description: 'Low commissions, lack of training, and industry bias. The real reasons financial advisors steer you away from whole life insurance.',
+    readTime: '9 min read',
+    href: '/learn/articles/prove-it-04-advisor-hates-whole-life',
+  },
+  {
+    badge: 'Math',
+    title: 'The Math Nobody Shows You',
+    description: 'Real numbers. Real policies. Real outcomes. The mathematical analysis that IBC critics and promoters both avoid showing.',
+    readTime: '13 min read',
+    href: '/learn/articles/prove-it-05-math-nobody-shows',
+  },
+  {
+    badge: 'Truth',
+    title: 'Everything You Heard Is Wrong',
+    description: 'The final piece. Why everything you\'ve been taught about money, insurance, and wealth building needs to be reconsidered.',
+    readTime: '12 min read',
+    href: '/learn/articles/prove-it-06-everything-you-heard-wrong',
+  },
+];
+
+const objections = [
+  {
+    icon: '🔍',
+    title: '"Whole Life Is a Bad Investment"',
+    description: 'It\'s not an investment. It\'s a banking system. Confusing the two is the most common mistake — and exactly what the financial industry wants you to do.',
+  },
+  {
+    icon: '📊',
+    title: '"The Returns Are Terrible"',
+    description: 'Compared to what? The stock market\'s average includes years you\'d have lost 40%. Cash value compounds every year without exception.',
+  },
+  {
+    icon: '💸',
+    title: '"The Fees Are Too High"',
+    description: 'Run the numbers on your 401(k) fees, advisor AUM charges, and tax drag. Then compare. The answer may surprise you.',
+  },
+  {
+    icon: '🎯',
+    title: '"Dave Ramsey Says It\'s a Scam"',
+    description: 'Dave is excellent at getting people out of debt. His understanding of the banking function, however, stops at "buy term and invest the difference."',
+  },
+];
+---
+
+<Layout title="The Skeptic's Path — Prove It" description="Skeptical about Infinite Banking? Good. Examine every objection, run the numbers, and decide for yourself. No sales pitch — just evidence.">
+
+  <!-- Hero -->
+  <PersonaHero
+    badge="The Skeptic's Path"
+    headline="You've Heard the Claims. Now See the Evidence."
+    highlightWord="Evidence."
+    subhead="Healthy skepticism is a feature, not a bug. You don't need to believe anyone — you need to see the math, understand the mechanics, and decide for yourself."
+    primaryCta={{ text: 'Examine the Evidence', href: '#curriculum' }}
+    secondaryCta={{ text: 'Back to Home', href: '/' }}
+    accentHex={accent}
+  />
+
+  <!-- Common Objections -->
+  <section class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-900 to-navy-dark/50"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">The Objections</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Let's Address What You've <span style={`color: ${accent};`}>Already Heard</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          Every skeptic has the same objections. We welcome all of them.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-6 lg:gap-8 stagger-children">
+        {objections.map((item) => (
+          <div class="glass-card rounded-2xl p-6 lg:p-8">
+            <span class="text-3xl mb-4 block">{item.icon}</span>
+            <h3 class="text-xl font-bold text-white mb-2">{item.title}</h3>
+            <p class="text-slate-400 leading-relaxed">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- The Challenge -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0 bg-navy-dark/30"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center fade-in-up">
+        <div class="glass-surface rounded-2xl p-8 lg:p-12">
+          <h3 class="text-2xl font-bold text-white mb-4">The Skeptic's Challenge</h3>
+          <div class="space-y-6 text-left">
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>1</div>
+              <div>
+                <h4 class="text-white font-semibold">Read the Source Material</h4>
+                <p class="text-slate-400 text-sm mt-1">Don't trust us. Read Nelson Nash's "Becoming Your Own Banker." Form your own conclusions from the original text.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>2</div>
+              <div>
+                <h4 class="text-white font-semibold">Run Your Own Numbers</h4>
+                <p class="text-slate-400 text-sm mt-1">Compare your current strategy side-by-side with the IBC approach. Use your own assumptions, not ours.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>3</div>
+              <div>
+                <h4 class="text-white font-semibold">Ask the Hard Questions</h4>
+                <p class="text-slate-400 text-sm mt-1">What are the downsides? What's the worst case? We address these honestly because the concept survives scrutiny.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Content Track -->
+  <section id="curriculum" class="py-20 lg:py-28 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-dark/30 to-navy-900"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+        <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">Your Curriculum</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          The Evidence <span style={`color: ${accent};`}>Track</span>
+        </h2>
+        <p class="mt-4 text-lg text-slate-400">
+          Every claim examined. Every number shown. Draw your own conclusions.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
+        {curatedContent.map((item, index) => (
+          <a href={item.href} class="group glass-card rounded-2xl p-6 block hover-accent-card">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>{index + 1}</span>
+              <span class="text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider" style={`color: ${accent}; background: rgba(${rgb}, 0.1);`}>{item.badge}</span>
+            </div>
+            <h3 class="text-lg font-bold text-white transition-colors duration-300 mb-2 leading-snug" style={`--hover-color: ${accent};`}>
+              {item.title}
+            </h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">{item.description}</p>
+            <div class="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+              <span class="text-slate-500 text-xs font-medium">{item.readTime}</span>
+              <svg class="w-5 h-5 text-slate-600 group-hover:translate-x-1 transition-all duration-300" style={`--hover-color: ${accent};`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 lg:py-20 relative">
+    <div class="absolute inset-0" style={`background: linear-gradient(to bottom right, rgba(${rgb}, 0.1), rgb(10, 22, 40));`}></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+        Still Skeptical? <span style={`color: ${accent};`}>Good.</span>
+      </h2>
+      <p class="mt-4 text-lg text-slate-400">
+        The best ideas survive scrutiny. Read the evidence. Run the numbers. Then decide.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/learn/start-here"
+          class="inline-flex items-center justify-center px-8 py-4 text-navy-900 font-extrabold text-base rounded-xl transition-all duration-300 shadow-lg hover:-translate-y-0.5 min-h-[48px]"
+          style={`background: linear-gradient(to right, ${accent}, ${accent}dd); box-shadow: 0 10px 15px -3px rgba(${rgb}, 0.25);`}
+        >
+          Start With the Facts
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/"
+          class="inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-white font-semibold text-base rounded-xl transition-all duration-300 min-h-[48px] path-secondary-cta"
+          style={`--hover-color: ${accent}; --hover-border: rgba(${rgb}, 0.4);`}
+        >
+          Explore Other Paths
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <EmailCapture />
+</Layout>
+
+<style>
+  .path-secondary-cta:hover {
+    color: var(--hover-color);
+    border-color: var(--hover-border);
+  }
+  .hover-accent-card h3 { transition: color 0.3s; }
+  .hover-accent-card:hover h3 { color: var(--hover-color) !important; }
+  .hover-accent-card:hover svg { color: var(--hover-color) !important; }
+</style>

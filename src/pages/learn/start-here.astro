@@ -1,0 +1,132 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const steps = [
+  {
+    number: 1,
+    title: 'Understand the Problem',
+    description: "Before learning the solution, understand the problem. Every financial transaction involves the banking function — and someone profits from it. Is it you, or someone else?",
+    action: 'Read: What Is the Infinite Banking Concept?',
+    actionHref: '/learn/articles/what-is-ibc',
+    duration: '10 min read',
+  },
+  {
+    number: 2,
+    title: 'Read the Book',
+    description: "Nelson Nash's \"Becoming Your Own Banker\" is the foundational text. It's short (around 90 pages), dense, and life-changing. Read it at least twice. You'll catch new things every time.",
+    action: 'Get the Book →',
+    actionHref: '/book/purchase',
+    duration: '2-3 hours',
+  },
+  {
+    number: 3,
+    title: 'Learn the Mechanics',
+    description: "Understand how whole life insurance works as a vehicle — cash value, dividends, policy loans, paid-up additions. Know why this specific vehicle is used.",
+    action: 'Read: Why Whole Life Insurance?',
+    actionHref: '/learn/articles/why-whole-life',
+    duration: '15 min read',
+  },
+  {
+    number: 4,
+    title: 'Separate Banking from Investing',
+    description: "This is the paradigm shift. Banking and investing are two different functions. Most people combine them and lose the banking function entirely.",
+    action: 'Read: Banking vs. Investing',
+    actionHref: '/learn/articles/banking-vs-investing',
+    duration: '12 min read',
+  },
+  {
+    number: 5,
+    title: 'Study the Comparisons',
+    description: "\"Compared to what?\" is the most important question in economics. See how IBC compares to conventional strategies — not as an investment, but as a banking system.",
+    action: 'Explore: Compared to What?',
+    actionHref: '/learn/compared-to-what',
+    duration: 'Series',
+  },
+  {
+    number: 6,
+    title: 'See It in Action',
+    description: "Real case studies showing how families and businesses implement IBC. These aren't hypothetical — they're real applications of the process.",
+    action: 'View Case Studies',
+    actionHref: '/learn/case-studies',
+    duration: 'Multiple',
+  },
+  {
+    number: 7,
+    title: 'Join the Community',
+    description: "Connect with other students of IBC. Ask questions, share insights, and continue your education alongside others on the same journey.",
+    action: 'Join on Skool',
+    actionHref: '/community',
+    duration: 'Ongoing',
+  },
+];
+---
+
+<Layout title="Start Here" description="New to the Infinite Banking Concept? Follow this guided learning path from zero to confident understanding.">
+  <section class="py-16 lg:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Header -->
+      <div class="text-center mb-16">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/10 border border-gold/20 mb-6">
+          <span class="text-gold text-sm font-medium">Your Learning Path</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+          Start <span class="text-gold">Here</span>
+        </h1>
+        <p class="mt-4 text-xl text-slate-300 max-w-2xl mx-auto">
+          New to the Infinite Banking Concept? Follow this guided path. Each step builds on the last. Take your time — understanding matters more than speed.
+        </p>
+      </div>
+
+      <!-- Steps -->
+      <div class="relative">
+        <!-- Vertical line -->
+        <div class="absolute left-6 top-0 bottom-0 w-px bg-gradient-to-b from-gold/50 via-gold/20 to-transparent hidden sm:block"></div>
+
+        <div class="space-y-8">
+          {steps.map((step) => (
+            <div class="relative flex gap-6 group">
+              <!-- Step number -->
+              <div class="shrink-0 w-12 h-12 rounded-full bg-navy border-2 border-gold/40 flex items-center justify-center z-10 group-hover:border-gold transition-colors">
+                <span class="text-gold font-bold text-lg">{step.number}</span>
+              </div>
+
+              <!-- Content -->
+              <div class="flex-1 bg-navy/30 border border-navy-light/20 rounded-2xl p-6 lg:p-8 group-hover:border-gold/30 transition-all duration-300">
+                <div class="flex items-center justify-between mb-2">
+                  <h2 class="text-xl font-bold text-white">{step.title}</h2>
+                  <span class="text-xs text-slate-500 font-medium">{step.duration}</span>
+                </div>
+                <p class="text-slate-400 leading-relaxed mb-4">{step.description}</p>
+                <a
+                  href={step.actionHref}
+                  class="inline-flex items-center text-gold text-sm font-semibold hover:text-gold-light transition-colors"
+                >
+                  {step.action}
+                  <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="mt-16 text-center">
+        <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-8">
+          <h3 class="text-2xl font-bold text-white mb-3">Ready to dive deeper?</h3>
+          <p class="text-slate-400 mb-6">Once you've completed the path above, explore our full library of articles, videos, and case studies.</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/learn/articles" class="px-6 py-3 bg-gold text-navy-900 font-bold rounded-xl hover:bg-gold-light transition-colors">
+              Browse All Articles
+            </a>
+            <a href="/watch" class="px-6 py-3 border-2 border-slate-600 text-white font-semibold rounded-xl hover:border-gold/50 hover:text-gold transition-colors">
+              Watch Videos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

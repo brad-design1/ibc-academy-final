@@ -1,0 +1,77 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const sections = [
+  {
+    title: 'Start Here',
+    description: "New to IBC? This guided path takes you from zero to confident understanding.",
+    href: '/learn/start-here',
+    icon: '🎯',
+    featured: true,
+  },
+  {
+    title: 'Articles & Blog',
+    description: 'Deep dives into IBC concepts, Austrian economics, and sound money principles.',
+    href: '/learn/articles',
+    icon: '📝',
+  },
+  {
+    title: 'Case Studies',
+    description: 'Real-world examples of IBC in action — from families to businesses.',
+    href: '/learn/case-studies',
+    icon: '📊',
+  },
+  {
+    title: 'Compared to What?',
+    description: 'How does IBC stack up against 401(k)s, IRAs, real estate, and more?',
+    href: '/learn/compared-to-what',
+    icon: '⚖️',
+  },
+  {
+    title: 'Glossary',
+    description: 'Key terms and definitions for understanding IBC and whole life insurance.',
+    href: '/learn/glossary',
+    icon: '📖',
+  },
+];
+---
+
+<Layout title="Learn">
+  <section class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-16">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+          Learn <span class="text-gold">IBC</span>
+        </h1>
+        <p class="mt-4 text-xl text-slate-300">
+          Everything you need to understand the Infinite Banking Concept — at your own pace, completely free.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {sections.map((section) => (
+          <a
+            href={section.href}
+            class:list={[
+              'group block rounded-2xl p-8 transition-all duration-300',
+              section.featured
+                ? 'bg-gradient-to-br from-gold/10 to-gold/5 border-2 border-gold/30 hover:border-gold/50 md:col-span-2 lg:col-span-1'
+                : 'bg-navy/30 border border-navy-light/20 hover:border-gold/30',
+            ]}
+          >
+            <span class="text-3xl mb-4 block">{section.icon}</span>
+            <h2 class="text-xl font-bold text-white group-hover:text-gold transition-colors">
+              {section.title}
+            </h2>
+            <p class="mt-2 text-slate-400 leading-relaxed">{section.description}</p>
+            {section.featured && (
+              <span class="inline-block mt-4 text-gold text-sm font-semibold">
+                Recommended starting point →
+              </span>
+            )}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

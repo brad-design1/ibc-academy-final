@@ -1,0 +1,79 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const episodes = [
+  {
+    title: 'Episode 1: What Is the Infinite Banking Concept?',
+    description: 'An introduction to IBC — what it is, what it isn\'t, and why it matters for your financial future.',
+    date: 'Coming Soon',
+    duration: '~30 min',
+  },
+  {
+    title: 'Episode 2: The Banking Function Explained',
+    description: 'Understanding the banking function and why every person needs to think about who controls it.',
+    date: 'Coming Soon',
+    duration: '~25 min',
+  },
+  {
+    title: 'Episode 3: Nelson Nash and the Origins of IBC',
+    description: 'The story of how Nelson Nash discovered and developed the Infinite Banking Concept.',
+    date: 'Coming Soon',
+    duration: '~35 min',
+  },
+];
+---
+
+<Layout title="Listen" description="The IBC Academy podcast — in-depth conversations about the Infinite Banking Concept.">
+  <section class="py-16 lg:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-16">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+          <span class="text-gold">Listen</span>
+        </h1>
+        <p class="mt-4 text-xl text-slate-300">
+          The IBC Academy Podcast — in-depth conversations about the Infinite Banking Concept, Austrian economics, and building your personal banking system.
+        </p>
+      </div>
+
+      <!-- Podcast platforms -->
+      <div class="flex flex-wrap gap-4 mb-12">
+        <a href="#" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-slate-300 hover:border-gold/30 hover:text-white transition-all">
+          🎧 Apple Podcasts
+        </a>
+        <a href="#" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-slate-300 hover:border-gold/30 hover:text-white transition-all">
+          🟢 Spotify
+        </a>
+        <a href="#" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-slate-300 hover:border-gold/30 hover:text-white transition-all">
+          📡 RSS Feed
+        </a>
+      </div>
+
+      <!-- Episodes -->
+      <div class="space-y-6">
+        {episodes.map((ep, i) => (
+          <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-6 lg:p-8 hover:border-gold/30 transition-all duration-200">
+            <div class="flex items-start gap-6">
+              <div class="shrink-0 w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center">
+                <svg class="w-6 h-6 text-gold" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                  <line x1="12" y1="19" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                  <line x1="8" y1="23" x2="16" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="flex-1">
+                <div class="flex items-center gap-3 mb-2">
+                  <span class="text-xs text-slate-500">{ep.date}</span>
+                  <span class="text-xs text-slate-600">•</span>
+                  <span class="text-xs text-slate-500">{ep.duration}</span>
+                </div>
+                <h2 class="text-lg font-bold text-white mb-2">{ep.title}</h2>
+                <p class="text-slate-400 leading-relaxed">{ep.description}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,9 @@
+# robots.txt — IBC Academy
+# https://ibcacademy.org
+
+User-agent: *
+Allow: /
+Disallow: /404
+
+# Sitemap
+Sitemap: https://ibcacademy.org/sitemap-index.xml

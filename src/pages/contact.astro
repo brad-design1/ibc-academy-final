@@ -1,0 +1,232 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contact Us" description="Get in touch with IBC Academy. Ask questions about the Infinite Banking Concept, join our community, or schedule a conversation.">
+  <!-- Hero Section -->
+  <section class="py-16 lg:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/10 border border-gold/20 mb-6">
+        <span class="text-gold text-sm font-medium">We'd Love to Hear From You</span>
+      </div>
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+        Get in <span class="text-gold">Touch</span>
+      </h1>
+      <p class="mt-4 text-xl text-slate-300 max-w-2xl mx-auto">
+        Whether you're curious about IBC, want to join our community, or have a media inquiry — we're here to help.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ Teaser -->
+  <section class="pb-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 fade-in-up">
+      <div class="bg-gold/5 border border-gold/20 rounded-xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span class="text-slate-200 font-medium">Have a quick question? Check our FAQ first.</span>
+        </div>
+        <a
+          href="/faq"
+          class="inline-flex items-center px-5 py-2 bg-navy/40 border border-gold/30 text-gold font-semibold rounded-lg hover:bg-gold/10 transition-colors whitespace-nowrap"
+        >
+          Browse FAQ
+          <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content: Form + Sidebar -->
+  <section class="py-12 lg:py-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-5 gap-10 lg:gap-14">
+
+        <!-- Contact Form (3 cols) -->
+        <div class="lg:col-span-3 fade-in-up">
+          <div class="glass-card rounded-2xl p-8 lg:p-10">
+            <h2 class="text-2xl font-bold text-white mb-2">Send Us a Message</h2>
+            <p class="text-slate-400 mb-8">Fill out the form below and we'll get back to you as soon as we can.</p>
+
+            <form action="#" method="POST" class="space-y-6">
+              <!-- Name -->
+              <div>
+                <label for="name" class="block text-sm font-medium text-slate-300 mb-2">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Your name"
+                  class="w-full px-4 py-3 bg-navy-dark/50 border border-navy-light/30 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-gold/60 focus:ring-1 focus:ring-gold/40 transition-colors"
+                />
+              </div>
+
+              <!-- Email -->
+              <div>
+                <label for="email" class="block text-sm font-medium text-slate-300 mb-2">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="you@example.com"
+                  class="w-full px-4 py-3 bg-navy-dark/50 border border-navy-light/30 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-gold/60 focus:ring-1 focus:ring-gold/40 transition-colors"
+                />
+              </div>
+
+              <!-- Subject -->
+              <div>
+                <label for="subject" class="block text-sm font-medium text-slate-300 mb-2">Subject</label>
+                <select
+                  id="subject"
+                  name="subject"
+                  required
+                  class="w-full px-4 py-3 bg-navy-dark/50 border border-navy-light/30 rounded-xl text-white focus:outline-none focus:border-gold/60 focus:ring-1 focus:ring-gold/40 transition-colors appearance-none"
+                  style="background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22 fill=%22%2394a3b8%22%3E%3Cpath fill-rule=%22evenodd%22 d=%22M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z%22 clip-rule=%22evenodd%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1.25rem;"
+                >
+                  <option value="" disabled selected class="text-slate-500">Select a topic</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="ibc-question">Question About IBC</option>
+                  <option value="community">Community Access</option>
+                  <option value="media">Media / Press</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <!-- Message -->
+              <div>
+                <label for="message" class="block text-sm font-medium text-slate-300 mb-2">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  rows="5"
+                  placeholder="What's on your mind?"
+                  class="w-full px-4 py-3 bg-navy-dark/50 border border-navy-light/30 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-gold/60 focus:ring-1 focus:ring-gold/40 transition-colors resize-y"
+                ></textarea>
+              </div>
+
+              <!-- Submit -->
+              <button
+                type="submit"
+                class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-gold text-navy-900 font-bold rounded-xl hover:bg-gold-light transition-colors shadow-lg shadow-gold/20"
+              >
+                Send Message
+                <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Sidebar (2 cols) -->
+        <div class="lg:col-span-2 space-y-8 fade-in-up">
+
+          <!-- Email Contact -->
+          <div class="glass-card rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg bg-gold/10 border border-gold/20 flex items-center justify-center">
+                <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-bold text-white">Email Us Directly</h3>
+            </div>
+            <p class="text-slate-400 text-sm mb-3">Prefer email? Reach out anytime.</p>
+            <a
+              href="mailto:contact@ibcacademy.org"
+              class="text-gold hover:text-gold-light transition-colors font-medium"
+            >
+              contact@ibcacademy.org
+            </a>
+          </div>
+
+          <!-- Booking Section -->
+          <div class="glass-card rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg bg-gold/10 border border-gold/20 flex items-center justify-center">
+                <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-bold text-white">Want to Discuss IBC?</h3>
+            </div>
+            <p class="text-slate-400 text-sm mb-5">
+              Book a conversation to explore how Infinite Banking could work for your situation.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center w-full justify-center px-6 py-3 bg-gold text-navy-900 font-bold rounded-xl hover:bg-gold-light transition-colors shadow-lg shadow-gold/20"
+            >
+              Book a Conversation
+              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="glass-card rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg bg-gold/10 border border-gold/20 flex items-center justify-center">
+                <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-bold text-white">Connect With Us</h3>
+            </div>
+            <p class="text-slate-400 text-sm mb-4">Follow along and join the conversation.</p>
+            <div class="space-y-3">
+              <a
+                href="https://x.com/theibcacademy"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 px-4 py-3 bg-navy/40 border border-navy-light/20 rounded-xl hover:border-gold/30 transition-colors group"
+              >
+                <svg class="w-5 h-5 text-slate-400 group-hover:text-gold transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+                <div>
+                  <div class="text-white text-sm font-medium group-hover:text-gold transition-colors">@theibcacademy</div>
+                  <div class="text-slate-500 text-xs">Follow on X</div>
+                </div>
+              </a>
+              <a
+                href="https://www.skool.com/ibc-academy"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 px-4 py-3 bg-navy/40 border border-navy-light/20 rounded-xl hover:border-gold/30 transition-colors group"
+              >
+                <svg class="w-5 h-5 text-slate-400 group-hover:text-gold transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                </svg>
+                <div>
+                  <div class="text-white text-sm font-medium group-hover:text-gold transition-colors">Skool Community</div>
+                  <div class="text-slate-500 text-xs">Free to join</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="pb-16 lg:pb-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 fade-in-up">
+      <div class="border border-navy-light/15 rounded-xl p-5 text-center">
+        <p class="text-slate-500 text-sm leading-relaxed">
+          <strong class="text-slate-400">Please note:</strong> IBC Academy is an educational platform. We do not sell insurance products or provide personalized financial advice. Our mission is to teach the Infinite Banking Concept so you can make informed decisions for yourself.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>

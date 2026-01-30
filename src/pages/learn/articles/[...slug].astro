@@ -1,0 +1,92 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+const categoryLabels: Record<string, string> = {
+  fundamentals: 'Fundamentals',
+  mechanics: 'Mechanics',
+  principles: 'Principles',
+  'case-study': 'Case Study',
+  'compared-to-what': 'Compared to What',
+  'austrian-economics': 'Austrian Economics',
+};
+---
+
+<Layout title={article.data.title} description={article.data.description}>
+  <article class="py-16 lg:py-24">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Back link -->
+      <a href="/learn/articles" class="inline-flex items-center text-slate-400 hover:text-gold text-sm mb-8 transition-colors">
+        <svg class="mr-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        Back to Articles
+      </a>
+
+      <!-- Header -->
+      <header class="mb-12">
+        <span class="inline-block text-xs font-medium text-gold bg-gold/10 px-2.5 py-1 rounded-md mb-4">
+          {categoryLabels[article.data.category] || article.data.category}
+        </span>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
+          {article.data.title}
+        </h1>
+        <p class="mt-4 text-lg text-slate-400">{article.data.description}</p>
+        <div class="mt-6 flex items-center gap-4 text-sm text-slate-500">
+          <time datetime={article.data.pubDate.toISOString()}>
+            {article.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          </time>
+          {article.data.tags.length > 0 && (
+            <div class="flex gap-2">
+              {article.data.tags.map((tag: string) => (
+                <span class="text-xs bg-navy-light/30 px-2 py-0.5 rounded">{tag}</span>
+              ))}
+            </div>
+          )}
+        </div>
+      </header>
+
+      <!-- Content -->
+      <div class="prose prose-invert prose-lg max-w-none
+        prose-headings:text-white prose-headings:font-bold
+        prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4
+        prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+        prose-p:text-slate-300 prose-p:leading-relaxed prose-p:mb-6
+        prose-a:text-gold prose-a:no-underline hover:prose-a:underline
+        prose-strong:text-white
+        prose-blockquote:border-gold/40 prose-blockquote:text-slate-300
+        prose-li:text-slate-300
+        prose-table:text-slate-300
+        prose-th:text-white prose-th:border-navy-light/30
+        prose-td:border-navy-light/20
+        prose-hr:border-navy-light/20
+        prose-code:text-gold prose-code:bg-navy-light/30 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded
+      ">
+        <Content />
+      </div>
+
+      <!-- Footer -->
+      <div class="mt-16 pt-8 border-t border-navy-light/20">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <a href="/learn/articles" class="text-gold font-medium hover:text-gold-light transition-colors">
+            ← More Articles
+          </a>
+          <a href="/learn/start-here" class="text-slate-400 hover:text-white transition-colors text-sm">
+            New here? Start with the guided path →
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+</Layout>
