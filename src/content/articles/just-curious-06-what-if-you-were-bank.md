@@ -116,7 +116,7 @@ Better yet: **as you repay the loan to your policy, you recapture the entire fin
 **Whole life insurance** has consistently outpaced inflation for over 150 years.
 
 **Why?**
-- **Conservative investments:** Mutual life insurance companies invest in bonds, real estate, and blue-chip stocks â€” assets that appreciate with inflation
+- **Conservative investments:** Mutual life insurance companies invest in bonds, real estate, and blue-chip stocks—assets that appreciate with inflation
 - **Compounding growth:** Your cash value compounds year after year **without** tax interruption  
 - **Dividend payments:** Mutual companies pay dividends to policyholders from company profits
 
@@ -237,7 +237,7 @@ When you control your own banking function, **every financial decision improves 
 - **Answer:** Compared to what? Losing 50% of your income to banks and financial institutions forever? The premiums you pay **come back to you** with interest. Money paid to banks is gone forever.
 
 ** â€” The returns are too low."**  
-- **Answer:** You're thinking like an investor, not a banker. IBC isn't about beating the stock market. It's about **controlling the banking function** in your life. Banks don't try to beat the stock market â€” they focus on **predictable spreads** and **capital control.**
+- **Answer:** You're thinking like an investor, not a banker. IBC isn't about beating the stock market. It's about **controlling the banking function** in your life. Banks don't try to beat the stock market—they focus on **predictable spreads** and **capital control.**
 
 ** â€” What if I need the money?"**
 - **Answer:** That's the point. You **always** have access to your capital through policy loans. Try calling Vanguard and asking for a loan against your 401(k) with no qualification, no approval, and no questions asked.
@@ -313,7 +313,7 @@ He simply **recognized** how whole life insurance really works and **systematize
 
 ---
 
-**Ready to learn more?** The next step is understanding how to properly structure and implement an IBC system. This isn't something you do alone â€” you need guidance from practitioners who understand the banking concept, not just insurance agents who understand death benefits.
+**Ready to learn more?** The next step is understanding how to properly structure and implement an IBC system. This isn't something you do alone—you need guidance from practitioners who understand the banking concept, not just insurance agents who understand death benefits.
 
 **Want to explore whether IBC makes sense for your situation?** The conversation starts with understanding your current cash flow, your financial goals, and your timeline. Every situation is different, but the principles remain the same.
 

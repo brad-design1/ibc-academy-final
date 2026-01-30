@@ -168,7 +168,7 @@ Not only does inflation steal purchasing power from your existing savings, it al
 
 The destruction compounds. Every dollar you save loses purchasing power **every year** you keep it in a low-interest account.
 
-Over 35 years, Sarah contributes $84,000 to her emergency fund ($200 Ã— 12 months Ã— 35 years).
+Over 35 years, Sarah contributes $84,000 to her emergency fund ($200 × 12 months × 35 years).
 
 **Total account balance:** $137,482  
 **Total purchasing power:** $58,019

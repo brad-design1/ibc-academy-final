@@ -30,7 +30,7 @@ Keep the base premium as low as possible while still qualifying for paid-up addi
 PUA riders are where the magic happens. These additions buy fully paid-up death benefit and create instant cash value. Think of PUA as your turbo-charged savings account inside the policy.
 
 **Choose Non-Direct Recognition**
-If you plan to borrow frequently â€” and as a real estate investor, you should â€” you want non-direct recognition treatment. This means dividends aren't reduced when you have loans outstanding. Your money keeps working even while borrowed against.
+If you plan to borrow frequently—and as a real estate investor, you should—you want non-direct recognition treatment. This means dividends aren't reduced when you have loans outstanding. Your money keeps working even while borrowed against.
 
 **Select Dividend-Paying Mutual Companies**
 Stick with mutual companies with long dividend payment histories. Look for companies that have paid dividends for 100+ years without interruption. These companies are owned by policyholders, not shareholders.
@@ -41,7 +41,7 @@ A typical real estate investor's policy might look like this:
 - $32,000 PUA rider
 - Total annual premium: $40,000
 
-The exact numbers depend on your age, health, and capitalization plan. But the ratio â€” roughly 20% base, 80% PUA â€” maximizes cash value efficiency.
+The exact numbers depend on your age, health, and capitalization plan. But the ratio—roughly 20% base, 80% PUA—maximizes cash value efficiency.
 
 ## Year One Through Five: Building the Infrastructure
 

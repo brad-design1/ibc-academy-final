@@ -36,7 +36,7 @@ Investing is important. But it is a *different* function than banking.
 
 ## The Critical Mistake
 
-Most people **combine banking and investing** into one decision. They ask: * â€” Where should I put my money to get the best return?"* — and they evaluate everything on the same axis.
+Most people **combine banking and investing** into one decision. They ask: * — Where should I put my money to get the best return?"* — and they evaluate everything on the same axis.
 
 This leads to absurd comparisons like:
 

@@ -13,13 +13,13 @@ seriesOrder: 5
 
 Let me tell you about Ray Delgado.
 
-Ray owns Comfort Zone HVAC in North Texas. Three trucks, two technicians, enough commercial contracts to stay busy year-round. Nothing fancy â€” just a solid, profitable business serving customers who need air conditioning in a state where summer starts in April and ends in October.
+Ray owns Comfort Zone HVAC in North Texas. Three trucks, two technicians, enough commercial contracts to stay busy year-round. Nothing fancy—just a solid, profitable business serving customers who need air conditioning in a state where summer starts in April and ends in October.
 
 Here's what nobody tells you about the HVAC business: **trucks don't last**. Not in Texas heat. Running full-blast AC while hauling equipment in and out of 140-degree attics. The suspension takes a beating. The AC systems fail. When you're heading to a $2,500 emergency call, you cannot afford a breakdown.
 
 Ray replaces a van every four years. $52,000 for the Ford Transit with the ladder rack, lockable storage, and upgraded AC. It's not optional. It's the cost of staying in business.
 
-For sixteen years, Ray did what every business owner does. He'd go to the dealership, fill out credit applications, wait for approval, and finance through Ford Credit at whatever rate they offered â€” usually around 7.9%.
+For sixteen years, Ray did what every business owner does. He'd go to the dealership, fill out credit applications, wait for approval, and finance through Ford Credit at whatever rate they offered—usually around 7.9%.
 
 One night, Ray sat down with a calculator. If he ran this business another twenty years, he'd buy five more vans. At $52,000 each, financed at 7.9%, he'd pay roughly **$45,000 in interest** to Ford Credit over those two decades.
 
@@ -39,7 +39,7 @@ He called his life insurance company and requested a **policy loan** for $52,000
 
 No credit check. No committee approval. No explanation required. Four business days later, a check arrived.
 
-Ray bought the van. Same vehicle he would have bought anyway. Same monthly payment â€” he set up automatic payments of $1,275 to his policy, identical to what he would have paid Ford Credit.
+Ray bought the van. Same vehicle he would have bought anyway. Same monthly payment—he set up automatic payments of $1,275 to his policy, identical to what he would have paid Ford Credit.
 
 **But here's what was different:**
 
@@ -49,7 +49,7 @@ The $1,275 monthly payment wasn't leaving his family's system. It was paying dow
 
 Two years later when Ray needed a second truck for expansion, he repeated the process. Same speed. Same simplicity. No negotiation.
 
-By the time Ray bought his seventh van â€” sixteen years into this approach â€” the picture looked nothing like it would have under the old system.
+By the time Ray bought his seventh van—sixteen years into this approach—the picture looked nothing like it would have under the old system.
 
 **His policy loan balance? Zero.** He'd paid off the last van early because he could.
 
@@ -135,7 +135,7 @@ When you finance through your own policy:
 
 Once you've built sufficient cash value across multiple policies, something else becomes possible: **self-insurance**.
 
-Not liability coverage â€” that protects against lawsuits and should be maintained. But comprehensive and collision on vehicles? The coverage that protects the lender's collateral?
+Not liability coverage—that protects against lawsuits and should be maintained. But comprehensive and collision on vehicles? The coverage that protects the lender's collateral?
 
 **When you're the lender, you decide whether that coverage is necessary.**
 
@@ -159,7 +159,7 @@ It's not just about having money. It's about how fast that money can move when o
 
 A client I'll call Derek runs a wholesale distribution business. Three years ago, a key supplier offered him an exclusive territory if he could commit to $180,000 in inventory within 60 days.
 
-Derek's bank was willing to lend the money â€” after they completed their due diligence. After reviewing purchase orders. After updating his credit facility documentation. **Timeline: 90-120 days.**
+Derek's bank was willing to lend the money—after they completed their due diligence. After reviewing purchase orders. After updating his credit facility documentation. **Timeline: 90-120 days.**
 
 The supplier couldn't wait. The exclusive territory went to a competitor who showed up with cash.
 
@@ -178,7 +178,7 @@ Because he could move when opportunity moved.
 Here's how sophisticated business owners integrate IBC with their operations:
 
 **Phase 1: Capital Accumulation (Years 1-4)**
-Build cash values through systematic premium payments. Think of this as stocking the shelves. No borrowing yet â€” just pure capitalization.
+Build cash values through systematic premium payments. Think of this as stocking the shelves. No borrowing yet—just pure capitalization.
 
 **Phase 2: Equipment Replacement (Years 4+)**
 Finance business equipment through policy loans instead of bank loans. Pay yourself back the same payment you would have made to the bank.
@@ -218,7 +218,7 @@ That you're not really running one business. You're running two: your primary bu
 
 Most business owners only focus on the first. **The wealthy focus on both.**
 
-Time to understand why the banking business might be more valuable than your primary business â€” and how to build both simultaneously.
+Time to understand why the banking business might be more valuable than your primary business—and how to build both simultaneously.
 
 ---
 

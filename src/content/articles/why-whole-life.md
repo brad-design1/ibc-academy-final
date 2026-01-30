@@ -8,7 +8,7 @@ featured: true
 ---
 # Why Whole Life Insurance? The Vehicle Explained
 
-When people first encounter the Infinite Banking Concept, one of the most common questions is: * â€” Why whole life insurance? Why not some other financial vehicle?"*
+When people first encounter the Infinite Banking Concept, one of the most common questions is: * — Why whole life insurance? Why not some other financial vehicle?"*
 
 It's a fair question. Let's break down what makes a dividend-paying whole life policy from a mutual insurance company uniquely suited for the banking function.
 

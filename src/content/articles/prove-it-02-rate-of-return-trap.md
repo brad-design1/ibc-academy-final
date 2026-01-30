@@ -75,7 +75,7 @@ The real comparison isn't whole life versus the stock market.
 
 **The real comparison is whole life versus the banking system.**
 
-Every time you need capital " for a car, a house, business equipment, an emergency " you have two choices:
+Every time you need capital — for a car, a house, business equipment, an emergency — you have two choices:
 
 1. Borrow from a commercial bank
 2. Access your own capital
@@ -164,7 +164,7 @@ Start asking: ** â€” Compared to what?"**
 
 **Compared to CDs:** Would you rather lock up money for a fixed term at today's rates, or build capital you can access flexibly while maintaining growth?
 
-**Compared to 401(k)s:** Would you rather have money locked up until 59Â½ with early withdrawal penalties, or capital you can access at any time for any purpose?
+**Compared to 401(k)s:** Would you rather have money locked up until 59½ with early withdrawal penalties, or capital you can access at any time for any purpose?
 
 **The question isn't whether whole life beats the stock market. The question is whether it solves problems that the stock market can't.**
 
@@ -219,7 +219,7 @@ You can do exactly that with a properly-funded whole life policy.
 
 - What's the rate of return on never having to qualify for a loan again?
 
-**In the next article, we're going to examine Dave Ramsey's specific claims about whole life insurance " and count how many factual errors he makes in a single radio call.**
+**In the next article, we're going to examine Dave Ramsey's specific claims about whole life insurance — and count how many factual errors he makes in a single radio call.**
 
 ---
 

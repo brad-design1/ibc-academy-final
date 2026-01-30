@@ -108,7 +108,7 @@ Nelson Nash taught something that reframes this entire conversation.
 
 When someone asks, "What's the interest rate?"—they're asking the wrong question.
 
-The right question is: ** â€” Compared to what?"**
+The right question is: ** — Compared to what?"**
 
 Compared to what? That's the question that unlocks everything.
 

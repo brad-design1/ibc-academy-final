@@ -38,7 +38,7 @@ Nelson Nash was a forester who owed half a million dollars when interest rates h
 
 There is no third option.
 
-Even when you pay cash, you're financing the purchase â€” you're surrendering the interest that cash could have earned elsewhere. The only question is: who profits from that financing?
+Even when you pay cash, you're financing the purchase—you're surrendering the interest that cash could have earned elsewhere. The only question is: who profits from that financing?
 
 Nash looked at his whole life insurance policies and realized something profound. These policies gave him contractual access to capital at predictable rates. No credit checks. No loan applications. No explaining to a loan committee why he needed the money.
 
@@ -69,7 +69,7 @@ Instead of enriching Wells Fargo, you're capitalizing your own financial institu
 Here's how a high-earning professional typically implements IBC:
 
 **Step 1: Policy Design**
-You work with an IBC practitioner to design a whole life policy optimized for cash value accumulation. This isn't your grandfather's life insurance â€” it's engineered to build capital quickly while maintaining the tax advantages and guarantees of life insurance.
+You work with an IBC practitioner to design a whole life policy optimized for cash value accumulation. This isn't your grandfather's life insurance—it's engineered to build capital quickly while maintaining the tax advantages and guarantees of life insurance.
 
 **Step 2: Capitalize the System**
 Instead of maximizing your 401k contribution, you redirect that cash flow into policy premiums. A $25,000 annual premium builds substantial cash value within 3-5 years.
@@ -82,7 +82,7 @@ Your cash value continues growing even while borrowed against. Dividends compoun
 
 ## Why This Works Better Than 401k Accumulation
 
-**Liquidity:** Your 401k locks up your money until age 59Â½. Your policy cash value is available immediately with no penalties.
+**Liquidity:** Your 401k locks up your money until age 59½. Your policy cash value is available immediately with no penalties.
 
 **Control:** Your 401k limits when and how you access funds. Your policy lets you borrow without permission or qualification.
 
@@ -98,7 +98,7 @@ Here's what financial decisions look like when you control the banking function:
 
 **Monday:** Your car lease expires. Instead of signing another lease, you take a $45,000 policy loan and buy the car outright. No dealership financing. No credit approval. You own the asset.
 
-**Tuesday:** Your policy loan documentation arrives. One page. You set your own repayment schedule â€” maybe $800/month over five years. That "interest" stays within your policy system.
+**Tuesday:** Your policy loan documentation arrives. One page. You set your own repayment schedule—maybe $800/month over five years. That "interest" stays within your policy system.
 
 **Wednesday:** Your annual policy statement shows cash value grew by $12,000 last year despite having loans outstanding. The system keeps working whether you're borrowing or not.
 
@@ -124,7 +124,7 @@ IBC says: keep that profit yourself.
 
 ** â€” I can earn more in my 401k":** Maybe. But can you access those earnings without penalties? Can you borrow against your 401k for business opportunities? Can you use your 401k to finance your daughter's wedding without taxes or early withdrawal penalties? Return isn't the only variable that matters.
 
-** â€” Whole life insurance seems expensive":** Compared to what? You're already paying premiums â€” they're called interest payments to banks. Instead of those payments disappearing into someone else's coffers, they build capital you control.
+** â€” Whole life insurance seems expensive":** Compared to what? You're already paying premiums—they're called interest payments to banks. Instead of those payments disappearing into someone else's coffers, they build capital you control.
 
 ** â€” I need my company's 401k match":** Take the match, then redirect additional savings to your IBC system. Nobody says this has to be all-or-nothing.
 

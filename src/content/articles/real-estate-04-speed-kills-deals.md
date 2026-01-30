@@ -29,11 +29,11 @@ Cash buyer. Closed in 10 days. No inspection. No appraisal contingency. No finan
 
 Real estate moves at two different speeds.
 
-**Retail deals** " listed properties, marketed widely, priced at or near market value " move slowly. Multiple showings, financing contingencies, inspection periods, appraisal delays. Buyers and sellers have time to negotiate.
+**Retail deals** — listed properties, marketed widely, priced at or near market value — move slowly. Multiple showings, financing contingencies, inspection periods, appraisal delays. Buyers and sellers have time to negotiate.
 
-**Investment-grade opportunities** " distressed sales, estate settlements, off-market deals with significant upside " move at lightning speed. The seller isn't looking for top dollar. They're looking for certainty and speed.
+**Investment-grade opportunities** — distressed sales, estate settlements, off-market deals with significant upside — move at lightning speed. The seller isn't looking for top dollar. They're looking for certainty and speed.
 
-When a motivated seller gets two offers " one for $500,000 with a 45-day financing contingency and another for $480,000 cash closing in 7 days " which do you think they choose?
+When a motivated seller gets two offers — one for $500,000 with a 45-day financing contingency and another for $480,000 cash closing in 7 days — which do you think they choose?
 
 **The $480,000 offer wins every time.**
 
@@ -64,7 +64,7 @@ Winning offers: $320,000 cash, 7-day close, no contingencies.
 
 Distressed properties often won't appraise for purchase price using conventional methods.
 
-Banks require appraisals based on "comparable sales" " recently sold properties similar to the one being purchased. But investment-grade opportunities are often distressed precisely because they're different from recent comparable sales.
+Banks require appraisals based on "comparable sales" — recently sold properties similar to the one being purchased. But investment-grade opportunities are often distressed precisely because they're different from recent comparable sales.
 
 A property selling for $480,000 when comparable properties sold for $650,000 is cheap for a reason. Maybe it needs $50,000 in renovations. Maybe it's been vacant for months. Maybe the owner is desperate to close quickly.
 
@@ -133,7 +133,7 @@ Sometimes this works. But hard money has its own timing traps.
 
 **Property evaluation**: Even hard money lenders want someone to look at the property. Their "48-hour approval" assumes they can get an investor, contractor, or appraiser to evaluate the collateral immediately.
 
-**Title issues**: If there are title problems " liens, estate issues, boundary disputes " even cash deals can't close quickly.
+**Title issues**: If there are title problems — liens, estate issues, boundary disputes — even cash deals can't close quickly.
 
 **Legal documentation**: Hard money loans often have complex personal guarantee provisions. Your attorney needs time to review terms that could put your other assets at risk.
 
@@ -143,7 +143,7 @@ And hard money assumes you have an exit strategy. Most hard money loans have 12-
 
 ## The Cash Buyer's Advantage
 
-Real cash buyers " investors who can write a check without financing contingencies " have a structural advantage that goes beyond speed.
+Real cash buyers — investors who can write a check without financing contingencies — have a structural advantage that goes beyond speed.
 
 **Negotiating position**: When a seller knows you can close regardless of financing markets, appraisal outcomes, or inspection results, they'll negotiate more aggressively on price. Cash buyers often pay less than financed buyers because their offers have more certainty.
 
@@ -203,7 +203,7 @@ Meanwhile, your lending relationships become more complex. Each lender has limit
 
 ## The Market Timing Component
 
-Real estate markets move in cycles. The best opportunities often appear during transitions " when one cycle is ending and another beginning.
+Real estate markets move in cycles. The best opportunities often appear during transitions — when one cycle is ending and another beginning.
 
 During these transitions, conventional financing often becomes more restrictive. Banks tighten underwriting. Appraisers become more conservative. Loan approval timelines extend.
 
@@ -261,6 +261,6 @@ But for now, ask yourself: **How much opportunity are you missing because your m
 
 ---
 
-*This is Article 4 of 6 in the Real Estate Investor's Path. [Continue to Article 5: What If You Were the Bank? â†’](/learn/articles/real-estate-05-what-if-you-were-the-bank)*
+*This is Article 4 of 6 in the Real Estate Investor's Path. [Continue to Article 5: What If You Were the Bank? →](/learn/articles/real-estate-05-what-if-you-were-the-bank)*
 
 *This is educational only and not meant to serve as financial advice.*

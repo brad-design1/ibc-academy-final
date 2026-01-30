@@ -64,14 +64,14 @@ Flowing to the **bank** that services her student loan.
 **Insurance: $280**  
 Sarah pays $160 for car insurance and $120 for renters insurance. Insurance companies take those premiums and do something interesting with them.
 
-They invest them. In bonds, stocks, real estate â€” and they keep the investment profits. Sarah gets protection. The **insurance company** gets to invest her money and keep the returns.
+They invest them. In bonds, stocks, real estate—and they keep the investment profits. Sarah gets protection. The **insurance company** gets to invest her money and keep the returns.
 
 *Fifth stop: insurance company (which invests the money and keeps the profits).*
 
 **Let's do the math:**
 
 - **Total monthly income:** $2,885
-- **Total flowing to banks:** $1,220 ($14,000 Ã· 12 from rent + $485 car + $340 credit cards + $395 student loans)
+- **Total flowing to banks:** $1,220 ($14,000 ÷ 12 from rent + $485 car + $340 credit cards + $395 student loans)
 - **Total flowing to insurance:** $280
 
 **$1,500 of Sarah's $2,885 paycheck flows to financial institutions.**
@@ -93,7 +93,7 @@ When Safeway pays interest on their debt, where do they get the money? From the 
 Starbucks has 33,000 stores worldwide. They didn't pay cash for those locations. They borrowed money to build the infrastructure that sells you coffee. When you buy a $5 latte, part of that $5 covers the interest Starbucks pays to banks.
 
 **Mortgage embedded in everything else**  
-Your gas station carries debt. Your cell phone company carries debt. The restaurant where you had lunch carries debt. Netflix, Amazon, Target, your dentist's office â€” they all have business loans and credit lines.
+Your gas station carries debt. Your cell phone company carries debt. The restaurant where you had lunch carries debt. Netflix, Amazon, Target, your dentist's office—they all have business loans and credit lines.
 
 Every business passes their borrowing costs to customers. Which means **you're paying interest on other people's debt every time you buy anything.**
 
@@ -162,7 +162,7 @@ When you see these numbers, a question should occur to you:
 
 What if, instead of sending $24,720 per year to banks and insurance companies, you could redirect some of that flow into a system you control?
 
-Not all of it â€” you still need insurance, you might still need some loans. But what if you could **become the bank** for a significant portion of your own financing needs?
+Not all of it—you still need insurance, you might still need some loans. But what if you could **become the bank** for a significant portion of your own financing needs?
 
 What if you could:
 - Earn the interest instead of paying it?
@@ -201,7 +201,7 @@ There is another way. A way that's been hiding in plain sight for over 200 years
 
 But first, you need to understand something that's going to sound impossible:
 
-**You finance everything you buy â€” even when you pay cash.**
+**You finance everything you buy—even when you pay cash.**
 
 We'll explore that idea next.
 

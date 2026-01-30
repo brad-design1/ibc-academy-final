@@ -9,9 +9,9 @@ draft: false
 series: "parent"
 seriesOrder: 3
 ---
-# Proverbs 13:22 " Building an Inheritance
+# Proverbs 13:22 — Building an Inheritance
 
-* â€” A good man leaves an inheritance to his children's children." " Proverbs 13:22*
+* â€” A good man leaves an inheritance to his children's children." — Proverbs 13:22*
 
 Most Christians can quote this verse. Few have a plan to fulfill it.
 
@@ -41,7 +41,7 @@ They understood something most Americans missed: you don't inherit money. You in
 
 Scripture is clear about our relationship to wealth. We don't truly own anything. We're stewards. Managers. Links in a chain, not endpoints.
 
-* â€” The earth is the Lord's, and everything in it." " Psalm 24:1*
+* â€” The earth is the Lord's, and everything in it." — Psalm 24:1*
 
 This means your money isn't really your money. It's capital that's been entrusted to you for a season. Your job isn't to accumulate the biggest pile before you die. Your job is to be a faithful steward and pass that capital forward in better condition than you received it.
 
@@ -67,7 +67,7 @@ None of these vehicles create what Proverbs 13:22 describes. They transfer wealt
 
 ## How IBC Provides the Vehicle
 
-Nelson Nash understood this biblical principle intimately. He referenced Proverbs 13:22 repeatedly throughout *Becoming Your Own Banker*. His forest management background taught him to think in terms of "even distribution of age classes" " creating systems that produce income across multiple generations.
+Nelson Nash understood this biblical principle intimately. He referenced Proverbs 13:22 repeatedly throughout *Becoming Your Own Banker*. His forest management background taught him to think in terms of "even distribution of age classes" — creating systems that produce income across multiple generations.
 
 Nash wrote: "An even distribution of age classes provides the most efficient wealth transfer from generation to generation." He wasn't just talking about trees. He was describing a financial system that could serve multiple generations simultaneously.
 
@@ -79,7 +79,7 @@ Here's how properly structured whole life insurance fulfills the Proverbs 13:22 
 
 **The system as education:** This might be the most important component. When your children inherit your policy, they're not just receiving money. They're receiving a financial education. They're learning how to be their own banker. They're inheriting a methodology, not just an account balance.
 
-Consider this example from Nash's work: A grandparent buys a policy on a grandchild from age zero to twenty-two, paying $2,000 per year. By age twenty-two, the grandchild has approximately $100,000 in cash value " their college education fund, business startup capital, or first home down payment. But they also have something more valuable: a fully capitalized banking system.
+Consider this example from Nash's work: A grandparent buys a policy on a grandchild from age zero to twenty-two, paying $2,000 per year. By age twenty-two, the grandchild has approximately $100,000 in cash value — their college education fund, business startup capital, or first home down payment. But they also have something more valuable: a fully capitalized banking system.
 
 If that young person never adds another dollar in premium, by age seventy they'll have roughly $4 million in cash value. They can withdraw $225,000 per year in tax-advantaged distributions and still leave over $6 million in death benefit to their children.
 

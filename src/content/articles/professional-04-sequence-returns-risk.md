@@ -44,16 +44,16 @@ When you're withdrawing money, negative returns early in retirement do permanent
 Let's examine Michael and David's real numbers:
 
 **Michael's Timeline (Retired January 2000)**
-- **2000**: Start with $1.2M, withdraw $48K, market drops 9% â†’ Balance: $1.06M
-- **2001**: Withdraw $49K, market drops 12% â†’ Balance: $880K  
-- **2002**: Withdraw $50K, market drops 22% â†’ Balance: $648K
+- **2000**: Start with $1.2M, withdraw $48K, market drops 9% → Balance: $1.06M
+- **2001**: Withdraw $49K, market drops 12% → Balance: $880K  
+- **2002**: Withdraw $50K, market drops 22% → Balance: $648K
 - **2008**: Account already depleted from earlier crashes
 - **2018**: Money runs out entirely
 
 **David's Timeline (Retired January 2003)**  
-- **2003**: Start with $1.2M, withdraw $48K, market gains 29% â†’ Balance: $1.44M
-- **2004**: Withdraw $49K, market gains 11% â†’ Balance: $1.54M
-- **2005**: Withdraw $50K, market gains 5% â†’ Balance: $1.57M
+- **2003**: Start with $1.2M, withdraw $48K, market gains 29% → Balance: $1.44M
+- **2004**: Withdraw $49K, market gains 11% → Balance: $1.54M
+- **2005**: Withdraw $50K, market gains 5% → Balance: $1.57M
 - **2008**: Account had built buffer from early gains
 - **2023**: Balance exceeds $2M despite 20 years of withdrawals
 
@@ -93,7 +93,7 @@ Sounds safe, right? But look deeper:
 
 **If you retire at the wrong time, you're almost guaranteed to fail.**
 
-2000, 1973, 1966, 1937"these were all terrible times to retire with a 401k-dependent strategy. But you don't get to choose your retirement timing based on market conditions. You retire when your career ends, your health fails, or your company downsizes.
+2000, 1973, 1966, 1937—these were all terrible times to retire with a 401k-dependent strategy. But you don't get to choose your retirement timing based on market conditions. You retire when your career ends, your health fails, or your company downsizes.
 
 **Sequence risk makes 401k retirement a timing lottery.**
 
@@ -194,7 +194,7 @@ The only way to eliminate sequence risk is to eliminate dependence on market tim
 
 Austrian economists understood something that modern portfolio theory ignores: **uncertainty is not the same as risk.**
 
-Risk can be calculated and managed through diversification. Uncertainty cannot be diversified away because it represents unknown unknowns â€” events that haven't happened before and can't be modeled.
+Risk can be calculated and managed through diversification. Uncertainty cannot be diversified away because it represents unknown unknowns—events that haven't happened before and can't be modeled.
 
 **Sequence risk is uncertainty, not risk.**
 
@@ -243,7 +243,7 @@ You face a fundamental choice about sequence risk:
 
 **Option 2**: Eliminate sequence risk by building guaranteed cash value that provides loan-based distributions regardless of market conditions.
 
-**Option 3**: Hybrid approach â€” maintain some 401k savings for company matches while building IBC capacity to reduce dependence on market timing.
+**Option 3**: Hybrid approach—maintain some 401k savings for company matches while building IBC capacity to reduce dependence on market timing.
 
 **There is no Option 4.** You cannot diversify away sequence risk within market-dependent accounts.
 

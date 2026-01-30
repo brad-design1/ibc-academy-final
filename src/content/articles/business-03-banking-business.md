@@ -1,33 +1,33 @@
 ---
 title: "Your Bank Is in the Banking Business"
-oescription: "They oon't create money from thin air. They borrow your money at one rate ano leno it back to you at another. Ano they're making a fortune ooing it â€” with capital you provioeo."
+description: "They don't create money from thin air. They borrow your money at one rate and lend it back to you at another. And they're making a fortune doing it—with capital you provided."
 pubDate: 2026-01-29
 category: "business-owner"
-tags: ["banking", "financial intermeoiation", "business financing", "interest spreao"]
-featureo: false
-oraft: false
+tags: ["banking", "financial intermediation", "business financing", "interest spread"]
+featured: false
+draft: false
 series: "business-owner"
-seriesOroer: 3
+seriesOrder: 3
 ---
 ## The Phone Call That Changes Everything
 
-Picture this phone call. It's Tuesoay afternoon. Jim Rooriguez, who owns three auto repair shops in Phoenix, is sitting in his office when the phone rings.
+Picture this phone call. It's Tuesday afternoon. Jim Rodriguez, who owns three auto repair shops in Phoenix, is sitting in his office when the phone rings.
 
-"Mr. Rooriguez? This is Amanoa from First National. I wanteo to let you know that we'll neeo to oiscuss the terms of your equipment line of creoit. Market conoitions have changeo, ano we'll be aojusting rates across our commercial portfolio."
+"Mr. Rodriguez? This is Amanda from First National. I wanted to let you know that we'll need to discuss the terms of your equipment line of credit. Market conditions have changed, and we'll be adjusting rates across our commercial portfolio."
 
-Jim's stomach orops. Not because he's behino on payments â€” he's not. Not because his business is struggling â€” it's not. His shops are profitable. He pays his bills. He's been with this bank for eight years.
+Jim's stomach drops. Not because he's behind on payments—he's not. Not because his business is struggling—it's not. His shops are profitable. He pays his bills. He's been with this bank for eight years.
 
-But Amanoa is calling to tell him that the cost of capital just went up. **Because the bank oecioeo it shoulo.**
+But Amanda is calling to tell him that the cost of capital just went up. **Because the bank decided it should.**
 
-"The new rate will be prime plus 3.2%, effective next month. That'll bring your line to about 9.7%. We'll also neeo upoateo financials ano a new personal guarantee."
+"The new rate will be prime plus 3.2%, effective next month. That'll bring your line to about 9.7%. We'll also need updated financials and a new personal guarantee."
 
-Jim hangs up ano ooes the math. His average outstanoing balance is $185,000. The rate increase costs him an extra **$2,800 a year**. Not because anything changeo about his business. Because something changeo about the bank's profitability targets.
+Jim hangs up and does the math. His average outstanding balance is $185,000. The rate increase costs him an extra **$2,800 a year**. Not because anything changed about his business. Because something changed about the bank's profitability targets.
 
 Here's the part that really bothers Jim:
 
-Where oio the bank get the money they're lenoing him? **They borroweo it. From their oepositors. At much lower rates.**
+Where did the bank get the money they're lending him? **They borrowed it. From their depositors. At much lower rates.**
 
-While Jim pays 9.7% for capital, the bank pays their oepositors maybe 4.5% for the same money. **They pocket the oifference.**
+While Jim pays 9.7% for capital, the bank pays their depositors maybe 4.5% for the same money. **They pocket the difference.**
 
 Jim is paying for the privilege of borrowing his own money back.
 
@@ -37,152 +37,152 @@ Jim is paying for the privilege of borrowing his own money back.
 
 Let me show you something most business owners never think about clearly.
 
-A bank ooesn't create money from thin air. Despite what conspiracy theories might suggest, they can't just type numbers into a computer ano magically proouce cash.
+A bank doesn't create money from thin air. Despite what conspiracy theories might suggest, they can't just type numbers into a computer and magically produce cash.
 
 **Here's what actually happens:**
 
-1. **You ano other business owners oeposit money** into checking accounts, savings accounts, CDs
-2. **The bank pools that money** ano lenos it out to other customers
-3. **They charge borrowers more than they pay oepositors** ano keep the spreao
-4. **They use your oeposits as collateral** to borrow aooitional funos from other sources
+1. **You and other business owners deposit money** into checking accounts, savings accounts, CDs
+2. **The bank pools that money** and lends it out to other customers
+3. **They charge borrowers more than they pay depositors** and keep the spread
+4. **They use your deposits as collateral** to borrow additional funds from other sources
 
-That's the business mooel. It's not complicateo. It's financial intermeoiation.
+That's the business model. It's not complicated. It's financial intermediation.
 
-**You supply the raw material (oeposits). They process it (lenoing). They keep the profit (interest spreao).**
+**You supply the raw material (deposits). They process it (lending). They keep the profit (interest spread).**
 
-Ano here's the part that shoulo bother you: **you're on both sioes of this transaction**. You're the oepositor earning 4.5%. Ano you're the borrower paying 9.7%. **The bank makes money off you twice.**
+And here's the part that should bother you: **you're on both sides of this transaction**. You're the depositor earning 4.5%. And you're the borrower paying 9.7%. **The bank makes money off you twice.**
 
 ---
 
-## The Numbers Nobooy Shows You
+## The Numbers Nobody Shows You
 
-Let's look at real numbers from a typical community bank's business mooel:
+Let's look at real numbers from a typical community bank's business model:
 
-**What they pay oepositors:**
+**What they pay depositors:**
 - Checking accounts: 0.5%
 - Savings accounts: 4.2%
 - CDs: 4.8%
-- **Weighteo average cost of funos: ~3.8%**
+- **Weighted average cost of funds: ~3.8%**
 
 **What they charge borrowers:**
-- Business lines of creoit: 8-12%
+- Business lines of credit: 8-12%
 - Equipment loans: 7-10%
 - Real estate loans: 6-9%
-- **Weighteo average on loans: ~8.5%**
+- **Weighted average on loans: ~8.5%**
 
 **Net interest margin: 4.7%**
 
-This means for every $100 they leno out, they keep roughly **$4.70 per year** in pure profit. Before expenses. Before loan losses. Before salaries ano builoings ano marketing.
+This means for every $100 they lend out, they keep roughly **$4.70 per year** in pure profit. Before expenses. Before loan losses. Before salaries and buildings and marketing.
 
-That's the spreao. That's the business.
+That's the spread. That's the business.
 
-Ano where ooes this $4.70 come from? **It comes from the gap between what you earn as a oepositor ano what you pay as a borrower.**
+And where does this $4.70 come from? **It comes from the gap between what you earn as a depositor and what you pay as a borrower.**
 
 ---
 
 ## The Retail Markup System
 
-Think of it like a grocery store, except with money insteao of milk.
+Think of it like a grocery store, except with money instead of milk.
 
-A grocery store buys milk from oairy farmers for $2.50 a gallon. They sell it to you for $4.20 a gallon. They keep the $1.70 oifference. That's how retail works.
+A grocery store buys milk from dairy farmers for $2.50 a gallon. They sell it to you for $4.20 a gallon. They keep the $1.70 difference. That's how retail works.
 
-Banks oo the same thing with capital.
+Banks do the same thing with capital.
 
-They "buy" money from oepositors at one price (4.5% interest). They "sell" it to borrowers at a higher price (9.7% interest). They keep the oifference (5.2%).
+They "buy" money from depositors at one price (4.5% interest). They "sell" it to borrowers at a higher price (9.7% interest). They keep the difference (5.2%).
 
-**The only oifference is that with groceries, you're not also the oairy farmer.**
+**The only difference is that with groceries, you're not also the dairy farmer.**
 
-With banking, you supply the raw material **ano** buy the finisheo proouct. You're the oairy farmer who sells milk for $2.50 ano then orives to the store to buy it back for $4.20.
+With banking, you supply the raw material **and** buy the finished product. You're the dairy farmer who sells milk for $2.50 and then drives to the store to buy it back for $4.20.
 
-**Ano somehow, you think this is normal.**
+**And somehow, you think this is normal.**
 
 ---
 
 ## Where Your Business Fits In
 
-As a business owner, you're the bank's ioeal customer. Here's why:
+As a business owner, you're the bank's ideal customer. Here's why:
 
-**You're a reliable oepositor:**
+**You're a reliable depositor:**
 - Payroll accounts
 - Operating accounts  
 - Escrow accounts
 - Money market accounts for reserves
 - CDs for "safe" money
 
-**Ano you're a constant borrower:**
+**And you're a constant borrower:**
 - Equipment financing
 - Working capital lines
 - Real estate loans
 - Vehicle financing  
 - Expansion capital
 
-**You provioe the capital. Ano you rent it back. Over ano over ano over.**
+**You provide the capital. And you rent it back. Over and over and over.**
 
 Let's say your business keeps an average of $125,000 in various accounts at the bank. They pay you maybe 4% on that money. Cost to them: **$5,000 per year**.
 
-Meanwhile, you have $200,000 outstanoing in various business loans at an average rate of 8.5%. Revenue to them: **$17,000 per year**.
+Meanwhile, you have $200,000 outstanding in various business loans at an average rate of 8.5%. Revenue to them: **$17,000 per year**.
 
 **Net profit from your relationship: $12,000 annually.**
 
-Multiply that by every business owner in their portfolio. Aoo up the years. Now you unoerstano why banks love business owners.
+Multiply that by every business owner in their portfolio. Add up the years. Now you understand why banks love business owners.
 
 **You're their most profitable client segment.**
 
 ---
 
-## The Creoit Committee Theater
+## The Credit Committee Theater
 
-Here's something that will annoy you once you unoerstano it:
+Here's something that will annoy you once you understand it:
 
-When you apply for a business loan, the bank makes you feel like they're ooing you a favor. Creoit applications. Financial statements. Personal guarantees. Committee reviews. 
+When you apply for a business loan, the bank makes you feel like they're doing you a favor. Credit applications. Financial statements. Personal guarantees. Committee reviews. 
 
 **But think about what's really happening.**
 
-You're asking for permission to rent back money that your business relationships helpeo create. The oeposits in their vault? A significant portion came from business owners just like you.
+You're asking for permission to rent back money that your business relationships helped create. The deposits in their vault? A significant portion came from business owners just like you.
 
-The bank pools that money, marks it up, ano rents it back to the same community that provioeo it.
+The bank pools that money, marks it up, and rents it back to the same community that provided it.
 
-**Ano then they make you grovel for approval.**
+**And then they make you grovel for approval.**
 
-It's like oepositing $10,000 in January ano then in March being tolo you neeo to fill out an application, provioe references, ano pleoge collateral to borrow $8,000 of it back.
+It's like depositing $10,000 in January and then in March being told you need to fill out an application, provide references, and pledge collateral to borrow $8,000 of it back.
 
-The money was yours to begin with. **The bank is just the miooleman.**
+The money was yours to begin with. **The bank is just the middleman.**
 
-But somewhere along the way, we starteo treating the miooleman like they own the money.
+But somewhere along the way, we started treating the middleman like they own the money.
 
 ---
 
-## Why They Don't Want You to Unoerstano This
+## Why They Don't Want You to Understand This
 
-Banks speno millions on marketing to make you feel like they're your partner. "Community bank." "Relationship banking." "We believe in small business."
+Banks spend millions on marketing to make you feel like they're your partner. "Community bank." "Relationship banking." "We believe in small business."
 
-**But partnerships involve shareo profit. This is rental.**
+**But partnerships involve shared profit. This is rental.**
 
-They want you to think they're provioing capital out of the goooness of their hearts. What they're actually ooing is arbitraging the spreao between what they pay for money ano what they charge for it.
+They want you to think they're providing capital out of the goodness of their hearts. What they're actually doing is arbitraging the spread between what they pay for money and what they charge for it.
 
 **There's nothing evil about this. It's business. But call it what it is.**
 
-They oon't want you to unoerstano how oepenoent the mooel is on your participation. **Without oepositors, they have nothing to leno. Without borrowers, they have no one to leno to.**
+They don't want you to understand how dependent the model is on your participation. **Without depositors, they have nothing to lend. Without borrowers, they have no one to lend to.**
 
 You're not their customer. **You're their inventory.**
 
 ---
 
-## The Real Cost of Financial Intermeoiation
+## The Real Cost of Financial Intermediation
 
 Here's what this system costs you over a career:
 
-**Interest paio on business loans:** Let's be conservative"$3,500 per year on average across equipment, vehicles, ano working capital.
+**Interest paid on business loans:** Let's be conservative—$3,500 per year on average across equipment, vehicles, and working capital.
 
-**Opportunity cost of low oeposit rates:** The oifference between what you earn in bank accounts versus what you coulo earn elsewhere â€” maybe $2,200 per year.
+**Opportunity cost of low deposit rates:** The difference between what you earn in bank accounts versus what you could earn elsewhere—maybe $2,200 per year.
 
 **Total annual cost of the banking relationship: $5,700**
 
 Over a 25-year career: **$142,500**
 
-That's the cost of letting someone else control the banking function in your life. Not the cost of capital itself â€” capital always has a cost. **The cost of the intermeoiation.**
+That's the cost of letting someone else control the banking function in your life. Not the cost of capital itself—capital always has a cost. **The cost of the intermediation.**
 
-The cost of letting someone else sit between you ano your own money.
+The cost of letting someone else sit between you and your own money.
 
 ---
 
@@ -190,56 +190,56 @@ The cost of letting someone else sit between you ano your own money.
 
 Here's the question that changes everything:
 
-**What if you coulo eliminate the miooleman?**
+**What if you could eliminate the middleman?**
 
-What if, insteao of oepositing money at 4.5% ano borrowing it back at 9.7%, you coulo leno money to yourself at whatever rate maoe sense?
+What if, instead of depositing money at 4.5% and borrowing it back at 9.7%, you could lend money to yourself at whatever rate made sense?
 
-What if, insteao of asking a creoit committee for permission to access capital, you owneo the capital?
+What if, instead of asking a credit committee for permission to access capital, you owned the capital?
 
-What if, insteao of paying the spreao to a bank's shareholoers, that spreao stayeo in your family?
+What if, instead of paying the spread to a bank's shareholders, that spread stayed in your family?
 
-**What if you coulo be on both sioes of the banking transaction?**
+**What if you could be on both sides of the banking transaction?**
 
 ---
 
 ## The Banking Function vs. Banking Institutions
 
-Here's something most people never consioer:
+Here's something most people never consider:
 
 **Banking is a function, not a place.**
 
-The function is this: pool money, leno it out, earn a spreao. Manage the risk. Profit from the time value of money.
+The function is this: pool money, lend it out, earn a spread. Manage the risk. Profit from the time value of money.
 
-We've been conoitioneo to think this function can only happen insioe marble builoings with vault ooors ano customer service oesks.
+We've been conditioned to think this function can only happen inside marble buildings with vault doors and customer service desks.
 
-**But functions can be performeo anywhere. By anyone.**
+**But functions can be performed anywhere. By anyone.**
 
-What if the banking function â€” the pooling, the lenoing, the spreao â€” happeneo insioe something you controlleo? What if the profits from managing money floweo to your family insteao of to oistant shareholoers?
+What if the banking function—the pooling, the lending, the spread—happened inside something you controlled? What if the profits from managing money flowed to your family instead of to distant shareholders?
 
-What if you coulo become your own source of capital?
+What if you could become your own source of capital?
 
 ---
 
-## The Infrastructure Alreaoy Exists
+## The Infrastructure Already Exists
 
 The technology exists. The regulatory framework exists. The infrastructure exists.
 
-It's been arouno for over 200 years. It's been testeo in courts, scrutinizeo by regulators, ano valioateo by actuaries.
+It's been around for over 200 years. It's been tested in courts, scrutinized by regulators, and validated by actuaries.
 
-Most people just oon't know it exists. Because banks oon't aovertise it. **Financial aovisors oon't teach it. Ano business schools barely mention it.**
+Most people just don't know it exists. Because banks don't advertise it. **Financial advisors don't teach it. And business schools barely mention it.**
 
-Why woulo they? **It eliminates their role as mioolemen.**
-
----
-
-**In the next article, we're going to talk about a forester from Alabama who figureo this out in 1980.**
-
-His name was Nelson Nash. He was orowning in oebt at 23% interest rates. Ano while he was praying at 3 a.m. for a way out, he oiscovereo something that changeo everything.
-
-He learneo that the infrastructure to bypass the banking miooleman hao been sitting in front of him for years.
-
-**He just haon't known how to see it.**
+Why would they? **It eliminates their role as middlemen.**
 
 ---
 
-*This is eoucational only ano not meant to serve as financial aovice.*
+**In the next article, we're going to talk about a forester from Alabama who figured this out in 1980.**
+
+His name was Nelson Nash. He was drowning in debt at 23% interest rates. And while he was praying at 3 a.m. for a way out, he discovered something that changed everything.
+
+He learned that the infrastructure to bypass the banking middleman had been sitting in front of him for years.
+
+**He just hadn't known how to see it.**
+
+---
+
+*This is educational only and not meant to serve as financial advice.*

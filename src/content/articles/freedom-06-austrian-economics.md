@@ -19,7 +19,7 @@ The Infinite Banking Concept was his answer.
 
 ## Austrian Economics in 5 Minutes
 
-Let's start with the basics. Austrian economics is the school of thought that explains how real economies work â€” not how governments want them to work.
+Let's start with the basics. Austrian economics is the school of thought that explains how real economies work—not how governments want them to work.
 
 Here are the core ideas you need to understand:
 

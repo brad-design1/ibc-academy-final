@@ -38,7 +38,7 @@ Traditional retirement planning focuses entirely on **accumulation**.
 
 **But accumulation is only half the puzzle.**
 
-The other half â€” the half no one talks about â€” is **distribution**.
+The other half—the half no one talks about—is **distribution**.
 
 **How do you turn your retirement pile into spendable money?**
 
@@ -48,7 +48,7 @@ This isn't a simple question. And the answer determines whether your retirement 
 
 Let's meet David. He's 66 and just retired.
 
-David did everything right. He maxed out his 401(k) for 30 years. He's got $1.2 million in retirement accounts. He followed the "4% rule""he can withdraw $48,000 per year and his money should last 30 years.
+David did everything right. He maxed out his 401(k) for 30 years. He's got $1.2 million in retirement accounts. He followed the "4% rule"—he can withdraw $48,000 per year and his money should last 30 years.
 
 David feels good. **Until real life happens.**
 
@@ -248,7 +248,7 @@ Once you understand the banking question, **a different retirement strategy emer
 **Do you control your capital, or does your capital control you?**
 
 **Traditional retirement accounts control you:**
-- They dictate when you can access money (age 59Â½)
+- They dictate when you can access money (age 59½)
 - They dictate how much you must withdraw (RMDs at age 73)  
 - They dictate the tax consequences (ordinary income rates)
 - They dictate penalties for early access

@@ -17,7 +17,7 @@ Fast forward to today. David still owns the property. It's worth about $420,000 
 
 Until I showed him the numbers.
 
-Over 30 years, David's total payments will be $368,000 on that $144,000 loan (he put 20% down). That means he's paying $224,000 in interest " more than the original purchase price of the property.
+Over 30 years, David's total payments will be $368,000 on that $144,000 loan (he put 20% down). That means he's paying $224,000 in interest — more than the original purchase price of the property.
 
 But here's what really shocked him: **In today's dollars, that $224,000 in future interest payments is worth about $346,000.**
 
@@ -86,7 +86,7 @@ I know investors who've owned properties for 20 years and have refinanced multip
 
 The bank loves these customers. Every refinance generates fees. Every refinance extends the period of interest payments. Every refinance keeps the wealth transfer flowing.
 
-** â€” Accessing equity" is often just converting equity into debt " trading an asset you own for an obligation you owe.**
+** â€” Accessing equity" is often just converting equity into debt — trading an asset you own for an obligation you owe.**
 
 ## The Leverage Lie
 
@@ -114,7 +114,7 @@ Leverage didn't amplify your returns. It split them.
 
 Yes. And that's exactly the problem.
 
-Think about what a tax deduction actually is. You pay $100 in mortgage interest. If you're in a 25% tax bracket, you get a $25 deduction. You still sent $75 to your lender " money that's gone forever.
+Think about what a tax deduction actually is. You pay $100 in mortgage interest. If you're in a 25% tax bracket, you get a $25 deduction. You still sent $75 to your lender — money that's gone forever.
 
 **A tax deduction is a discount on wealth you're transferring to someone else. It's not wealth creation. It's loss mitigation.**
 
@@ -155,7 +155,7 @@ When real estate investors scale beyond residential rentals, they discover that 
 
 ## The Private Lender Perspective
 
-I know several private lenders " high-net-worth individuals who lend their own money to real estate investors.
+I know several private lenders — high-net-worth individuals who lend their own money to real estate investors.
 
 They target 8-12% annual returns. They want monthly payments. They want personal guarantees. They want first lien position on valuable assets.
 
@@ -169,7 +169,7 @@ The capital providers are making more money than the capital users. That should 
 
 ## The Institutional Advantage
 
-Large real estate investors " REITs, pension funds, sovereign wealth funds " have access to capital markets that individual investors don't.
+Large real estate investors — REITs, pension funds, sovereign wealth funds — have access to capital markets that individual investors don't.
 
 They can issue bonds at institutional rates. They can access credit facilities from multiple banks. They can negotiate terms that individual investors never see.
 
@@ -185,7 +185,7 @@ Here's a thought experiment.
 
 Instead of using David's $36,000 down payment for a rental property financed at 5.5%, what if he'd used that money differently?
 
-What if he'd put $36,000 into properly structured dividend-paying whole life insurance annually for 5 years " building a pool of $180,000 in capital he could access for real estate deals?
+What if he'd put $36,000 into properly structured dividend-paying whole life insurance annually for 5 years — building a pool of $180,000 in capital he could access for real estate deals?
 
 After 20 years, that capital would have grown to approximately $400,000-$500,000 in accessible cash value, depending on dividends and usage patterns.
 
@@ -256,6 +256,6 @@ But for now, ask yourself this: **If Other People's Money isn't free, why not us
 
 ---
 
-*This is Article 3 of 6 in the Real Estate Investor's Path. [Continue to Article 4: Speed Kills Deals â†’](/learn/articles/real-estate-04-speed-kills-deals)*
+*This is Article 3 of 6 in the Real Estate Investor's Path. [Continue to Article 4: Speed Kills Deals →](/learn/articles/real-estate-04-speed-kills-deals)*
 
 *This is educational only and not meant to serve as financial advice.*

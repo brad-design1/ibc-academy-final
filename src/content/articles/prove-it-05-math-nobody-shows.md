@@ -102,7 +102,7 @@ Dr. Wade Pfau is a professor at The American College of Financial Services and o
 
 **His finding that should terrify every financial advisor:**
 
-Traditional retirement withdrawal strategies " the 4% rule, Monte Carlo simulations, portfolio rebalancing " dramatically underperform when **sequence of returns risk** is properly understood.
+Traditional retirement withdrawal strategies — the 4% rule, Monte Carlo simulations, portfolio rebalancing — dramatically underperform when **sequence of returns risk** is properly understood.
 
 **Sequence of returns risk:** The risk that bad market years happen early in retirement when you're withdrawing money.
 
@@ -207,9 +207,9 @@ Critics love attacking whole life "costs" without providing context.
 - Interest rate fixed in contract
 
 **Accessing other investments:**
-- **401(k):** 10% penalty + taxes before 59Â½
-- **IRA:** 10% penalty + taxes before 59Â½  
-- **Roth IRA:** Contributions only (no growth) before 59Â½
+- **401(k):** 10% penalty + taxes before 59½
+- **IRA:** 10% penalty + taxes before 59½  
+- **Roth IRA:** Contributions only (no growth) before 59½
 - **Taxable account:** Forced to sell at current market prices
 
 **Which provides true liquidity?**
@@ -317,7 +317,7 @@ Found whole life insurance's combination of growth, liquidity, and tax treatment
 
 ## The Uncomfortable Truth
 
-When you run the actual numbers " including taxes, liquidity, control, and lifetime financing costs " whole life insurance often outperforms the alternatives.
+When you run the actual numbers — including taxes, liquidity, control, and lifetime financing costs — whole life insurance often outperforms the alternatives.
 
 **Not because it has the highest returns. Because it solves problems the alternatives can't.**
 
@@ -329,7 +329,7 @@ When you run the actual numbers " including taxes, liquidity, control, and lifet
 
 **For the right person, in the right situation, with the right design, the math works.**
 
-**In the next article, we'll put all the pieces together and examine the complete reframe: Why IBC isn't an investment strategy " it's a banking strategy.**
+**In the next article, we'll put all the pieces together and examine the complete reframe: Why IBC isn't an investment strategy — it's a banking strategy.**
 
 ---
 

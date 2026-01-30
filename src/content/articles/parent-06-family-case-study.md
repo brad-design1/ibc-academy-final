@@ -13,19 +13,19 @@ Let me show you what this looks like with real numbers.
 
 You've read about the theory. You understand the concepts. You know whole life insurance can be a powerful financial tool. But what does it actually look like when a family commits to implementing Infinite Banking across generations?
 
-Meet the Thompson family. What you're about to see are realistic numbers based on actual IBC implementations. This isn't theory â€” it's a roadmap you can follow.
+Meet the Thompson family. What you're about to see are realistic numbers based on actual IBC implementations. This isn't theory—it's a roadmap you can follow.
 
 ## Meet the Thompson Family
 
-**Generation 1 " The Grandparents:**
+**Generation 1 — The Grandparents:**
 - Robert Thompson, 65: Recently retired engineer
 - Mary Thompson, 63: Former teacher, excellent health
 
-**Generation 2 " The Parents:**
+**Generation 2 — The Parents:**
 - David Thompson, 35: Software sales manager, $120,000 income
 - Sarah Thompson, 33: Marketing consultant, $75,000 income
 
-**Generation 3 " The Children:**
+**Generation 3 — The Children:**
 - Emma Thompson, 5: Starting kindergarten
 - Jack Thompson, 2: The family's youngest
 
@@ -35,7 +35,7 @@ This is a typical American family with middle-to-upper-middle-class income. They
 
 After attending one of Nelson Nash's Think Tank meetings in Birmingham, Robert and Mary decide to implement what Nash calls "even distribution of age classes" across their family system. Here's how they structure it:
 
-### Generation 1 " The Grandparents Lead
+### Generation 1 — The Grandparents Lead
 
 **Robert's Policy (Age 65):**
 - Death benefit: $500,000
@@ -69,7 +69,7 @@ But Robert doesn't stop there. Following Nash's recommendation to fund policies 
 
 Total annual outlay for Robert: $16,000 ($10,000 for his policy, $3,000 each for the grandchildren)
 
-### Generation 2 " The Parents Max Out
+### Generation 2 — The Parents Max Out
 
 David and Sarah, inspired by Robert and Mary's commitment, decide to fund their policies to their insurability limits.
 
@@ -126,7 +126,7 @@ At age 82, after 17 years of policy ownership and premium payments, Robert gradu
 - Original face amount: $500,000
 - Dividend additions and compound growth: $440,000
 
-Mary, as the primary beneficiary, receives $470,000. David and Sarah receive $235,000 each. But this isn't just inheritance â€” it's capital injection for system expansion.
+Mary, as the primary beneficiary, receives $470,000. David and Sarah receive $235,000 each. But this isn't just inheritance—it's capital injection for system expansion.
 
 ### The Recapitalization Strategy
 
@@ -226,7 +226,7 @@ What made the Thompson family's implementation successful?
 
 4. **They maintained the 40/60 split.** Base premium provided the life insurance foundation while PUA maximized cash value growth.
 
-5. **They borrowed from their policies regularly.** This wasn't money they were afraid to touch â€” it was their primary banking system.
+5. **They borrowed from their policies regularly.** This wasn't money they were afraid to touch—it was their primary banking system.
 
 6. **Each generation started the next generation's policies early.** Juvenile policies provided maximum compounding time.
 
@@ -251,7 +251,7 @@ These numbers are illustrative based on current dividend scales and typical poli
 - Loan repayment discipline
 - Economic conditions over the policy lifetime
 
-But families across America are implementing these exact strategies right now. The Thompson family isn't fictional in their approach â€” only in their name.
+But families across America are implementing these exact strategies right now. The Thompson family isn't fictional in their approach—only in their name.
 
 ## This Isn't Theoretical
 

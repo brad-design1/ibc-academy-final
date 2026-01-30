@@ -115,7 +115,7 @@ Think about it:
 
 Dave's way costs $3,360 in lost opportunity. The bank's way costs $6,920 in direct interest.
 
-Dave's way is **cheaper** â€” by $3,560. But it's not **free.**
+Dave's way is **cheaper**—by $3,560. But it's not **free.**
 
 The problem is that Dave never tells you about the $3,360 you're giving up. He just tells you that you "avoided debt." So you think you won, when really you just paid a hidden financing cost instead of a visible one.
 
@@ -130,8 +130,8 @@ You spend $5 on coffee every morning. You pay cash because you're smart with mon
 But that $5 came from somewhere. Let's say it came from a savings account earning 2% per year.
 
 **Annual calculation:**
-- **Coffee spending:** $5 Ã— 250 workdays = $1,250
-- **Lost interest:** $1,250 Ã— 2% = $25
+- **Coffee spending:** $5 × 250 workdays = $1,250
+- **Lost interest:** $1,250 × 2% = $25
 
 That $25 in lost interest is your financing cost for paying cash for coffee.
 
@@ -143,13 +143,13 @@ Who gets that $25?
 
 You're right. **$25 is nothing.**
 
-But you make thousands of cash purchases every year. Groceries, gas, restaurants, clothes, utilities, insurance, entertainment, gifts, maintenance, repairs â€” the list goes on.
+But you make thousands of cash purchases every year. Groceries, gas, restaurants, clothes, utilities, insurance, entertainment, gifts, maintenance, repairs—the list goes on.
 
 If you spend $40,000 per year on living expenses, and that money comes from accounts earning 2%, your annual opportunity cost is **$800.**
 
 **That's $800 per year in hidden financing costs for the privilege of "paying cash for everything."**
 
-Over 40 years, that's **$32,000** in lost wealth â€” assuming no growth in income or opportunity cost rates.
+Over 40 years, that's **$32,000** in lost wealth—assuming no growth in income or opportunity cost rates.
 
 Your silent partner has been busy.
 
@@ -206,7 +206,7 @@ What if, instead of giving up interest when you pay cash, you could:
 - Pay cash for purchases
 - **And still earn interest** on the money you spent?
 
-What if there was a way to eliminate the silent partner â€” or better yet, **make the silent partner work for you instead of against you?**
+What if there was a way to eliminate the silent partner—or better yet, **make the silent partner work for you instead of against you?**
 
 Most people have never asked this question because they've never seen the silent partner. They've been taught to think in terms of "debt good" or "debt bad" instead of thinking in terms of **cash flow and opportunity cost.**
 
@@ -219,10 +219,10 @@ What if the real question is: **How do I control the financing function in my ow
 Every financial decision you make fits into one of two columns:
 
 **Column A: Others Profit From Your Money**
-- You finance purchases â†’ bank earns interest
-- You pay cash â†’ bank stops paying you interest and lends your money to others  
-- You buy insurance â†’ company invests your premiums and keeps returns
-- You make deposits â†’ bank lends your money at much higher rates
+- You finance purchases → bank earns interest
+- You pay cash → bank stops paying you interest and lends your money to others  
+- You buy insurance → company invests your premiums and keeps returns
+- You make deposits → bank lends your money at much higher rates
 
 **Column B: You Profit From Your Money**
 - Your money works for you instead of against you
