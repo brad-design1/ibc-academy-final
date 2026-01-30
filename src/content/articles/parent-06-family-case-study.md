@@ -40,7 +40,7 @@ After attending one of Nelson Nash's Think Tank meetings in Birmingham, Robert a
 **Robert's Policy (Age 65):**
 - Death benefit: $500,000
 - Annual premium: $10,000
-- Design: 40% base premium, 60% paid-up additions
+- Design: Base policy plus paid-up additions rider
 - Cash value year 1: ~$8,500
 - Projected cash value year 10: ~$92,000
 
@@ -49,7 +49,7 @@ After attending one of Nelson Nash's Think Tank meetings in Birmingham, Robert a
 **Mary's Policy (Age 63):**
 - Death benefit: $400,000
 - Annual premium: $8,000
-- Design: 40% base premium, 60% paid-up additions
+- Design: Base policy plus paid-up additions rider
 - Cash value year 1: ~$6,800
 - Projected cash value year 10: ~$74,000
 
@@ -82,7 +82,7 @@ David and Sarah, inspired by Robert and Mary's commitment, decide to fund their 
 **David's Policy (Age 35):**
 - Death benefit: $750,000
 - Annual premium: $15,000
-- Design: 40% base premium, 60% paid-up additions
+- Design: Base policy plus paid-up additions rider
 - Cash value year 1: ~$12,500
 - Projected cash value year 10: ~$138,000
 - Projected cash value year 20: ~$295,000
@@ -92,7 +92,7 @@ David and Sarah, inspired by Robert and Mary's commitment, decide to fund their 
 **Sarah's Policy (Age 33):**
 - Death benefit: $500,000
 - Annual premium: $12,000
-- Design: 40% base premium, 60% paid-up additions
+- Design: Base policy plus paid-up additions rider
 - Cash value year 1: ~$10,200
 - Projected cash value year 10: ~$115,000
 - Projected cash value year 20: ~$250,000
@@ -248,7 +248,7 @@ What made the Thompson family's implementation successful?
 
 3. **They used the death benefits strategically.** Each graduation created capital for new policies and system expansion.
 
-4. **They maintained the 40/60 split.** Base premium provided the life insurance foundation while PUA maximized cash value growth.
+4. **They designed every policy with paid-up additions.** Following Nash's recommendation, each policy combined a base whole life policy with a paid-up additions rider to maximize early cash value growth.
 
 5. **They borrowed from their policies regularly.** This wasn't money they were afraid to touch—it was their primary banking system.
 
