@@ -174,6 +174,8 @@ With Robert's death benefit capital injection, the family system explodes with g
 - David's original policy: $425,000 cash value, $1,100,000 death benefit
 - Sarah's original policy: $380,000 cash value, $950,000 death benefit
 
+<br/>
+
 **Year 22:** Mary graduates at age 85. Her death benefit has grown to $820,000, providing another capital injection to accelerate the system.
 
 ## Years 25-40: Generation 3 Takes Control
