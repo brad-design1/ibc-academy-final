@@ -79,9 +79,9 @@ Every time you finance equipment, the finance company profits. Every time you us
 
 Let me paint you a picture with real numbers.
 
-Take a successful HVAC contractor I know. He replaces a service van every four years—$52,000 each time. Over a 20-year career, that's five vans. Financed at typical commercial rates, he'll pay roughly **$45,000 in interest** to the finance company.
+Take a successful HVAC contractor I know. He replaces a service van every four years—$52,000 each time. Over a 20-year career, that's five vans. Financed at typical commercial rates, he'll pay roughly **$58,000 in interest** to the finance company.
 
-Forty-five thousand dollars. That's not buying anything. That's not building anything. That's just rent on borrowed money, leaving his business permanently.
+Fifty-eight thousand dollars. That's not buying anything. That's not building anything. That's just rent on borrowed money, leaving his business permanently.
 
 Or the chiropractor who finances $80,000 in equipment. Over five years at 8% interest, she pays **$17,800** that simply vanishes into someone else's quarterly earnings.
 
