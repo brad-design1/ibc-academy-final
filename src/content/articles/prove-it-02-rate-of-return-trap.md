@@ -41,6 +41,8 @@ Let's be specific about what's in those two columns.
 - Death benefit that grows over time
 - No volatility, no sequence of returns risk
 
+<br />
+
 **Column B (Stock Market):**
 - Potential growth with no guarantees
 - Annual tax on dividends and capital gains
