@@ -21,7 +21,6 @@ Your business probably **is** your greatest wealth generator right now. And you 
 
 But let me ask you a question that might make you uncomfortable.
 
----
 
 ## The Standard Playbook (And What It's Missing)
 
@@ -47,7 +46,6 @@ If the business has a great year, everything's great. If the business has a bad 
 
 You've built a powerful wealth generator. But you've also built a **single point of failure**.
 
----
 
 ## The Function You're Giving Away
 
@@ -73,7 +71,6 @@ Every time you finance equipment, the finance company profits. Every time you us
 
 **They're profiting from the capital your business created.**
 
----
 
 ## Where Those Dollars Actually Go
 
@@ -89,7 +86,6 @@ Add it up across a career. Equipment purchases. Vehicle replacements. Expansion 
 
 **That money could have stayed inside your operation. Could have compounded for your family. Could have funded the next opportunity without asking anyone's permission.**
 
----
 
 ## The Question Nobody Asks
 
@@ -105,7 +101,6 @@ The bank loves business owners like you. You're their favorite client.
 
 The question is: **do you want to keep being their favorite client forever?**
 
----
 
 ## What's Really Your Greatest Asset?
 
@@ -127,7 +122,6 @@ It never goes away. People will always need capital. Businesses will always need
 
 The question isn't whether the banking function will exist. The question is **who will profit from it**.
 
----
 
 ## Compared to What?
 
@@ -145,7 +139,6 @@ Maybe your greatest asset is what you could build **with** your business. A syst
 
 **A system where you become the bank.**
 
----
 
 **In the next article, we're going to talk about the cash flow problem nobody talks about.**
 
@@ -153,6 +146,5 @@ Not the kind where you can't make payroll. The other kind. The kind where your b
 
 That gap between "doing well" and "having capital on demand"—that's where the real conversation starts.
 
----
 
 *This is educational only and not meant to serve as financial advice.*
