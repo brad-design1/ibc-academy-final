@@ -226,7 +226,7 @@ Because Sarah could move when opportunity moved.
 
 After six years of optimizing both businesses, Sarah made the ultimate realization:
 
-** — The banking business might be more valuable than the marketing business."**
+**"The banking business might be more valuable than the marketing business."**
 
 Her marketing business serves clients, generates revenue, provides jobs. It's real value creation.
 

@@ -13,7 +13,7 @@ seriesOrder: 4
 
 Next time you talk to a financial advisor about whole life insurance, ask them this:
 
-** — Can you even sell it to me if I wanted it?"**
+**"Can you even sell it to me if I wanted it?"**
 
 The answer is usually no.
 
@@ -247,7 +247,7 @@ Not as an investment. As a **financial tool** that provides:
 
 Ask your financial advisor this:
 
-** — If whole life insurance is such a bad deal, why did the government need to create special rules to prevent wealthy people from using it as a tax shelter?"**
+**"If whole life insurance is such a bad deal, why did the government need to create special rules to prevent wealthy people from using it as a tax shelter?"**
 
 Watch them stumble.
 

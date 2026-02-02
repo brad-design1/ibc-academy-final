@@ -61,13 +61,13 @@ You don't need a marble-floored building with a vault. You don't need federal re
 
 For 75 years, financial advisors have framed this as:
 
-** — Whole life insurance vs. stock market returns"**
+**"Whole life insurance vs. stock market returns"**
 
 **That's the wrong comparison entirely.**
 
 The real comparison is:
 
-** — Banking with yourself vs. banking with them"**
+**"Banking with yourself vs. banking with them"**
 
 **Every financial decision in your life comes down to this choice:**
 - Use your capital, or borrow someone else's

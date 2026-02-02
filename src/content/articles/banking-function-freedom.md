@@ -10,7 +10,7 @@ featured: false
 
 Nelson Nash said something that sounds simple but carries the weight of a lifetime's observation:
 
-** — When you know what's going on, you'll know what to do."**
+**"When you know what's going on, you'll know what to do."**
 
 That's not motivational fluff. It's a statement about the relationship between perception and action. Most people don't lack the ability to build wealth. They lack the ability to *see* what's happening to their money. Once you see it—really see it—the path forward becomes obvious.
 

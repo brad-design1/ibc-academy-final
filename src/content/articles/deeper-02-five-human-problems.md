@@ -56,13 +56,13 @@ This isn't their fault. **The government school system and the financial service
 
 Consider these common misunderstandings:
 
-** — Debt is leverage."** No, debt is the transfer of control from you to a lender. True leverage is using other people's money while maintaining control over your own capital. That's exactly what happens with a policy loan—you access capital while your own money continues to compound undisturbed.
+**"Debt is leverage."** No, debt is the transfer of control from you to a lender. True leverage is using other people's money while maintaining control over your own capital. That's exactly what happens with a policy loan—you access capital while your own money continues to compound undisturbed.
 
-** — Inflation is rising prices."** No, inflation is the increase in the money supply. Rising prices are the effect of monetary expansion. When you understand this distinction, you realize that **inflation is a form of hidden taxation that specifically targets savers**. The only protection is to hold assets that appreciate faster than the currency depreciates.
+**"Inflation is rising prices."** No, inflation is the increase in the money supply. Rising prices are the effect of monetary expansion. When you understand this distinction, you realize that **inflation is a form of hidden taxation that specifically targets savers**. The only protection is to hold assets that appreciate faster than the currency depreciates.
 
-** — Interest rates reflect market conditions."** No, interest rates in our economy reflect Federal Reserve manipulation of the money supply. **Market interest rates haven't existed since 1913** when the Federal Reserve was created. What we have now are artificially manipulated rates that create boom-bust cycles and distort economic calculation.
+**"Interest rates reflect market conditions."** No, interest rates in our economy reflect Federal Reserve manipulation of the money supply. **Market interest rates haven't existed since 1913** when the Federal Reserve was created. What we have now are artificially manipulated rates that create boom-bust cycles and distort economic calculation.
 
-** — The stock market creates wealth."** No, the stock market is a wealth transfer mechanism. It creates the illusion of wealth through asset price inflation, but **it doesn't create productive capacity**. Real wealth creation happens when people defer consumption to build capital goods that increase future productivity.
+**"The stock market creates wealth."** No, the stock market is a wealth transfer mechanism. It creates the illusion of wealth through asset price inflation, but **it doesn't create productive capacity**. Real wealth creation happens when people defer consumption to build capital goods that increase future productivity.
 
 When families base their financial strategies on these misunderstandings, **they inevitably make decisions that benefit the financial services industry at their own expense**.
 
@@ -78,13 +78,13 @@ This is what Nash called ** — the arrival syndrome"**—the idea that someone 
 
 Consider how pervasive this thinking has become:
 
-** — Let the fund manager pick stocks."** Why? Because stock picking requires expertise you don't have. But here's what they don't tell you: **fund managers don't consistently beat market indexes**, and their fees reduce your returns regardless of their performance. You're paying someone to produce results you could get cheaper with index funds.
+**"Let the fund manager pick stocks."** Why? Because stock picking requires expertise you don't have. But here's what they don't tell you: **fund managers don't consistently beat market indexes**, and their fees reduce your returns regardless of their performance. You're paying someone to produce results you could get cheaper with index funds.
 
-** — Let the bank handle your financing."** Why? Because interest rates and loan terms are too complex for you to understand. But here's what they don't tell you: **banks profit specifically from your ignorance**. The more you understand about financing, the less you'll need their services.
+**"Let the bank handle your financing."** Why? Because interest rates and loan terms are too complex for you to understand. But here's what they don't tell you: **banks profit specifically from your ignorance**. The more you understand about financing, the less you'll need their services.
 
-** — Let the government handle your retirement."** Why? Because retirement planning is too complicated and risky for individuals. But here's what they don't tell you: **Social Security is a Ponzi scheme** that will fail mathematically. Your retirement security depends on the willingness of future workers to pay taxes to support you. That's not a plan—it's a hope.
+**"Let the government handle your retirement."** Why? Because retirement planning is too complicated and risky for individuals. But here's what they don't tell you: **Social Security is a Ponzi scheme** that will fail mathematically. Your retirement security depends on the willingness of future workers to pay taxes to support you. That's not a plan—it's a hope.
 
-** — Let the insurance company handle your risk management."** Why? Because insurance is complicated and you need professional guidance. But here's what they don't tell you: **most insurance is designed to benefit the insurer, not the insured**. Term life insurance, for example, has a 98% lapse rate. The house always wins.
+**"Let the insurance company handle your risk management."** Why? Because insurance is complicated and you need professional guidance. But here's what they don't tell you: **most insurance is designed to benefit the insurer, not the insured**. Term life insurance, for example, has a 98% lapse rate. The house always wins.
 
 Nash's alternative? **Take responsibility for your own financial education and capital formation**. Learn how these institutions actually work. Understand their incentives. **Design your financial strategy to minimize their involvement and maximize your control**.
 
@@ -96,11 +96,11 @@ This obsession is systematically cultivated by the financial services industry b
 
 Here's how the rate of return obsession manifests:
 
-** — This mutual fund returned 12% last year!"** But what was the volatility? What were the fees? What was the tax efficiency? How much access did you have to your money during market downturns? **Rate of return is meaningless without context**.
+**"This mutual fund returned 12% last year!"** But what was the volatility? What were the fees? What was the tax efficiency? How much access did you have to your money during market downturns? **Rate of return is meaningless without context**.
 
-** — Real estate appreciates over time!"** But what were the transaction costs? What were the property taxes? What was the opportunity cost of the down payment? What happened to your liquidity? **A 10% return on an illiquid asset may be inferior to a 6% return on a liquid asset**.
+**"Real estate appreciates over time!"** But what were the transaction costs? What were the property taxes? What was the opportunity cost of the down payment? What happened to your liquidity? **A 10% return on an illiquid asset may be inferior to a 6% return on a liquid asset**.
 
-** — Stocks historically outperform bonds!"** But what was the volatility? What was the maximum drawdown? What was the sequence of returns risk? **What good is a higher long-term average return if you need access to your money during a market crash?**
+**"Stocks historically outperform bonds!"** But what was the volatility? What was the maximum drawdown? What was the sequence of returns risk? **What good is a higher long-term average return if you need access to your money during a market crash?**
 
 Nash understood that **rate of return is only one variable in a complex equation**. For most families, **control and liquidity are more valuable than marginal improvements in rate of return**.
 
@@ -121,11 +121,11 @@ Most financial advice is based on linear assumptions: save X dollars per month, 
 
 Consider these examples of linear thinking that produce poor results:
 
-** — Pay off your mortgage early."** This sounds prudent. You eliminate interest expense and reduce total payments. But you also **eliminate the tax deduction, reduce your liquidity, and miss the opportunity to leverage appreciation**. The linear analysis ignores the compound effects of maintaining control over your capital.
+**"Pay off your mortgage early."** This sounds prudent. You eliminate interest expense and reduce total payments. But you also **eliminate the tax deduction, reduce your liquidity, and miss the opportunity to leverage appreciation**. The linear analysis ignores the compound effects of maintaining control over your capital.
 
-** — Buy term and invest the difference."** This sounds mathematically obvious. If term insurance costs $500 and whole life costs $5,000, invest the $4,500 difference and come out ahead. But the linear analysis ignores **lapse rates, tax efficiency, sequence of returns risk, and the value of guaranteed liquidity**. In practice, most people who "buy term and invest the difference" end up with neither the insurance nor the investment.
+**"Buy term and invest the difference."** This sounds mathematically obvious. If term insurance costs $500 and whole life costs $5,000, invest the $4,500 difference and come out ahead. But the linear analysis ignores **lapse rates, tax efficiency, sequence of returns risk, and the value of guaranteed liquidity**. In practice, most people who "buy term and invest the difference" end up with neither the insurance nor the investment.
 
-** — Maximize your 401(k) contribution."** This sounds like responsible retirement planning. You get the tax deduction and the employer match. But the linear analysis ignores **the loss of control, the restricted access, the forced investment options, and the tax time bomb you're creating** for your future self.
+**"Maximize your 401(k) contribution."** This sounds like responsible retirement planning. You get the tax deduction and the employer match. But the linear analysis ignores **the loss of control, the restricted access, the forced investment options, and the tax time bomb you're creating** for your future self.
 
 **Nash's insight**: **Wealthy people think systemically, not linearly**. They focus on building capital pools they control, rather than optimizing individual financial products. They prioritize maintaining options, rather than maximizing short-term returns.
 

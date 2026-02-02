@@ -293,7 +293,7 @@ Not just inefficient. Not just suboptimal.
 
 Because no one has ever asked you the most important question about retirement:
 
-** — What's your banking strategy?"**
+**"What's your banking strategy?"**
 
 We'll explore that question next.
 
