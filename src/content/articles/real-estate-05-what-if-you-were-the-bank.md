@@ -69,11 +69,11 @@ They ask: "Why would I pay 5% on a policy loan when I could get a HELOC at 3.75%
 
 That question misses the point entirely.
 
-When you take a HELOC, your home equity stops working for you the moment you borrow against it. You've converted an appreciating asset into cash that earns nothing while you renovate.
+When you take a HELOC, your home still appreciates — that doesn't stop. But you're now paying interest to the bank on the borrowed amount. The bank profits from your equity, not you.
 
-When you take a policy loan, your cash value keeps working. The insurance company loaned you *their* money, using your cash value as collateral. Your policy sits in the corner, growing with internal appreciation, earning dividends, completely unaware that you have a loan outstanding.
+When you take a policy loan, something fundamentally different happens. The insurance company loans you *their* money, using your cash value as collateral. Your cash value keeps earning dividends and guaranteed interest as if you never borrowed a dime. The policy doesn't know or care that a loan exists.
 
-This is what Nelson meant by "constant compounding." When you pay cash for something, you stop earning returns on that cash the moment it leaves your account. But when you borrow against a policy, your capital keeps compounding.
+This is what Nash meant by "constant compounding." When you pay cash for something, you stop earning returns on that cash the moment it leaves your account. When you take a HELOC, the bank earns interest on your equity. But when you borrow against a policy, your capital keeps compounding while you deploy the loan proceeds elsewhere. You're earning in two places at once.
 
 You renovate the property. You refinance into a conventional mortgage. You pull out your renovation costs plus some profit. You pay back the policy loan.
 
