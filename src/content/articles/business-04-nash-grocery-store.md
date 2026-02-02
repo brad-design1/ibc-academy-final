@@ -171,7 +171,7 @@ Once you've successfully operated one store, what do successful grocery stores d
 
 Banks have branch offices. There's a reason for their behavior.
 
-Nelson writes it plainly: ** — I am not describing one life insurance policy. This is to be a system of policies."**
+Nelson writes it plainly: *"I am not describing one life insurance policy. This is to be a system of policies."*
 
 One policy is a start. A system of policies is a banking operation that serves your family for generations.
 
