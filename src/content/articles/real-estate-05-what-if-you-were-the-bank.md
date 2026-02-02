@@ -93,11 +93,13 @@ Marcus found a duplex. The seller needed to close in two weeks-job relocation. O
 
 Except Marcus wasn't using his cash. He was using a policy loan.
 
-Marcus bought the property for $185,000 using policy loan funds. The property appraised for $220,000. He immediately refinanced with a conventional lender at 4.5%, pulled out $176,000 (80% loan-to-value), and paid back his policy loan.
+Marcus bought the property for $185,000 using policy loan funds. The property appraised for $220,000. He now owned a $220,000 asset generating $1,800 per month in rent — and he never stepped foot in a bank.
 
-Marcus put $9,000 out of pocket and controlled a $220,000 asset generating $1,800 per month in rent.
+No mortgage. No conventional lender. No refinancing treadmill.
 
-The speed advantage let him win a deal that traditional investors couldn't touch.
+Marcus uses the rental income to pay back his policy loan on his own schedule. Every payment flows back into his system, rebuilding his cash value for the next deal. Meanwhile, his cash value never stopped compounding — it kept earning dividends and guaranteed interest the entire time.
+
+The speed advantage let him win a deal that traditional investors couldn't touch. And he stayed completely outside the traditional financing system.
 
 ## Recapturing Interest
 
@@ -107,13 +109,11 @@ The average real estate investor will pay $300,000 to $500,000 in interest over 
 
 IBC lets you recapture that interest.
 
-When you take a policy loan at 5% and pay it back, where does that 5% go? Back to your policy. You're paying interest to yourself.
+When you take a policy loan at 5% and pay it back, where does that interest go? It stays within the insurance company's general fund — which is the same pool that pays your dividends. You're financing through a system that benefits you as a policyholder, not enriching a bank that has no obligation to you.
 
-Take Marcus's duplex example. He borrowed $185,000 at 5% for six months before refinancing. That's $4,625 in interest. In the traditional model, that money disappears forever into a hard money lender's pocket.
+Take Marcus's duplex. He borrowed $185,000 at 5%. As he pays that back from rental income, he's rebuilding his capital base for the next acquisition. No bank took a cut. No lender profited from his deal. The entire financing function stayed within his system.
 
-With IBC, that $4,625 flows back to Marcus's cash value. It makes his policy stronger. It gives him more capital for the next deal.
-
-Over a 20-year investing career, that recaptured interest compounds into hundreds of thousands of dollars of additional wealth.
+Over a 20-year investing career, keeping the banking function in-house compounds into hundreds of thousands of dollars of additional wealth that would have otherwise flowed to traditional lenders.
 
 ## Beyond Rate of Return Thinking
 
