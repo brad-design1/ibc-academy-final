@@ -219,7 +219,7 @@ The investors who thrived during that period had capital sources that weren't de
 
 Fast money isn't always expensive money. Sometimes it's the cheapest money available when you calculate total returns.
 
-Consider two scenarios:
+Consider three scenarios:
 
 **Scenario A**: 30-day financing at 6% interest, deal closes, property generates 18% annual returns.
 
