@@ -105,15 +105,11 @@ Nash's comment: "There is no real comparison between the methods."
 
 Want to know the dirty secret?
 
-**Financial advisors can't sell whole life insurance.**
+Most fee-based advisors earn their income from assets under management. Every dollar you put into a whole life policy is a dollar they can't charge fees on. **They're not prohibited from recommending it — they're economically incentivized NOT to.**
 
-Most registered investment advisors (RIAs) are legally prohibited from selling insurance products. Even fee-only planners who could recommend it choose not to because there's no ongoing fee structure.
+Some advisors hold insurance licenses and could sell you a policy. Most don't bother. Why would they recommend something that shrinks their fee income?
 
-**When your financial advisor tells you whole life is a bad investment, ask them this: "Can you even sell it to me if I wanted it?"**
-
-The answer is usually no.
-
-This creates a massive conflict of interest. They're steering you toward products they can sell (and earn fees on) and away from products they can't touch.
+This creates a massive conflict of interest. When your advisor tells you whole life is a "bad investment," ask yourself: does their business model benefit from that advice?
 
 Would you ask a Toyota dealer for an objective comparison between a Toyota and a Honda?
 
