@@ -189,9 +189,9 @@ The stock market doesn't provide:
 - Tax-advantaged growth and access
 - A banking function you control
 
-**You can't call Vanguard at 3 PM and say "I need $50,000 for a business opportunity" and have a check by 5 PM.**
+**You can't call Vanguard and say "I need $50,000 for a business opportunity" and have it in your account within a week without selling assets and triggering taxes.**
 
-You can do exactly that with a properly-funded whole life policy.
+You can do exactly that with a properly-funded whole life policy. One phone call, a simple form, and the money hits your account in 3-5 business days. No credit check. No committee. No liquidation.
 
 **What's the rate of return on never missing an opportunity?**
 
