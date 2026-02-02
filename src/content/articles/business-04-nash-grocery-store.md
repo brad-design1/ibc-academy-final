@@ -31,7 +31,6 @@ The infrastructure to bypass banking middlemen had been sitting in front of him 
 
 He just hadn't known how to see it.
 
----
 
 ## The Grocery Store Breakthrough
 
@@ -53,7 +52,6 @@ They stock someone else's grocery store (make deposits at a bank). Then they dri
 
 Sound familiar?
 
----
 
 ## How the Store Actually Works
 
@@ -95,7 +93,6 @@ Most people never think about this clearly. They supply capital to institutions 
 
 But that's exactly what most Americans do with money every single day.
 
----
 
 ## The Back Door Problem (Don't Steal the Peas)
 
@@ -125,7 +122,6 @@ I've watched clients build beautiful IBC systems and then destroy them this way.
 
 **Every dollar you borrow and don't repay is a can that never makes it back to the shelf.**
 
----
 
 ## Charging Yourself Properly (The Extra Two Cents)
 
@@ -145,7 +141,6 @@ Because every dollar of interest you pay goes right back into your own policy. I
 
 **You're not paying someone else. You're paying yourself.**
 
----
 
 ## The Equipment Financing Connection
 
@@ -161,7 +156,6 @@ The disciplined approach is to pay your policy the **same payment you would have
 
 The interest you pay to yourself becomes additional capital. Your cash value keeps growing while you use it. And you capture the financing function that Ford Credit would have profited from.
 
----
 
 ## One Store Becomes Many
 
@@ -181,7 +175,6 @@ Nelson writes it plainly: ** — I am not describing one life insurance policy. 
 
 One policy is a start. A system of policies is a banking operation that serves your family for generations.
 
----
 
 ## The Business Application
 
@@ -199,7 +192,6 @@ Eventually, you add policies on your spouse, your children, your key employees. 
 
 **You become the bank your business borrows from.**
 
----
 
 ## What This Really Means
 
@@ -215,7 +207,6 @@ Nelson Nash figured this out while drowning in debt at 3 a.m. Not because he was
 
 **The infrastructure to eliminate banking middlemen. The ability to capture the financing function. The grocery store that feeds your own family first.**
 
----
 
 **In the next article, we're going to look at real numbers from real businesses.**
 
@@ -223,6 +214,5 @@ Equipment financing. Vehicle replacements. Expansion capital. The math that show
 
 Time to stop stocking other people's stores.
 
----
 
 *This is educational only and not meant to serve as financial advice.*

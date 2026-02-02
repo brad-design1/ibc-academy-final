@@ -25,7 +25,6 @@ By the time you could have arranged financing, the deal was gone. Someone else s
 
 This isn't a story about being unsuccessful. **This is a story about successful people who can't move fast when it matters.**
 
----
 
 ## The Feast or Famine Cycle
 
@@ -47,7 +46,6 @@ But here's what nobody points out:
 
 That line of credit isn't free. Those 60-day payment terms from clients aren't free. The gap between when you pay expenses and when revenue hits your account—that gap gets filled by borrowed money. And borrowed money has a cost.
 
----
 
 ## The Math Nobody Shows You
 
@@ -75,7 +73,6 @@ Last year, Sarah could have picked up three distressed client contracts at a ste
 
 That $45,000 in annual revenue, compounded over even five years, represents hundreds of thousands in lost opportunity. Because Sarah didn't have **immediately accessible capital**.
 
----
 
 ## The Working Capital Trap
 
@@ -87,7 +84,6 @@ It's a cycle. A subtle one. Because the business is growing, you don't notice th
 
 And the bigger the business gets, the bigger the drain becomes.
 
----
 
 ## When Opportunity Moves at Internet Speed
 
@@ -109,7 +105,6 @@ Marcus watched someone else buy what should have been his acquisition. **Because
 
 His business generated plenty of wealth. But when he needed wealth that moved at the speed of opportunity, he had to ask permission. And permission takes time.
 
----
 
 ## The Real Problem Isn't Revenue
 
@@ -126,7 +121,6 @@ And illiquidity is expensive in ways that don't show up on your profit and loss 
 - **Growth delayed** because expansion requires borrowing and approval
 - **Stress compounded** because you're always managing timing instead of managing opportunity
 
----
 
 ## The Question Everyone's Afraid to Ask
 
@@ -142,7 +136,6 @@ That's not failure. That's not weakness. **That's what happens when you build we
 
 Your business generates the wealth. Banks capture the financing function. You get the stress of managing both—without controlling either.
 
----
 
 ## What You Actually Need
 
@@ -164,7 +157,6 @@ What if there was a way to solve the cash flow problem without creating new prob
 
 **A way to become your own source of working capital?**
 
----
 
 ## The Real Wealth Leak
 
@@ -180,7 +172,6 @@ The solution isn't to generate more revenue. Revenue isn't the problem.
 
 **The solution is to control the capital that revenue creates.**
 
----
 
 **In the next article, we're going to talk about who's really in the banking business—and it's not who you think.**
 
@@ -188,6 +179,5 @@ Your bank tells you they're providing a service. What they're actually doing is 
 
 Time to understand how the banking business really works—and why you're on the wrong side of it.
 
----
 
 *This is educational only and not meant to serve as financial advice.*

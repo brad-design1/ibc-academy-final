@@ -29,7 +29,6 @@ For fifteen years, Sarah had optimized the marketing business obsessively. Hired
 
 But the finance business? She'd outsourced that completely to banks and leasing companies. **And they were making a fortune from decisions she never questioned.**
 
----
 
 ## The Finance Business You're Already In
 
@@ -54,7 +53,6 @@ Sarah did this calculation and nearly fell out of her chair. Over the previous f
 
 **The finance business was more profitable than the marketing business. She just wasn't capturing the profit.**
 
----
 
 ## Banking: The Most Important Business in the World
 
@@ -70,7 +68,6 @@ And yet most business owners treat it as an afterthought. Something to optimize 
 
 What if you approached capital allocation with the same strategic thinking you apply to hiring, marketing, and operations?
 
----
 
 ## The Numbers That Should Terrify You
 
@@ -97,7 +94,6 @@ How many deals did you watch other people close because you couldn't move fast e
 
 **You can't calculate the rate of return on opportunities you never had access to.**
 
----
 
 ## What Running Both Businesses Actually Looks Like
 
@@ -123,7 +119,6 @@ When a client offered her an exclusive contract but needed a $45,000 commitment 
 
 **Speed is a competitive advantage. Under-capitalized competitors can't match it.**
 
----
 
 ## The Self-Reinforcing Cycle
 
@@ -141,7 +136,6 @@ Here's what happens when you optimize both businesses simultaneously:
 
 **Each business reinforces the other.**
 
----
 
 ## The Private Equity Threat (And How to Counter It)
 
@@ -165,7 +159,6 @@ When you control your own financing function, you're not competing just on opera
 
 **You're playing the same game they are. You're just playing it better.**
 
----
 
 ## The Integration Strategy
 
@@ -194,7 +187,6 @@ Structure ownership and succession to optimize both businesses for the next gene
 
 **By Phase 3, you're operating from a position of strength that most business owners never experience.**
 
----
 
 ## The Recognition Moment
 
@@ -220,7 +212,6 @@ Because Sarah could move when opportunity moved.
 
 **The finance business wasn't just supporting her primary business. It was giving her competitive advantages that money can't buy.**
 
----
 
 ## The Ultimate Realization
 
@@ -238,7 +229,6 @@ When Sarah eventually graduates, her family won't just inherit a marketing consu
 
 **That's the real wealth transfer. Not just money. Financial infrastructure.**
 
----
 
 ## Why Every Business Owner Should Be in Banking
 
@@ -252,7 +242,6 @@ The question isn't whether you'll participate in the banking business. **You alr
 
 The question is whether you'll profit from that participation—or whether you'll keep enriching other people's banking businesses while ignoring your own.
 
----
 
 ## Where Do You Go From Here?
 
@@ -266,6 +255,5 @@ Your primary business made you successful.
 
 **Your banking business can make your family wealthy.**
 
----
 
 *This is educational only and not meant to serve as financial advice.*

@@ -27,7 +27,6 @@ Forty-five thousand dollars. Not buying anything. Not building anything. Just re
 
 **Then something changed.**
 
----
 
 ## The Phone Call That Redirected $45,000
 
@@ -57,7 +56,6 @@ By the time Ray bought his seventh van—sixteen years into this approach—the 
 
 Meanwhile, if he'd continued financing through Ford Credit, he'd have paid that **$45,000 in interest**. Gone forever. Not invested. Not compounding. Just spent.
 
----
 
 ## The Chiropractor's $80,000 Equipment Decision
 
@@ -79,7 +77,6 @@ Dr. Chen didn't need to ask a bank for permission. His available cash value had 
 
 This is what access to capital does. It doesn't just save you interest. **It positions you to seize opportunities that under-capitalized competitors can't touch.**
 
----
 
 ## The Math Banks Don't Want You to See
 
@@ -105,7 +102,6 @@ The practice acquisition Dr. Chen could seize because he had liquid capital. The
 
 You can't calculate a rate of return on an opportunity you never had access to.
 
----
 
 ## The Equipment Financing Revelation
 
@@ -129,7 +125,6 @@ When you finance through your own policy:
 
 **You get the equipment AND keep the capital working.**
 
----
 
 ## The Self-Insurance Breakthrough
 
@@ -147,7 +142,6 @@ The insurance companies got into business the same way you're building your IBC 
 
 Why pay someone else to insure what you've already capitalized?
 
----
 
 ## The Velocity Factor
 
@@ -171,7 +165,6 @@ That territory generates $85,000 in annual profit. Over ten years, Derek's speed
 
 Because he could move when opportunity moved.
 
----
 
 ## The Integration Strategy
 
@@ -194,7 +187,6 @@ Policies on children and key employees. Building the family banking system that 
 
 Each phase builds on the previous one. **By phase 3, you're operating from a position of strength that most business owners never experience.**
 
----
 
 ## The Compound Effect
 
@@ -210,7 +202,6 @@ Year 7: You have enough capital to negotiate cash discounts with suppliers. 2% d
 
 **Each financial function you control amplifies the others.**
 
----
 
 **In the next article, we're going to talk about the ultimate realization.**
 
@@ -220,6 +211,5 @@ Most business owners only focus on the first. **The wealthy focus on both.**
 
 Time to understand why the banking business might be more valuable than your primary business—and how to build both simultaneously.
 
----
 
 *This is educational only and not meant to serve as financial advice.*

@@ -31,7 +31,6 @@ While Jim pays 9.7% for capital, the bank pays their depositors maybe 4.5% for t
 
 Jim is paying for the privilege of borrowing his own money back.
 
----
 
 ## How the Banking Business Actually Works
 
@@ -52,7 +51,6 @@ That's the business model. It's not complicated. It's financial intermediation.
 
 And here's the part that should bother you: **you're on both sides of this transaction**. You're the depositor earning 4.5%. And you're the borrower paying 9.7%. **The bank makes money off you twice.**
 
----
 
 ## The Numbers Nobody Shows You
 
@@ -78,7 +76,6 @@ That's the spread. That's the business.
 
 And where does this $4.70 come from? **It comes from the gap between what you earn as a depositor and what you pay as a borrower.**
 
----
 
 ## The Retail Markup System
 
@@ -96,7 +93,6 @@ With banking, you supply the raw material **and** buy the finished product. You'
 
 **And somehow, you think this is normal.**
 
----
 
 ## Where Your Business Fits In
 
@@ -128,7 +124,6 @@ Multiply that by every business owner in their portfolio. Add up the years. Now 
 
 **You're their most profitable client segment.**
 
----
 
 ## The Credit Committee Theater
 
@@ -150,7 +145,6 @@ The money was yours to begin with. **The bank is just the middleman.**
 
 But somewhere along the way, we started treating the middleman like they own the money.
 
----
 
 ## Why They Don't Want You to Understand This
 
@@ -166,7 +160,6 @@ They don't want you to understand how dependent the model is on your participati
 
 You're not their customer. **You're their inventory.**
 
----
 
 ## The Real Cost of Financial Intermediation
 
@@ -184,7 +177,6 @@ That's the cost of letting someone else control the banking function in your lif
 
 The cost of letting someone else sit between you and your own money.
 
----
 
 ## The Question That Changes Everything
 
@@ -200,7 +192,6 @@ What if, instead of paying the spread to a bank's shareholders, that spread stay
 
 **What if you could be on both sides of the banking transaction?**
 
----
 
 ## The Banking Function vs. Banking Institutions
 
@@ -218,7 +209,6 @@ What if the banking function—the pooling, the lending, the spread—happened i
 
 What if you could become your own source of capital?
 
----
 
 ## The Infrastructure Already Exists
 
@@ -230,7 +220,6 @@ Most people just don't know it exists. Because banks don't advertise it. **Finan
 
 Why would they? **It eliminates their role as middlemen.**
 
----
 
 **In the next article, we're going to talk about a forester from Alabama who figured this out in 1980.**
 
@@ -240,6 +229,5 @@ He learned that the infrastructure to bypass the banking middleman had been sitt
 
 **He just hadn't known how to see it.**
 
----
 
 *This is educational only and not meant to serve as financial advice.*
