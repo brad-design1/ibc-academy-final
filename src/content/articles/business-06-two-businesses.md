@@ -19,9 +19,9 @@ But three years ago, Sarah had a realization that changed how she thought about 
 
 **She wasn't running one business. She was running two.**
 
-The first business—the obvious one—was marketing consulting. That's what generated revenue. What served clients. What everyone could see.
+The first business-the obvious one-was marketing consulting. That's what generated revenue. What served clients. What everyone could see.
 
-The second business—the invisible one—was **finance**. Every equipment purchase. Every vehicle lease. Every line of credit. Every cash flow gap. All of it required financing decisions. All of it involved interest payments. All of it had to flow through someone's banking system.
+The second business-the invisible one-was **finance**. Every equipment purchase. Every vehicle lease. Every line of credit. Every cash flow gap. All of it required financing decisions. All of it involved interest payments. All of it had to flow through someone's banking system.
 
 **The question was whose.**
 
@@ -36,11 +36,11 @@ Whether you realize it or not, you're already running a finance business.
 
 Every time you make a capital allocation decision, you're banking. Every time you manage cash flow timing, you're banking. Every time you finance equipment or manage working capital or structure payment terms, **you're performing the banking function.**
 
-The only question is whether you're profiting from that function—or whether someone else is.
+The only question is whether you're profiting from that function-or whether someone else is.
 
 Look at your business expenses for last year:
 - Equipment loan payments
-- Vehicle lease payments  
+- Vehicle lease payments
 - Line of credit interest
 - Credit card interest on business purchases
 - Factoring fees on receivables
@@ -77,7 +77,7 @@ Let me show you what most business owners never calculate.
 
 A typical successful business owner over a 25-year career:
 - Equipment financing: $85,000 in interest
-- Vehicle replacements: $45,000 in interest  
+- Vehicle replacements: $45,000 in interest
 - Working capital lines: $67,000 in interest
 - Real estate loans: $280,000 in interest
 - Expansion financing: $32,000 in interest
@@ -108,7 +108,7 @@ Sarah's transformation didn't happen overnight. But here's what her business eco
 ### The Finance Business (Capital Controller):
 - Multiple whole life policies with $340,000 combined cash value
 - Finances all equipment through policy loans instead of bank loans
-- Self-insures vehicles and equipment  
+- Self-insures vehicles and equipment
 - Captures the financing spread that used to go to banks
 
 **The marketing business generates the cash flow. The finance business controls how that cash flow moves.**
@@ -152,7 +152,7 @@ But here's what they fear: **business owners who understand this game and build 
 When you control your own financing function, you're not competing just on operations anymore. You're competing on capital access. **And properly structured whole life insurance gives you advantages that even private equity can't match:**
 
 - Guaranteed access to capital (no credit committees)
-- Contractual terms that can't be changed  
+- Contractual terms that can't be changed
 - No personal guarantees or cross-collateralization
 - Tax-advantaged growth and access
 - Liquidity without liquidation
@@ -171,9 +171,9 @@ The right question is: "How do I integrate both so they amplify each other?"
 Here's the strategy:
 
 ### Phase 1: Capital Foundation (Months 1-36)
-Build your finance business through systematic whole life premiums. Think of this as building the vault. No borrowing yet—just pure capitalization.
+Build your finance business through systematic whole life premiums. Think of this as building the vault. No borrowing yet-just pure capitalization.
 
-### Phase 2: Equipment Capture (Months 36+)  
+### Phase 2: Equipment Capture (Months 36+)
 Finance business equipment through your own system instead of banks. Capture the financing spread that you're paying anyway.
 
 ### Phase 3: Velocity Advantage (Months 60+)
@@ -190,13 +190,13 @@ Structure ownership and succession to optimize both businesses for the next gene
 
 ## The Recognition Moment
 
-There's a moment—different for every business owner—when this all clicks.
+There's a moment-different for every business owner-when this all clicks.
 
 For Sarah, it happened during a client acquisition in year four of building her finance business.
 
-A competitor was selling their agency. Good client list, solid team, asking $280,000. But they needed to close fast—the owner was relocating for family reasons.
+A competitor was selling their agency. Good client list, solid team, asking $280,000. But they needed to close fast-the owner was relocating for family reasons.
 
-Sarah's bank was willing to lend the money—after completing due diligence, reviewing client contracts, and getting committee approval. **Timeline: 8-12 weeks.**
+Sarah's bank was willing to lend the money-after completing due diligence, reviewing client contracts, and getting committee approval. **Timeline: 8-12 weeks.**
 
 The seller couldn't wait that long.
 
@@ -232,7 +232,7 @@ When Sarah eventually graduates, her family won't just inherit a marketing consu
 
 ## Why Every Business Owner Should Be in Banking
 
-Nelson Nash was right: ** — Everyone should be in two businesses—the one in which you make your living and the other should be the banking business that finances whatever you do for a living."**
+Nelson Nash was right: *"Everyone should be in two businesses — the one in which you make your living and the other should be the banking business that finances whatever you do for a living."*
 
 **Of the two businesses, banking is the most important.**
 
@@ -240,7 +240,7 @@ Businesses come and go. Industries evolve. Technology disrupts everything. But p
 
 The question isn't whether you'll participate in the banking business. **You already are.** Every financing decision, every interest payment, every capital allocation is part of the banking function.
 
-The question is whether you'll profit from that participation—or whether you'll keep enriching other people's banking businesses while ignoring your own.
+The question is whether you'll profit from that participation-or whether you'll keep enriching other people's banking businesses while ignoring your own.
 
 
 
@@ -254,7 +254,7 @@ You built something impressive. Your primary business generates wealth that most
 
 The infrastructure exists. The legal framework is proven. The technology is mature. **The only question is whether you'll use it.**
 
-Your primary business made you successful. 
+Your primary business made you successful.
 
 **Your banking business can make your family wealthy.**
 
