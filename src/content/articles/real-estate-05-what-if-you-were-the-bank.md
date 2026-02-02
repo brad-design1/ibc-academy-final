@@ -51,7 +51,7 @@ You find a distressed property. $180,000 purchase price. It needs $35,000 in wor
 You apply for a hard money loan. Twelve percent interest plus two points upfront. Application takes five days. Underwriting takes another week. You get the money, but at a cost of $25,800 per year in interest. The money is expensive and the process is slow.
 
 **The IBC Route:**
-You call your life insurance company. You request a $50,000 policy loan against your cash value. No credit check. No income verification. No explanation required. The money hits your account in two days.
+You call your life insurance company. You request a $215,000 policy loan against your cash value. No credit check. No income verification. No explanation required. The money hits your account in two days.
 
 Why is the process so different?
 
