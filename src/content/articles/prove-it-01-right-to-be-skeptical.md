@@ -1,6 +1,6 @@
 ---
 title: "You're Right to Be Skeptical"
-description: "The insurance industry has earned your distrust. Here's what they got wrong — and what they accidentally got right."
+description: "The insurance industry has earned your distrust. Here's what they got wrong - and what they accidentally got right."
 pubDate: 2026-01-29
 category: "prove-it"
 tags: ["skepticism", "whole life", "insurance industry", "myths"]
@@ -9,11 +9,11 @@ draft: false
 series: "prove-it"
 seriesOrder: 1
 ---
-## If You Googled "Is Whole Life Insurance a Scam?" — Good
+## If You Googled "Is Whole Life Insurance a Scam?" - Good
 
 You should have.
 
-Seriously. If you landed here after a skeptical search, after reading a Reddit thread tearing apart cash value life insurance, after watching a Dave Ramsey clip where he calls the whole concept "a load of manure" — I'm not going to tell you that you're wrong.
+Seriously. If you landed here after a skeptical search, after reading a Reddit thread tearing apart cash value life insurance, after watching a Dave Ramsey clip where he calls the whole concept "a load of manure" - I'm not going to tell you that you're wrong.
 
 I'm going to tell you that **your skepticism is one of the smartest things you've got going for you.**
 
@@ -27,7 +27,7 @@ And I say that as someone who practices the Infinite Banking Concept for a livin
 
 Let's start with what you already know.
 
-**Bad actors exist.** Agents who oversell policies with inflated illustrations. Companies that design products optimized for commission rather than policyholder benefit. Churning — where agents convince you to replace a perfectly good policy with a new one just to reset their commission cycle.
+**Bad actors exist.** Agents who oversell policies with inflated illustrations. Companies that design products optimized for commission rather than policyholder benefit. Churning - where agents convince you to replace a perfectly good policy with a new one just to reset their commission cycle.
 
 **Bad products exist.** Universal life policies masquerading as "permanent insurance" that collapse after 20 years. Indexed products with caps, floors, and participation rates designed to look better than they perform. Variable life policies that turn your life insurance into a stock market casino.
 
@@ -45,7 +45,7 @@ The mistake is thinking all life insurance is the same.
 
 It's like saying "cars are terrible" after test-driving a 1987 Yugo. Yes, that car is terrible. But that doesn't make a Toyota Camry terrible.
 
-**The products that generate the most skepticism — indexed universal life, variable universal life, whole life with terrible illustrations — aren't what Nelson Nash wrote about in "Becoming Your Own Banker."**
+**The products that generate the most skepticism - indexed universal life, variable universal life, whole life with terrible illustrations - aren't what Nelson Nash wrote about in "Becoming Your Own Banker."**
 
 Nash was describing something specific. A dividend-paying whole life policy from a mutual company, structured to build cash value efficiently, used as a banking tool rather than an investment.
 
@@ -79,7 +79,7 @@ Here's another fact Dave Ramsey won't tell you.
 
 Banks use whole life insurance. Massively.
 
-It's called Bank-Owned Life Insurance (BOLI), and in 2015, BOLI assets reached **$156.2 billion**. Over 3,700 banks in the United States — more than 60% of all commercial banks — hold life insurance on their balance sheets.
+It's called Bank-Owned Life Insurance (BOLI), and in 2015, BOLI assets reached **$156.2 billion** — and as of 2023, **$202+ billion**. Over 3,700 banks in the United States - more than 60% of all commercial banks - hold life insurance on their balance sheets.
 
 Some banks hold life insurance with aggregate cash value exceeding 25% of their Tier I capital.
 
@@ -87,15 +87,15 @@ Some banks hold life insurance with aggregate cash value exceeding 25% of their 
 
 Why would banks do this? Because from their perspective, a policy loan is safer than most bonds. They control and guarantee the collateral. The recovery rate is 100%. Banks have actuaries, CFOs, and federal examiners study these products for decades.
 
-If whole life is such a scam, why are America's most conservative financial institutions holding $156 billion worth of it?
+If whole life is such a scam, why are America's most conservative financial institutions holding $202+ billion worth of it?
 
 ---
 
-## The Problem Isn't Whole Life — It's How It's Sold
+## The Problem Isn't Whole Life - It's How It's Sold
 
 Most agents sell whole life wrong. Completely wrong.
 
-They focus on **death benefits** and **rate of return projections** and ** — beating the market"** and ** — tax-free retirement income."**
+They focus on **death benefits** and **rate of return projections** and ** - beating the market"** and ** - tax-free retirement income."**
 
 All of that misses the point.
 
@@ -103,7 +103,7 @@ All of that misses the point.
 
 It's about controlling the financing function in your life. It's about building a pool of capital that grows without tax interruption, that you can access without qualification, that you can repay on your own schedule.
 
-Every time you finance a car, a house, business equipment — you pay interest to someone. Nelson Nash observed that **your need for finance during your lifetime is greater than your need for death benefit.**
+Every time you finance a car, a house, business equipment - you pay interest to someone. Nelson Nash observed that **your need for finance during your lifetime is greater than your need for death benefit.**
 
 The money you'll pay in interest over your life dwarfs what you'll ever pay in life insurance premiums.
 
@@ -153,9 +153,9 @@ Don't let fear of being sold something prevent you from investigating why **60% 
 
 - If whole life insurance is such a bad financial product, why did Congress need to create MEC rules to prevent wealthy people from using it as a tax shelter?
 
-- If banks are so conservative with their capital, why do 3,700+ American banks hold $156 billion in life insurance assets?
+- If banks are so conservative with their capital, why do 3,700+ American banks hold $202+ billion in life insurance assets?
 
-- What if the problem isn't the concept — but how it's been explained to you?
+- What if the problem isn't the concept - but how it's been explained to you?
 
 ---
 
