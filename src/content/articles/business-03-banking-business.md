@@ -116,6 +116,8 @@ As a business owner, you're the bank's ideal customer. Here's why:
 - Vehicle financing  
 - Expansion capital
 
+<br />
+
 **You provide the capital. And you rent it back. Over and over and over.**
 
 Let's say your business keeps an average of $125,000 in various accounts at the bank. They pay you maybe 4% on that money. Cost to them: **$5,000 per year**.
