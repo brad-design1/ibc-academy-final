@@ -21,7 +21,6 @@ Because the insurance industry has earned your distrust. Fully. Completely. With
 
 And I say that as someone who practices the Infinite Banking Concept for a living.
 
----
 
 ## The Industry Has a Problem
 
@@ -35,7 +34,6 @@ Let's start with what you already know.
 
 **Your skepticism is rational.** When someone with a financial interest tells you something sounds too good to be true, you're smart to doubt them.
 
----
 
 ## But Here's What Skeptics Miss
 
@@ -51,7 +49,6 @@ Nash was describing something specific. A dividend-paying whole life policy from
 
 That's not the same as what most insurance agents are selling. And it's definitely not what most critics are attacking.
 
----
 
 ## The MEC Rules Tell You Everything
 
@@ -71,7 +68,6 @@ If it's really a "load of manure," as Dave Ramsey claims, why didn't the governm
 
 **The MEC rules exist because life insurance was working too well.**
 
----
 
 ## What Banks Actually Do
 
@@ -89,7 +85,6 @@ Why would banks do this? Because from their perspective, a policy loan is safer 
 
 If whole life is such a scam, why are America's most conservative financial institutions holding $202+ billion worth of it?
 
----
 
 ## The Problem Isn't Whole Life - It's How It's Sold
 
@@ -111,7 +106,6 @@ IBC says: capture that interest for yourself.
 
 **That's not an investment strategy. That's a banking strategy.**
 
----
 
 ## The Real Question
 
@@ -133,7 +127,6 @@ Compared to having no contractual guarantees about your future purchasing power?
 
 **The question isn't whether whole life insurance is perfect. The question is whether it's better than the alternatives for the banking function in your life.**
 
----
 
 ## Why I'm Not Trying to Convince You
 

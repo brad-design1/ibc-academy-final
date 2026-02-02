@@ -27,7 +27,6 @@ Not opinions. **Facts.** Checkable, Google-able facts.
 
 By the end of this article, we'll count exactly how many he gets wrong in a single phone call.
 
----
 
 ## The IRS Gambit
 
@@ -47,7 +46,6 @@ In 1988, Congress passed the Technical Corrections Act to stop single-premium wh
 
 **So ask yourself: How can Dave tell us whole life is awful when the government had to build a fence around it to stop rich people from using it?**
 
----
 
 ## Dave's Factual Accuracy Problem
 
@@ -65,7 +63,6 @@ Also wrong. SBLI (Savings Bank Mutual Life) and Mutual of Omaha both appear in Z
 
 **These aren't judgment calls. These are basic, definitional facts Dave got wrong while his blood was up.**
 
----
 
 ## "Borrowing Your Own Money"
 
@@ -83,7 +80,6 @@ Think home equity. The collateral on a home equity line isn't the equity itself 
 
 **You're not paying interest to access your own money. You're paying interest to a lender who lends you their money, using an asset they fully control and guarantee as collateral.**
 
----
 
 ## The "Moving Rocks" Fallacy
 
@@ -105,7 +101,6 @@ A policy owner who systematically pays premium will eventually have cash value e
 
 **How? Because rocks don't compound tax-free for 60 years.**
 
----
 
 ## "The Cash Value Dies With You"
 
@@ -123,7 +118,6 @@ Wrong. In an IBC-designed policy with paid-up additions, the death benefit **gro
 
 **If the death benefit grows over time, what exactly is the insurance company "keeping"?**
 
----
 
 ## The 12% Fantasy
 
@@ -145,7 +139,6 @@ Actual illustrations show traditional whole life earning approximately 3.5%. IBC
 
 **So Dave overstates mutual fund returns by 70% and understates whole life returns by 70-75%.**
 
----
 
 ## "Banks Don't Use Whole Life"
 
@@ -161,7 +154,6 @@ Some hold BOLI exceeding 25% of their Tier I capital.
 
 **If whole life is horrible, why are 3,700 banks holding $156 billion worth of it?**
 
----
 
 ## The Missing Variable
 
@@ -185,7 +177,6 @@ You can't call Vanguard asking to borrow $50,000 with no application, no questio
 
 **What's Dave's alternative for the banking function? He doesn't have one.**
 
----
 
 ## Buy Term and Invest the Difference — The Real Math
 
@@ -212,7 +203,6 @@ Try accessing mutual fund money without selling shares. You can't. Every withdra
 
 **When you run the actual math — including taxes, sequence risk, and term renewal costs — the comparison gets much closer.**
 
----
 
 ## Who's Really Got Commission Breath?
 
@@ -228,7 +218,6 @@ Meanwhile, Dave endorses Zander Insurance and ELP (Endorsed Local Provider) fina
 
 **Who really has commission breath?**
 
----
 
 ## Counting Dave's Errors
 

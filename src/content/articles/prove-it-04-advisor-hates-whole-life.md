@@ -23,7 +23,6 @@ And that tells you everything you need to know about their "objective" analysis.
 
 **When someone steers you away from a product they can't sell toward products they can sell and earn fees on — what exactly are they optimizing for?**
 
----
 
 ## The Licensing Reality
 
@@ -37,7 +36,6 @@ To sell life insurance, you need a separate state insurance license. Most financ
 
 **So when they tell you whole life is a terrible investment, ask yourself: Are they giving you objective analysis, or are they steering you toward products they're licensed to sell?**
 
----
 
 ## The Fee Structure Problem
 
@@ -55,7 +53,6 @@ But if they keep your money in their management? They earn fees every single yea
 
 **Which scenario do you think they prefer?**
 
----
 
 ## The "Objectivity" Myth
 
@@ -72,7 +69,6 @@ Over 20 years, that's $100,000+ in cumulative fees for the advisor.
 
 **Can you see why they might be biased against whole life?**
 
----
 
 ## The "Low Returns" Smokescreen
 
@@ -101,7 +97,6 @@ With whole life, you can have a check by 5 PM. No questions asked.
 
 **Your advisor earns fees on market volatility. They earn nothing on your certainty.**
 
----
 
 ## The "Buy Term and Invest the Difference" Shell Game
 
@@ -127,7 +122,6 @@ That $4,500 "difference" earns them $45-67 annually in AUM fees. Forever.
 
 **They're not recommending buy term and invest the difference because it's better for you. They're recommending it because it's better for them.**
 
----
 
 ## The Real Estate Parallel
 
@@ -141,7 +135,6 @@ Then you discover this "housing advisor" can't actually sell houses. They're not
 
 This is exactly what happens with financial advisors and life insurance.
 
----
 
 ## The Fiduciary Standard Loophole
 
@@ -153,7 +146,6 @@ If they can't sell life insurance, they don't have to include it in their analys
 
 **It's like a Toyota dealer claiming they gave you objective advice about which car to buy — while only showing you Toyotas.**
 
----
 
 ## What They Won't Tell You About Fees
 
@@ -179,7 +171,6 @@ Let's run real numbers on what your financial advisor's "low-cost" portfolio act
 
 **Which is really the "expensive" option?**
 
----
 
 ## The Complexity Excuse
 
@@ -201,7 +192,6 @@ Advisors often claim whole life is "too complex" for regular people to understan
 
 **Which sounds more complex?**
 
----
 
 ## Why Banks Use What Advisors Won't Recommend
 
@@ -222,7 +212,6 @@ These banks employ armies of:
 
 Your financial advisor will claim banks use it for different reasons. **Ask them to explain exactly what those reasons are.**
 
----
 
 ## The Alternative Nobody Mentions
 
@@ -241,7 +230,6 @@ Not as an investment. As a **financial tool** that provides:
 
 **Why do you think Congress created the MEC rules? To stop wealthy people from putting too much money into life insurance.**
 
----
 
 ## The Question Your Advisor Can't Answer
 
@@ -259,7 +247,6 @@ More stumbling.
 
 **That question ends the conversation.**
 
----
 
 ## The Real Conflict
 
@@ -273,7 +260,6 @@ Your financial advisor's business model depends on managing your assets.
 
 **They're not protecting you from a bad product. They're protecting their revenue stream.**
 
----
 
 ## What This Means for You
 

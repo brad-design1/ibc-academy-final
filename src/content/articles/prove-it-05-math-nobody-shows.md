@@ -27,7 +27,6 @@ Let's look at actual numbers. Real policies. Real costs. Real benefits.
 
 **No hype. No fear. Just math.**
 
----
 
 ## Actual Policy Illustration
 
@@ -54,7 +53,6 @@ Here's a real whole life policy designed for IBC (Infinite Banking Concept):
 
 **Not 1.2%. Not 10%. 4.2% tax-free.**
 
----
 
 ## What That Actually Means
 
@@ -76,7 +74,6 @@ Critics say 4.2% is terrible compared to "stock market returns."
 
 **And here's what the 4.2% doesn't capture:** The option value of having guaranteed access to capital for every financing need in your life.
 
----
 
 ## The Banking Function Value
 
@@ -94,7 +91,6 @@ Critics say 4.2% is terrible compared to "stock market returns."
 
 **What's the rate of return on capturing $500,000 in interest over your lifetime?**
 
----
 
 ## Wade Pfau's Research Changes Everything
 
@@ -112,7 +108,6 @@ Traditional retirement withdrawal strategies — the 4% rule, Monte Carlo simula
 
 **Same average return. Completely different outcome.**
 
----
 
 ## Pfau's Whole Life Research
 
@@ -132,7 +127,6 @@ Pfau studied using whole life insurance as part of a retirement income strategy.
 
 **This research comes from an academic with no financial interest in selling insurance.**
 
----
 
 ## The Tax Efficiency Nobody Talks About
 
@@ -165,7 +159,6 @@ Let's compare tax treatment across different savings vehicles:
 
 **Among high earners who exceed Roth IRA limits, whole life provides the only unlimited tax-free growth vehicle available.**
 
----
 
 ## Real Cost Analysis
 
@@ -190,7 +183,6 @@ Critics love attacking whole life "costs" without providing context.
 
 **Over 30 years, a 1% annual AUM fee costs more than whole life commissions.**
 
----
 
 ## Liquidity Analysis
 
@@ -214,7 +206,6 @@ Critics love attacking whole life "costs" without providing context.
 
 **Which provides true liquidity?**
 
----
 
 ## The Compound Effect Math
 
@@ -236,7 +227,6 @@ Here's the math most people miss:
 
 **Over multiple financing decisions across a lifetime, this difference compounds into millions.**
 
----
 
 ## The Estate Planning Math
 
@@ -256,7 +246,6 @@ A properly-funded whole life policy can create an immediate estate increase of 2
 
 **For estate planning, whole life insurance provides leveraged, guaranteed wealth transfer unavailable through any other vehicle.**
 
----
 
 ## The Business Owner's Math
 
@@ -282,7 +271,6 @@ A properly-funded whole life policy can create an immediate estate increase of 2
 
 **Business owners who implement IBC often discover the flexibility and control are worth more than maximum returns.**
 
----
 
 ## The Research Dave Ramsey Won't Cite
 
@@ -299,7 +287,6 @@ Found whole life insurance's combination of growth, liquidity, and tax treatment
 
 **These studies exist. Critics don't cite them because they contradict the "whole life is always bad" narrative.**
 
----
 
 ## The Math of Control
 
@@ -313,7 +300,6 @@ Found whole life insurance's combination of growth, liquidity, and tax treatment
 
 **These values don't show up in rate-of-return calculations, but they show up in your life.**
 
----
 
 ## The Uncomfortable Truth
 

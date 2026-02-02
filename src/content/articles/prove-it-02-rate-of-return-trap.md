@@ -25,7 +25,6 @@ It's like comparing the speed of a pickup truck to the fuel economy of a motorcy
 
 **The rate of return comparison sounds logical until you understand what whole life insurance actually does.**
 
----
 
 ## What Are You Really Comparing?
 
@@ -53,7 +52,6 @@ Let's be specific about what's in those two columns.
 
 **You're not comparing like to like. You're comparing two entirely different financial tools.**
 
----
 
 ## The Question Nobody Asks
 
@@ -69,7 +67,6 @@ If you needed money in 2008, you were forced to sell at massive losses.
 
 None of this shows up in the rate of return comparison.
 
----
 
 ## What Whole Life Actually Competes With
 
@@ -88,7 +85,6 @@ If you access capital from your whole life policy, you pay interest to the insur
 
 **Which banking relationship would you prefer?**
 
----
 
 ## The Nelson Nash Experiment
 
@@ -104,7 +100,6 @@ He compared this to the same money earning 4% after taxes in bank CDs, also with
 
 Nash's comment: "There is no real comparison between the methods."
 
----
 
 ## Why Your Financial Advisor Hates Whole Life
 
@@ -122,7 +117,6 @@ This creates a massive conflict of interest. They're steering you toward product
 
 Would you ask a Toyota dealer for an objective comparison between a Toyota and a Honda?
 
----
 
 ## The Risk Nobody Talks About
 
@@ -138,7 +132,6 @@ Meanwhile, whole life insurance has no sequence of returns risk. The cash value 
 
 **Which would you rather own during the next financial crisis?**
 
----
 
 ## The Tax Reality
 
@@ -152,7 +145,6 @@ Meanwhile, whole life cash value grows tax-deferred. Policy loans are not taxabl
 
 **When you include taxes, the comparison gets much closer.**
 
----
 
 ## What You Should Actually Compare
 
@@ -170,7 +162,6 @@ Start asking: ** — Compared to what?"**
 
 **The question isn't whether whole life beats the stock market. The question is whether it solves problems that the stock market can't.**
 
----
 
 ## The Banking Function
 
@@ -190,7 +181,6 @@ The rate of return on capturing that financing function for yourself is often mu
 
 **That's what you should be calculating.**
 
----
 
 ## The Uncomfortable Truth
 

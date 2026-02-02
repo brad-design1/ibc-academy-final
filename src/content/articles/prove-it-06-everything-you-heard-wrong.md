@@ -23,7 +23,6 @@ This shift in perspective is what separates people who "get" the Infinite Bankin
 
 Nelson Nash wasn't trying to beat the stock market. He was trying to **become his own banker.**
 
----
 
 ## The Question That Started It All
 
@@ -37,7 +36,6 @@ He's trapped. The banks control his access to capital. They set the terms. They 
 
 The Infinite Banking Concept was born from that question. Not from trying to beat mutual fund performance, but from trying to **eliminate dependence on commercial banks.**
 
----
 
 ## Banking Is a Function, Not a Building
 
@@ -55,7 +53,6 @@ You don't need a marble-floored building with a vault. You don't need federal re
 
 **That's not an investment. That's banking.**
 
----
 
 ## The Real Comparison
 
@@ -76,7 +73,6 @@ The real comparison is:
 
 **IBC isn't about optimizing returns. It's about optimizing control.**
 
----
 
 ## The Mathematics of Control
 
@@ -95,7 +91,6 @@ Let's run the numbers on a lifetime of financing:
 
 **What's the rate of return on capturing and keeping your own interest payments?**
 
----
 
 ## Why Banks Use What Advisors Won't Recommend
 
@@ -111,7 +106,6 @@ Not as a side investment. As **core capital**. Over 60% of commercial banks own 
 
 **If whole life insurance is such a terrible financial instrument, why do America's most conservative institutions use it as core capital?**
 
----
 
 ## The Control Premium
 
@@ -128,7 +122,6 @@ Critics love pointing out that whole life "only" returns 4-5% compared to stock 
 
 **This isn't about maximizing returns. It's about maximizing optionality.**
 
----
 
 ## The Wealthy Family Secret
 
@@ -146,7 +139,6 @@ Critics love pointing out that whole life "only" returns 4-5% compared to stock 
 
 **That's why Congress created the MEC rules — to stop them from putting unlimited money into life insurance.**
 
----
 
 ## The Business Owner's Perspective
 
@@ -167,7 +159,6 @@ Because business owners live the difference between **return on investment** and
 
 **For business owners, the option value of instant capital access often exceeds any "investment return."**
 
----
 
 ## The Retirement Income Revolution
 
@@ -187,7 +178,6 @@ Target-date funds? Force you to sell during market crashes.
 
 **You access your own capital on your own terms.**
 
----
 
 ## The Tax Efficiency Game-Changer
 
@@ -207,7 +197,6 @@ Target-date funds? Force you to sell during market crashes.
 
 **That's not available anywhere else in the tax code.**
 
----
 
 ## The Emergency Fund That Grows
 
@@ -225,7 +214,6 @@ Your emergency fund becomes your **policy cash value**, earning 4-5% tax-free wi
 
 **Your emergency fund becomes productive capital instead of dead money earning inflation-negative returns.**
 
----
 
 ## The Generational Wealth Strategy
 
@@ -244,7 +232,6 @@ Not maximum returns. **Minimum mistakes.**
 
 **While others chase returns and lose fortunes in market crashes, IBC families steadily build unshakeable capital bases.**
 
----
 
 ## The Paradigm Shift
 
@@ -264,7 +251,6 @@ Not maximum returns. **Minimum mistakes.**
 
 **The paradigm shift changes which questions you ask.**
 
----
 
 ## What Smart Skeptics Discover
 
@@ -282,7 +268,6 @@ You worried about "low returns" when you should have examined total system effic
 
 **That's not your fault. That's how everyone explains it.**
 
----
 
 ## The Fundamental Question
 
@@ -306,7 +291,6 @@ You worried about "low returns" when you should have examined total system effic
 
 **IBC simply says:** Why not choose Option 2?
 
----
 
 ## What Happens When You Get It
 
@@ -322,7 +306,6 @@ You worried about "low returns" when you should have examined total system effic
 
 **The conversation completely changes.**
 
----
 
 ## The Path Forward
 
@@ -343,7 +326,6 @@ You worried about "low returns" when you should have examined total system effic
 **The question isn't whether you should put all your money in whole life insurance.**  
 **The question is whether you want to control the banking function in your life.**
 
----
 
 ## Your Next Decision
 
