@@ -56,7 +56,7 @@ Sarah did this calculation and nearly fell out of her chair. Over the previous f
 
 ## Banking: The Most Important Business in the World
 
-Nelson Nash put it plainly: ** — Banking is the most important business in the world. Without it, all business comes to a screeching halt."**
+Nelson Nash put it plainly: *"Banking is the most important business in the world. Without it, all business comes to a screeching halt."*
 
 Think about that. Every transaction requires financing. Every purchase involves capital allocation. Every business decision connects to the availability and cost of money.
 
