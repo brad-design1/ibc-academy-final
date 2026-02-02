@@ -96,6 +96,8 @@ Here's how different this looks:
 - Callable note (they control you)
 - Their interest rates, their terms
 
+<br />
+
 **Policy loan:**
 - 1-2 page form
 - 3-5 day processing
