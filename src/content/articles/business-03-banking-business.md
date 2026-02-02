@@ -62,6 +62,8 @@ Let's look at real numbers from a typical community bank's business model:
 - CDs: 4.8%
 - **Weighted average cost of funds: ~3.8%**
 
+<br />
+
 **What they charge borrowers:**
 - Business lines of credit: 8-12%
 - Equipment loans: 7-10%
@@ -104,6 +106,8 @@ As a business owner, you're the bank's ideal customer. Here's why:
 - Escrow accounts
 - Money market accounts for reserves
 - CDs for "safe" money
+
+<br />
 
 **And you're a constant borrower:**
 - Equipment financing
