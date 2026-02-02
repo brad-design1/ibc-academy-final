@@ -79,7 +79,7 @@ Here's another fact Dave Ramsey won't tell you.
 
 Banks use whole life insurance. Massively.
 
-It's called Bank-Owned Life Insurance (BOLI), and in 2015, BOLI assets reached **$156.2 billion** — and as of 2023, **$202+ billion**. Over 3,700 banks in the United States - more than 60% of all commercial banks - hold life insurance on their balance sheets.
+It's called Bank-Owned Life Insurance (BOLI), and in 2015, BOLI assets reached **$156.2 billion** - and as of 2023, **$202+ billion**. Over 3,700 banks in the United States - more than 60% of all commercial banks - hold life insurance on their balance sheets.
 
 Some banks hold life insurance with aggregate cash value exceeding 25% of their Tier I capital.
 
@@ -95,7 +95,7 @@ If whole life is such a scam, why are America's most conservative financial inst
 
 Most agents sell whole life wrong. Completely wrong.
 
-They focus on **death benefits** and **rate of return projections** and ** - beating the market"** and ** - tax-free retirement income."**
+They focus on **death benefits** and **rate of return projections** and **"beating the market"** and **"tax-free retirement income."**
 
 All of that misses the point.
 
