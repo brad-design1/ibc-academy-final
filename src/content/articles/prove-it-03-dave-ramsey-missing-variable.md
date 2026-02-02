@@ -15,7 +15,7 @@ A guy calls into the Dave Ramsey show. His name is Jason. He's from Detroit. He'
 
 And his financial advisor has pitched him something called the Infinite Banking Concept.
 
-Dave's response? ** — Jesus, you're kidding me."**
+Dave's response? *"Jesus, you're kidding me."*
 
 The man gets angry. That's the tell.
 
