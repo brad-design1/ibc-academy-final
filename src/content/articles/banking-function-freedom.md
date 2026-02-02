@@ -120,7 +120,7 @@ When you borrow from a bank, they profit. When you pay with a credit card, the c
 
 Nash's thesis—the sentence that holds everything together—is this:
 
-* — You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."*
+*"You finance everything you buy. Either you pay interest to someone else, or you give up the interest you could have earned."* — Nelson Nash
 
 There is no third option. There is no escape from financing. The only question is which side of the equation you're on.
 

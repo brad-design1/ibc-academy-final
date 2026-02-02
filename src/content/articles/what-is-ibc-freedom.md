@@ -98,7 +98,7 @@ And you have zero control over it.
 
 Nelson Nash asked a question I've never forgotten:
 
-* — When the government creates a problem (onerous taxation) then gives you the solution (government-sponsored retirement plans), are you not the least bit suspicious?"*
+*"When the government creates a problem (onerous taxation) then gives you the solution (government-sponsored retirement plans), are you not the least bit suspicious?"* — Nelson Nash
 
 Think about it.
 

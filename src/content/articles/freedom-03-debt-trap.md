@@ -9,7 +9,7 @@ draft: false
 series: "freedom-seeker"
 seriesOrder: 3
 ---
-* — You finance everything you buy. Either you pay interest to someone else, or you give up interest you could have earned. There is no third option."* — Nelson Nash
+*"You finance everything you buy. Either you pay interest to someone else, or you give up interest you could have earned. There is no third option."* — Nelson Nash
 
 ## The Invisible Shackles
 
