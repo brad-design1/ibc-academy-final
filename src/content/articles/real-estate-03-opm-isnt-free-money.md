@@ -201,6 +201,8 @@ Banks make money three ways from real estate investors:
 2. **Fee income**: Origination, underwriting, processing, and refinancing fees
 3. **Float**: They collect payments before crediting your account, earning overnight interest on the float
 
+<br />
+
 But here's the fourth way, which is rarely discussed: **portfolio growth**.
 
 Every loan a bank makes creates an asset on their balance sheet. As property values increase, the bank's collateral value increases, but their loan balance decreases (through principal payments). They benefit from appreciation just like property owners do, but with none of the management hassles.
