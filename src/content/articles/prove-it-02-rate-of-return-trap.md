@@ -146,7 +146,7 @@ Meanwhile, whole life cash value grows tax-deferred. Policy loans are not taxabl
 
 Stop asking: "What's the rate of return?"
 
-Start asking: ** — Compared to what?"**
+Start asking: *"Compared to what?"*
 
 **Compared to banking:** Would you rather pay interest to Chase Bank or access your own capital?
 
