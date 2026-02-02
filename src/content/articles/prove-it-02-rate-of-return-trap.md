@@ -199,7 +199,7 @@ You can do exactly that with a properly-funded whole life policy. One phone call
 
 ## Questions to Think About
 
-- If your financial advisor can't sell whole life insurance, how objective is their comparison?
+- If your financial advisor earns fees on assets under management, how objective is their comparison against a product that moves money off their books?
 
 - What's more important: chasing maximum returns, or having guaranteed access to capital when you need it?
 
