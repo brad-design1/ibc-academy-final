@@ -173,11 +173,17 @@ The solution isn't to generate more revenue. Revenue isn't the problem.
 **The solution is to control the capital that revenue creates.**
 
 
+
+---
+
 **In the next article, we're going to talk about who's really in the banking business—and it's not who you think.**
 
 Your bank tells you they're providing a service. What they're actually doing is borrowing your money at one rate and lending it back to you at another. And they're making a fortune doing it.
 
 Time to understand how the banking business really works—and why you're on the wrong side of it.
 
+
+
+---
 
 *This is educational only and not meant to serve as financial advice.*

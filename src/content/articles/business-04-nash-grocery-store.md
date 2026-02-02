@@ -208,11 +208,17 @@ Nelson Nash figured this out while drowning in debt at 3 a.m. Not because he was
 **The infrastructure to eliminate banking middlemen. The ability to capture the financing function. The grocery store that feeds your own family first.**
 
 
+
+---
+
 **In the next article, we're going to look at real numbers from real businesses.**
 
 Equipment financing. Vehicle replacements. Expansion capital. The math that shows exactly how much wealth leaves business owners' hands—and how the grocery store model captures it instead.
 
 Time to stop stocking other people's stores.
 
+
+
+---
 
 *This is educational only and not meant to serve as financial advice.*

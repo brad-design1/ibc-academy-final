@@ -140,11 +140,17 @@ Maybe your greatest asset is what you could build **with** your business. A syst
 **A system where you become the bank.**
 
 
+
+---
+
 **In the next article, we're going to talk about the cash flow problem nobody talks about.**
 
 Not the kind where you can't make payroll. The other kind. The kind where your business is profitable, your life is comfortable, and yet somehow there's never enough capital sitting around when opportunity knocks.
 
 That gap between "doing well" and "having capital on demand"—that's where the real conversation starts.
 
+
+
+---
 
 *This is educational only and not meant to serve as financial advice.*

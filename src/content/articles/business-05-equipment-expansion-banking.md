@@ -203,6 +203,9 @@ Year 7: You have enough capital to negotiate cash discounts with suppliers. 2% d
 **Each financial function you control amplifies the others.**
 
 
+
+---
+
 **In the next article, we're going to talk about the ultimate realization.**
 
 That you're not really running one business. You're running two: your primary business **and** the banking business that finances it.
@@ -211,5 +214,8 @@ Most business owners only focus on the first. **The wealthy focus on both.**
 
 Time to understand why the banking business might be more valuable than your primary business—and how to build both simultaneously.
 
+
+
+---
 
 *This is educational only and not meant to serve as financial advice.*

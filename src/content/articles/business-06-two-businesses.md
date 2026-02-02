@@ -243,6 +243,9 @@ The question isn't whether you'll participate in the banking business. **You alr
 The question is whether you'll profit from that participation—or whether you'll keep enriching other people's banking businesses while ignoring your own.
 
 
+
+---
+
 ## Where Do You Go From Here?
 
 You built something impressive. Your primary business generates wealth that most people will never create.
@@ -255,5 +258,8 @@ Your primary business made you successful.
 
 **Your banking business can make your family wealthy.**
 
+
+
+---
 
 *This is educational only and not meant to serve as financial advice.*

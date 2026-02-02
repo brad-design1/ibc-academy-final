@@ -221,6 +221,9 @@ Most people just don't know it exists. Because banks don't advertise it. **Finan
 Why would they? **It eliminates their role as middlemen.**
 
 
+
+---
+
 **In the next article, we're going to talk about a forester from Alabama who figured this out in 1980.**
 
 His name was Nelson Nash. He was drowning in debt at 23% interest rates. And while he was praying at 3 a.m. for a way out, he discovered something that changed everything.
@@ -229,5 +232,8 @@ He learned that the infrastructure to bypass the banking middleman had been sitt
 
 **He just hadn't known how to see it.**
 
+
+
+---
 
 *This is educational only and not meant to serve as financial advice.*
