@@ -25,13 +25,13 @@ Before we dive into the problems with BTID, let's talk about a number that chang
 
 That's your headwind. Every year you don't have capital, you lose 34.5% by volume to financing.
 
-Car payments, mortgages, credit cards, business loans — these aren't just expenses. They're wealth transfers. You're paying banks to use money you don't control.
+Car payments, mortgages, credit cards, business loans - these aren't just expenses. They're wealth transfers. You're paying banks to use money you don't control.
 
 Now consider this: the stock market averages around 10% annually. After inflation, that's closer to 7%. After taxes on gains, you're looking at maybe 5%.
 
 So you're chasing an extra 2-3% return while hemorrhaging 34.5% to financing.
 
-It's like flying a plane with a 300 mph tailwind while the engine only gives you 20 mph. The wind matters more than the engine.
+It's like flying a plane with a 345 mph headwind while the engine only gives you 100 mph. The wind matters more than the engine.
 
 ## Parkinson's Law Destroys the Plan
 
@@ -111,7 +111,7 @@ With a properly designed whole life policy, you get:
 
 **No government interference** in when or how you access your capital.
 
-**The banking function** — you become your own source of financing instead of enriching banks.
+**The banking function** - you become your own source of financing instead of enriching banks.
 
 This is what freedom looks like: capital under your control, growing predictably, available instantly, protected permanently.
 
@@ -129,7 +129,7 @@ The point is this: even mainstream academia is recognizing what IBC practitioner
 
 Think of your financial life as an airplane.
 
-BTID focuses on the engine — trying to squeeze out an extra 2-3% return. But you're flying into a 300 mph headwind called financing costs.
+BTID focuses on the engine - trying to squeeze out an extra 2-3% return. But you're flying into a 345 mph headwind called financing costs.
 
 IBC focuses on eliminating the headwind. When you stop hemorrhaging money to banks, the engine doesn't need to work as hard.
 
@@ -155,7 +155,7 @@ Whether you want freedom from the standard advice that keeps most people trapped
 
 The conventional path keeps you dependent on:
 - Market performance for returns
-- Government rules for tax advantages  
+- Government rules for tax advantages
 - Banks for financing
 - Perfect health for insurance
 - Perfect timing for retirement
