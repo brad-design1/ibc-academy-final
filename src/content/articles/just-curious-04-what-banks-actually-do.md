@@ -77,16 +77,22 @@ Now here's how banks get rich from this magic trick.
 **Your $10,000:**
 - **You earn:** 0.5% = $50 per year
 
-**The $90,000 in loans created from your deposit:**  
+<br />
+
+**The $90,000 in loans created from your deposit:**
 - **Credit cards:** $20,000 at 22% = $4,400 per year
-- **Auto loans:** $30,000 at 6% = $1,800 per year  
+- **Auto loans:** $30,000 at 6% = $1,800 per year
 - **Business loans:** $25,000 at 8% = $2,000 per year
 - **Personal loans:** $15,000 at 12% = $1,800 per year
 
-**Total interest earned by banking system:** $10,000 per year  
+<br />
+
+**Total interest earned by banking system:** $10,000 per year
 **Total interest paid to you:** $50 per year
 
-**The bank earns $10,000 annually from your $10,000 deposit.**  
+<br />
+
+**The bank earns $10,000 annually from your $10,000 deposit.**
 **You earn $50.**
 
 **They make 200 times more than you** from your own money.
