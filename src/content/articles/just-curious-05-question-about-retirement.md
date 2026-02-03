@@ -164,10 +164,16 @@ Here's what the retirement planning industry doesn't want you to know:
 When you have **properly structured whole life insurance**, you can access capital through **policy loans** that have none of the problems that destroy traditional retirement plans:
 
 **No taxes:** Policy loans aren't taxable income
-**No penalties:** Access your capital any time for any reason  
+
+**No penalties:** Access your capital any time for any reason
+
 **No market timing risk:** Loan amount isn't dependent on current market values
+
 **No qualification process:** No credit checks or approval required
+
 **No mandatory repayment:** Pay it back on your schedule, or not at all
+
+<br />
 
 **Policy loans give you immediate access to capital without destroying your wealth-building vehicle.**
 
