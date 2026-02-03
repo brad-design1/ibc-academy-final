@@ -160,11 +160,11 @@ One of the most powerful features of policy loans is **your complete control ove
 
 Here are several structured repayment strategies:
 
-### The Dollar-Cost Averaging Strategy
+### The Systematic Recapitalization Strategy
 
-Instead of repaying loans in lump sums, **you can repay them gradually while dollar-cost averaging into other investments**.
+Instead of repaying loans in lump sums, **you can repay them gradually while continuing to capitalize your policy**.
 
-Example: You take a $50,000 policy loan to purchase rental property. Instead of rushing to repay the loan, you repay $1,000 per month while investing an additional $1,000 per month in dividend stocks. **This allows you to build your stock portfolio gradually while your policy continues to compound.**
+Example: You take a $50,000 policy loan to purchase rental property. Instead of rushing to repay the loan, you repay $1,000 per month while continuing your regular premium payments plus paid-up additions. **This allows you to rebuild your borrowing capacity systematically while the rental property generates cash flow and your policy continues to compound.**
 
 ### The Cash Flow Replacement Strategy
 
