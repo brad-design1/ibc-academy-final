@@ -83,6 +83,8 @@ Here's what MEC status means:
 - Tax-deferred growth of cash value
 - Tax-free death benefit
 
+<br />
+
 **MEC Restrictions**:
 - Policy loans are taxable to the extent of gain
 - Early withdrawal penalties may apply (10% penalty before age 59½)
