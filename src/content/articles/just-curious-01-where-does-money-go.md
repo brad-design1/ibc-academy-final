@@ -27,7 +27,7 @@ Let's follow one paycheck from start to finish. You might be surprised where it 
 
 ## The Paycheck Journey Begins
 
-Meet Sarah. She's 32, lives in Phoenix, makes $75,000 a year. Her paycheck hits her checking account every two weeks: $2,885 after taxes.
+Meet Sarah. She's 32, lives in Phoenix, makes $95,000 a year. Her paycheck hits her checking account twice a month: $2,885 after taxes. That's $5,770 per month.
 
 Where does that money go?
 
@@ -70,13 +70,13 @@ They invest them. In bonds, stocks, real estate—and they keep the investment p
 
 **Let's do the math:**
 
-- **Total monthly income:** $2,885
-- **Total flowing to banks:** $1,220 ($14,000 ÷ 12 from rent + $485 car + $340 credit cards + $395 student loans)
+- **Total monthly income:** $5,770
+- **Total flowing to banks:** $3,020 ($1,800 rent + $485 car + $340 credit cards + $395 student loans)
 - **Total flowing to insurance:** $280
 
-**$1,500 of Sarah's $2,885 paycheck flows to financial institutions.**
+**$3,300 of Sarah's $5,770 monthly income flows to financial institutions.**
 
-That's **52% of her income** going to banks and insurance companies.
+That's **57% of her income** going to banks and insurance companies.
 
 And we haven't even counted the hidden costs yet.
 
@@ -99,14 +99,15 @@ Every business passes their borrowing costs to customers. Which means **you're p
 
 How much extra are you paying? Economists estimate that **30-35% of everything you buy** represents financing costs passed through to consumers.
 
-Sarah spends $800 a month on groceries, gas, restaurants, and miscellaneous purchases. At 35%, that's $280 per month in hidden financing costs.
+Sarah spends about $1,600 a month on groceries, gas, restaurants, and miscellaneous purchases. At 35%, that's roughly $560 per month in hidden financing costs.
 
 **Updated math:**
-- **Direct banking costs:** $1,220
-- **Hidden financing costs:** $280
-- **Total banking costs:** $1,500 per month
+- **Direct banking costs:** $3,020
+- **Insurance costs:** $280
+- **Hidden financing costs:** $560
+- **Total flowing to the financial system:** $3,860 per month
 
-Now we're at **52% of Sarah's income flowing to the banking system** in one form or another.
+Now we're at **67% of Sarah's income flowing to the banking system** in one form or another.
 
 ## The Banking System Wins Either Way
 
@@ -135,22 +136,22 @@ There is no third option.
 
 Let's zoom out and see the bigger picture.
 
-Sarah earns $75,000 per year. After taxes, she takes home $57,700.
+Sarah earns $95,000 per year. After taxes, she takes home about $69,240.
 
-Of that $57,700:
-- **$18,000** flows to banks through debt payments and rent
-- **$3,360** flows to insurance companies  
-- **$3,360** flows to banks through hidden financing costs in everything she buys
+Of that $69,240:
+- **$36,240** flows to banks through debt payments and rent
+- **$3,360** flows to insurance companies
+- **$6,720** flows to banks through hidden financing costs in everything she buys
 
-**Total: $24,720 per year flows to the financial system.**
+**Total: $46,320 per year flows to the financial system.**
 
-That's **43% of her take-home pay.**
+That's **67% of her take-home pay.**
 
 Over a 40-year working career, assuming 3% annual increases:
-- **Sarah will earn:** $3.3 million
-- **Financial institutions will receive:** $1.4 million
+- **Sarah will earn:** roughly $3.8 million after taxes
+- **Financial institutions will receive:** over $2.5 million
 
-Nearly half of everything Sarah earns in her entire working life will end up in someone else's bank account.
+The majority of everything Sarah earns in her entire working life will end up in someone else's bank account.
 
 And here's the kicker: **this is considered normal.** This is how the system is supposed to work.
 
@@ -160,7 +161,7 @@ When you see these numbers, a question should occur to you:
 
 **What if there was a way to capture some of this for yourself?**
 
-What if, instead of sending $24,720 per year to banks and insurance companies, you could redirect some of that flow into a system you control?
+What if, instead of sending $46,320 per year to banks and insurance companies, you could redirect some of that flow into a system you control?
 
 Not all of it—you still need insurance, you might still need some loans. But what if you could **become the bank** for a significant portion of your own financing needs?
 
@@ -171,9 +172,9 @@ What if you could:
 
 Most people never ask this question because they've never seen the numbers laid out like this. They know they pay interest on loans and earn almost nothing on savings, but they've never calculated how much wealth they're transferring to financial institutions every year.
 
-**$24,720 per year.** 
+**$46,320 per year.** 
 
-**$1.4 million over a lifetime.**
+**Over $2.5 million over a lifetime.**
 
 That's your money. Your hard work. Your value creation.
 
