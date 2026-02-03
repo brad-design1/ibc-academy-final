@@ -167,7 +167,7 @@ Every lost opportunity to capture velocity becomes visible.
 
 ## The Control Question
 
-Nash boiled everything down to a simple question: ** — Who controls the banking function in your life?"**
+Nash boiled everything down to a simple question: *"Who controls the banking function in your life?"*
 
 Right now, the answer is probably:
 - Wells Fargo controls your mortgage

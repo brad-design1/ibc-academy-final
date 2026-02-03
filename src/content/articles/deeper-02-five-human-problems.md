@@ -25,7 +25,7 @@ Traditional financial advice not only fails to solve these problems—**it actua
 
 ## Problem #1: The Loss of Control Over the Banking Function
 
-The first and most fundamental problem Nash identified is what he called ** — the loss of control over the banking function in our economic lives."**
+The first and most fundamental problem Nash identified is what he called *"the loss of control over the banking function in our economic lives."*
 
 Think about this carefully. **Banking is the most important business in the world**. Why? Because banking is the mechanism by which capital flows from savers to borrowers, from present consumption to future production. Banking makes economic progress possible.
 
@@ -42,7 +42,7 @@ Consider what this means practically:
 - **Banks can change terms** (credit limits, rates, availability) based on their business needs or regulatory requirements
 - **Banks benefit from your successful financial behavior** while you bear all the risk
 
-This is what Nash called ** — the perpetual loss of money by the all-American family."** He calculated that **34.5 cents of every dollar flowing through the typical household goes directly to third-party lenders**.
+This is what Nash called *"the perpetual loss of money by the all-American family."* He calculated that **34.5 cents of every dollar flowing through the typical household goes directly to third-party lenders**.
 
 Not 34.5 cents of every dollar earned. **34.5 cents of every dollar that flows through their hands**. This includes not just obvious interest payments, but the opportunity cost of paying cash for things instead of earning interest on that capital.
 
@@ -70,11 +70,11 @@ Nash's solution? **Learn how money actually works**. Study Austrian economics. U
 
 ## Problem #3: The Abdication of Financial Responsibility
 
-The third problem Nash diagnosed was what he called ** — the abdication of financial responsibility to government and financial institutions."**
+The third problem Nash diagnosed was what he called *"the abdication of financial responsibility to government and financial institutions."*
 
 Most families have been convinced that financial planning is too complicated for normal people. You need experts. You need professionals. **You need to trust others to manage your money because you're not smart enough to do it yourself**.
 
-This is what Nash called ** — the arrival syndrome"**—the idea that someone else is going to solve your financial problems for you.
+This is what Nash called *"the arrival syndrome"*—the idea that someone else is going to solve your financial problems for you.
 
 Consider how pervasive this thinking has become:
 
@@ -90,7 +90,7 @@ Nash's alternative? **Take responsibility for your own financial education and c
 
 ## Problem #4: The Worship of Rate of Return
 
-The fourth human problem Nash identified was ** — the obsession with rate of return at the expense of control and liquidity."**
+The fourth human problem Nash identified was *"the obsession with rate of return at the expense of control and liquidity."*
 
 This obsession is systematically cultivated by the financial services industry because **it deflects attention from the aspects of financial planning that actually matter**: control, liquidity, predictability, and tax efficiency.
 
@@ -115,7 +115,7 @@ The rate of return obsession is a distraction. **It keeps people focused on vari
 
 ## Problem #5: The Linear Thinking Trap
 
-The fifth and perhaps most insidious problem Nash identified was ** — linear thinking about compound systems."**
+The fifth and perhaps most insidious problem Nash identified was *"linear thinking about compound systems."*
 
 Most financial advice is based on linear assumptions: save X dollars per month, earn Y percent return, accumulate Z dollars over time. **But real wealth building is a non-linear, compound system** where small changes in key variables produce enormous changes in outcomes.
 

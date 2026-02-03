@@ -22,7 +22,7 @@ If someone tells you "IBC is just whole life insurance," they haven't read the b
 
 IBC works best for people who have a reliable income stream and the discipline to fund their system consistently. This doesn't mean you need to be wealthy. It means you need to be able to commit to premium payments the way you commit to a mortgage or a car payment — because that's exactly what you're doing. You're making payments to your own banking system.
 
-Nash's first fundamental was ** — think long-range."** The people who do well with IBC are the ones who understand that the first few years are about building the foundation. Your cash value grows every year. Your dividends compound. Your access to capital increases. But it's a snowball, not a lightning bolt.
+Nash's first fundamental was *"think long-range."* The people who do well with IBC are the ones who understand that the first few years are about building the foundation. Your cash value grows every year. Your dividends compound. Your access to capital increases. But it's a snowball, not a lightning bolt.
 
 If you can think in terms of decades rather than quarters — if you can see the 10-year version of your financial life and get excited about it — IBC is designed for people like you.
 
