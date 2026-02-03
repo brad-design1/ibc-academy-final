@@ -71,7 +71,7 @@ The person focused on "break-even timing" missed the point entirely. The policy 
 
 This is perhaps the most seductive objection because it sounds so reasonable. *Buy cheap term insurance for protection, invest the premium difference in mutual funds for higher returns. Best of both worlds.*
 
-The late Robert Murphy, economist and IBC practitioner, spent considerable time analyzing this claim mathematically. His findings illuminate why "buy term and invest the difference" (BTID) fails not as theory, but as practice.
+Robert Murphy, economist and IBC practitioner, has spent considerable time analyzing this claim mathematically. His findings illuminate why "buy term and invest the difference" (BTID) fails not as theory, but as practice.
 
 **The Behavioral Reality Problem**
 
