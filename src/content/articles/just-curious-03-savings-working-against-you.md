@@ -142,17 +142,23 @@ Sarah follows conventional advice. She keeps her emergency fund in "safe" saving
 
 **What happens to her $25,000:**
 
-**Year 1:** 
+**Year 1:**
 - Account balance: $25,125
 - Purchasing power: $24,500 (assuming 2.5% inflation)
+
+<br />
 
 **Year 10:**
 - Account balance: $26,280
 - Purchasing power: $20,525
 
+<br />
+
 **Year 20:**
 - Account balance: $27,628
-- Purchasing power: $16,917  
+- Purchasing power: $16,917
+
+<br />
 
 **Year 35 (retirement):**
 - Account balance: $29,801
