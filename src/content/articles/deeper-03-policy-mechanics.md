@@ -49,6 +49,8 @@ The base policy consists of several components:
 
 **Dividends**: The mechanism by which mutual company profits are distributed to policy owners. **Dividends are not guaranteed, but they have been paid consistently by mutual companies for over 150 years** because they represent the company's actual business performance rather than arbitrary profit distributions.
 
+<br />
+
 ## The Power Tool: Paid-Up Additions (PUA) Rider
 
 While the base policy provides the legal and structural foundation, **the Paid-Up Additions (PUA) rider is where the real power of IBC lives**.
@@ -62,6 +64,8 @@ Here's how PUA riders work:
 **Immediate Cash Value**: Unlike the base policy, which builds cash value slowly in early years, **PUA contributions create immediate cash value**. Typically, 90-95% of your PUA contribution becomes available as cash value immediately.
 
 **Dividend Earning Base**: PUA additions participate in dividend distributions just like the base policy. **As your death benefit increases through PUA, your dividend earning base increases proportionally.**
+
+<br />
 
 This is where the compound growth acceleration happens. **Every PUA contribution increases your death benefit, which increases your cash value, which increases your dividend earning base, which increases future dividends, which can purchase more PUA.**
 
@@ -84,6 +88,8 @@ Here's what MEC status means:
 - Early withdrawal penalties may apply (10% penalty before age 59½)
 - Death benefit remains tax-free
 
+<br />
+
 **For IBC purposes, staying under the MEC limit is crucial** because policy loan access is the primary mechanism for accessing capital. MEC status would make policy loans taxable, defeating the purpose.
 
 The MEC calculation is performed annually, but **it's based on cumulative premium payments over the life of the contract**. You can't simply reduce premiums in later years to "cure" a MEC violation.
@@ -101,6 +107,8 @@ Here's the typical structure for an IBC policy:
 **PUA Rider**: The majority of the premium—typically 80-90% of total premium—goes into PUA to maximize cash value and dividend earning base.
 
 **Term Insurance Rider**: Sometimes used to increase the death benefit temporarily while building cash value, ensuring the policy doesn't MEC while accommodating high premium contributions.
+
+<br />
 
 This structure creates what practitioners call a "tank" design—**a policy optimized for capital accumulation rather than maximum death benefit**.
 
@@ -134,6 +142,8 @@ Here's how policy loans actually work:
 
 **Repayment**: You control the repayment schedule. **You can repay the loan on any schedule you choose, or not at all.** If the loan isn't repaid, it's deducted from the death benefit upon death.
 
+<br />
+
 This mechanism allows you to **access the economic value of your accumulated capital without stopping the compound growth of that capital**. It's the only financial arrangement that provides this capability.
 
 ## The Actuarial Magic: Conservative Pricing
@@ -145,6 +155,8 @@ Mutual life insurance companies build their policies using conservative assumpti
 **Interest**: What rate of return the company will earn on invested assets. Companies use conservative interest assumptions—currently around 3-4%—that are lower than their actual investment performance.
 
 **Expenses**: How much it will cost to operate the company. Companies overestimate expenses, building in operational margins.
+
+<br />
 
 **When actual experience is better than these conservative assumptions—which it typically is—the surplus gets returned to policy owners as dividends.**
 

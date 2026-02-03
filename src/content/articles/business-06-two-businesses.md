@@ -45,6 +45,8 @@ Look at your business expenses for last year:
 - Credit card interest on business purchases
 - Factoring fees on receivables
 
+<br />
+
 **Add it up. That's the revenue of your finance business. It's just going to someone else.**
 
 Sarah did this calculation and nearly fell out of her chair. Over the previous five years, her marketing business had paid **$127,000** in interest and financing fees to outside institutions.
@@ -81,6 +83,8 @@ A typical successful business owner over a 25-year career:
 - Working capital lines: $67,000 in interest
 - Real estate loans: $280,000 in interest
 - Expansion financing: $32,000 in interest
+
+<br />
 
 **Total interest paid to outside lenders: $509,000**
 
@@ -157,6 +161,8 @@ When you control your own financing function, you're not competing just on opera
 - Tax-advantaged growth and access
 - Liquidity without liquidation
 
+<br />
+
 **You're playing the same game they are. You're just playing it better.**
 
 
@@ -184,6 +190,8 @@ Add policies on family members and key employees. Scale the finance business to 
 
 ### Phase 5: Legacy Integration (Months 120+)
 Structure ownership and succession to optimize both businesses for the next generation.
+
+<br />
 
 **By Phase 3, you're operating from a position of strength that most business owners never experience.**
 

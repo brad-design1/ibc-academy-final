@@ -24,6 +24,8 @@ On paper, this makes sense — if three things are true.
 
 **3. You won't need the death benefit after 20 years.** This is the silent assumption. Dave says: "By the time your term expires, you'll be self-insured — your investments will be so large you won't need life insurance." Maybe. Maybe not. What if your investments underperformed? What if you had a health crisis? What if you needed capital and your term had expired and your health wouldn't qualify you for new coverage?
 
+<br />
+
 ## The Comparison Nobody Makes
 
 BTID compares **death benefits** — term life versus whole life as if both are investments. But the Infinite Banking Concept isn't an investment. It's a banking system.
@@ -38,6 +40,8 @@ Every major purchase you make — cars, homes, education, business equipment —
 
 BTID doesn't address the banking function at all. It keeps you fully dependent on Wall Street for growth AND on commercial banks for financing. Two masters instead of one.
 
+<br />
+
 ## The Math People Never Run
 
 Here's the scenario BTID advocates never model:
@@ -47,6 +51,8 @@ You're 50 years old. Your 20-year term policy just expired. You need $80,000 for
 **If you followed BTID:** You liquidate investments — triggering capital gains taxes. You sell in whatever market you happen to be in. If it's a down market, you lock in losses. If you need a loan instead, you go to a bank, fill out an application, explain your income, and hope they say yes. You're at the mercy of credit markets and your FICO score.
 
 **If you practiced IBC:** You call the insurance company and request a policy loan. No application. No credit check. No explanation required. No taxable event. The money arrives in days. Your cash value continues growing as if you never touched it. You repay on your own schedule. And your death benefit is still in force — for life.
+
+<br />
 
 That's not a minor difference. That's a fundamentally different relationship with money.
 

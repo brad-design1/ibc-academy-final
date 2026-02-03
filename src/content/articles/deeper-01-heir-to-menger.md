@@ -60,6 +60,8 @@ In Menger's framework, capital goods exist in different orders:
 - **Third-order capital goods** produce second-order goods (iron ore, raw materials)
 - And so on up the production structure
 
+<br />
+
 The key insight: **Higher-order capital goods are more valuable the earlier in the production process they can be employed**. A tool that can be used for multiple purposes across multiple time periods is more valuable than a tool with limited application.
 
 This is exactly what **Nelson Nash discovered about properly structured whole life insurance**. 
@@ -71,6 +73,8 @@ A dividend-paying whole life policy from a mutual company functions as a **high-
 3. **Maintains tax-advantaged growth** regardless of loan activity (capital preservation)
 4. **Functions across multiple economic cycles** (temporal durability)
 5. **Serves multiple purposes simultaneously** (insurance, savings, financing)
+
+<br />
 
 Like a well-designed tool in Menger's production hierarchy, **properly structured life insurance is valuable precisely because it can be employed early in your personal economic planning and continue producing value across multiple time periods and purposes**.
 
@@ -88,6 +92,8 @@ Consider a typical family's financial decisions:
 - They have no ownership stake in the institutions they depend on for financing
 - They make long-term financial commitments based on short-term market signals
 - They outsource investment decisions to fund managers who have no stake in their specific outcomes
+
+<br />
 
 This is what **Griggs calls "financial socialism"** at the household level. Just as socialist central planners cannot rationally allocate capital without price signals, households cannot optimize their financial strategies without control over their own banking function.
 
@@ -117,6 +123,8 @@ Nash realized that **individuals need sound money principles at the personal lev
 2. **Dividend history provides predictable income** (stable purchasing power over time)
 3. **Policy loans are available on demand** (liquidity without market volatility)
 4. **Interest rates are fixed or predictable** (protection from interest rate manipulation)
+
+<br />
 
 This isn't just insurance—**it's a private monetary system that operates independently of Federal Reserve policy and commercial banking manipulation**.
 

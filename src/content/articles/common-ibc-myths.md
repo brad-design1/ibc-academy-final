@@ -64,6 +64,8 @@ Not quite. A savings account doesn't offer:
 - **Creditor protection** in many states
 - **Guaranteed growth** that never reverses
 
+<br />
+
 A savings account is a parking lot. A properly structured whole life policy is a **compounding engine** with contractual guarantees. They're not the same tool and they don't produce the same results.
 
 ## Myth 7: Insurance Agents Push IBC for Commissions

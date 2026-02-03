@@ -36,6 +36,8 @@ A whole life dividend represents your share of the company's **surplus** — mon
 
 **Lapsed policies.** When someone surrenders their policy, the company pays out the cash value and cancels the contract. But it had been holding reserves to pay a death claim that will now never come. That released reserve becomes part of the surplus.
 
+<br />
+
 In short, a dividend is what happens when **actual experience beats conservative assumptions** across all four categories. The actuaries intentionally build safety margins into every policy. The surplus isn't accidental — it's engineered.
 
 ## The Tax Treatment — A Return of Excess Premium
@@ -68,6 +70,8 @@ Dividend history matters. It's one of the key criteria IBC practitioners use whe
 
 When you own a participating policy, you choose what happens to your dividend — your **dividend election**. Options include: taking **cash**, **accumulating at interest** (taxable), **reducing your premium**, **paying down a policy loan**, or purchasing **Paid-Up Additions (PUAs)** — additional fully-paid whole life insurance that creates more death benefit, more cash value, and bigger future dividends.
 
+<br />
+
 ## The IBC Play: Dividends Into Paid-Up Additions
 
 For anyone building a banking system through IBC, the default dividend election should be **Paid-Up Additions**. Here's why.
@@ -89,6 +93,8 @@ Dividend-paying whole life is different. Cash value cannot go down. It must incr
 Every other option has a cost. Taking **cash** gives you spending money today but sacrifices future growth. **Accumulating at interest** earns taxable returns in a side account instead of tax-advantaged growth inside the policy. **Reducing premium** lowers out-of-pocket cost but shrinks your capitalization.
 
 These aren't wrong choices — they exist for good reason. But understand the tradeoff: **every dollar of dividend that doesn't go to PUA is a dollar that stops compounding for the rest of your life.**
+
+<br />
 
 ## The Big Picture
 

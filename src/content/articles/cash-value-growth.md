@@ -30,6 +30,8 @@ Cash value in a whole life policy grows through two mechanisms:
 
 **Non-guaranteed dividends.** When the mutual insurance company performs better than its conservative actuarial assumptions — better investment returns, fewer death claims, lower operating costs — the surplus flows back to you as a dividend. When that dividend is directed into Paid-Up Additions, it purchases additional death benefit, which creates additional cash value, which earns additional dividends in the future.
 
+<br />
+
 The guaranteed growth provides the foundation. Dividends accelerate it. Together, they create a growth curve that starts slow and accelerates over time.
 
 ## Years 1-5: The Building Phase
@@ -54,6 +56,8 @@ After the crossover, the trajectory shifts. Cash value doesn't just grow — it 
 - Dividends are calculated on a larger policy, so they're bigger each year
 - Those dividends purchase more PUA, which creates more cash value, which earns more dividends
 
+<br />
+
 This is the compounding cycle that makes the long-term math of whole life insurance so powerful. The growth is modest in the early years and enormous in the later years — exactly the opposite of what most people expect.
 
 ## Long-Term Growth: The Compounding Effect
@@ -63,6 +67,8 @@ After 15, 20, 30 years, the compounding effect becomes extraordinary. Your cash 
 This works because compounding requires **uninterrupted growth** — every year, the value must increase. One down year breaks the chain. Consider the stock market: up 18%, down 12%, up 4%, down 22%. That's not compounding — that's averaging, and averaging includes the years you lost ground.
 
 Whole life cash value **cannot go down**. The guaranteed growth is contractual. Dividends have been paid by major mutual companies every single year for over a century. The cash value line moves in one direction: up. Year after year. Decade after decade.
+
+<br />
 
 As Robert Murphy has written extensively, this is what makes whole life fundamentally different from market-based alternatives. It's not about the rate of return in any single year. It's about the **certainty of the direction** — and the compounding that certainty makes possible.
 

@@ -133,6 +133,8 @@ When you finance through your own policy:
 - Your available credit rebuilds automatically as you make payments
 - You capture the financing function that banks profit from
 
+<br />
+
 **You get the equipment AND keep the capital working.**
 
 
@@ -194,6 +196,8 @@ Eliminate unnecessary coverage. Redirect premiums into additional policy capital
 
 **Phase 5: Next Generation (Years 10+)**
 Policies on children and key employees. Building the family banking system that operates for decades.
+
+<br />
 
 Each phase builds on the previous one. **By phase 3, you're operating from a position of strength that most business owners never experience.**
 

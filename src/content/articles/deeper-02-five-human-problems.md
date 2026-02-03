@@ -42,6 +42,8 @@ Consider what this means practically:
 - **Banks can change terms** (credit limits, rates, availability) based on their business needs or regulatory requirements
 - **Banks benefit from your successful financial behavior** while you bear all the risk
 
+<br />
+
 This is what Nash called *"the perpetual loss of money by the all-American family."* He calculated that **34.5 cents of every dollar flowing through the typical household goes directly to third-party lenders**.
 
 Not 34.5 cents of every dollar earned. **34.5 cents of every dollar that flows through their hands**. This includes not just obvious interest payments, but the opportunity cost of paying cash for things instead of earning interest on that capital.
@@ -63,6 +65,8 @@ Consider these common misunderstandings:
 **"Interest rates reflect market conditions."** No, interest rates in our economy reflect Federal Reserve manipulation of the money supply. **Market interest rates haven't existed since 1913** when the Federal Reserve was created. What we have now are artificially manipulated rates that create boom-bust cycles and distort economic calculation.
 
 **"The stock market creates wealth."** No, the stock market is a wealth transfer mechanism. It creates the illusion of wealth through asset price inflation, but **it doesn't create productive capacity**. Real wealth creation happens when people defer consumption to build capital goods that increase future productivity.
+
+<br />
 
 When families base their financial strategies on these misunderstandings, **they inevitably make decisions that benefit the financial services industry at their own expense**.
 
@@ -86,6 +90,8 @@ Consider how pervasive this thinking has become:
 
 **"Let the insurance company handle your risk management."** Why? Because insurance is complicated and you need professional guidance. But here's what they don't tell you: **most insurance is designed to benefit the insurer, not the insured**. Term life insurance, for example, has a 98% lapse rate. The house always wins.
 
+<br />
+
 Nash's alternative? **Take responsibility for your own financial education and capital formation**. Learn how these institutions actually work. Understand their incentives. **Design your financial strategy to minimize their involvement and maximize your control**.
 
 ## Problem #4: The Worship of Rate of Return
@@ -101,6 +107,8 @@ Here's how the rate of return obsession manifests:
 **"Real estate appreciates over time!"** But what were the transaction costs? What were the property taxes? What was the opportunity cost of the down payment? What happened to your liquidity? **A 10% return on an illiquid asset may be inferior to a 6% return on a liquid asset**.
 
 **"Stocks historically outperform bonds!"** But what was the volatility? What was the maximum drawdown? What was the sequence of returns risk? **What good is a higher long-term average return if you need access to your money during a market crash?**
+
+<br />
 
 Nash understood that **rate of return is only one variable in a complex equation**. For most families, **control and liquidity are more valuable than marginal improvements in rate of return**.
 
@@ -174,6 +182,8 @@ This systematic approach solves all five problems simultaneously:
 3. **You take responsibility for your financial outcomes** rather than depending on institutions
 4. **You focus on control and liquidity** rather than chasing rate of return
 5. **You think systematically** about compound wealth building rather than optimizing individual products
+
+<br />
 
 ## The Meta-Problem: Recognition
 
