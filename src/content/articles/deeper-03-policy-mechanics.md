@@ -242,11 +242,15 @@ Most people encounter life insurance through sales presentations that focus on b
 
 Understanding policy mechanics allows you to:
 
-**Evaluate Policy Illustrations**: Look beyond projected values to understand how those projections are generated
-**Optimize Premium Allocation**: Maximize efficiency within regulatory constraints
-**Monitor Policy Performance**: Track actual results against expected performance
-**Make Informed Decisions**: Choose between different policy options based on their mechanical differences
-**Troubleshoot Problems**: Identify and correct performance issues before they become serious
+- **Evaluate Policy Illustrations**: Look beyond projected values to understand how those projections are generated
+
+- **Optimize Premium Allocation**: Maximize efficiency within regulatory constraints
+
+- **Monitor Policy Performance**: Track actual results against expected performance
+
+- **Make Informed Decisions**: Choose between different policy options based on their mechanical differences
+
+- **Troubleshoot Problems**: Identify and correct performance issues before they become serious
 
 ## The Question of Complexity
 
