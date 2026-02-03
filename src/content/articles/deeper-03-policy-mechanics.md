@@ -112,10 +112,6 @@ An IBC policy uses three components, but **the right balance depends entirely on
 
 **The critical point**: Policy design involves tradeoffs. Aggressive designs that maximize early cash value often create problems down the road. A properly designed IBC policy is built for decades of use, not impressive first-year illustrations. This is why cookie-cutter ratios are dangerous—every situation requires individual analysis.
 
-<br />
-
-This structure creates what practitioners call a "tank" design-**a policy optimized for capital accumulation rather than maximum death benefit**.
-
 ## Dividend Calculation and Recognition Methods
 
 How mutual companies calculate dividends affects policy performance. Two key distinctions matter:
