@@ -106,6 +106,8 @@ Real life has:
 - Travel opportunities
 - Help for children or grandchildren
 
+<br />
+
 **The 4% rule works perfectly in spreadsheets.** It fails miserably in real life because **real life doesn't follow a budget.**
 
 **Ryan Griggs**, an expert on financial planning flaws, puts it bluntly: "Conventional retirement planning is code for gambling."
