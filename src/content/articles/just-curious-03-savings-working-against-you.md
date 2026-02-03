@@ -274,10 +274,14 @@ Let's calculate the total cost of Sarah's "safe money" strategy:
 - Additional contributions purchasing power lost: $25,981
 - **Total inflation losses:** $38,414
 
+<br />
+
 **Opportunity cost:**
 - If that money earned 7% instead of losing purchasing power
 - Final value would be: $312,486
 - **Opportunity cost:** $174,672
+
+<br />
 
 **Total cost of "playing it safe":** $213,086
 
