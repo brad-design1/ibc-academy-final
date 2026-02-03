@@ -116,19 +116,35 @@ An IBC policy uses three components, but **the right balance depends entirely on
 
 This structure creates what practitioners call a "tank" design-**a policy optimized for capital accumulation rather than maximum death benefit**.
 
-## Dividend Allocation Methods
+## Dividend Calculation and Recognition Methods
 
-How mutual companies calculate and distribute dividends significantly impacts policy performance. **Most mutual companies use one of three dividend allocation methods:**
+How mutual companies calculate dividends affects policy performance. Two key distinctions matter:
 
 **Portfolio Average Method**: Dividends are based on the overall performance of the company's entire investment portfolio. All policies of the same type receive the same dividend rate regardless of when they were issued.
 
-**Investment Year Method**: Dividends are based on the performance of investments purchased in the year the premium was paid. Policies issued in different years may receive different dividend rates based on the investment performance of their specific vintage.
+**Investment Year Method**: Dividends are based on the performance of investments purchased in the year the premium was paid. Policies issued in different years may receive different dividend rates based on their specific vintage.
+
+<br />
+
+Separate from calculation is how the company treats policy loans:
 
 **Direct Recognition**: Policy loans affect dividend payments. If you have a policy loan outstanding, your dividend may be reduced.
 
 **Non-Direct Recognition**: Policy loans do not affect dividend payments. You receive the same dividend whether you have loans outstanding or not.
 
-**For IBC purposes, non-direct recognition is generally preferable** because it allows you to access capital through policy loans without reducing your dividend payments. This enables true arbitrage between your policy's growth rate and alternative investment opportunities.
+**For IBC purposes, non-direct recognition is generally preferable** because it allows you to access capital through policy loans without reducing your dividend payments.
+
+## Dividend Allocation Options
+
+Once dividends are declared, **you choose how to receive them**. The three typical options are:
+
+**Cash**: The dividend is paid directly to you. Simple, but you lose the compounding benefit inside the policy.
+
+**Paid-Up Additions (PUA)**: The dividend purchases additional paid-up insurance, increasing both your death benefit and cash value. **This is the standard choice for IBC** because it accelerates the compound growth cycle.
+
+**Premium Reduction**: The dividend reduces your out-of-pocket premium payment. Useful for cash flow management, but slows policy growth.
+
+For IBC purposes, directing dividends to purchase PUA maximizes the velocity of capital accumulation. Each dividend payment increases your death benefit, which increases your dividend earning base, which increases future dividends—the compound cycle Nash emphasized.
 
 ## The Policy Loan Mechanism
 
