@@ -25,6 +25,8 @@ Austrian economics is a school of economic thought founded by Carl Menger in 187
 - **Sound money** ΓÇö Money should be a stable store of value, not a tool for political manipulation
 - **Skepticism of central planning** ΓÇö No committee of experts can replace the distributed knowledge of millions of individuals acting in their own interest
 
+<br />
+
 But here's what really sets Austrian economics apart: **it's honest about who benefits from the current system ΓÇö and who gets robbed.**
 
 ## The Federal Reserve: The Engine of Wealth Transfer
@@ -42,6 +44,8 @@ Here's how it works:
 When the Fed creates new money, that money doesn't magically appear in everyone's pockets simultaneously. It enters the economy through specific channels ΓÇö primarily the banking system and government spending. **The people closest to the money spigot get to spend it first**, before prices adjust upward.
 
 This is called the **Cantillon Effect**, named after the 18th-century economist Richard Cantillon. And it explains why the rich keep getting richer while the middle class treads water.
+
+<br />
 
 The banks are the favored few. The politically connected corporations are the favored few. Government contractors are the favored few. **You are not.**
 
@@ -116,6 +120,8 @@ But look at what a whole life insurance contract provides:
 - **Dividend participation** ΓÇö In a mutual company, you share in the surplus, not Wall Street
 - **Private contract law** ΓÇö Your policy is a binding agreement that predates modern financial engineering
 
+<br />
+
 This isn't perfect sound money. But it's something remarkable: a **private contractual warehouse of capital** operating under rules established before the current financial chaos. The insurance industry's legal and actuarial framework developed in an era when money meant something. Those traditions persist.
 
 There's a reason Mises himself casually mentioned that households saved through life insurance. In his era, that was simply understood. The 401(k) revolution that trained Americans to think "saving" means "buying stocks" ΓÇö that's a recent phenomenon, and a dangerous one.
@@ -156,6 +162,8 @@ When you build capital in a properly structured whole life policy:
 - You're accumulating wealth in a system with contractual guarantees
 - You're preparing for opportunities and emergencies without liquidating investments at bad times
 - You're removing yourself from dependence on institutions that have proven they don't have your interests at heart
+
+<br />
 
 This is individual action in the Austrian tradition. You can't fix the Federal Reserve. But you can reduce your dependence on the system it controls.
 

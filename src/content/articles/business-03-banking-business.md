@@ -70,6 +70,8 @@ Let's look at real numbers from a typical community bank's business model:
 - Real estate loans: 6-9%
 - **Weighted average on loans: ~8.5%**
 
+<br />
+
 **Net interest margin: 4.7%**
 
 This means for every $100 they lend out, they keep roughly **$4.70 per year** in pure profit. Before expenses. Before loan losses. Before salaries and buildings and marketing.

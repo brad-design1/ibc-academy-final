@@ -80,6 +80,8 @@ This is what I call the Working Capital Trap, and virtually every business owner
 
 **The more successful your business becomes, the more working capital it requires. The more working capital it requires, the less liquid capital you have. The less liquid capital you have, the more dependent you become on outside lenders. The more dependent you become on outside lenders, the more interest you pay. The more interest you pay, the less capital stays in your system.**
 
+<br />
+
 It's a cycle. A subtle one. Because the business is growing, you don't notice the wealth leak. But it's there, draining capital that could be compounding for you.
 
 And the bigger the business gets, the bigger the drain becomes.
@@ -121,6 +123,7 @@ And illiquidity is expensive in ways that don't show up on your profit and loss 
 - **Growth delayed** because expansion requires borrowing and approval
 - **Stress compounded** because you're always managing timing instead of managing opportunity
 
+<br />
 
 ## The Question Everyone's Afraid to Ask
 
@@ -150,6 +153,8 @@ Most business owners think this is impossible. They've been told their whole car
 - **Liquid or growing** (cash in savings versus money invested)
 - **Accessible or tax-advantaged** (available now versus deductible later)  
 - **Control or returns** (your decisions versus market performance)
+
+<br />
 
 What if that's wrong?
 

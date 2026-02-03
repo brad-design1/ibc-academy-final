@@ -32,6 +32,8 @@ Here's what's not to like: this advice creates permanent dependency.
 
 You're dependent on your employer offering a 401(k). You're dependent on the market cooperating. You're dependent on Congress not changing the tax rules before you retire. You're dependent on qualifying for a new term policy if your health changes. You're dependent on your 401(k) balance being high enough when you need itΓÇöand not cratering the year you planned to retire.
 
+<br />
+
 "Standard advice" sounds like freedom. But it hands control of your financial life to employers, markets, governments, and insurance underwriters.
 
 When Nelson Nash was developing the Infinite Banking Concept, he wasn't trying to beat the stock market. He was trying to answer a different question entirely: *Who controls the banking function in my life?*
@@ -45,6 +47,8 @@ Here's something I hear constantly from successful professionals.
 They make good money. They've done what they were told. They have hundreds of thousandsΓÇösometimes millionsΓÇösitting in retirement accounts. On paper, they're wealthy.
 
 But they feel broke.
+
+<br />
 
 Why? Because they can't *touch* it.
 
@@ -68,6 +72,8 @@ Nelson Nash observed something most people miss entirely. He noticed that the av
 
 Car loans. Mortgages. Student loans. Credit cards. Business lines of credit.
 
+<br />
+
 Add it up across a lifetime and the number is staggering. You'll pay more in interest to lenders than you'll ever pay in life insurance premiums, no matter what kind of policy you buy.
 
 And here's the cruel irony of BTID.
@@ -79,6 +85,8 @@ You're optimizing the wrong line item.
 It's like a pilot with a 100-mph aircraft flying into a 345-mph headwind. The pilot might focus on squeezing out 5 extra miles per hour from the engine. But the headwind is the problem. Until you solve the headwind, the marginal improvements don't matter.
 
 The BTID strategy says: get a slightly better return on your investments.
+
+<br />
 
 IBC says: stop flying into the headwind. Recapture the interest. Become the banker.
 
@@ -145,6 +153,8 @@ It never accounts for: the interest you'll pay to banks over a lifetime.
 It never addresses: who controls the banking function in your life?
 
 Nash put it simply: "Your need for finance during your lifetime is greater than your need for death benefit."
+
+<br />
 
 The money you'll need to finance cars, equipment, education, business opportunities, emergencies, and everything elseΓÇöthat need is constant and ongoing. Your need for death benefit is a one-time event. BTID optimizes for death. IBC optimizes for life.
 

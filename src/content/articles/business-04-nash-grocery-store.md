@@ -69,6 +69,8 @@ In banking terms, your premiums are not an expense. They're capitalization. Ever
 
 No capitalization, no banking. **Full stop.**
 
+<br />
+
 ### Step 2: Inventory and Turnover Create Profit
 
 Once the store is stocked, what creates profit?
@@ -110,6 +112,8 @@ If you steal one can of peas, you don't just lose 57 cents. You lose the turnove
 
 **A single stolen can requires 20 legitimate sales just to break even.**
 
+<br />
+
 Nelson's warning is direct: "Probably more businesses have been destroyed by this sort of behavior than anything else."
 
 In IBC terms, a policy loan itself isn't theft. Your cash value keeps growing even while the loan is outstanding.
@@ -122,6 +126,7 @@ I've watched clients build beautiful IBC systems and then destroy them this way.
 
 **Every dollar you borrow and don't repay is a can that never makes it back to the shelf.**
 
+<br />
 
 ## Charging Yourself Properly (The Extra Two Cents)
 

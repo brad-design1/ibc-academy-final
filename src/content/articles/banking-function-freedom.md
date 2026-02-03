@@ -62,6 +62,8 @@ He describes those months as a time when "the quality and quantity of your praye
 
 The answer, he said, came "like a baseball bat across the eyes."
 
+<br />
+
 *You are standing in the midst of everything it takes to get out—but you don't see it because you look at things like everyone else.*
 
 That's the first step to freedom: *recognition*. You have to see that you're shackled before you can break the chains. You have to understand that the headwind exists before you can turn it into a tailwind.
@@ -69,6 +71,8 @@ That's the first step to freedom: *recognition*. You have to see that you're sha
 Nash realized he had whole life insurance policies that gave him contractual access to capital at 5 to 8 percent. Had he capitalized those policies earlier, he could have refinanced 23 percent debt into single-digit rates. Had he taken the banking function seriously from the start, he never would have been cornered by third-party lenders in the first place.
 
 The lifeboat had been there all along. He just couldn't see it.
+
+<br />
 
 ## What Freedom Actually Means
 
@@ -96,6 +100,8 @@ Nash called this the "arrival syndrome." The belief that you can't do any better
 
 But have patience. Let the high-pressure system continue to move. Now you have a 345 mph tailwind. Plus your own 100 mph. Your ground speed is 445 mph.
 
+<br />
+
 Here's what most people miss entirely: the real comparison isn't between you and calm air. It's between you and everyone else.
 
 Ninety-five percent of Americans are flying into a 345 mph headwind. They're losing a third of every dollar to interest. They're going backward without knowing it.
@@ -103,6 +109,8 @@ Ninety-five percent of Americans are flying into a 345 mph headwind. They're los
 If you control the banking function—if you turn that headwind into a tailwind—the difference between you and them isn't 345 mph. It's 690 mph. Twice the wind speed. The entire environment has reversed.
 
 Nash wrote: "Most people in this situation concentrate all their attention on trying to make the airplane go 105 miles per hour. They would do well to spend their energy instead on controlling the environment in which they fly."
+
+<br />
 
 You can't control the weather in the airplane world. But you can in the financial world. That's what makes this possible.
 
@@ -113,6 +121,8 @@ Here's something critical to understand: banking is already happening in your li
 Every car payment is banking. Every mortgage payment is banking. Every credit card swipe is banking. Every time you pay cash—giving up the interest that money could have earned—that's banking too.
 
 You can't escape the banking function. It's woven into the fabric of economic life. Money flows from the pool, through your hands, to meet your needs, and back to the banking system. The cycle never stops.
+
+<br />
 
 The only question is: *who profits from it?*
 

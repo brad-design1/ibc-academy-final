@@ -96,6 +96,8 @@ Here's the calculation that keeps bank executives awake at night:
 - Working capital lines used regularly
 - Expansion financing every 8-10 years
 
+<br />
+
 **Conservative annual interest payments to outside lenders: $8,500**
 
 **Over a 25-year career: $212,500**

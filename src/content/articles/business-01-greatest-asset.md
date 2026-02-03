@@ -32,6 +32,8 @@ If you've talked to an accountant or financial advisor—and you probably have�
 
 **Build equity.** Make the business worth something so that someday—maybe in fifteen or twenty years—you can sell it. The exit is the payday.
 
+<br />
+
 This is the playbook. Virtually every business owner in America follows some version of it.
 
 And it's not *wrong*, exactly. Tax deductions are real. Business growth is real. Building equity is real.
@@ -41,6 +43,8 @@ But let's think about what this playbook actually creates:
 Your business generates the income. Your retirement account is funded by the business. Your growth capital comes from business profits. Your future wealth depends on eventually selling the business.
 
 **Everything flows through one asset. Everything depends on one engine.**
+
+<br />
 
 If the business has a great year, everything's great. If the business has a bad year—or a bad quarter, or a bad month—everything tightens. Retirement contributions slow down. Growth stalls. The exit timeline stretches.
 
@@ -71,6 +75,7 @@ Every time you finance equipment, the finance company profits. Every time you us
 
 **They're profiting from the capital your business created.**
 
+<br />
 
 ## Where Those Dollars Actually Go
 
@@ -101,6 +106,7 @@ The bank loves business owners like you. You're their favorite client.
 
 The question is: **do you want to keep being their favorite client forever?**
 
+<br />
 
 ## What's Really Your Greatest Asset?
 
@@ -122,6 +128,7 @@ It never goes away. People will always need capital. Businesses will always need
 
 The question isn't whether the banking function will exist. The question is **who will profit from it**.
 
+<br />
 
 ## Compared to What?
 
