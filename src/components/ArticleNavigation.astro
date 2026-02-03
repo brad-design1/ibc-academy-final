@@ -1,0 +1,144 @@
+---
+/**
+ * ArticleNavigation - Provides prev/next navigation within a series
+ * and return-to-path functionality for articles
+ */
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentArticle: any;
+}
+
+const { currentArticle } = Astro.props;
+
+// Get all articles
+const allArticles = await getCollection('articles');
+
+// Map series slugs to path URLs and display names
+const seriesPathMap: Record<string, { url: string; name: string; color: string }> = {
+  'business-owner': { url: '/paths/business-owner', name: 'Business Owner', color: '#39FF14' },
+  'just-curious': { url: '/paths/just-curious', name: 'Just Curious', color: '#00D4FF' },
+  'freedom': { url: '/paths/freedom-seeker', name: 'Freedom Seeker', color: '#FF6B35' },
+  'freedom-seeker': { url: '/paths/freedom-seeker', name: 'Freedom Seeker', color: '#FF6B35' },
+  'parent': { url: '/paths/parent', name: 'Parent', color: '#E040FB' },
+  'real-estate': { url: '/paths/real-estate', name: 'Real Estate', color: '#FFD700' },
+  'professional': { url: '/paths/professional', name: 'Professional', color: '#4FC3F7' },
+  'skeptic': { url: '/paths/skeptic', name: 'Skeptic', color: '#FF5252' },
+  'prove-it': { url: '/paths/skeptic', name: 'Skeptic', color: '#FF5252' },
+  'deeper-understanding': { url: '/paths/deeper-understanding', name: 'Deeper Understanding', color: '#7C4DFF' },
+  'deeper': { url: '/paths/deeper-understanding', name: 'Deeper Understanding', color: '#7C4DFF' },
+};
+
+// Get articles in the same series, sorted by seriesOrder
+const currentSeries = currentArticle.data.series;
+const seriesArticles = allArticles
+  .filter(a => a.data.series === currentSeries && !a.data.draft)
+  .sort((a, b) => (a.data.seriesOrder || 0) - (b.data.seriesOrder || 0));
+
+// Find current position
+const currentIndex = seriesArticles.findIndex(a => a.id === currentArticle.id);
+const prevArticle = currentIndex > 0 ? seriesArticles[currentIndex - 1] : null;
+const nextArticle = currentIndex < seriesArticles.length - 1 ? seriesArticles[currentIndex + 1] : null;
+const totalInSeries = seriesArticles.length;
+const currentPosition = currentIndex + 1;
+
+// Get path info
+const pathInfo = seriesPathMap[currentSeries] || { url: '/learn', name: 'Learning Path', color: '#C9A84C' };
+const isLastInSeries = currentIndex === seriesArticles.length - 1;
+---
+
+<nav class="article-navigation mt-16 pt-8 border-t border-navy-light/20">
+  <!-- Progress Indicator -->
+  {currentSeries && totalInSeries > 1 && (
+    <div class="mb-6 flex items-center justify-between">
+      <span class="text-sm text-slate-500">
+        Article {currentPosition} of {totalInSeries} in the
+        <a href={pathInfo.url} class="text-gold hover:text-gold-light transition-colors font-medium">
+          {pathInfo.name} Path
+        </a>
+      </span>
+      <div class="flex gap-1">
+        {seriesArticles.map((_, i) => (
+          <div
+            class={`w-2 h-2 rounded-full transition-colors ${i === currentIndex ? 'bg-gold' : 'bg-navy-light/40'}`}
+          />
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Return to Path -->
+  {currentSeries && (
+    <a
+      href={pathInfo.url}
+      class="inline-flex items-center gap-2 text-slate-400 hover:text-gold transition-colors text-sm mb-6"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      Return to {pathInfo.name} Path Overview
+    </a>
+  )}
+
+  <!-- Prev/Next Navigation -->
+  <div class="grid sm:grid-cols-2 gap-4">
+    <!-- Previous Article -->
+    {prevArticle ? (
+      <a
+        href={`/learn/articles/${prevArticle.id}`}
+        class="group flex flex-col p-4 rounded-xl bg-navy-light/10 border border-navy-light/20 hover:border-gold/30 hover:bg-gold/5 transition-all"
+      >
+        <span class="text-xs text-slate-500 uppercase tracking-wider mb-1 flex items-center gap-1">
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          Previous
+        </span>
+        <span class="text-white font-semibold group-hover:text-gold transition-colors line-clamp-2">
+          {prevArticle.data.title}
+        </span>
+      </a>
+    ) : (
+      <div></div>
+    )}
+
+    <!-- Next Article -->
+    {nextArticle ? (
+      <a
+        href={`/learn/articles/${nextArticle.id}`}
+        class="group flex flex-col p-4 rounded-xl bg-gold/10 border border-gold/20 hover:border-gold/40 hover:bg-gold/15 transition-all sm:text-right"
+      >
+        <span class="text-xs text-gold/70 uppercase tracking-wider mb-1 flex items-center gap-1 sm:justify-end">
+          Next
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </span>
+        <span class="text-white font-semibold group-hover:text-gold transition-colors line-clamp-2">
+          {nextArticle.data.title}
+        </span>
+      </a>
+    ) : isLastInSeries ? (
+      <!-- Completion CTA for last article in series -->
+      <div class="flex flex-col p-4 rounded-xl bg-gradient-to-br from-gold/20 to-gold/5 border border-gold/30 sm:text-right">
+        <span class="text-xs text-gold uppercase tracking-wider mb-1 flex items-center gap-1 sm:justify-end">
+          🎉 Path Complete!
+        </span>
+        <span class="text-white font-semibold mb-3">
+          You've finished the {pathInfo.name} Path
+        </span>
+        <a
+          href="/contact"
+          class="inline-flex items-center justify-center gap-2 px-4 py-2 bg-gold text-navy-900 font-bold text-sm rounded-lg hover:bg-gold-light transition-colors"
+        >
+          Talk to Brad
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+      </div>
+    ) : (
+      <div></div>
+    )}
+  </div>
+</nav>

@@ -147,30 +147,34 @@ import Layout from '../layouts/Layout.astro';
             </a>
           </div>
 
-          <!-- Booking Section -->
-          <div class="glass-card rounded-2xl p-6">
-            <div class="flex items-center gap-3 mb-3">
-              <div class="w-10 h-10 rounded-lg bg-gold/10 border border-gold/20 flex items-center justify-center">
-                <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
+          <!-- Talk to Brad - Booking Section -->
+          <div class="glass-card rounded-2xl p-6 border-gold/20 bg-gradient-to-br from-gold/5 to-transparent">
+            <!-- Brad's Info -->
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center shadow-lg shadow-gold/20">
+                <span class="text-navy-900 font-extrabold text-lg">B</span>
               </div>
-              <h3 class="text-lg font-bold text-white">Want to Discuss IBC?</h3>
+              <div>
+                <h3 class="text-lg font-bold text-white">Talk to Brad</h3>
+                <p class="text-gold text-sm font-medium">IBC Academy Founder</p>
+              </div>
             </div>
-            <p class="text-slate-400 text-sm mb-5">
-              Book a conversation to explore how Infinite Banking could work for your situation.
+            <p class="text-slate-400 text-sm mb-5 leading-relaxed">
+              Whether you're exploring IBC for the first time or ready to take the next step, I'm here to help. No pressure, no pitch — just an honest conversation about whether IBC makes sense for your situation.
             </p>
+            <!-- TODO: Replace with your actual Calendly or booking link -->
             <a
-              href="https://calendly.com/ibcacademy/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:brad@ibcacademy.org?subject=IBC%20Conversation%20Request"
               class="inline-flex items-center w-full justify-center px-6 py-3 bg-gold text-navy-900 font-bold rounded-xl hover:bg-gold-light transition-colors shadow-lg shadow-gold/20"
             >
-              Book a Conversation
+              Schedule a Conversation
               <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
             </a>
+            <p class="text-slate-500 text-xs mt-3 text-center">
+              Or add your Calendly link for instant booking
+            </p>
           </div>
 
           <!-- Social Links -->

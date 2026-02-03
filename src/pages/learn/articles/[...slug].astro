@@ -1,6 +1,8 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
+import ArticleNavigation from '../../../components/ArticleNavigation.astro';
+import ArticleFooterCTA from '../../../components/ArticleFooterCTA.astro';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -76,16 +78,20 @@ const categoryLabels: Record<string, string> = {
         <Content />
       </div>
 
-      <!-- Footer -->
-      <div class="mt-16 pt-8 border-t border-navy-light/20">
-        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <a href="/learn/articles" class="text-gold font-medium hover:text-gold-light transition-colors">
-            ← More Articles
-          </a>
-          <a href="/learn/start-here" class="text-slate-400 hover:text-white transition-colors text-sm">
-            New here? Start with the guided path →
-          </a>
-        </div>
+      <!-- CTA Section -->
+      <ArticleFooterCTA />
+
+      <!-- Article Navigation (Prev/Next) -->
+      <ArticleNavigation currentArticle={article} />
+
+      <!-- Additional Links -->
+      <div class="mt-8 pt-6 border-t border-navy-light/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <a href="/learn/articles" class="text-slate-500 hover:text-gold transition-colors text-sm">
+          ← Browse All Articles
+        </a>
+        <a href="/learn/start-here" class="text-slate-500 hover:text-white transition-colors text-sm">
+          New here? Start with the guided path →
+        </a>
       </div>
     </div>
   </article>

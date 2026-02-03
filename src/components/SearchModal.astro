@@ -51,6 +51,14 @@
           <p class="text-slate-400 text-sm font-medium">No results found</p>
           <p class="text-slate-500 text-xs mt-1">Try different keywords</p>
         </div>
+        <!-- Error state (search unavailable) -->
+        <div id="search-error" class="hidden px-5 py-12 text-center">
+          <svg class="w-10 h-10 text-slate-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+          </svg>
+          <p class="text-slate-400 text-sm font-medium">Search is temporarily unavailable</p>
+          <p class="text-slate-500 text-xs mt-2">Try browsing <a href="/learn/articles" class="text-gold hover:text-gold-light underline">all articles</a> instead</p>
+        </div>
       </div>
 
       <!-- Footer -->
@@ -73,17 +81,28 @@
   const resultsContainer = document.getElementById('search-hits');
   const emptyState = document.getElementById('search-empty');
   const noResults = document.getElementById('search-no-results');
+  const errorState = document.getElementById('search-error');
 
   let pagefind: any = null;
+  let pagefindFailed = false;
   let selectedIndex = -1;
 
   async function loadPagefind() {
-    if (pagefind) return;
+    if (pagefind) return true;
+    if (pagefindFailed) return false;
     try {
       pagefind = await import(/* @vite-ignore */ `${window.location.origin}/pagefind/pagefind.js`);
       await pagefind.init();
+      return true;
     } catch (e) {
       console.warn('Pagefind not available:', e);
+      pagefindFailed = true;
+      // Show error state to user
+      emptyState?.classList.add('hidden');
+      noResults?.classList.add('hidden');
+      resultsContainer?.classList.add('hidden');
+      errorState?.classList.remove('hidden');
+      return false;
     }
   }
 
@@ -100,8 +119,14 @@
     if (input) input.value = '';
     if (resultsContainer) resultsContainer.innerHTML = '';
     resultsContainer?.classList.add('hidden');
-    emptyState?.classList.remove('hidden');
     noResults?.classList.add('hidden');
+    errorState?.classList.add('hidden');
+    // Only show empty state if pagefind hasn't failed
+    if (!pagefindFailed) {
+      emptyState?.classList.remove('hidden');
+    } else {
+      errorState?.classList.remove('hidden');
+    }
     selectedIndex = -1;
   }
 
@@ -171,8 +196,8 @@
       }
 
       if (!pagefind) {
-        await loadPagefind();
-        if (!pagefind) return;
+        const loaded = await loadPagefind();
+        if (!loaded || !pagefind) return;
       }
 
       const search = await pagefind.search(query);
