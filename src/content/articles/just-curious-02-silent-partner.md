@@ -230,6 +230,8 @@ Every financial decision you make fits into one of two columns:
 - You buy insurance → company invests your premiums and keeps returns
 - You make deposits → bank lends your money at much higher rates
 
+<br />
+
 **Column B: You Profit From Your Money**
 - Your money works for you instead of against you
 - You earn the financing charges instead of paying them
