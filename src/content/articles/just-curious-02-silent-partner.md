@@ -112,6 +112,8 @@ Think about it:
 - Pat yourself on the back for "avoiding debt"
 - **Hidden cost:** $560/year in lost interest for 6 years = $3,360
 
+<br />
+
 **Bank's Way:**
 - Finance $28,000 at 5.2%
 - Make monthly payments of $485
