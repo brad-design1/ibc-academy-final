@@ -243,11 +243,15 @@ Inflation is really a **hidden tax** on your savings.
 - You see it on your paystub  
 - You complain about it every April
 
+<br />
+
 **How inflation tax works:**
 - Government prints money, reducing value of existing money
 - You lose 2-3% of purchasing power per year
 - You never see it directly
 - You blame "rising prices" instead of money debasement
+
+<br />
 
 **Inflation tax is worse than income tax because:**
 - It's invisible
