@@ -85,14 +85,20 @@ Here's how banks profit from your ignorance about inflation:
 - "Better than most banks!"
 - "Your money is safe and growing!"
 
+<br />
+
 **Step 2:** They hide the inflation context
 - They never mention that 0.5% growth vs. 2.5% inflation = **-2% real return**
 - They never explain that "safe" money is actually **guaranteed to lose purchasing power**
+
+<br />
 
 **Step 3:** They use your deposits to make real money
 - You give them $10,000 earning 0.5%
 - They lend it out at 5%, 15%, or 25%
 - They keep the **4.5% to 24.5% spread**
+
+<br />
 
 **You lose purchasing power. They get wealthy.**
 
