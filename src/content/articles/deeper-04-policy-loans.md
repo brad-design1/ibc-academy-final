@@ -270,13 +270,13 @@ Understanding policy loans intellectually is different from implementing them st
 
 **Think Systematically**: View policy loans as part of a comprehensive financial strategy rather than isolated transactions. **The goal is to optimize your total wealth accumulation, not to minimize individual costs.**
 
-## The Question of Sophistication
+## Understanding the Learning Curve
 
-Critics argue that policy loans are "too sophisticated" for average consumers. **This argument reveals the condescending assumption that regular people can't understand financial concepts that institutions use routinely.**
+Some argue that policy loans are "too sophisticated" for most people. **The mechanics are actually straightforward once you understand the underlying principles.**
 
-Policy loans are no more complex than mortgages, yet **millions of Americans successfully use mortgages to purchase homes**. The difference is that **mortgage brokers make money when you take mortgages, while financial advisors make money when you avoid policy loans**.
+Policy loans are no more complex than mortgages, and millions of Americans successfully use mortgages to purchase homes. The key is taking time to understand how the mechanism works before using it.
 
-**The sophistication argument is a red herring designed to keep you dependent on institutions that profit from your dependence.**
+**Like any financial tool, policy loans work best when you understand what you're doing and why.** That's the purpose of this education — to give you the foundation to make informed decisions about whether and how to use policy loans in your own financial life.
 
 ## The Path Forward
 
