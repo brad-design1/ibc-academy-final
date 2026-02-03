@@ -192,7 +192,7 @@ Properly structured whole life policies are designed to perform well across diff
 
 ## The Tax Efficiency Engine
 
-The tax treatment of properly structured whole life insurance creates what amounts to a **private tax-advantaged retirement account with superior liquidity**.
+The tax treatment of properly structured whole life insurance creates what amounts to a **private bank with a death benefit**—tax-advantaged capital accumulation with superior liquidity.
 
 **Contributions**: Premium payments are made with after-tax dollars, creating "basis" in the policy.
 
