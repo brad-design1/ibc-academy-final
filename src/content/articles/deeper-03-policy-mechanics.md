@@ -226,11 +226,15 @@ While company selection is important, **policy structure often matters more than
 
 Key structural elements include:
 
-**Premium Allocation**: Maximum PUA contributions within MEC limits
-**Rider Selection**: Appropriate riders for your age and situation
-**Death Benefit Design**: Optimized for cash accumulation rather than maximum death benefit
-**Dividend Options**: PUA dividend option to accelerate growth
-**Loan Provisions**: Favorable loan terms and non-direct recognition treatment
+- **Premium Allocation**: Maximum PUA contributions within MEC limits
+
+- **Rider Selection**: Appropriate riders for your age and situation
+
+- **Death Benefit Design**: Designed for your specific goals and situation
+
+- **Dividend Options**: PUA dividend option to accelerate growth
+
+- **Loan Provisions**: Favorable loan terms and non-direct recognition treatment
 
 ## The Engineering vs. the Marketing
 
