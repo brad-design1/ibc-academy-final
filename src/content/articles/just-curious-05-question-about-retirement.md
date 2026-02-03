@@ -119,6 +119,8 @@ Why? Because it bets that:
 - Inflation will stay low  
 - You'll never have an expensive health crisis
 
+<br />
+
 **That's not planning. That's hoping.**
 
 ## The Banking Question Revealed
