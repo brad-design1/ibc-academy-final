@@ -94,7 +94,7 @@ Here's what MEC status means:
 
 **For IBC purposes, staying under the MEC limit is crucial** because policy loan access is the primary mechanism for accessing capital. MEC status would make policy loans taxable, defeating the purpose.
 
-The MEC calculation is performed annually, but **it's based on cumulative premium payments over the life of the contract**. You can't simply reduce premiums in later years to "cure" a MEC violation.
+The MEC calculation is performed on a **rolling 7-year basis**. This means the test looks at premium payments within a 7-year window, not over the entire life of the contract.
 
 ## Premium Structure Philosophy: Minimum vs. Maximum
 
