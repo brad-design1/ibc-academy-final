@@ -123,7 +123,7 @@ His analysis of whole life insurance as a retirement income tool finds several c
 
 **Sequence Risk Mitigation**: Whole life provides guaranteed returns that don't correlate with market performance, offering protection against sequence-of-returns risk during retirement distribution phases.
 
-**Longevity Protection**: Unlike annuities, whole life policies provide both income potential and death benefit, protecting against both longevity risk (outliving your money) and premature death.
+**Dual Protection**: While annuities provide longevity protection through lifetime or joint lifetime income options, whole life policies provide both income potential (through policy loans) and a death benefit — protecting against premature death while also offering access to capital throughout your lifetime.
 
 **Tax Diversification**: Policy loans provide tax-advantaged income that doesn't count toward provisional income calculations for Social Security taxation.
 
