@@ -61,7 +61,7 @@ Here's how PUA riders work:
 
 **Additional Death Benefit**: Every dollar you put into PUA purchases additional death benefit. The amount varies by age, but younger insureds can purchase $15-25 of additional death benefit for every dollar of PUA premium.
 
-**Immediate Cash Value**: Unlike the base policy, which builds cash value slowly in early years, **PUA contributions create immediate cash value**. Typically, 90-95% of your PUA contribution becomes available as cash value immediately.
+**Near-Immediate Cash Value**: Unlike the base policy, which builds cash value slowly in early years, **PUA contributions create cash value quickly**. Typically, 90-95% of your PUA contribution becomes available as cash value by the policy anniversary, often within a few weeks of payment.
 
 **Dividend Earning Base**: PUA additions participate in dividend distributions just like the base policy. **As your death benefit increases through PUA, your dividend earning base increases proportionally.**
 
@@ -94,7 +94,7 @@ Here's what MEC status means:
 
 **For IBC purposes, staying under the MEC limit is crucial** because policy loan access is the primary mechanism for accessing capital. MEC status would make policy loans taxable, defeating the purpose.
 
-The MEC calculation is performed on a **rolling 7-year basis**. This means the test looks at premium payments within a 7-year window, not over the entire life of the contract.
+The MEC calculation compares **cumulative premiums paid to cumulative 7-pay limits**. In the first seven years, it evaluates total premiums from policy inception. After year seven, it uses a rolling 7-year window—each year examining the prior seven years of premium payments. This is more complex than simply "rolling" and requires careful premium management throughout the policy's life.
 
 ## Premium Structure Philosophy: Minimum vs. Maximum
 
