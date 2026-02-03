@@ -148,6 +148,8 @@ Every time banks create money through lending, they increase the total money sup
 4. Prices rise to absorb the new money
 5. Your original $10,000 buys less than before
 
+<br />
+
 **You provided the capital for banks to create inflation that reduces your purchasing power.**
 
 You're literally paying them to make your money worth less.
