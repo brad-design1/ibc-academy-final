@@ -150,15 +150,17 @@ Consider the economic value of this liquidity:
 
 **This liquidity has real economic value that should be factored into any analysis of policy loan costs.**
 
-## Structured vs. Unstructured Repayment
+## Structured vs. Unstructured Loans
 
-One of the most powerful features of policy loans is **your complete control over the repayment schedule**. This control allows you to implement repayment strategies that optimize your overall financial position.
+One of the most powerful features of policy loans is **the complete absence of repayment requirements**. Understanding why requires understanding the difference between structured and unstructured loans.
 
-**Unstructured Repayment** is what most people do: they repay loans when they have extra money or when they feel like it. **This approach forfeits most of the strategic value of policy loans.**
+**Structured Loans** are what banks offer: fixed payment schedules, due dates, late fees, penalties for early repayment or missed payments, and the threat of default if you don't comply with their terms. **The lender dictates the structure because they bear the risk of non-repayment.**
 
-**Structured Repayment** involves deliberately designing your loan repayment to maximize the compound growth of your total financial position.
+**Unstructured Loans** are what insurance companies offer through policy loans: no payment schedule, no due dates, no penalties, no threat of default. **The insurance company can offer these terms because they are the guarantors of the collateral.** They created your cash value. They control it. They know with certainty they'll recover the loan balance from the death benefit if you never repay a dime.
 
-Here are several structured repayment strategies:
+This is why policy loans represent **the most favorable lending arrangement ever created**. The lender's risk is zero, so they pass that benefit to you in the form of complete flexibility.
+
+Here are several ways to use this flexibility strategically:
 
 ### The Systematic Recapitalization Strategy
 
