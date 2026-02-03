@@ -53,10 +53,16 @@ David did everything right. He maxed out his 401(k) for 30 years. He's got $1.2 
 David feels good. **Until real life happens.**
 
 **Year 1:** Furnace dies. Replacement cost: $8,000.
-**Year 2:** Wife needs dental work not covered by insurance: $12,000.  
+
+**Year 2:** Wife needs dental work not covered by insurance: $12,000.
+
 **Year 3:** Roof needs replacement: $25,000.
+
 **Year 4:** Car transmission fails, need new vehicle: $35,000.
+
 **Year 5:** Health issue requires out-of-network specialist: $18,000.
+
+<br />
 
 **Five years, five unexpected expenses totaling $98,000.**
 
