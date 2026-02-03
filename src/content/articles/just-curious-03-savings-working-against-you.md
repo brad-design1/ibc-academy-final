@@ -51,18 +51,24 @@ That $10,000 earning 0.5% interest? After accounting for inflation, it's only wo
 Don't believe inflation is real? Let's go shopping.
 
 **What $100 bought you in 2000:**
-- Gas: 26 gallons (at $3.80/gallon in today's dollars)
-- Milk: 25 gallons  
+
+- Gas: 91 gallons (at $1.10/gallon)
+- Milk: 25 gallons
 - Bread: 100 loaves
 - Movie tickets: 12 tickets
 - Postage stamps: 300 stamps
 
+<br />
+
 **What $100 buys you today:**
+
 - Gas: 26 gallons (at $3.80/gallon)
 - Milk: 18 gallons
-- Bread: 50 loaves  
+- Bread: 50 loaves
 - Movie tickets: 7 tickets
 - Postage stamps: 143 stamps
+
+<br />
 
 The same $100 bill buys **significantly less** of almost everything.
 
