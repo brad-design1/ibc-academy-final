@@ -148,13 +148,13 @@ For IBC purposes, directing dividends to purchase PUA maximizes the velocity of 
 
 ## The Policy Loan Mechanism
 
-Policy loans are perhaps the most misunderstood aspect of whole life insurance. **You are not borrowing your own money-you are borrowing the insurance company's money using your cash value as collateral.**
+Policy loans are perhaps the most misunderstood aspect of whole life insurance. **You are not borrowing your own money—you are borrowing the insurance company's money using your death benefit as collateral.**
 
 Here's how policy loans actually work:
 
 **Loan Source**: The insurance company lends you money from their general account. This is not money withdrawn from your policy.
 
-**Collateral**: Your cash value serves as collateral for the loan. The insurance company places a lien against your death benefit equal to the loan amount plus accrued interest.
+**Collateral**: Your death benefit serves as collateral for the loan. The insurance company places a lien against it equal to the loan amount plus accrued interest. **Your cash value simply represents the amount of death benefit the company will allow you to collateralize**—it's the borrowing capacity, not the collateral itself.
 
 **Continued Growth**: Your cash value remains in the policy and continues to earn interest and dividends. **Nothing is removed from your policy when you take a loan.**
 
