@@ -78,9 +78,13 @@ When you finance a car with a loan:
 - **You pay interest** to the bank
 - **Financing cost:** Easy to see on your monthly statement
 
+<br />
+
 When you pay cash for a car:
 - **You give up interest** your money could have earned  
 - **Financing cost:** Hidden, but just as real
+
+<br />
 
 Nelson Nash, who developed the Infinite Banking Concept, put it this way:
 
