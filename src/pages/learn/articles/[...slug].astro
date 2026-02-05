@@ -15,6 +15,18 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content } = await render(article);
 
+// Get all articles for Related Articles section
+const allArticles = await getCollection('articles');
+const relatedArticles = allArticles
+  .filter((a) => 
+    a.id !== article.id && 
+    !a.data.draft &&
+    (a.data.category === article.data.category || 
+     a.data.tags.some((tag: string) => article.data.tags.includes(tag)))
+  )
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
 const categoryLabels: Record<string, string> = {
   fundamentals: 'Fundamentals',
   mechanics: 'Mechanics',
@@ -31,13 +43,38 @@ const categoryLabels: Record<string, string> = {
 
   <article class="py-16 lg:py-24" id="article-content">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-      <!-- Back link -->
-      <a href="/learn/articles" class="inline-flex items-center text-slate-400 hover:text-gold text-sm mb-8 transition-colors">
-        <svg class="mr-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-        Back to Articles
-      </a>
+      <!-- Breadcrumb Trail -->
+      <nav aria-label="Breadcrumb" class="mb-8">
+        <ol class="flex items-center gap-2 text-sm">
+          <li>
+            <a href="/" class="text-slate-400 hover:text-gold transition-colors">Home</a>
+          </li>
+          <li class="text-slate-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </li>
+          <li>
+            <a href="/learn" class="text-slate-400 hover:text-gold transition-colors">Learn</a>
+          </li>
+          <li class="text-slate-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </li>
+          <li>
+            <a href="/learn/articles" class="text-slate-400 hover:text-gold transition-colors">Articles</a>
+          </li>
+          <li class="text-slate-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </li>
+          <li class="text-slate-300 truncate max-w-[200px]" aria-current="page">
+            {article.data.title}
+          </li>
+        </ol>
+      </nav>
 
       <!-- Header -->
       <header class="mb-12">
@@ -133,6 +170,31 @@ const categoryLabels: Record<string, string> = {
 
       <!-- Article Navigation (Prev/Next) -->
       <ArticleNavigation currentArticle={article} />
+
+      <!-- Related Articles -->
+      {relatedArticles.length > 0 && (
+        <div class="mt-12 pt-8 border-t border-navy-light/10">
+          <h3 class="text-xl font-bold text-white mb-6">Related Articles</h3>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {relatedArticles.map((related) => (
+              <a
+                href={`/learn/articles/${related.id}`}
+                class="group block bg-navy/30 border border-navy-light/20 rounded-xl p-4 hover:border-gold/30 transition-all duration-300"
+              >
+                <span class="inline-block text-xs font-medium text-gold bg-gold/10 px-2 py-0.5 rounded mb-2">
+                  {categoryLabels[related.data.category] || related.data.category}
+                </span>
+                <h4 class="text-sm font-semibold text-white group-hover:text-gold transition-colors line-clamp-2">
+                  {related.data.title}
+                </h4>
+                <p class="mt-2 text-xs text-slate-400 line-clamp-2">
+                  {related.data.description}
+                </p>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
 
       <!-- Additional Links -->
       <div class="mt-8 pt-6 border-t border-navy-light/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
