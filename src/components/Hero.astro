@@ -53,10 +53,10 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
         </p>
 
         <!-- CTAs -->
-        <div class="mt-5 flex flex-col sm:flex-row gap-3">
+        <div class="mt-5 flex flex-col sm:flex-row gap-3 max-w-full">
           <a
             href="/learn/start-here"
-            class="inline-flex items-center justify-center px-6 py-3.5 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-base sm:text-sm rounded-xl sm:rounded-lg shadow-lg shadow-gold/25 active:scale-[0.98] transition-all duration-200 min-h-[48px] sm:min-h-[44px]"
+            class="w-full sm:w-auto inline-flex items-center justify-center px-5 py-3.5 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-sm rounded-lg shadow-lg shadow-gold/25 active:scale-[0.98] transition-all duration-200 min-h-[48px]"
           >
             Start Here — It's Free
             <svg class="ml-2 w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -65,7 +65,7 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
           </a>
           <a
             href="/watch"
-            class="inline-flex items-center justify-center px-6 py-3.5 border-2 border-slate-500/50 text-white font-semibold text-base sm:text-sm rounded-xl sm:rounded-lg bg-white/[0.03] active:bg-white/[0.08] active:border-gold/50 transition-all duration-200 min-h-[48px] sm:min-h-[44px]"
+            class="w-full sm:w-auto inline-flex items-center justify-center px-5 py-3.5 border-2 border-slate-500/50 text-white font-semibold text-sm rounded-lg bg-white/[0.03] active:bg-white/[0.08] active:border-gold/50 transition-all duration-200 min-h-[48px]"
           >
             <svg class="mr-2 w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
               <path d="M8 5v14l11-7z"/>
@@ -74,26 +74,9 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
           </a>
         </div>
 
-        <!-- "What brings you here?" — horizontal scroll on mobile, stacked on desktop -->
+        <!-- "What brings you here?" — desktop only header + list here -->
         <div class="mt-6 lg:mt-8">
-          <h2 class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3 px-0">What brings you here?</h2>
-          
-          <!-- Mobile: horizontal scroll -->
-          <div class="lg:hidden -mx-4 px-4">
-            <div class="flex gap-3 overflow-x-auto horizontal-scroll pb-3 -mb-1" style="-webkit-overflow-scrolling: touch;">
-              {personas.map((persona) => (
-                <a
-                  href={persona.href}
-                  class="group flex-shrink-0 w-40 px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.08] active:bg-gold/[0.1] active:border-gold/40 transition-all duration-200"
-                >
-                  <span class="text-white font-semibold text-sm block">{persona.label}</span>
-                  <span class="text-slate-400 text-xs block mt-1 line-clamp-2">{persona.desc}</span>
-                </a>
-              ))}
-              <!-- Spacer for last item visibility -->
-              <div class="flex-shrink-0 w-4"></div>
-            </div>
-          </div>
+          <h2 class="hidden lg:block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3 px-0">What brings you here?</h2>
           
           <!-- Desktop: stacked list -->
           <div class="hidden lg:flex flex-col gap-1.5 max-w-xl">
@@ -161,6 +144,23 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
               ))}
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Mobile: "What brings you here?" horizontal scroll — OUTSIDE grid for full width -->
+      <div class="lg:hidden mt-6">
+        <h2 class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3 px-4">What brings you here?</h2>
+        <div class="flex gap-3 overflow-x-auto horizontal-scroll pb-3 px-4" style="-webkit-overflow-scrolling: touch;">
+          {personas.map((persona) => (
+            <a
+              href={persona.href}
+              class="group flex-shrink-0 w-36 px-3 py-3 rounded-xl bg-white/[0.05] border border-white/[0.08] active:bg-gold/[0.1] active:border-gold/40 transition-all duration-200"
+            >
+              <span class="text-white font-semibold text-sm block">{persona.label}</span>
+              <span class="text-slate-400 text-xs block mt-1 line-clamp-2">{persona.desc}</span>
+            </a>
+          ))}
+          <div class="flex-shrink-0 w-4"></div>
         </div>
       </div>
 
