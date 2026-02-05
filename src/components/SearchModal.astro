@@ -44,6 +44,14 @@
         <div id="search-empty" class="px-5 py-12 text-center">
           <p class="text-slate-500 text-sm">Start typing to search across all content</p>
         </div>
+        <!-- Loading state -->
+        <div id="search-loading" class="hidden px-5 py-12 text-center">
+          <svg class="w-8 h-8 text-gold/60 mx-auto animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          <p class="text-slate-500 text-sm mt-3">Searching...</p>
+        </div>
         <!-- Results will be injected here -->
         <div id="search-hits" class="hidden"></div>
         <!-- No results state -->
@@ -80,6 +88,7 @@
   const input = document.getElementById('search-input') as HTMLInputElement;
   const resultsContainer = document.getElementById('search-hits');
   const emptyState = document.getElementById('search-empty');
+  const loadingState = document.getElementById('search-loading');
   const noResults = document.getElementById('search-no-results');
   const errorState = document.getElementById('search-error');
 
@@ -120,6 +129,7 @@
     if (resultsContainer) resultsContainer.innerHTML = '';
     resultsContainer?.classList.add('hidden');
     noResults?.classList.add('hidden');
+    loadingState?.classList.add('hidden');
     errorState?.classList.add('hidden');
     // Only show empty state if pagefind hasn't failed
     if (!pagefindFailed) {
@@ -188,6 +198,7 @@
       const query = input.value.trim();
       if (!query) {
         resultsContainer?.classList.add('hidden');
+        loadingState?.classList.add('hidden');
         emptyState?.classList.remove('hidden');
         noResults?.classList.add('hidden');
         if (resultsContainer) resultsContainer.innerHTML = '';
@@ -195,9 +206,18 @@
         return;
       }
 
+      // Show loading state
+      emptyState?.classList.add('hidden');
+      noResults?.classList.add('hidden');
+      resultsContainer?.classList.add('hidden');
+      loadingState?.classList.remove('hidden');
+
       if (!pagefind) {
         const loaded = await loadPagefind();
-        if (!loaded || !pagefind) return;
+        if (!loaded || !pagefind) {
+          loadingState?.classList.add('hidden');
+          return;
+        }
       }
 
       const search = await pagefind.search(query);
@@ -205,7 +225,8 @@
         search.results.slice(0, 8).map((r: any) => r.data())
       );
 
-      emptyState?.classList.add('hidden');
+      // Hide loading state
+      loadingState?.classList.add('hidden');
       selectedIndex = -1;
 
       if (results.length === 0) {

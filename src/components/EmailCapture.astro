@@ -36,6 +36,7 @@
         action="https://formspree.io/f/mvzqjabr" 
         method="POST"
         class="mt-10 flex flex-col sm:flex-row gap-3 max-w-lg mx-auto"
+        id="email-capture-form"
       >
         <input
           type="email"
@@ -47,11 +48,29 @@
         <input type="hidden" name="_subject" value="New IBC Academy Signup" />
         <button
           type="submit"
-          class="px-8 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/40 whitespace-nowrap text-sm min-h-[48px]"
+          id="email-capture-btn"
+          class="px-8 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/40 whitespace-nowrap text-sm min-h-[48px] disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
         >
-          Get Free Guide
+          <span id="email-btn-text">Get Free Guide</span>
+          <svg id="email-btn-spinner" class="hidden w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
         </button>
       </form>
+
+      <script>
+        const emailForm = document.getElementById('email-capture-form');
+        const emailBtn = document.getElementById('email-capture-btn');
+        const emailBtnText = document.getElementById('email-btn-text');
+        const emailBtnSpinner = document.getElementById('email-btn-spinner');
+
+        emailForm?.addEventListener('submit', () => {
+          if (emailBtn) emailBtn.setAttribute('disabled', 'true');
+          emailBtnText?.classList.add('hidden');
+          emailBtnSpinner?.classList.remove('hidden');
+        });
+      </script>
 
       <!-- Privacy note -->
       <p class="mt-5 text-slate-500 text-xs">
