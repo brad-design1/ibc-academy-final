@@ -32,13 +32,19 @@
       </p>
 
       <!-- Email Form -->
-      <form class="mt-10 flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
+      <form 
+        action="https://formspree.io/f/mvzqjabr" 
+        method="POST"
+        class="mt-10 flex flex-col sm:flex-row gap-3 max-w-lg mx-auto"
+      >
         <input
           type="email"
+          name="email"
           placeholder="Enter your email address"
           required
           class="flex-1 px-5 py-4 bg-navy-900/60 border border-white/[0.1] rounded-xl text-white placeholder:text-slate-500 focus:outline-none focus:border-gold/50 focus:ring-2 focus:ring-gold/20 transition-all text-sm min-h-[48px]"
         />
+        <input type="hidden" name="_subject" value="New IBC Academy Signup" />
         <button
           type="submit"
           class="px-8 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/40 whitespace-nowrap text-sm min-h-[48px]"

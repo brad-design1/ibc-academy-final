@@ -48,7 +48,7 @@
         <div id="search-hits" class="hidden"></div>
         <!-- No results state -->
         <div id="search-no-results" class="hidden px-5 py-12 text-center">
-          <p class="text-slate-400 text-sm font-medium">No results found</p>
+          <p class="text-slate-300 text-sm font-medium">No results found</p>
           <p class="text-slate-500 text-xs mt-1">Try different keywords</p>
         </div>
         <!-- Error state (search unavailable) -->
@@ -56,7 +56,7 @@
           <svg class="w-10 h-10 text-slate-600 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
           </svg>
-          <p class="text-slate-400 text-sm font-medium">Search is temporarily unavailable</p>
+          <p class="text-slate-300 text-sm font-medium">Search is temporarily unavailable</p>
           <p class="text-slate-500 text-xs mt-2">Try browsing <a href="/learn/articles" class="text-gold hover:text-gold-light underline">all articles</a> instead</p>
         </div>
       </div>
@@ -222,7 +222,7 @@
           <div class="search-result-item border-l-2 border-transparent transition-all duration-150">
             <a href="${result.url}" class="flex flex-col gap-1 px-5 py-3.5 hover:bg-white/[0.03] transition-colors">
               <span class="text-white font-semibold text-sm">${result.meta?.title || 'Untitled'}</span>
-              <span class="text-slate-400 text-xs leading-relaxed line-clamp-2">${result.excerpt || ''}</span>
+              <span class="text-slate-300 text-xs leading-relaxed line-clamp-2">${result.excerpt || ''}</span>
             </a>
           </div>
         `).join('');
