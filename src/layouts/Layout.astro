@@ -56,6 +56,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacade
 
     <!-- Scroll-triggered animation observer -->
     <script>
+      // Page Visibility API: pause animations when tab is hidden (battery saver)
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          document.documentElement.classList.add('tab-hidden');
+        } else {
+          document.documentElement.classList.remove('tab-hidden');
+        }
+      });
+
       document.addEventListener('DOMContentLoaded', () => {
         const observer = new IntersectionObserver(
           (entries) => {

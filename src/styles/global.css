@@ -277,6 +277,21 @@ body {
    For users with vestibular disorders or motion sensitivity
    ═══════════════════════════════════════════════════ */
 
+/* ═══════════════════════════════════════════════════
+   PAGE VISIBILITY: PAUSE ANIMATIONS WHEN TAB HIDDEN
+   Saves battery on mobile devices
+   ═══════════════════════════════════════════════════ */
+
+html.tab-hidden .gold-shimmer,
+html.tab-hidden .pulse-subtle,
+html.tab-hidden .masters-track {
+  animation-play-state: paused !important;
+}
+
+/* ═══════════════════════════════════════════════════
+   ACCESSIBILITY: REDUCED MOTION SUPPORT
+   ═══════════════════════════════════════════════════ */
+
 @media (prefers-reduced-motion: reduce) {
   /* Disable scroll-triggered animations */
   .fade-in-up,
