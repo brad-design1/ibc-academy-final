@@ -271,3 +271,57 @@ body {
   margin-bottom: 0.5rem !important;
   color: white !important;
 }
+
+/* ═══════════════════════════════════════════════════
+   ACCESSIBILITY: REDUCED MOTION SUPPORT
+   For users with vestibular disorders or motion sensitivity
+   ═══════════════════════════════════════════════════ */
+
+@media (prefers-reduced-motion: reduce) {
+  /* Disable scroll-triggered animations */
+  .fade-in-up,
+  .fade-in-left,
+  .fade-in-right,
+  .fade-in,
+  .stagger-children > * {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  /* Disable shimmer and pulse effects */
+  .gold-shimmer {
+    animation: none !important;
+    background: var(--color-gold) !important;
+    -webkit-text-fill-color: var(--color-gold) !important;
+  }
+
+  .pulse-subtle {
+    animation: none !important;
+  }
+
+  /* Disable masters gallery scroll animation */
+  .masters-track {
+    animation: none !important;
+  }
+
+  /* Disable glass card hover transform */
+  .glass-card:hover {
+    transform: none !important;
+  }
+
+  /* Disable portrait hover effects */
+  .portrait-desaturated:hover {
+    transform: none !important;
+  }
+
+  /* Disable persona card expand */
+  .persona-card:hover {
+    flex-grow: 1 !important;
+  }
+
+  /* Disable smooth scrolling */
+  html {
+    scroll-behavior: auto !important;
+  }
+}
