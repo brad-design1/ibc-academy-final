@@ -61,23 +61,30 @@ const contentItems = [
       </p>
     </div>
 
-    <!-- Category tabs -->
+    <!-- Category tabs with scroll affordance -->
     <div class="mb-10 fade-in-up">
-      <div class="flex overflow-x-auto horizontal-scroll gap-2 pb-2 -mx-4 px-4 lg:mx-0 lg:px-0 lg:flex-wrap lg:justify-center" id="content-tabs">
-        {categories.map((cat, i) => (
-          <button
-            data-category={cat.id}
-            class:list={[
-              'content-tab flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold whitespace-nowrap transition-all duration-300 min-h-[44px] border',
-              i === 0
-                ? 'bg-gold/[0.12] text-gold border-gold/30'
-                : 'bg-white/[0.03] text-slate-300 border-white/[0.06] hover:bg-white/[0.06] hover:text-white hover:border-white/[0.12]',
-            ]}
-          >
-            <span>{cat.icon}</span>
-            <span>{cat.label}</span>
-          </button>
-        ))}
+      <div class="relative lg:static" id="tabs-wrapper">
+        <!-- Scroll shadow left (mobile only) -->
+        <div class="lg:hidden absolute left-0 top-0 bottom-2 w-8 bg-gradient-to-r from-navy-900 to-transparent z-10 pointer-events-none opacity-0 transition-opacity" id="scroll-shadow-left"></div>
+        <!-- Scroll shadow right (mobile only) -->
+        <div class="lg:hidden absolute right-0 top-0 bottom-2 w-8 bg-gradient-to-l from-navy-900 to-transparent z-10 pointer-events-none" id="scroll-shadow-right"></div>
+        
+        <div class="flex overflow-x-auto horizontal-scroll gap-2 pb-2 -mx-4 px-4 lg:mx-0 lg:px-0 lg:flex-wrap lg:justify-center" id="content-tabs">
+          {categories.map((cat, i) => (
+            <button
+              data-category={cat.id}
+              class:list={[
+                'content-tab flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold whitespace-nowrap transition-all duration-300 min-h-[44px] border',
+                i === 0
+                  ? 'bg-gold/[0.12] text-gold border-gold/30'
+                  : 'bg-white/[0.03] text-slate-300 border-white/[0.06] hover:bg-white/[0.06] hover:text-white hover:border-white/[0.12]',
+              ]}
+            >
+              <span>{cat.icon}</span>
+              <span>{cat.label}</span>
+            </button>
+          ))}
+        </div>
       </div>
     </div>
 
@@ -134,6 +141,26 @@ const contentItems = [
   document.addEventListener('DOMContentLoaded', () => {
     const tabs = document.querySelectorAll('.content-tab');
     const cards = document.querySelectorAll('.content-card');
+    const tabsContainer = document.getElementById('content-tabs');
+    const shadowLeft = document.getElementById('scroll-shadow-left');
+    const shadowRight = document.getElementById('scroll-shadow-right');
+
+    // Update scroll shadows based on scroll position
+    function updateScrollShadows() {
+      if (!tabsContainer || !shadowLeft || !shadowRight) return;
+      
+      const { scrollLeft, scrollWidth, clientWidth } = tabsContainer;
+      const canScrollLeft = scrollLeft > 0;
+      const canScrollRight = scrollLeft < scrollWidth - clientWidth - 1;
+      
+      shadowLeft.style.opacity = canScrollLeft ? '1' : '0';
+      shadowRight.style.opacity = canScrollRight ? '1' : '0';
+    }
+
+    // Initialize and listen for scroll
+    tabsContainer?.addEventListener('scroll', updateScrollShadows);
+    window.addEventListener('resize', updateScrollShadows);
+    updateScrollShadows();
 
     tabs.forEach((tab) => {
       tab.addEventListener('click', () => {

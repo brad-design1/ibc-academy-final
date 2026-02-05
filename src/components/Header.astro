@@ -120,12 +120,45 @@ const currentPath = Astro.url.pathname;
   const menu = document.getElementById('mobile-menu');
   const openIcon = document.getElementById('menu-open');
   const closeIcon = document.getElementById('menu-close');
+  const header = document.querySelector('header');
 
-  btn?.addEventListener('click', () => {
+  function closeMenu() {
+    menu?.classList.add('hidden');
+    openIcon?.classList.remove('hidden');
+    closeIcon?.classList.add('hidden');
+    btn?.setAttribute('aria-expanded', 'false');
+  }
+
+  function openMenu() {
+    menu?.classList.remove('hidden');
+    openIcon?.classList.add('hidden');
+    closeIcon?.classList.remove('hidden');
+    btn?.setAttribute('aria-expanded', 'true');
+  }
+
+  btn?.addEventListener('click', (e) => {
+    e.stopPropagation();
     const isOpen = !menu?.classList.contains('hidden');
-    menu?.classList.toggle('hidden');
-    openIcon?.classList.toggle('hidden');
-    closeIcon?.classList.toggle('hidden');
-    btn?.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    if (isOpen) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', (e) => {
+    const isMenuOpen = !menu?.classList.contains('hidden');
+    const clickedInsideHeader = header?.contains(e.target as Node);
+    if (isMenuOpen && !clickedInsideHeader) {
+      closeMenu();
+    }
+  });
+
+  // Close menu when pressing Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !menu?.classList.contains('hidden')) {
+      closeMenu();
+    }
   });
 </script>
