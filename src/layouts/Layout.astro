@@ -24,6 +24,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacade
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="canonical" href={canonicalURL.href} />
+    <link rel="alternate" type="application/rss+xml" title="IBC Academy RSS Feed" href="/rss.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -45,8 +46,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacade
     <meta name="twitter:image" content={new URL(ogImage, Astro.site || 'https://ibcacademy.org').href} />
   </head>
   <body class="min-h-screen flex flex-col antialiased">
+    <!-- P1: Skip to content link (accessibility) -->
+    <a href="#main-content" class="skip-to-content">
+      Skip to main content
+    </a>
     <Header />
-    <main class="flex-1">
+    <main id="main-content" class="flex-1">
       <slot />
     </main>
     <Footer />

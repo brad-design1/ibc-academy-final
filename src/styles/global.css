@@ -35,6 +35,61 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════
+   P1: SKIP TO CONTENT LINK (ACCESSIBILITY)
+   ═══════════════════════════════════════════════════ */
+
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background-color: var(--color-gold);
+  color: var(--color-navy-900);
+  font-weight: 700;
+  border-radius: 0 0 0.75rem 0.75rem;
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+
+.skip-to-content:focus {
+  top: 0;
+  outline: none;
+}
+
+/* ═══════════════════════════════════════════════════
+   P2: CUSTOM FOCUS RING STYLING
+   ═══════════════════════════════════════════════════ */
+
+/* Remove default outline and add custom focus ring */
+*:focus {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Buttons and links get gold ring */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Form inputs get subtle ring */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 0;
+}
+
+/* ═══════════════════════════════════════════════════
    SCROLL-TRIGGERED FADE-IN ANIMATIONS
    ═══════════════════════════════════════════════════ */
 
@@ -339,4 +394,89 @@ html.tab-hidden .masters-track {
   html {
     scroll-behavior: auto !important;
   }
+}
+
+/* ═══════════════════════════════════════════════════
+   P4: PRINT STYLESHEET
+   ═══════════════════════════════════════════════════ */
+
+@media print {
+  /* Reset colors for printing */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Hide non-essential elements */
+  header,
+  footer,
+  nav,
+  .skip-to-content,
+  #search-modal,
+  .reading-progress,
+  .social-share-buttons,
+  button,
+  .glass-card,
+  [role="navigation"] {
+    display: none !important;
+  }
+
+  /* Full width for content */
+  main,
+  article {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 1rem !important;
+  }
+
+  /* Typography adjustments */
+  h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+    page-break-after: avoid;
+  }
+
+  p, li {
+    color: #333 !important;
+  }
+
+  /* Links show URL */
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: "";
+  }
+
+  /* Avoid page breaks in awkward places */
+  img, blockquote, pre, table {
+    page-break-inside: avoid;
+  }
+
+  /* Gold text becomes dark for readability */
+  .text-gold,
+  .gold-shimmer {
+    color: #8B7500 !important;
+    -webkit-text-fill-color: #8B7500 !important;
+    background: none !important;
+    animation: none !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════
+   P8: READING PROGRESS INDICATOR
+   ═══════════════════════════════════════════════════ */
+
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-light));
+  z-index: 9998;
+  transition: width 0.1s ease-out;
 }
