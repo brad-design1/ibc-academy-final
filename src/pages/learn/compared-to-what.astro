@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import ArticleFooterCTA from '../../components/ArticleFooterCTA.astro';
 
 const comparisons = [
   {
@@ -61,6 +62,11 @@ const comparisons = [
             <p class="text-slate-300 leading-relaxed">{comp.description}</p>
           </div>
         ))}
+      </div>
+
+      <!-- CTA Section -->
+      <div class="mt-16 max-w-3xl mx-auto">
+        <ArticleFooterCTA />
       </div>
     </div>
   </section>

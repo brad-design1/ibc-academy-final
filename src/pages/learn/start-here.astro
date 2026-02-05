@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import ArticleFooterCTA from '../../components/ArticleFooterCTA.astro';
 
 const steps = [
   {
@@ -112,8 +113,13 @@ const steps = [
         </div>
       </div>
 
-      <!-- Bottom CTA -->
-      <div class="mt-16 text-center">
+      <!-- Contact CTA -->
+      <div class="mt-16">
+        <ArticleFooterCTA />
+      </div>
+
+      <!-- Additional Resources -->
+      <div class="mt-12 text-center">
         <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-8">
           <h3 class="text-2xl font-bold text-white mb-3">Ready to dive deeper?</h3>
           <p class="text-slate-300 mb-6">Once you've completed the path above, explore our full library of articles, videos, and case studies.</p>
