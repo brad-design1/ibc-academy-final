@@ -27,15 +27,15 @@ const currentPath = Astro.url.pathname;
       <!-- Global Search (between logo and nav) -->
       <button
         id="search-trigger"
-        class="hidden lg:flex items-center gap-2 px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/[0.06] transition-all duration-200 group"
+        class="hidden lg:flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-white/[0.04] border border-white/[0.08] text-slate-300 hover:text-white hover:bg-white/[0.08] hover:border-white/[0.12] transition-all duration-200 group min-w-[180px]"
         aria-label="Search"
       >
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
         </svg>
-        <span class="text-sm">Search</span>
-        <kbd class="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-white/[0.06] border border-white/[0.08] text-[10px] text-slate-500 font-mono">
-          <span class="text-[9px]">⌘</span>K
+        <span class="text-sm text-slate-400">Search</span>
+        <kbd id="search-shortcut" class="ml-auto inline-flex items-center gap-0.5 px-2 py-1 rounded-md bg-white/[0.06] border border-white/[0.08] text-[11px] text-slate-500 font-mono">
+          <span class="shortcut-key">⌘</span>K
         </kbd>
       </button>
 
@@ -121,6 +121,14 @@ const currentPath = Astro.url.pathname;
   const openIcon = document.getElementById('menu-open');
   const closeIcon = document.getElementById('menu-close');
   const header = document.querySelector('header');
+
+  // Platform-aware keyboard shortcut
+  const shortcutKey = document.querySelector('.shortcut-key');
+  if (shortcutKey) {
+    const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 || 
+                  navigator.userAgent.toUpperCase().indexOf('MAC') >= 0;
+    shortcutKey.textContent = isMac ? '⌘' : 'Ctrl+';
+  }
 
   function closeMenu() {
     menu?.classList.add('hidden');
