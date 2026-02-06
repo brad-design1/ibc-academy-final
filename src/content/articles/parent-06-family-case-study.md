@@ -299,6 +299,8 @@ The question isn't whether this works.
 
 The question is: When will you start?
 
+**Ready to learn more?** [Join the free IBC Academy community](https://www.skool.com/ibc-academy) to continue your education.
+
 ---
 
 *These numbers are illustrative examples based on current dividend scales and typical policy performance. Actual policy performance will depend on carrier selection, specific policy design, dividend history, and economic conditions. Past performance does not guarantee future results. Consider consulting with an IBC-trained agent to design a system appropriate for your family's situation.*
