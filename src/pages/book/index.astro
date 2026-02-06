@@ -5,7 +5,7 @@ const sections = [
   {
     title: 'About the Book',
     description: "Learn why \"Becoming Your Own Banker\" by R. Nelson Nash is the foundational text for understanding the Infinite Banking Concept.",
-    href: '#about',
+    href: '/book/about',
     icon: '📖',
   },
   {
@@ -55,7 +55,7 @@ const sections = [
       </div>
 
       <!-- Sections -->
-      <div id="about" class="grid md:grid-cols-3 gap-6">
+      <div class="grid md:grid-cols-3 gap-6">
         {sections.map((section) => (
           <a href={section.href} class="group block bg-navy/30 border border-navy-light/20 rounded-2xl p-6 hover:border-gold/30 transition-all duration-300">
             <span class="text-3xl block mb-4">{section.icon}</span>
