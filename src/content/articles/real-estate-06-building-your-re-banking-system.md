@@ -216,10 +216,14 @@ The question is: Are you ready to stop wandering in the wilderness of traditiona
 
 Are you ready to see what's possible when you control the banking function in your investment business?
 
-If so, let's have a conversation about YOUR situation. Not about everyone else's. Yours.
+## Ready to Talk?
+
+You've completed the Real Estate Investor's Path. If you want to see how these principles apply to your specific situation, Brad offers a free 30-minute intro call.
+
+**[Talk to Brad](https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=path_realestate)** — No pressure. Just answers.
 
 Because your path to financial freedom won't look like anyone else's. But the destination is the same: a system that serves you, instead of the other way around.
 
 ---
 
-*Educational Note: This article discusses concepts related to whole life insurance and the Infinite Banking Concept. Tax treatment depends on policy structure and compliance with modified endowment contract rules. Policy loans reduce death benefits and cash values. The information presented is educational only and not meant to serve as financial advice. Consult with a qualified insurance professional and tax advisor to determine if these strategies align with your specific financial situation and goals.*
+*This is educational content only and does not constitute financial, tax, or legal advice. Consult qualified professionals for guidance specific to your situation.*

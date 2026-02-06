@@ -132,6 +132,12 @@ Until then, you're equipped. You understand the Parent's Path.
 
 What you build with that understanding is up to you.
 
+## Ready to Talk?
+
+You've completed the Parent's Path. If you want to see how these principles apply to your specific situation, Brad offers a free 30-minute intro call.
+
+**[Talk to Brad](https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=path_parent)** — No pressure. Just answers.
+
 ## Continue Learning
 
 The education doesn't stop here. Follow along as we go deeper:

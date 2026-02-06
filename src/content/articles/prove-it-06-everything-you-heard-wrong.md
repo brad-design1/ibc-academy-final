@@ -206,10 +206,14 @@ If you want to understand the Austrian economic principles behind IBC, the Lara-
 
 If you want to see contemporary applications, explore the Nelson Nash Institute's educational materials.
 
-If you want to find a practitioner who thinks about this as a banking system rather than an insurance sale, that conversation is available when you're ready for it.
-
 The education continues as long as you want it to.
+
+## Ready to Talk?
+
+You've completed the Prove It Path. If you want to see how these principles apply to your specific situation, Brad offers a free 30-minute intro call.
+
+**[Talk to Brad](https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=path_proveit)** — No pressure. Just answers.
 
 ---
 
-*This is educational content only and not meant to serve as financial advice. The Infinite Banking Concept requires proper education, design, and implementation. Results depend on funding discipline and long-term commitment.*
+*This is educational content only and does not constitute financial, tax, or legal advice. Consult qualified professionals for guidance specific to your situation.*

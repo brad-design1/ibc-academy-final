@@ -127,6 +127,12 @@ Economic problems are best solved by people freely contracting with one another.
 
 That's not an accident. That's Austrian economics in action.
 
+## Ready to Talk?
+
+You've completed the Freedom Seeker's Path. If you want to see how these principles apply to your specific situation, Brad offers a free 30-minute intro call.
+
+**[Talk to Brad](https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=path_freedom)** — No pressure. Just answers.
+
 ---
 
-*This is Article 6 in our Freedom Seeker's Path series. Ready to learn how these principles apply to your specific situation? Every person's capitalization plan is different, and the details matter when you're building your own banking system.*
+*This is educational content only and does not constitute financial, tax, or legal advice. Consult qualified professionals for guidance specific to your situation.*

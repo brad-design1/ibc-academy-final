@@ -1,55 +1,60 @@
 ---
 /**
- * ArticleFooterCTA - Consistent call-to-action at the end of every article
- * Directs readers to Brad for consultation
+ * ArticleFooterCTA - Two-lane CTA at the end of every article
+ * Lane 1: Keep learning (community)
+ * Lane 2: Talk to Brad (booking)
  */
 ---
 
-<div class="article-cta mt-12 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-gold/10 via-gold/5 to-transparent border border-gold/20">
-  <div class="flex flex-col sm:flex-row items-center gap-6">
-    <!-- Icon/Visual -->
-    <div class="shrink-0 w-16 h-16 rounded-2xl bg-gold/15 flex items-center justify-center">
-      <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
-      </svg>
-    </div>
-
-    <!-- Content -->
-    <div class="flex-1 text-center sm:text-left">
-      <h3 class="text-lg font-bold text-white mb-2">
-        Ready to explore IBC for your situation?
-      </h3>
-      <p class="text-slate-300 text-sm leading-relaxed mb-4">
-        Have questions about how Infinite Banking could work for you? Schedule a no-pressure conversation with Brad to discuss your specific situation and goals.
-      </p>
-      <div class="flex flex-col sm:flex-row items-center gap-3">
-        <a
-          href="/contact"
-          class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold text-navy-900 font-bold text-sm rounded-xl hover:bg-gold-light transition-colors shadow-lg shadow-gold/20"
-        >
-          Schedule a Conversation
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </a>
-        <a
-          href="/community"
-          class="inline-flex items-center justify-center gap-2 px-6 py-3 border border-slate-600/50 text-slate-300 font-medium text-sm rounded-xl hover:border-gold/40 hover:text-gold transition-all"
-        >
-          Join the Free Community
-        </a>
+<div class="article-cta mt-12 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-navy-light/30 via-navy/20 to-transparent border border-white/10">
+  <div class="grid sm:grid-cols-2 gap-6">
+    <!-- Lane 1: Keep Learning -->
+    <div class="p-5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
+      <div class="w-10 h-10 rounded-xl bg-teal-500/15 flex items-center justify-center mb-4">
+        <svg class="w-5 h-5 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+        </svg>
       </div>
+      <h3 class="text-base font-bold text-white mb-2">Keep Learning</h3>
+      <p class="text-slate-400 text-sm leading-relaxed mb-4">
+        Join the free IBC Academy community for deeper discussions and ongoing education.
+      </p>
+      <a
+        href="https://www.skool.com/ibc-academy"
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 font-medium text-sm transition-colors"
+      >
+        Join the Community
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
     </div>
-  </div>
 
-  <!-- Founder Attribution -->
-  <div class="mt-6 pt-6 border-t border-gold/10 flex items-center justify-center sm:justify-start gap-3">
-    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center">
-      <span class="text-navy-900 font-bold text-xs">B</span>
-    </div>
-    <div>
-      <p class="text-white text-sm font-medium">Brad</p>
-      <p class="text-slate-500 text-xs">Founder, IBC Academy</p>
+    <!-- Lane 2: Talk to Brad -->
+    <div class="p-5 rounded-xl bg-gold/[0.05] border border-gold/20">
+      <div class="w-10 h-10 rounded-xl bg-gold/15 flex items-center justify-center mb-4">
+        <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+        </svg>
+      </div>
+      <h3 class="text-base font-bold text-white mb-2">Questions About Your Situation?</h3>
+      <p class="text-slate-400 text-sm leading-relaxed mb-4">
+        Schedule a free 30-minute intro call to see how IBC applies to your goals.
+      </p>
+      <a
+        href="https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=article_footer"
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-2 text-gold hover:text-gold-light font-medium text-sm transition-colors"
+      >
+        Talk to Brad
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+      <p class="mt-2 text-xs text-slate-500">No pressure. Just answers.</p>
     </div>
   </div>
 </div>

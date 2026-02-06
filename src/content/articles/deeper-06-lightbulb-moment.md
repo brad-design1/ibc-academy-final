@@ -225,12 +225,17 @@ And if you have reached that lightbulb moment—welcome. The real journey begins
 
 *If you've reached this point in the series and the integration has occurred, congratulations. You now understand something that fewer than one percent of financially educated individuals truly comprehend. The next step is yours to take.*
 
-**Recommended next steps:**
+## Ready to Talk?
 
-1. **Read the book**: [*Becoming Your Own Banker* by R. Nelson Nash](https://www.amazon.com/Becoming-Your-Own-Banker-Infinite/dp/B0C7FZ8P6R)
-2. **Join the community**: [IBC Academy on Skool](https://www.skool.com/ibc-academy-3878) (free)
-3. **Schedule a conversation**: [Book a consultation](/consultation) (no obligation)
+You've completed the Deeper Understanding Path. If you want to see how these principles apply to your specific situation, Brad offers a free 30-minute intro call.
+
+**[Talk to Brad](https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=path_deeper)** — No pressure. Just answers.
+
+**Other next steps:**
+
+- **Read the book**: [*Becoming Your Own Banker* by R. Nelson Nash](https://www.amazon.com/Becoming-Your-Own-Banker-Infinite/dp/B0C7FZ8P6R)
+- **Join the community**: [IBC Academy on Skool](https://www.skool.com/ibc-academy) (free)
 
 ---
 
-*The information presented in this article is for educational purposes only and does not constitute financial, legal, or tax advice. Implementation of IBC requires working with qualified professionals who understand the regulatory requirements and design principles necessary for proper policy structure.*
+*This is educational content only and does not constitute financial, tax, or legal advice. Consult qualified professionals for guidance specific to your situation.*

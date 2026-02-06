@@ -266,8 +266,12 @@ Your primary business made you successful.
 
 **Your banking business can make your family wealthy.**
 
+## Ready to Talk?
 
+You've completed the Business Owner's Path. If you want to see how these principles apply to your specific situation, Brad offers a free 30-minute intro call.
+
+**[Talk to Brad](https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=path_business)** — No pressure. Just answers.
 
 ---
 
-*This is educational only and not meant to serve as financial advice.*
+*This is educational content only and does not constitute financial, tax, or legal advice. Consult qualified professionals for guidance specific to your situation.*

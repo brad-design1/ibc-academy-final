@@ -203,12 +203,14 @@ When you control your own banking:
 
 **But now you can't say nobody told you there was a choice.**
 
+## Ready to Talk?
+
+You've completed the Just Curious Path. If you want to see how these principles apply to your specific situation, Brad offers a free 30-minute intro call.
+
+**[Talk to Brad](https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=path_curious)** — No pressure. Just answers.
+
+**Want to learn more?** Start with Nelson Nash's book *Becoming Your Own Banker*.
+
 ---
 
-**Want to learn more?** Start with Nelson Nash's book *Becoming Your Own Banker*. Then explore whether IBC makes sense for your situation with a qualified practitioner who understands the banking concept.
-
-**The question isn't whether you can afford to implement IBC. The question is whether you can afford not to.**
-
----
-
-*This is educational content only and not meant to serve as financial advice. Individual results may vary. Consider consulting with a qualified Infinite Banking Concept practitioner before making any major financial decisions.*
+*This is educational content only and does not constitute financial, tax, or legal advice. Consult qualified professionals for guidance specific to your situation.*

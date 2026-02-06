@@ -203,6 +203,12 @@ The answers might surprise you. They might also liberate you.
 
 The banking function happens whether you control it or not. The question is: who's profiting from it in your life?
 
+## Ready to Talk?
+
+You've completed the Professional's Path. If you want to see how these principles apply to your specific situation, Brad offers a free 30-minute intro call.
+
+**[Talk to Brad](https://calendar.app.google/8BgoFq8TSZLncpKW9?utm_source=ibcacademy&utm_medium=cta&utm_campaign=education_to_call&utm_content=path_professional)** — No pressure. Just answers.
+
 ---
 
 *Educational Disclaimer: This article discusses general financial concepts and strategies for educational purposes only. It is not intended as personalized financial, legal, or tax advice. The suitability of any financial strategy depends on individual circumstances, goals, and risk tolerance. Life insurance products involve costs, surrender charges, and other considerations that should be carefully evaluated. Tax treatment of life insurance depends on policy structure and compliance with IRS regulations. Always consult with qualified professionals before implementing any financial strategy.*
