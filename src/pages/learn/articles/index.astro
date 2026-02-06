@@ -13,13 +13,30 @@ const categoryLabels: Record<string, string> = {
   'case-study': 'Case Study',
   'compared-to-what': 'Compared to What',
   'austrian-economics': 'Austrian Economics',
+  parent: "Parent's Path",
+  'freedom-seeker': 'Freedom Seeker',
+  professional: 'Professional',
+  'business-owner': 'Business Owner',
+  'just-curious': 'Just Curious',
+  'deeper-understanding': 'Deeper Understanding',
+  'prove-it': 'Prove It',
+  'real-estate': 'Real Estate',
 };
+
+// Group filters
+const pathFilters = ['parent', 'freedom-seeker', 'professional', 'business-owner', 'just-curious', 'deeper-understanding', 'prove-it', 'real-estate'];
+const topicFilters = ['fundamentals', 'mechanics', 'principles', 'case-study', 'compared-to-what'];
+
+// Get unique categories that exist in articles
+const existingCategories = [...new Set(articles.map(a => a.data.category))];
+const activePaths = pathFilters.filter(p => existingCategories.includes(p));
+const activeTopics = topicFilters.filter(t => existingCategories.includes(t));
 ---
 
 <Layout title="Articles" description="Deep dives into IBC concepts, Austrian economics, and sound money principles.">
   <section class="py-16 lg:py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-3xl mb-16">
+      <div class="max-w-3xl mb-12">
         <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
           Articles & <span class="text-gold">Blog</span>
         </h1>
@@ -28,11 +45,60 @@ const categoryLabels: Record<string, string> = {
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Filter Section -->
+      <div class="mb-10 space-y-4">
+        <!-- Paths -->
+        {activePaths.length > 0 && (
+          <div>
+            <span class="text-sm font-medium text-slate-400 mr-3">Paths:</span>
+            <div class="inline-flex flex-wrap gap-2 mt-2">
+              {activePaths.map((cat) => (
+                <button
+                  data-filter={cat}
+                  class="filter-btn px-3 py-1.5 text-sm font-medium rounded-lg border border-slate-600/50 text-slate-300 hover:border-gold/50 hover:text-gold transition-all duration-200"
+                >
+                  {categoryLabels[cat] || cat}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Topics -->
+        {activeTopics.length > 0 && (
+          <div>
+            <span class="text-sm font-medium text-slate-400 mr-3">Topics:</span>
+            <div class="inline-flex flex-wrap gap-2 mt-2">
+              {activeTopics.map((cat) => (
+                <button
+                  data-filter={cat}
+                  class="filter-btn px-3 py-1.5 text-sm font-medium rounded-lg border border-slate-600/50 text-slate-300 hover:border-gold/50 hover:text-gold transition-all duration-200"
+                >
+                  {categoryLabels[cat] || cat}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Clear Filter -->
+        <div>
+          <button
+            id="clear-filters"
+            class="text-sm text-slate-500 hover:text-gold transition-colors hidden"
+          >
+            ✕ Clear filters
+          </button>
+        </div>
+      </div>
+
+      <!-- Articles Grid -->
+      <div id="articles-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {articles.map((article) => (
           <a
             href={`/learn/articles/${article.id}`}
-            class="group block bg-navy/30 border border-navy-light/20 rounded-2xl p-6 hover:border-gold/30 transition-all duration-300"
+            data-category={article.data.category}
+            class="article-card group block bg-navy/30 border border-navy-light/20 rounded-2xl p-6 hover:border-gold/30 transition-all duration-300"
           >
             <span class="inline-block text-xs font-medium text-gold bg-gold/10 px-2.5 py-1 rounded-md mb-4">
               {categoryLabels[article.data.category] || article.data.category}
@@ -55,6 +121,11 @@ const categoryLabels: Record<string, string> = {
         ))}
       </div>
 
+      <!-- No results message -->
+      <div id="no-results" class="text-center py-12 hidden">
+        <p class="text-slate-300 text-lg">No articles match the selected filter.</p>
+      </div>
+
       {articles.length === 0 && (
         <div class="text-center py-12">
           <p class="text-slate-300 text-lg">No articles published yet. Check back soon!</p>
@@ -63,3 +134,77 @@ const categoryLabels: Record<string, string> = {
     </div>
   </section>
 </Layout>
+
+<style>
+  .filter-btn.active {
+    background: rgba(212, 175, 55, 0.15);
+    border-color: rgba(212, 175, 55, 0.6);
+    color: #d4af37;
+  }
+  .article-card.hidden {
+    display: none;
+  }
+</style>
+
+<script>
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const articleCards = document.querySelectorAll('.article-card');
+  const clearBtn = document.getElementById('clear-filters');
+  const noResults = document.getElementById('no-results');
+
+  let activeFilter: string | null = null;
+
+  function updateDisplay() {
+    let visibleCount = 0;
+
+    articleCards.forEach((card) => {
+      const category = card.getAttribute('data-category');
+      if (!activeFilter || category === activeFilter) {
+        card.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+
+    // Show/hide no results message
+    if (visibleCount === 0) {
+      noResults?.classList.remove('hidden');
+    } else {
+      noResults?.classList.add('hidden');
+    }
+
+    // Show/hide clear button
+    if (activeFilter) {
+      clearBtn?.classList.remove('hidden');
+    } else {
+      clearBtn?.classList.add('hidden');
+    }
+  }
+
+  filterBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
+
+      // Toggle off if clicking same filter
+      if (activeFilter === filter) {
+        activeFilter = null;
+        btn.classList.remove('active');
+      } else {
+        // Remove active from all buttons
+        filterBtns.forEach((b) => b.classList.remove('active'));
+        // Set new filter
+        activeFilter = filter;
+        btn.classList.add('active');
+      }
+
+      updateDisplay();
+    });
+  });
+
+  clearBtn?.addEventListener('click', () => {
+    activeFilter = null;
+    filterBtns.forEach((b) => b.classList.remove('active'));
+    updateDisplay();
+  });
+</script>
