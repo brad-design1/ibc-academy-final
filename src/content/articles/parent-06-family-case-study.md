@@ -21,9 +21,13 @@ Meet the Thompson family. What you're about to see are realistic numbers based o
 - Robert Thompson, 65: Recently retired engineer
 - Mary Thompson, 63: Former teacher, excellent health
 
+<br/>
+
 **Generation 2 — The Parents:**
 - David Thompson, 35: Software sales manager, $120,000 income
 - Sarah Thompson, 33: Marketing consultant, $75,000 income
+
+<br/>
 
 **Generation 3 — The Children:**
 - Emma Thompson, 5: Starting kindergarten
