@@ -15,12 +15,6 @@ const sections = [
     icon: '🛒',
   },
   {
-    title: 'Free Chapter',
-    description: 'Read a sample chapter before committing. See if the concepts resonate with you.',
-    href: '/book/free-chapter',
-    icon: '🎁',
-  },
-  {
     title: 'Reading Guide',
     description: 'A companion guide to help you get the most out of each chapter.',
     href: '/book/reading-guide',
@@ -43,12 +37,9 @@ const sections = [
           <p class="mt-6 text-slate-300 text-lg leading-relaxed">
             The foundational text for understanding the Infinite Banking Concept. Short, dense, and paradigm-shifting. Read it at least twice — you'll discover something new each time.
           </p>
-          <div class="mt-8 flex flex-wrap gap-4">
+          <div class="mt-8">
             <a href="/book/purchase" class="px-6 py-3 bg-gold text-navy-900 font-bold rounded-xl hover:bg-gold-light transition-colors">
               Get the Book
-            </a>
-            <a href="/book/free-chapter" class="px-6 py-3 border-2 border-slate-600 text-white font-semibold rounded-xl hover:border-gold/50 hover:text-gold transition-colors">
-              Read Free Chapter
             </a>
           </div>
         </div>
@@ -64,7 +55,7 @@ const sections = [
       </div>
 
       <!-- Sections -->
-      <div id="about" class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div id="about" class="grid md:grid-cols-3 gap-6">
         {sections.map((section) => (
           <a href={section.href} class="group block bg-navy/30 border border-navy-light/20 rounded-2xl p-6 hover:border-gold/30 transition-all duration-300">
             <span class="text-3xl block mb-4">{section.icon}</span>
