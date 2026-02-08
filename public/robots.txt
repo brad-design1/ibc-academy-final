@@ -1,9 +1,16 @@
-# robots.txt — IBC Academy
-# https://ibcacademy.org
-
 User-agent: *
 Allow: /
-Disallow: /404
 
-# Sitemap
+# Sitemaps
 Sitemap: https://ibcacademy.org/sitemap-index.xml
+Sitemap: https://ibcacademy.org/image-sitemap.xml
+
+# Block irrelevant paths from crawling
+Disallow: /_astro/
+Disallow: /.well-known/
+Disallow: /404.html
+
+# Allow all images for indexing
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /og/
