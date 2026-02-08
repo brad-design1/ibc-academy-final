@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
 
 const categories = [
   {
@@ -209,27 +210,17 @@ const categories = [
   }
 ];
 
-// Build Schema.org FAQPage structured data
-const schemaFaqs = categories.flatMap(cat => cat.faqs).map(faq => ({
-  '@type': 'Question',
-  name: faq.question,
-  acceptedAnswer: {
-    '@type': 'Answer',
-    text: faq.answer.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim()
-  }
+// Format FAQ data for Schema component
+const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
+  q: faq.question,
+  a: faq.answer.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim()
 }));
-
-const schemaData = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: schemaFaqs
-};
 ---
 
 <Layout title="Frequently Asked Questions" description="20 common questions about the Infinite Banking Concept — what it is, how it works, how it compares to alternatives, and how to get started. Nash-aligned answers only.">
 
-  <!-- Schema.org FAQPage structured data -->
-  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  <!-- FAQ Page structured data -->
+  <Schema type="FAQ" questions={faqQuestions} />
 
   <section class="py-16 lg:py-24">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

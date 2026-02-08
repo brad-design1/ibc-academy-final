@@ -85,12 +85,29 @@ const categoryLabels: Record<string, string> = {
           {article.data.title}
         </h1>
         <p class="mt-4 text-lg text-slate-400">{article.data.description}</p>
-        <div class="mt-6 flex items-center gap-4 text-sm text-slate-500">
-          <time datetime={article.data.pubDate.toISOString()}>
-            {article.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-          </time>
+        
+        <!-- Author and Date Information -->
+        <div class="mt-6 space-y-2">
+          <!-- Author Byline -->
+          <div class="text-sm text-slate-400">
+            By <span class="text-white font-medium">Brad Raschke</span>
+          </div>
+          
+          <!-- Publication and Update Dates -->
+          <div class="flex items-center gap-4 text-sm text-slate-500">
+            <time datetime={article.data.pubDate.toISOString()}>
+              Published {article.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
+            {article.data.updatedDate && (
+              <time datetime={article.data.updatedDate.toISOString()} class="text-gold">
+                Last Updated: {article.data.updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </time>
+            )}
+          </div>
+          
+          <!-- Tags -->
           {article.data.tags.length > 0 && (
-            <div class="flex gap-2">
+            <div class="flex gap-2 mt-2">
               {article.data.tags.map((tag: string) => (
                 <span class="text-xs bg-navy-light/30 px-2 py-0.5 rounded">{tag}</span>
               ))}

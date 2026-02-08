@@ -123,12 +123,20 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
             <div class="flex flex-col gap-4 masters-track" id="col1-track">
               {col1.map((master) => (
                 <div class="relative rounded-xl overflow-hidden aspect-[3/4] flex-shrink-0">
-                  <img
-                    src={master.img}
-                    alt={master.name}
-                    class="w-full h-full object-cover object-center grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
-                    loading="lazy"
-                  />
+                  <picture class="w-full h-full block">
+                    {master.name === 'Carl Menger' && (
+                      <source srcset="/images/masters/carl-menger.webp" type="image/webp" />
+                    )}
+                    {master.name === 'Ludwig von Mises' && (
+                      <source srcset="/images/masters/ludwig-von-mises.webp" type="image/webp" />
+                    )}
+                    <img
+                      src={master.img}
+                      alt={master.name}
+                      class="w-full h-full object-cover object-center grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/70 to-transparent">
                     <span class="text-white/90 text-xs font-semibold">{master.name}</span>
                   </div>
@@ -142,12 +150,20 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
             <div class="flex flex-col gap-4 masters-track" id="col2-track">
               {col2.map((master) => (
                 <div class="relative rounded-xl overflow-hidden aspect-[3/4] flex-shrink-0">
-                  <img
-                    src={master.img}
-                    alt={master.name}
-                    class="w-full h-full object-cover object-center grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
-                    loading="lazy"
-                  />
+                  <picture class="w-full h-full block">
+                    {master.name === 'Carl Menger' && (
+                      <source srcset="/images/masters/carl-menger.webp" type="image/webp" />
+                    )}
+                    {master.name === 'Ludwig von Mises' && (
+                      <source srcset="/images/masters/ludwig-von-mises.webp" type="image/webp" />
+                    )}
+                    <img
+                      src={master.img}
+                      alt={master.name}
+                      class="w-full h-full object-cover object-center grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/70 to-transparent">
                     <span class="text-white/90 text-xs font-semibold">{master.name}</span>
                   </div>
@@ -183,12 +199,20 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
         {masters.map((master) => (
           <div class="flex-shrink-0 w-28">
             <div class="relative rounded-lg overflow-hidden aspect-[3/4]">
-              <img
-                src={master.img}
-                alt={master.name}
-                class="w-full h-full object-cover object-center grayscale brightness-75"
-                loading="lazy"
-              />
+              <picture class="w-full h-full block">
+                {master.name === 'Carl Menger' && (
+                  <source srcset="/images/masters/carl-menger.webp" type="image/webp" />
+                )}
+                {master.name === 'Ludwig von Mises' && (
+                  <source srcset="/images/masters/ludwig-von-mises.webp" type="image/webp" />
+                )}
+                <img
+                  src={master.img}
+                  alt={master.name}
+                  class="w-full h-full object-cover object-center grayscale brightness-75"
+                  loading="lazy"
+                />
+              </picture>
               <div class="absolute bottom-0 left-0 right-0 p-1.5 bg-gradient-to-t from-black/70 to-transparent">
                 <span class="text-white/90 text-[10px] font-semibold leading-tight">{master.name}</span>
               </div>

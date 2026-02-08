@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ibcacademy.org/learn/articles</loc>
+    <lastmod>2026-02-08T14:33:32.987Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/brad-raschke.jpg</image:loc>
+      <image:title><![CDATA[brad raschke]]></image:title>
+      <image:caption><![CDATA[brad raschke - IBC Academy educational content]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/book</loc>
+    <lastmod>2026-02-08T14:33:32.987Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/byob-cover.jpg</image:loc>
+      <image:title><![CDATA[byob cover]]></image:title>
+      <image:caption><![CDATA[Becoming Your Own Banker book cover]]></image:caption>
+    </image:image>
+  </url>
+</urlset>

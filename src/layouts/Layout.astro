@@ -42,6 +42,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacade
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    
+    <!-- Critical image preloading -->
+    <link rel="preload" as="image" href="/images/brad-raschke.jpg" />
+    
+    <!-- Theme color for browser chrome -->
+    <meta name="theme-color" content="#C9A84C" />
+    
     <title>{title} | IBC Academy</title>
 
     <!-- Open Graph -->

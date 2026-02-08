@@ -2,6 +2,7 @@
 title: "Banking vs. Investing: Know the Difference"
 description: "One of the most important distinctions in IBC — understanding that the banking function and the investment function are two completely different things."
 pubDate: 2025-02-01
+updatedDate: 2026-02-08
 category: principles
 tags: ["banking", "investing", "principles", "nelson-nash"]
 featured: true
