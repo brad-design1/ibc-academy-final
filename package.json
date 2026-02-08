@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "build": "astro build && npx pagefind --site dist",
     "check-links": "node scripts/check-links.js",
+    "generate-og": "node scripts/generate-og-images.js",
     "preview": "astro preview",
     "astro": "astro"
   },
