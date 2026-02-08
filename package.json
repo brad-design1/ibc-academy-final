@@ -14,9 +14,13 @@
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
     "@astrojs/vercel": "^9.0.4",
+    "@fontsource/inter": "^5.2.8",
     "@tailwindcss/vite": "^4.1.18",
+    "@vercel/og": "^0.8.6",
     "astro": "^5.16.15",
     "pagefind": "^1.4.0",
+    "satori": "^0.19.1",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3"
   }
