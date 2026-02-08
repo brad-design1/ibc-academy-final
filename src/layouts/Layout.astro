@@ -3,14 +3,28 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import SearchModal from '../components/SearchModal.astro';
+import Schema from '../components/Schema.astro';
 
 interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  /** Pass article data to include Article schema */
+  article?: {
+    data: {
+      title: string;
+      description: string;
+      pubDate: Date;
+      category?: string;
+      tags?: string[];
+    };
+    id: string;
+  };
+  /** Set to true to include Person schema (for About page) */
+  showPersonSchema?: boolean;
 }
 
-const { title, description = 'Free education on the Infinite Banking Concept. No products sold. Just principles that work.', ogImage = '/og-default.png' } = Astro.props;
+const { title, description = 'Free education on the Infinite Banking Concept. No products sold. Just principles that work.', ogImage = '/og-default.png', article, showPersonSchema } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacademy.org');
 ---
@@ -44,6 +58,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacade
     <meta name="twitter:title" content={`${title} | IBC Academy`} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={new URL(ogImage, Astro.site || 'https://ibcacademy.org').href} />
+
+    <!-- Structured Data (JSON-LD) -->
+    <Schema type="Organization" />
+    <Schema type="WebSite" />
+    {article && <Schema type="Article" article={article} />}
+    {showPersonSchema && <Schema type="Person" />}
   </head>
   <body class="min-h-screen flex flex-col antialiased">
     <!-- P1: Skip to content link (accessibility) -->

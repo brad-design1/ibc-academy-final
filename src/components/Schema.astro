@@ -1,0 +1,140 @@
+---
+/**
+ * Schema.astro - Structured Data Component for SEO
+ * 
+ * Generates JSON-LD structured data for rich search results.
+ * Usage:
+ *   <Schema type="Organization" />
+ *   <Schema type="Article" article={article} />
+ *   <Schema type="FAQ" questions={[{q: "...", a: "..."}]} />
+ *   <Schema type="Person" />
+ */
+
+interface Props {
+  type: 'Organization' | 'Article' | 'FAQ' | 'Person' | 'WebSite';
+  article?: {
+    data: {
+      title: string;
+      description: string;
+      pubDate: Date;
+      category?: string;
+      tags?: string[];
+    };
+    id: string;
+  };
+  questions?: Array<{ q: string; a: string }>;
+}
+
+const { type, article, questions } = Astro.props;
+const siteUrl = Astro.site?.href || 'https://ibcacademy.org';
+
+// Organization schema (for homepage/site-wide)
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "IBC Academy",
+  "url": siteUrl,
+  "logo": `${siteUrl}og-default.png`,
+  "description": "Free education on the Infinite Banking Concept. No products sold. Just principles that work.",
+  "founder": {
+    "@type": "Person",
+    "name": "Brad Raschke"
+  },
+  "sameAs": [
+    "https://x.com/theibcacademy",
+    "https://www.skool.com/ibc-academy"
+  ]
+};
+
+// WebSite schema (for search box)
+const webSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "IBC Academy",
+  "url": siteUrl,
+  "description": "Free education on the Infinite Banking Concept. No products sold. Just principles that work.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": `${siteUrl}search?q={search_term_string}`
+    },
+    "query-input": "required name=search_term_string"
+  }
+};
+
+// Person schema (for Brad Raschke)
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Brad Raschke",
+  "url": `${siteUrl}about`,
+  "jobTitle": "Authorized Infinite Banking Practitioner",
+  "description": "Brad Raschke teaches the Infinite Banking Concept, helping families implement Nelson Nash's principles for financial freedom.",
+  "sameAs": [
+    "https://x.com/theibcacademy"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "IBC Academy"
+  }
+};
+
+// Article schema (for blog posts)
+const articleSchema = article ? {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": article.data.title,
+  "description": article.data.description,
+  "author": {
+    "@type": "Person",
+    "name": "Brad Raschke",
+    "url": `${siteUrl}about`
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "IBC Academy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}og-default.png`
+    }
+  },
+  "datePublished": article.data.pubDate.toISOString(),
+  "dateModified": article.data.pubDate.toISOString(),
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `${siteUrl}learn/articles/${article.id}`
+  },
+  "articleSection": article.data.category || "Fundamentals",
+  "keywords": article.data.tags?.join(", ") || ""
+} : null;
+
+// FAQ schema (for FAQ pages or sections)
+const faqSchema = questions ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": questions.map(({ q, a }) => ({
+    "@type": "Question",
+    "name": q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": a
+    }
+  }))
+} : null;
+
+// Select the appropriate schema
+const schemas: Record<string, object | null> = {
+  Organization: organizationSchema,
+  WebSite: webSiteSchema,
+  Person: personSchema,
+  Article: articleSchema,
+  FAQ: faqSchema,
+};
+
+const selectedSchema = schemas[type];
+---
+
+{selectedSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(selectedSchema)} />
+)}
