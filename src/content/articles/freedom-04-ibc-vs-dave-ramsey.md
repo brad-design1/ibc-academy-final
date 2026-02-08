@@ -8,6 +8,7 @@ featured: false
 draft: false
 series: "freedom-seeker"
 seriesOrder: 4
+ogImage: "/images/og/freedom-04-ibc-vs-dave-ramsey.png"
 ---
 ## "FREEEDOM!!!"
 

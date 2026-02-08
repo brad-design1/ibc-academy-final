@@ -5,6 +5,7 @@ pubDate: 2026-01-28
 category: fundamentals
 tags: ["banking-function", "nelson-nash", "capitalization"]
 featured: false
+ogImage: "/images/og/the-banking-function.png"
 ---
 # The Banking Function Explained
 

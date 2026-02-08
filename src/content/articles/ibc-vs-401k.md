@@ -5,6 +5,7 @@ pubDate: 2026-01-28
 category: compared-to-what
 tags: ["401k", "retirement", "comparison", "ira"]
 featured: false
+ogImage: "/images/og/ibc-vs-401k.png"
 ---
 # IBC vs. 401(k): Why Your Retirement Plan Might Be a Trap
 

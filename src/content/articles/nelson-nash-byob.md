@@ -5,6 +5,7 @@ pubDate: 2026-01-28
 category: fundamentals
 tags: ["nelson-nash", "byob", "introduction"]
 featured: false
+ogImage: "/images/og/nelson-nash-byob.png"
 ---
 # Nelson Nash & Becoming Your Own Banker
 

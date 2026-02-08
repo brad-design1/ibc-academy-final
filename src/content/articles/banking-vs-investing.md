@@ -6,6 +6,7 @@ updatedDate: 2026-02-08
 category: principles
 tags: ["banking", "investing", "principles", "nelson-nash"]
 featured: true
+ogImage: "/images/og/banking-vs-investing.png"
 ---
 # Banking vs. Investing: Know the Difference
 
