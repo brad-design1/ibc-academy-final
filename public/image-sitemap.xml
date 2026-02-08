@@ -2,21 +2,497 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://ibcacademy.org/learn/articles</loc>
-    <lastmod>2026-02-08T14:33:32.987Z</lastmod>
+    <loc>https://ibcacademy.org/about</loc>
+    <lastmod>2026-02-08T14:34:25.942Z</lastmod>
     <image:image>
       <image:loc>https://ibcacademy.org/images/brad-raschke.jpg</image:loc>
       <image:title><![CDATA[brad raschke]]></image:title>
-      <image:caption><![CDATA[brad raschke - IBC Academy educational content]]></image:caption>
+      <image:caption><![CDATA[Brad Raschke - IBC Academy founder and instructor]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/carl-menger.jpg</image:loc>
+      <image:title><![CDATA[carl menger]]></image:title>
+      <image:caption><![CDATA[Portrait of carl menger - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/carl-menger.webp</image:loc>
+      <image:title><![CDATA[carl menger]]></image:title>
+      <image:caption><![CDATA[Portrait of carl menger - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/carlos-lara.jpg</image:loc>
+      <image:title><![CDATA[carlos lara]]></image:title>
+      <image:caption><![CDATA[Portrait of carlos lara - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/frederic-bastiat.jpg</image:loc>
+      <image:title><![CDATA[frederic bastiat]]></image:title>
+      <image:caption><![CDATA[Portrait of frederic bastiat - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/henry-hazlitt.jpg</image:loc>
+      <image:title><![CDATA[henry hazlitt]]></image:title>
+      <image:caption><![CDATA[Portrait of henry hazlitt - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/leonard-read.jpg</image:loc>
+      <image:title><![CDATA[leonard read]]></image:title>
+      <image:caption><![CDATA[Portrait of leonard read - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/ludwig-von-mises.jpg</image:loc>
+      <image:title><![CDATA[ludwig von mises]]></image:title>
+      <image:caption><![CDATA[Portrait of ludwig von mises - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/ludwig-von-mises.webp</image:loc>
+      <image:title><![CDATA[ludwig von mises]]></image:title>
+      <image:caption><![CDATA[Portrait of ludwig von mises - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/murray-rothbard.jpg</image:loc>
+      <image:title><![CDATA[murray rothbard]]></image:title>
+      <image:caption><![CDATA[Portrait of murray rothbard - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/nelson-nash.jpg</image:loc>
+      <image:title><![CDATA[nelson nash]]></image:title>
+      <image:caption><![CDATA[Portrait of nelson nash - Austrian Economics and Banking Philosophy]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/images/masters/robert-murphy.jpg</image:loc>
+      <image:title><![CDATA[robert murphy]]></image:title>
+      <image:caption><![CDATA[Portrait of robert murphy - Austrian Economics and Banking Philosophy]]></image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://ibcacademy.org/book</loc>
-    <lastmod>2026-02-08T14:33:32.987Z</lastmod>
+    <lastmod>2026-02-08T14:34:25.942Z</lastmod>
     <image:image>
       <image:loc>https://ibcacademy.org/images/byob-cover.jpg</image:loc>
       <image:title><![CDATA[byob cover]]></image:title>
       <image:caption><![CDATA[Becoming Your Own Banker book cover]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/banking-vs-investing</loc>
+    <lastmod>2026-02-08T14:34:25.942Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/banking-vs-investing.png</image:loc>
+      <image:title><![CDATA[banking vs investing]]></image:title>
+      <image:caption><![CDATA[banking vs investing - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/paths/business-owner</loc>
+    <lastmod>2026-02-08T14:34:25.942Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/business-01-greatest-asset.png</image:loc>
+      <image:title><![CDATA[business 01 greatest asset]]></image:title>
+      <image:caption><![CDATA[business 01 greatest asset - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/business-02-cash-flow-problem.png</image:loc>
+      <image:title><![CDATA[business 02 cash flow problem]]></image:title>
+      <image:caption><![CDATA[business 02 cash flow problem - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/business-03-banking-business.png</image:loc>
+      <image:title><![CDATA[business 03 banking business]]></image:title>
+      <image:caption><![CDATA[business 03 banking business - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/business-04-nash-grocery-store.png</image:loc>
+      <image:title><![CDATA[business 04 nash grocery store]]></image:title>
+      <image:caption><![CDATA[business 04 nash grocery store - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/business-05-equipment-expansion-banking.png</image:loc>
+      <image:title><![CDATA[business 05 equipment expansion banking]]></image:title>
+      <image:caption><![CDATA[business 05 equipment expansion banking - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/business-06-two-businesses.png</image:loc>
+      <image:title><![CDATA[business 06 two businesses]]></image:title>
+      <image:caption><![CDATA[business 06 two businesses - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/cash-value-growth</loc>
+    <lastmod>2026-02-08T14:34:25.942Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/cash-value-growth.png</image:loc>
+      <image:title><![CDATA[cash value growth]]></image:title>
+      <image:caption><![CDATA[cash value growth - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/paths/deeper-understanding</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/deeper-01-heir-to-menger.png</image:loc>
+      <image:title><![CDATA[deeper 01 heir to menger]]></image:title>
+      <image:caption><![CDATA[deeper 01 heir to menger - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/deeper-02-five-human-problems.png</image:loc>
+      <image:title><![CDATA[deeper 02 five human problems]]></image:title>
+      <image:caption><![CDATA[deeper 02 five human problems - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/deeper-03-policy-mechanics.png</image:loc>
+      <image:title><![CDATA[deeper 03 policy mechanics]]></image:title>
+      <image:caption><![CDATA[deeper 03 policy mechanics - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/deeper-04-policy-loans.png</image:loc>
+      <image:title><![CDATA[deeper 04 policy loans]]></image:title>
+      <image:caption><![CDATA[deeper 04 policy loans - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/deeper-05-myths-objections.png</image:loc>
+      <image:title><![CDATA[deeper 05 myths objections]]></image:title>
+      <image:caption><![CDATA[deeper 05 myths objections - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/deeper-06-lightbulb-moment.png</image:loc>
+      <image:title><![CDATA[deeper 06 lightbulb moment]]></image:title>
+      <image:caption><![CDATA[deeper 06 lightbulb moment - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/dividends-explained</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/dividends-explained.png</image:loc>
+      <image:title><![CDATA[dividends explained]]></image:title>
+      <image:caption><![CDATA[dividends explained - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/family-four-ibc-case-study</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/family-four-ibc-case-study.png</image:loc>
+      <image:title><![CDATA[family four ibc case study]]></image:title>
+      <image:caption><![CDATA[family four ibc case study - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/paths/freedom-seeker</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/freedom-01-freedom-from-system.png</image:loc>
+      <image:title><![CDATA[freedom 01 freedom from system]]></image:title>
+      <image:caption><![CDATA[freedom 01 freedom from system - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/freedom-02-banking-function.png</image:loc>
+      <image:title><![CDATA[freedom 02 banking function]]></image:title>
+      <image:caption><![CDATA[freedom 02 banking function - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/freedom-03-debt-trap.png</image:loc>
+      <image:title><![CDATA[freedom 03 debt trap]]></image:title>
+      <image:caption><![CDATA[freedom 03 debt trap - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/freedom-04-ibc-vs-dave-ramsey.png</image:loc>
+      <image:title><![CDATA[freedom 04 ibc vs dave ramsey]]></image:title>
+      <image:caption><![CDATA[freedom 04 ibc vs dave ramsey - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/freedom-05-buy-term-invest-difference.png</image:loc>
+      <image:title><![CDATA[freedom 05 buy term invest difference]]></image:title>
+      <image:caption><![CDATA[freedom 05 buy term invest difference - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/freedom-06-austrian-economics.png</image:loc>
+      <image:title><![CDATA[freedom 06 austrian economics]]></image:title>
+      <image:caption><![CDATA[freedom 06 austrian economics - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/how-much-does-ibc-cost</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/how-much-does-ibc-cost.png</image:loc>
+      <image:title><![CDATA[how much does ibc cost]]></image:title>
+      <image:caption><![CDATA[how much does ibc cost - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/how-policy-loans-work</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/how-policy-loans-work.png</image:loc>
+      <image:title><![CDATA[how policy loans work]]></image:title>
+      <image:caption><![CDATA[how policy loans work - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/ibc-vs-401k</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/ibc-vs-401k.png</image:loc>
+      <image:title><![CDATA[ibc vs 401k]]></image:title>
+      <image:caption><![CDATA[ibc vs 401k - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/paths/just-curious</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/just-curious-01-where-does-money-go.png</image:loc>
+      <image:title><![CDATA[just curious 01 where does money go]]></image:title>
+      <image:caption><![CDATA[just curious 01 where does money go - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/just-curious-02-silent-partner.png</image:loc>
+      <image:title><![CDATA[just curious 02 silent partner]]></image:title>
+      <image:caption><![CDATA[just curious 02 silent partner - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/just-curious-03-savings-working-against-you.png</image:loc>
+      <image:title><![CDATA[just curious 03 savings working against you]]></image:title>
+      <image:caption><![CDATA[just curious 03 savings working against you - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/just-curious-04-what-banks-actually-do.png</image:loc>
+      <image:title><![CDATA[just curious 04 what banks actually do]]></image:title>
+      <image:caption><![CDATA[just curious 04 what banks actually do - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/just-curious-05-question-about-retirement.png</image:loc>
+      <image:title><![CDATA[just curious 05 question about retirement]]></image:title>
+      <image:caption><![CDATA[just curious 05 question about retirement - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/just-curious-06-what-if-you-were-bank.png</image:loc>
+      <image:title><![CDATA[just curious 06 what if you were bank]]></image:title>
+      <image:caption><![CDATA[just curious 06 what if you were bank - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/nelson-nash-byob</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/nelson-nash-byob.png</image:loc>
+      <image:title><![CDATA[nelson nash byob]]></image:title>
+      <image:caption><![CDATA[nelson nash byob - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/paid-up-additions</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/paid-up-additions.png</image:loc>
+      <image:title><![CDATA[paid up additions]]></image:title>
+      <image:caption><![CDATA[paid up additions - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/paths/parent</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/parent-01-family-banking-system.png</image:loc>
+      <image:title><![CDATA[parent 01 family banking system]]></image:title>
+      <image:caption><![CDATA[parent 01 family banking system - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/parent-02-teaching-money.png</image:loc>
+      <image:title><![CDATA[parent 02 teaching money]]></image:title>
+      <image:caption><![CDATA[parent 02 teaching money - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/parent-03-proverbs-1322.png</image:loc>
+      <image:title><![CDATA[parent 03 proverbs 1322]]></image:title>
+      <image:caption><![CDATA[parent 03 proverbs 1322 - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/parent-04-insuring-children.png</image:loc>
+      <image:title><![CDATA[parent 04 insuring children]]></image:title>
+      <image:caption><![CDATA[parent 04 insuring children - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/parent-05-multi-generational-family-bank.png</image:loc>
+      <image:title><![CDATA[parent 05 multi generational family bank]]></image:title>
+      <image:caption><![CDATA[parent 05 multi generational family bank - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/parent-06-putting-it-all-together.png</image:loc>
+      <image:title><![CDATA[parent 06 putting it all together]]></image:title>
+      <image:caption><![CDATA[parent 06 putting it all together - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/paths/professional</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/professional-01-what-is-infinite-banking.png</image:loc>
+      <image:title><![CDATA[professional 01 what is infinite banking]]></image:title>
+      <image:caption><![CDATA[professional 01 what is infinite banking - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/professional-02-banking-function-explained.png</image:loc>
+      <image:title><![CDATA[professional 02 banking function explained]]></image:title>
+      <image:caption><![CDATA[professional 02 banking function explained - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/professional-03-perils-ignoring-banking.png</image:loc>
+      <image:title><![CDATA[professional 03 perils ignoring banking]]></image:title>
+      <image:caption><![CDATA[professional 03 perils ignoring banking - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/professional-04-sequence-returns-risk.png</image:loc>
+      <image:title><![CDATA[professional 04 sequence returns risk]]></image:title>
+      <image:caption><![CDATA[professional 04 sequence returns risk - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/professional-05-btid-myth-debunked.png</image:loc>
+      <image:title><![CDATA[professional 05 btid myth debunked]]></image:title>
+      <image:caption><![CDATA[professional 05 btid myth debunked - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/professional-06-golden-handcuffs.png</image:loc>
+      <image:title><![CDATA[professional 06 golden handcuffs]]></image:title>
+      <image:caption><![CDATA[professional 06 golden handcuffs - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/paths/skeptic</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/prove-it-01-right-to-be-skeptical.png</image:loc>
+      <image:title><![CDATA[prove it 01 right to be skeptical]]></image:title>
+      <image:caption><![CDATA[prove it 01 right to be skeptical - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/prove-it-02-rate-of-return-trap.png</image:loc>
+      <image:title><![CDATA[prove it 02 rate of return trap]]></image:title>
+      <image:caption><![CDATA[prove it 02 rate of return trap - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/prove-it-03-dave-ramsey-missing-variable.png</image:loc>
+      <image:title><![CDATA[prove it 03 dave ramsey missing variable]]></image:title>
+      <image:caption><![CDATA[prove it 03 dave ramsey missing variable - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/prove-it-04-advisor-hates-whole-life.png</image:loc>
+      <image:title><![CDATA[prove it 04 advisor hates whole life]]></image:title>
+      <image:caption><![CDATA[prove it 04 advisor hates whole life - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/prove-it-05-math-nobody-shows.png</image:loc>
+      <image:title><![CDATA[prove it 05 math nobody shows]]></image:title>
+      <image:caption><![CDATA[prove it 05 math nobody shows - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/prove-it-06-everything-you-heard-wrong.png</image:loc>
+      <image:title><![CDATA[prove it 06 everything you heard wrong]]></image:title>
+      <image:caption><![CDATA[prove it 06 everything you heard wrong - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/re-infinite-deal-machine</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/re-infinite-deal-machine.png</image:loc>
+      <image:title><![CDATA[re infinite deal machine]]></image:title>
+      <image:caption><![CDATA[re infinite deal machine - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/re-private-lender-case-study</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/re-private-lender-case-study.png</image:loc>
+      <image:title><![CDATA[re private lender case study]]></image:title>
+      <image:caption><![CDATA[re private lender case study - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/paths/real-estate</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/real-estate-01-the-lenders-leash.png</image:loc>
+      <image:title><![CDATA[real estate 01 the lenders leash]]></image:title>
+      <image:caption><![CDATA[real estate 01 the lenders leash - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/real-estate-02-the-fragile-ladder.png</image:loc>
+      <image:title><![CDATA[real estate 02 the fragile ladder]]></image:title>
+      <image:caption><![CDATA[real estate 02 the fragile ladder - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/real-estate-03-opm-isnt-free-money.png</image:loc>
+      <image:title><![CDATA[real estate 03 opm isnt free money]]></image:title>
+      <image:caption><![CDATA[real estate 03 opm isnt free money - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/real-estate-04-speed-kills-deals.png</image:loc>
+      <image:title><![CDATA[real estate 04 speed kills deals]]></image:title>
+      <image:caption><![CDATA[real estate 04 speed kills deals - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/real-estate-05-what-if-you-were-the-bank.png</image:loc>
+      <image:title><![CDATA[real estate 05 what if you were the bank]]></image:title>
+      <image:caption><![CDATA[real estate 05 what if you were the bank - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/real-estate-06-building-your-re-banking-system.png</image:loc>
+      <image:title><![CDATA[real estate 06 building your re banking system]]></image:title>
+      <image:caption><![CDATA[real estate 06 building your re banking system - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/the-banking-function</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/the-banking-function.png</image:loc>
+      <image:title><![CDATA[the banking function]]></image:title>
+      <image:caption><![CDATA[the banking function - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/who-should-consider-ibc</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/who-should-consider-ibc.png</image:loc>
+      <image:title><![CDATA[who should consider ibc]]></image:title>
+      <image:caption><![CDATA[who should consider ibc - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/whole-life-vs-term</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/whole-life-vs-term.png</image:loc>
+      <image:title><![CDATA[whole life vs term]]></image:title>
+      <image:caption><![CDATA[whole life vs term - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles/why-whole-life</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og/why-whole-life.png</image:loc>
+      <image:title><![CDATA[why whole life]]></image:title>
+      <image:caption><![CDATA[why whole life - Educational infographic about Infinite Banking Concept]]></image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ibcacademy.org/learn/articles</loc>
+    <lastmod>2026-02-08T14:34:25.943Z</lastmod>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og-default-old.png</image:loc>
+      <image:title><![CDATA[og default old]]></image:title>
+      <image:caption><![CDATA[og default old - IBC Academy educational content]]></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ibcacademy.org/og-default.png</image:loc>
+      <image:title><![CDATA[og default]]></image:title>
+      <image:caption><![CDATA[og default - IBC Academy educational content]]></image:caption>
     </image:image>
   </url>
 </urlset>
