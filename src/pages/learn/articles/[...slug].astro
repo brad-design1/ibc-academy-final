@@ -37,7 +37,7 @@ const categoryLabels: Record<string, string> = {
 };
 ---
 
-<Layout title={article.data.title} description={article.data.description} article={article}>
+<Layout title={article.data.title} description={article.data.description} ogImage={`/og/${article.id}.png`} article={article}>
   <!-- P8: Reading progress indicator -->
   <div id="reading-progress" class="reading-progress" style="width: 0%"></div>
 

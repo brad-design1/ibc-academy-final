@@ -252,12 +252,10 @@ async function main() {
       console.log(`🖼️  Generating OG image for: ${title}`);
       
       try {
-        const imageResponse = await generateOGImage(title, category);
-        const arrayBuffer = await imageResponse.arrayBuffer();
-        const buffer = Buffer.from(arrayBuffer);
+        const pngBuffer = await generateOGImage(title, category);
         
         const outputPath = join(ogDir, `${slug}.png`);
-        writeFileSync(outputPath, buffer);
+        writeFileSync(outputPath, pngBuffer);
         
         generatedCount++;
         
@@ -267,7 +265,7 @@ async function main() {
             file: `${slug}.png`,
             title: title,
             category: category,
-            size: `${buffer.length} bytes`
+            size: `${pngBuffer.length} bytes`
           });
         }
         
