@@ -1,6 +1,6 @@
 ---
 title: "Nelson Nash & Becoming Your Own Banker"
-description: "Who was Nelson Nash? The story behind the Infinite Banking Concept and why his book changed thousands of lives."
+description: "Discover Nelson Nash's Infinite Banking Concept that changed thousands of lives. Learn BYOB principles. Start your IBC journey now!"
 pubDate: 2026-01-28
 category: fundamentals
 tags: ["nelson-nash", "byob", "introduction"]

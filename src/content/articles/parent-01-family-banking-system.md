@@ -1,6 +1,6 @@
 ---
 title: "The Family Banking System Explained"
-description: "How Nelson Nash's 'Even Distribution of Age Classes' creates a generational banking system that spans multiple lifetimes, building wealth while maintaining control."
+description: "Build a multi-generational family banking system with IBC. Create lasting wealth for your children. Start your legacy now!"
 pubDate: 2026-01-29
 category: parent
 tags: ["family banking", "even distribution of age classes", "generational wealth", "IBC", "whole life"]

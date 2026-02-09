@@ -1,6 +1,6 @@
 ---
 title: "Understanding Cash Value Growth in IBC"
-description: "How cash value really grows in a whole life policy — the building phase, the crossover point, and uninterrupted compounding."
+description: "How cash value grows in whole life insurance. Understand guaranteed growth, dividends & compound interest. Build wealth now!"
 pubDate: 2026-01-28
 category: mechanics
 tags: ["cash-value", "compounding", "mechanics", "growth"]

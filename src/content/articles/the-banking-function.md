@@ -1,6 +1,6 @@
 ---
 title: "The Banking Function Explained"
-description: "Nelson Nash's key insight: banking is a function, not a place. Learn why who controls the banking function matters more than rate of return."
+description: "Master the Banking Function - the most important financial concept you never learned. Control your capital flow. Take control today!"
 pubDate: 2026-01-28
 category: fundamentals
 tags: ["banking-function", "nelson-nash", "capitalization"]

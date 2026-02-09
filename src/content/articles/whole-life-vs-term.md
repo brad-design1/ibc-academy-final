@@ -1,6 +1,6 @@
 ---
 title: "Whole Life vs. Term Life: What IBC Practitioners Actually Think"
-description: "Why IBC uses whole life insurance — and how term riders play a critical supporting role. The real comparison most people miss."
+description: "Whole Life vs Term Insurance for IBC: Why cash value beats buy-term-invest-difference. Build your banking system. Start here!"
 pubDate: 2026-01-28
 category: mechanics
 tags: ["whole-life", "term-life", "comparison", "mechanics"]

@@ -1,6 +1,6 @@
 ﻿---
 title: "10 Common IBC Myths Debunked"
-description: "Is IBC a scam? Are you borrowing your own money? We debunk the 10 most common myths about the Infinite Banking Concept."
+description: "Debunk IBC myths & objections. Learn the truth about Infinite Banking rates, costs & benefits. Stop believing lies. Get facts!"
 pubDate: 2026-01-28
 category: compared-to-what
 tags: ["myths", "debunking", "objections", "faq"]

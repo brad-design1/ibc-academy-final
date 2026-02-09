@@ -1,6 +1,6 @@
 ---
 title: "How Policy Loans Work (Beginner-Friendly)"
-description: "A clear explanation of policy loans — what they are, how they work, and why uninterrupted compounding is so powerful."
+description: "Master IBC policy loans & uninterrupted compounding. Learn how to borrow against cash value without stopping growth. Get started!"
 pubDate: 2026-01-28
 category: mechanics
 tags: ["policy-loans", "cash-value", "mechanics"]

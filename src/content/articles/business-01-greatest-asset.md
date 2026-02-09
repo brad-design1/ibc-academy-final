@@ -1,6 +1,6 @@
 ---
 title: "Your Business Is Your Greatest Asset (Or Is It?)"
-description: "You built something real. Your business generates wealth. But there's a function inside it you're giving away — and it might be worth more than the business itself."
+description: "Your business is your greatest asset - but you're giving away the banking function. Reclaim control & maximize profits. Act now!"
 pubDate: 2026-01-29
 category: "business-owner"
 tags: ["business owner", "wealth building", "entrepreneurship", "capital", "cash flow"]

@@ -1,6 +1,6 @@
 ---
 title: "Paid-Up Additions: The Engine of Your Banking System"
-description: "How PUA riders supercharge IBC policies — immediate cash value, faster capitalization, and the MEC trap to avoid."
+description: "Maximize IBC with Paid-Up Additions riders. Accelerate cash value growth & increase death benefit. Optimize your policy today!"
 pubDate: 2026-01-28
 category: mechanics
 tags: ["paid-up-additions", "pua", "mechanics", "policy-design"]
