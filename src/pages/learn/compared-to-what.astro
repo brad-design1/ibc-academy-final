@@ -5,8 +5,10 @@ import ArticleFooterCTA from '../../components/ArticleFooterCTA.astro';
 const comparisons = [
   {
     title: 'IBC vs. 401(k)',
-    description: "Why comparing your banking system to a retirement account misses the point — and what you should actually compare.",
-    status: 'Coming Soon',
+    description: "The complete comparison: what the retirement industry won't tell you about sequence of returns risk, the tax deferral trap, and why banks use whole life.",
+    href: '/learn/articles/ibc-vs-401k-complete-comparison',
+    status: 'Read Now',
+    featured: true,
   },
   {
     title: 'IBC vs. Real Estate Investing',
@@ -54,13 +56,28 @@ const comparisons = [
 
       <div class="grid md:grid-cols-2 gap-6">
         {comparisons.map((comp) => (
-          <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-8 hover:border-gold/30 transition-all duration-300">
-            <div class="flex items-center justify-between mb-3">
-              <h2 class="text-xl font-bold text-white">{comp.title}</h2>
-              <span class="text-xs text-slate-500 font-medium shrink-0 ml-4">{comp.status}</span>
+          comp.href ? (
+            <a href={comp.href} class:list={[
+              "group block rounded-2xl p-8 transition-all duration-300",
+              comp.featured 
+                ? "bg-gradient-to-br from-gold/10 to-gold/5 border-2 border-gold/30 hover:border-gold/50"
+                : "bg-navy/30 border border-navy-light/20 hover:border-gold/30"
+            ]}>
+              <div class="flex items-center justify-between mb-3">
+                <h2 class="text-xl font-bold text-white group-hover:text-gold transition-colors">{comp.title}</h2>
+                <span class="text-xs text-gold font-semibold shrink-0 ml-4">{comp.status} →</span>
+              </div>
+              <p class="text-slate-300 leading-relaxed">{comp.description}</p>
+            </a>
+          ) : (
+            <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-8 opacity-75">
+              <div class="flex items-center justify-between mb-3">
+                <h2 class="text-xl font-bold text-white">{comp.title}</h2>
+                <span class="text-xs text-slate-500 font-medium shrink-0 ml-4">{comp.status}</span>
+              </div>
+              <p class="text-slate-300 leading-relaxed">{comp.description}</p>
             </div>
-            <p class="text-slate-300 leading-relaxed">{comp.description}</p>
-          </div>
+          )
         ))}
       </div>
 
