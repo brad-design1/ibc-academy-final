@@ -3,7 +3,7 @@ title: "IBC vs 401k: The Complete Comparison Guide (2026)"
 description: "Everything you need to know about comparing Infinite Banking to 401k retirement plans. Side-by-side features, real case studies, and expert insights from Nelson Nash and Ryan Griggs."
 pubDate: 2026-02-08
 updatedDate: 2026-02-08
-category: comparisons
+category: compared-to-what
 tags: ["401k", "infinite-banking", "retirement", "comparison", "nelson-nash"]
 featured: true
 ogImage: "/images/og/ibc-vs-401k.png"
