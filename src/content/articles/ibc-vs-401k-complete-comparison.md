@@ -561,9 +561,11 @@ The question isn't "401k or IBC?" The question is: **Who profits from the financ
 
 **The Control:** Full ownership over contributions, access, and repayment—no government restrictions, no employer rules, no penalties
 
-### Nelson Nash's Final Word
+### IBC Academy's Final Word
 
-> *"The conventional financial plan is just that—a plan. A list of activities without coherent theory, dependent on variables you don't control, designed by people who profit from your participation regardless of your outcome. IBC is a strategy. An integrated set of choices, theoretically grounded, built on guaranteed growth, delivering capital you control and income you can depend on."*
+The conventional financial plan is just that—a plan. A list of activities without coherent theory, dependent on variables you don't control, designed by people who profit from your participation regardless of your outcome. 
+
+IBC is different. It's a strategy—an integrated set of choices, theoretically grounded, built on guaranteed growth, delivering capital you control and income you can depend on.
 
 ### The Bottom Line
 
