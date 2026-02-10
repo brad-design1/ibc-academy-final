@@ -333,14 +333,7 @@ select:focus-visible {
   margin-bottom: 1.5em !important;
 }
 
-/* Bold text acting as sub-headers needs top margin */
-.prose p strong:first-child:last-child,
-.prose p > strong:only-child {
-  display: block;
-  margin-top: 1.5rem;
-}
-
-/* Ensure proper spacing between list and following bold/header */
+/* Ensure proper spacing between list and following paragraph */
 .prose ul + p,
 .prose ol + p {
   margin-top: 1.5rem !important;
