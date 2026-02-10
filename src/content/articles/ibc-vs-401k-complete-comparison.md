@@ -227,44 +227,61 @@ If whole life is such a horrible product, why are 3,700 banks holding it as Tier
 
 ---
 
-## When IBC Makes Sense
+## Who Can Implement IBC?
 
-### Ideal IBC Scenarios
+### The Real Prerequisites: Solving the Human Problems
 
-1. **Control and Access Priority**
-   - Need capital for business investments
-   - Real estate opportunities
-   - Emergency fund requirements
-   - Family financing needs
+Nelson Nash never said IBC was only for high earners. He said IBC is for anyone willing to solve what he called the "Five Human Problems":
 
-2. **Tax-Free Wealth Transfer Goals**
-   - Building multi-generational wealth
-   - Minimizing estate taxes
-   - Creating tax-free inheritance
+1. **Parkinson's Law** — Expenses rise to meet income
+   - Can you commit to living below your means?
+   - Will you prioritize capitalization over consumption?
 
-3. **Risk Aversion**
-   - Guaranteed growth preference
-   - Sequence-of-returns risk concern
-   - Market volatility intolerance
+2. **Willie Sutton's Law** — Go where the money is
+   - Can you see that the banking function is where wealth flows?
+   - Are you willing to position yourself to capture it?
 
-4. **High-Earner Status**
-   - Income over $200,000
-   - Significant financing needs
-   - Interest recapture opportunities
+3. **The Arrival Syndrome** — Thinking you've "made it"
+   - Can you resist the temptation to spend when things are good?
+   - Will you keep building even when you feel successful?
 
-5. **Business Ownership**
-   - Equipment financing needs
-   - Cash flow management
-   - Key person insurance requirements
+4. **Use It or Lose It** — Capital needs velocity
+   - Are you willing to put your money to work?
+   - Can you think like a banker, not just a saver?
 
-6. **Banking Function Recognition**
-   - Understanding that financing needs exceed investment needs
-   - Desire to recapture interest payments
-   - Long-term wealth building focus
+5. **The Golden Goose** — Don't kill what creates wealth
+   - Will you protect your capital base?
+   - Can you take income without destroying the system?
 
-### Nelson Nash's Philosophy
+### IBC Works for Families at Any Income Level
+
+The question isn't "Do I make enough?" It's "Am I willing to change my behavior?"
+
+A family earning $60,000 who solves these problems will build more wealth than a family earning $200,000 who doesn't. Nash was explicit about this—IBC is a process, not a product for the wealthy.
 
 > *"Rather than giving away our savings to the control of outsiders, so that we must approach outsiders hat in hand whenever our expenses exceed our paycheck, we can instead begin to capitalize our own bank."*
+
+### What IBC Provides
+
+1. **Control and Access**
+   - Capital for opportunities when they arise
+   - Emergency reserves without penalty
+   - Financing without bank approval
+
+2. **Multi-Generational Wealth**
+   - Tax-free wealth transfer
+   - A banking system your children inherit
+   - Breaking the cycle of starting over each generation
+
+3. **Guaranteed Growth**
+   - No market volatility
+   - Contractual minimums every year
+   - Compound growth that never reverses
+
+4. **The Banking Function**
+   - Recapture interest you'd otherwise pay to banks
+   - Finance major purchases through your own system
+   - Keep the profits in your family
 
 ---
 
