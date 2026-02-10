@@ -340,6 +340,83 @@ select:focus-visible {
 }
 
 /* ═══════════════════════════════════════════════════
+   COMPARISON TABLES - MOBILE-FRIENDLY STYLING
+   ═══════════════════════════════════════════════════ */
+
+.prose table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid rgba(36, 70, 111, 0.4);
+}
+
+.prose thead {
+  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
+}
+
+.prose th {
+  padding: 1rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-gold);
+  border-bottom: 2px solid var(--color-gold);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.prose td {
+  padding: 0.875rem 0.75rem;
+  border-bottom: 1px solid rgba(36, 70, 111, 0.3);
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.prose tbody tr {
+  background: rgba(27, 54, 93, 0.15);
+  transition: background 0.2s ease;
+}
+
+.prose tbody tr:nth-child(even) {
+  background: rgba(27, 54, 93, 0.25);
+}
+
+.prose tbody tr:hover {
+  background: rgba(201, 168, 76, 0.1);
+}
+
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* First column (feature name) styling */
+.prose td:first-child {
+  font-weight: 600;
+  color: white;
+  min-width: 140px;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .prose table {
+    font-size: 0.8rem;
+  }
+  
+  .prose th,
+  .prose td {
+    padding: 0.625rem 0.5rem;
+  }
+  
+  .prose td:first-child {
+    min-width: 100px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════
    ACCESSIBILITY: REDUCED MOTION SUPPORT
    For users with vestibular disorders or motion sensitivity
    ═══════════════════════════════════════════════════ */
