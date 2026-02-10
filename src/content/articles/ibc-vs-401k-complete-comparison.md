@@ -3,7 +3,7 @@ title: "IBC vs 401k: The Complete Comparison Guide (2026)"
 description: "What the retirement industry doesn't want you to know. Comprehensive analysis of Infinite Banking vs 401k for building wealth and controlling your financial future."
 pubDate: 2026-02-09
 category: compared-to-what
-tags: ["IBC vs 401k", "infinite banking", "401k", "retirement planning", "compared to what", "sequence of returns", "Nelson Nash", "Ryan Griggs"]
+tags: ["IBC vs 401k", "infinite banking", "401k", "retirement planning", "compared to what", "sequence of returns", "Nelson Nash", "Brad Raschke"]
 featured: true
 draft: false
 ---
@@ -23,8 +23,8 @@ draft: false
 **Key Insight from Nelson Nash:** 
 > *"Your need for finance during your lifetime is greater than your need for death benefit."*
 
-**Key Insight from Ryan Griggs:** 
-> *"IBC is a capitalization strategy, not an investment strategy. Investment asks: what asset can I acquire that will appreciate? Capitalization asks: how do I build a pool of financial value I control?"*
+**Key Insight from Brad Raschke:** 
+> *"IBC isn't about getting the best return—it's about building something you actually control. Investments go up and down. Capital you've built stays put and grows every single year."*
 
 ---
 
@@ -90,8 +90,8 @@ Most 401k advocates compare it to "doing nothing." But Nash understood that ever
 
 ### The Banking Function Reality
 
-Ryan Griggs frames this perfectly: 
-> *"Every time you finance a car, a house, a renovation, equipment for your business—you pay interest to someone. Your need for finance during your lifetime is greater than your need for death benefit."*
+Here's what I tell my clients: 
+> *"You're going to finance cars, houses, renovations, maybe business equipment. That's just life. The question is whether that interest flows out of your family forever, or whether you capture it."*
 
 **With a 401k approach:**
 1. Contribute to 401k
@@ -190,8 +190,8 @@ Nelson Nash observed that 34.5 cents of every disposable dollar goes to interest
 
 The financial planning industry acknowledges sequence of returns risk but pretends it's manageable through "asset allocation" and "rebalancing."
 
-Ryan Griggs destroys this fiction: 
-> *"If the problem before was that you don't know whether a crisis period will align with your selected retirement age, what's to say that this problem will be rectified by simply substituting the term 'retirement age' with 'reallocation dates?' You do not, cannot eliminate the problem of timing the market by selecting multiple reallocation dates instead of one retirement date."*
+Here's the reality I explain to clients: 
+> *"Rebalancing your portfolio doesn't eliminate sequence risk—it just spreads it around. If you don't know when the next crash is coming, shifting allocations doesn't help. You're still guessing. IBC removes the guessing entirely."*
 
 You're not solving the problem. You're spreading it across multiple failure points.
 
@@ -212,8 +212,8 @@ In 1988, Congress passed the Technical Corrections Act, creating Modified Endowm
 
 **Why would Congress build a fence around life insurance if it was such a poor wealth-building vehicle?**
 
-As Ryan Griggs notes: 
-> *"Before that law, top advisors were telling their wealthy clients to write one big check and drop it into a whole life policy. The tax benefits and control were that good."*
+I always point this out to skeptical clients: 
+> *"Congress literally passed a law to stop rich people from putting too much money into whole life. If it was such a bad deal, why would they need to build a fence around it?"*
 
 ### Secret #6: Banks DO Use Whole Life
 
@@ -256,9 +256,9 @@ If whole life is such a horrible product, why are 3,700 banks holding it as Tier
    - Can weather multiple market cycles
    - Compound growth has maximum time to work
 
-### Ryan Griggs on 401k Use Cases
+### My Take on 401k Use Cases
 
-> *"If you're earning $50,000 and struggling to save $2,000, a 401k with employer match makes sense. But if you're earning $150,000 and only using the 401k, you're missing the bigger opportunity—controlling the banking function in your life."*
+> *"If you're earning $50,000 and barely scraping together savings, grab that employer match—it's free money. But if you're making $150,000 and your entire wealth-building strategy is a 401k, we need to talk. You're leaving control on the table."*
 
 ---
 
@@ -317,15 +317,15 @@ Sequence of returns risk is the danger that poor investment returns early in ret
 
 ### How 401k Plans Expose You
 
-Ryan Griggs explains: 
-> *"The industry has a name for the thing they're hoping you don't think too hard about. They call it Sequence of Returns Risk. I translate: 'I don't know. You don't know. The adviser doesn't know.'"*
+Here's what the industry won't say out loud: 
+> *"They call it 'Sequence of Returns Risk'—fancy words for 'we have no idea if the market will crash right when you retire.' Nobody knows. Not you, not your advisor, not the fund manager. That's not a plan—that's hope."*
 
 **The conventional "solution":**
 - Shift to bonds as you age
 - Use target-date funds
 - Create a bond ladder
 
-**Griggs' response:** "You do not, cannot eliminate the problem of timing the market by selecting multiple reallocation dates instead of one retirement date."
+**The reality:** Rebalancing just creates multiple points of failure instead of one. You haven't solved timing—you've multiplied it.
 
 ### How IBC Eliminates Sequence Risk
 
@@ -371,11 +371,11 @@ Nash, a trained forester, compared wealth building to forest management:
 
 ---
 
-## Ryan Griggs' Analysis
+## The Strategy vs. Plan Distinction
 
-### Strategy vs. Plan Distinction
+### Why Most "Financial Plans" Aren't Strategies
 
-Griggs applies Harvard professor Roger Martin's framework:
+Harvard professor Roger Martin draws a crucial distinction:
 
 **401k is a plan:** A list of activities without internal coherence
 - Open account
@@ -395,12 +395,12 @@ Griggs applies Harvard professor Roger Martin's framework:
 
 **Capitalization thinking:** "How do I build a pool of financial value I control, that grows reliably, that serves as a foundation for everything else?"
 
-**Griggs' insight:** 
-> *"The conventional retirement paradigm conflates savings with investment. Your 401k contribution goes into a mutual fund. That fund holds stocks. Those stocks gyrate with the business cycle. The value you're counting on in 2049 depends on decisions made in Washington and on Wall Street that you cannot influence and cannot predict."*
+**Here's what I see with most clients:** 
+> *"Your 401k contribution goes into a mutual fund. That fund holds stocks. Those stocks move with the business cycle. The retirement you're counting on in 2049 depends on decisions made in Washington and Wall Street—decisions you can't influence and can't predict. That's not a strategy. It's outsourced hope."*
 
 ### The Banking Function Priority
 
-> *"When I first heard about IBC, I thought it was about life insurance. It's not. It's about banking. Your need for financing during your lifetime is enormous. The question is: do you want to profit from that need, or do you want to make banks rich?"*
+> *"Most people think IBC is about life insurance. It's not—it's about banking. You're going to need financing throughout your entire life. Cars, houses, businesses, emergencies. The only question is: do you want to profit from that need, or keep making banks rich?"*
 
 ---
 
@@ -444,8 +444,8 @@ Griggs applies Harvard professor Roger Martin's framework:
 - Tax-free wealth transfer
 - No dependence on future tax law changes
 
-**Ryan Griggs' perspective:** 
-> *"With a 401k, you're making a bet on future tax policy. With IBC, you've opted out of the tax code for your accumulated wealth."*
+**My perspective:** 
+> *"With a 401k, you're betting on what Congress will do with tax rates 20 or 30 years from now. With IBC, your accumulated wealth sits outside that game entirely. I like being outside of games I can't control."*
 
 ---
 
@@ -491,8 +491,8 @@ Griggs applies Harvard professor Roger Martin's framework:
 
 When you take a policy loan, you're borrowing money FROM the insurance company. Your cash value is the collateral. The cash value stays in the policy, keeps earning interest, keeps participating in dividends.
 
-Ryan Griggs explains: 
-> *"A policy loan is the only credit instrument on the planet where the lender is also the guarantor of the value of the collateral. That means the company knows they're going to get repaid."*
+This is what makes policy loans unique: 
+> *"It's the only loan where the lender also guarantees your collateral. The insurance company knows with 100% certainty they'll get repaid—either from you or from the death benefit. That's why there's no application, no credit check, no questions asked."*
 
 ---
 
@@ -610,8 +610,8 @@ Without employer match, IBC becomes much more attractive. You're comparing tax d
 
 ### How do returns compare between the two?
 
-This is the wrong question. Ryan Griggs explains: 
-> *"IBC doesn't promise to beat the market. It promises to grow. Every year. Regardless of who's president. Regardless of Fed policy. That's not a projection. It's guaranteed."*
+This is the wrong question. Here's how I frame it: 
+> *"IBC doesn't promise to beat the market. It promises to grow—every single year, no matter who's president, no matter what the Fed does. That's not a projection or an average. It's in the contract."*
 
 The real comparison is guaranteed growth plus eliminated interest costs (IBC) versus projected returns minus interest costs (401k).
 
@@ -677,9 +677,9 @@ The IBC vs 401k comparison ultimately comes down to choosing your playing field.
 
 > *"The conventional financial plan is just that—a plan. A list of activities without coherent theory, dependent on variables you don't control, designed by people who profit from your participation regardless of your outcome. IBC is a strategy. An integrated set of choices, theoretically grounded, built on guaranteed growth, delivering capital you control and income you can depend on."*
 
-### Ryan Griggs' Summary
+### The Bottom Line
 
-> *"You can choose to become your own banker. You can affect that environment. The strategy to do that happens to be called the Infinite Banking Concept and the theory embedded within that strategy is called capitalization."*
+> *"You have a choice: keep renting the banking function from someone else, or own it yourself. The Infinite Banking Concept is simply the strategy for making that switch. Once you see it, you can't unsee it."*
 
 ### The Decision Framework
 
