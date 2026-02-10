@@ -327,6 +327,25 @@ select:focus-visible {
   color: white !important;
 }
 
+/* Lists need spacing after them before next section */
+.prose ul,
+.prose ol {
+  margin-bottom: 1.5em !important;
+}
+
+/* Bold text acting as sub-headers needs top margin */
+.prose p strong:first-child:last-child,
+.prose p > strong:only-child {
+  display: block;
+  margin-top: 1.5rem;
+}
+
+/* Ensure proper spacing between list and following bold/header */
+.prose ul + p,
+.prose ol + p {
+  margin-top: 1.5rem !important;
+}
+
 /* ═══════════════════════════════════════════════════
    ACCESSIBILITY: REDUCED MOTION SUPPORT
    For users with vestibular disorders or motion sensitivity
