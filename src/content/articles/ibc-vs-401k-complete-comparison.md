@@ -227,41 +227,6 @@ If whole life is such a horrible product, why are 3,700 banks holding it as Tier
 
 ---
 
-## When 401k Makes Sense
-
-### Ideal 401k Scenarios
-
-1. **Maximum Employer Match Available**
-   - Free money shouldn't be ignored
-   - Contribute enough to capture full match
-   - Consider IBC for amounts beyond the match
-
-2. **High Current Tax Bracket**
-   - If you're in the 32% bracket now and expect to be in 22% at retirement
-   - Tax arbitrage can be beneficial
-   - But consider Roth options for tax-free growth
-
-3. **Limited Capital Availability**
-   - 401k requires smaller initial commitments
-   - Good starting point for wealth building
-   - Can transition to IBC as income increases
-
-4. **Simple Implementation Preferred**
-   - Set-and-forget approach
-   - Minimal ongoing management required
-   - Good for passive investors
-
-5. **Young Age with Time Horizon**
-   - 20s and early 30s with 40+ years to retirement
-   - Can weather multiple market cycles
-   - Compound growth has maximum time to work
-
-### My Take on 401k Use Cases
-
-> *"If you're earning $50,000 and barely scraping together savings, grab that employer match—it's free money. But if you're making $150,000 and your entire wealth-building strategy is a 401k, we need to talk. You're leaving control on the table."*
-
----
-
 ## When IBC Makes Sense
 
 ### Ideal IBC Scenarios
