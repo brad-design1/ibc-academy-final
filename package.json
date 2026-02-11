@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/generate-image-sitemap.js && astro build && npx pagefind --site dist",
+    "build": "node scripts/generate-image-sitemap.js && astro build && npx pagefind --site .vercel/output/static",
     "check-links": "node scripts/check-links.js",
     "generate-og": "node scripts/generate-og-images.js",
     "generate-image-sitemap": "node scripts/generate-image-sitemap.js",
