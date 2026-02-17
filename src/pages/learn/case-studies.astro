@@ -38,10 +38,9 @@ const caseStudies = [
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {caseStudies.map((study) => (
-          <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-8">
+          <div class="coming-soon-card bg-navy/30 border border-navy-light/20 rounded-2xl p-8">
             <div class="flex items-center justify-between mb-4">
               <span class="text-xs font-medium text-gold bg-gold/10 px-2.5 py-1 rounded-md">{study.category}</span>
-              <span class="text-xs text-slate-500 font-medium">{study.status}</span>
             </div>
             <h2 class="text-xl font-bold text-white mb-3">{study.title}</h2>
             <p class="text-slate-300 leading-relaxed">{study.description}</p>

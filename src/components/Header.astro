@@ -11,7 +11,7 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="sticky top-0 z-50 bg-navy-900/90 backdrop-blur-xl border-b border-white/[0.06]">
+<header id="main-header" class="sticky top-0 z-50 bg-navy-900/80 backdrop-blur-xl border-b border-white/[0.06] transition-all duration-300">
   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16 lg:h-20">
       <!-- Logo -->
@@ -46,7 +46,7 @@ const currentPath = Astro.url.pathname;
           <a
             href={item.href}
             class:list={[
-              'px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200',
+              'nav-link-underline px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200',
               currentPath.startsWith(item.href)
                 ? 'text-gold bg-gold/[0.08]'
                 : 'text-slate-300 hover:text-white hover:bg-white/[0.04]',
@@ -57,7 +57,7 @@ const currentPath = Astro.url.pathname;
         ))}
         <a
           href="/learn/start-here"
-          class="ml-4 px-5 py-2.5 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-bold text-sm rounded-lg hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30"
+          class="btn-shine ml-4 px-5 py-2.5 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-bold text-sm rounded-lg hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30 hover:-translate-y-0.5"
         >
           Start Free
         </a>
@@ -170,4 +170,37 @@ const currentPath = Astro.url.pathname;
       closeMenu();
     }
   });
+
+  // Navbar scroll effect
+  const mainHeader = document.getElementById('main-header');
+  let lastScrollY = window.scrollY;
+  
+  function updateHeader() {
+    const scrollY = window.scrollY;
+    
+    if (scrollY > 50) {
+      mainHeader?.classList.add('bg-navy-900/95', 'shadow-lg', 'shadow-black/20');
+      mainHeader?.classList.remove('bg-navy-900/80');
+    } else {
+      mainHeader?.classList.add('bg-navy-900/80');
+      mainHeader?.classList.remove('bg-navy-900/95', 'shadow-lg', 'shadow-black/20');
+    }
+    
+    lastScrollY = scrollY;
+  }
+  
+  // Throttled scroll listener
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        updateHeader();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+  
+  // Initial check
+  updateHeader();
 </script>

@@ -1,0 +1,121 @@
+---
+import { Image } from 'astro:assets';
+
+const navItems = [
+  { href: '/learn', label: 'Learn' },
+  { href: '/watch', label: 'Watch' },
+  { href: '/listen', label: 'Listen' },
+  { href: '/book', label: 'Book' },
+  { href: '/about', label: 'About' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header id="main-header" class="sticky top-0 z-50 bg-[#FAF9F6]/95 backdrop-blur-md border-b border-[#E8E6E1] transition-all duration-300">
+  <div class="container mx-auto px-6">
+    <div class="flex items-center justify-between h-16">
+      {/* Logo */}
+      <a href="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-lg bg-[#B8860B] flex items-center justify-center text-white font-serif font-bold text-lg group-hover:scale-105 transition-transform">
+          IBC
+        </div>
+        <span class="font-serif text-lg font-semibold text-[#1A1A1A] hidden sm:block">Academy</span>
+      </a>
+
+      {/* Desktop Navigation */}
+      <nav class="hidden md:flex items-center gap-8">
+        {navItems.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              'nav-link',
+              currentPath.startsWith(item.href) && 'active'
+            ]}
+          >
+            {item.label}
+          </a>
+        ))}
+      </nav>
+
+      {/* CTA Buttons */}
+      <div class="hidden md:flex items-center gap-4">
+        <a 
+          href="https://www.skool.com/ibc-academy" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm font-medium text-[#4A4A4A] hover:text-[#B8860B] transition-colors"
+        >
+          Community
+        </a>
+        <a 
+          href="https://calendly.com/brad-raschke/discovery" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary"
+        >
+          Book a Call
+        </a>
+      </div>
+
+      {/* Mobile Menu Button */}
+      <button 
+        id="mobile-menu-btn" 
+        class="md:hidden p-2 rounded-lg hover:bg-[#F5F4F0] transition-colors"
+        aria-label="Open menu"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  {/* Mobile Menu */}
+  <div id="mobile-menu" class="hidden md:hidden bg-[#FAF9F6] border-t border-[#E8E6E1]">
+    <div class="container mx-auto px-6 py-4 space-y-4">
+      {navItems.map((item) => (
+        <a
+          href={item.href}
+          class="block py-2 text-[#4A4A4A] hover:text-[#B8860B] font-medium transition-colors"
+        >
+          {item.label}
+        </a>
+      ))}
+      <div class="pt-4 border-t border-[#E8E6E1] space-y-3">
+        <a 
+          href="https://www.skool.com/ibc-academy" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block py-2 text-[#4A4A4A] hover:text-[#B8860B] font-medium"
+        >
+          Community
+        </a>
+        <a 
+          href="https://calendly.com/brad-raschke/discovery" 
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary w-full justify-center"
+        >
+          Book a Call
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  menuBtn?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!menuBtn?.contains(e.target as Node) && !mobileMenu?.contains(e.target as Node)) {
+      mobileMenu?.classList.add('hidden');
+    }
+  });
+</script>
