@@ -24,8 +24,9 @@ html {
 }
 
 body {
-  background-color: var(--color-navy-900);
-  color: var(--color-slate-200);
+  /* Light theme - design-system.css handles the actual styling */
+  /* background-color: var(--color-navy-900); */
+  /* color: var(--color-slate-200); */
   font-family: var(--font-sans);
 }
 
@@ -158,24 +159,24 @@ select:focus-visible {
    ═══════════════════════════════════════════════════ */
 
 .glass-card {
-  background: rgba(27, 54, 93, 0.15);
+  background: white;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(36, 70, 111, 0.25);
+  border: 1px solid #E8E6E1;
   transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .glass-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(201, 168, 76, 0.35);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(201, 168, 76, 0.1);
+  border-color: #B8860B;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(184, 134, 11, 0.1);
 }
 
 .glass-surface {
-  background: rgba(27, 54, 93, 0.1);
+  background: #F5F4F0;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(36, 70, 111, 0.2);
+  border: 1px solid #E8E6E1;
 }
 
 /* ═══════════════════════════════════════════════════
@@ -308,7 +309,7 @@ select:focus-visible {
   font-weight: 700 !important;
   margin-top: 2.5rem !important;
   margin-bottom: 1rem !important;
-  color: white !important;
+  color: #1A1A1A !important;
 }
 
 .prose h3 {
@@ -316,7 +317,7 @@ select:focus-visible {
   font-weight: 600 !important;
   margin-top: 2rem !important;
   margin-bottom: 0.75rem !important;
-  color: white !important;
+  color: #1A1A1A !important;
 }
 
 .prose h4 {
@@ -324,7 +325,7 @@ select:focus-visible {
   font-weight: 600 !important;
   margin-top: 1.5rem !important;
   margin-bottom: 0.5rem !important;
-  color: white !important;
+  color: #1A1A1A !important;
 }
 
 /* Lists need spacing after them before next section */
@@ -355,7 +356,7 @@ select:focus-visible {
 }
 
 .prose thead {
-  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
+  background: #F5F4F0;
 }
 
 .prose th {
@@ -377,16 +378,16 @@ select:focus-visible {
 }
 
 .prose tbody tr {
-  background: rgba(27, 54, 93, 0.15);
+  background: white;
   transition: background 0.2s ease;
 }
 
 .prose tbody tr:nth-child(even) {
-  background: rgba(27, 54, 93, 0.25);
+  background: #F5F4F0;
 }
 
 .prose tbody tr:hover {
-  background: rgba(201, 168, 76, 0.1);
+  background: rgba(184, 134, 11, 0.08);
 }
 
 .prose tbody tr:last-child td {
@@ -396,7 +397,7 @@ select:focus-visible {
 /* First column (feature name) styling */
 .prose td:first-child {
   font-weight: 600;
-  color: white;
+  color: #1A1A1A;
   min-width: 140px;
 }
 

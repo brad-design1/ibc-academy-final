@@ -37,10 +37,10 @@ const activeTopics = topicFilters.filter(t => existingCategories.includes(t));
   <section class="py-16 lg:py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mb-12">
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
-          Articles & <span class="text-gold">Blog</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          Articles & <span class="text-[#B8860B]">Blog</span>
         </h1>
-        <p class="mt-4 text-xl text-slate-300">
+        <p class="mt-4 text-xl text-[#4A4A4A]">
           Deep dives into IBC concepts, Austrian economics, and sound money principles.
         </p>
       </div>
@@ -50,12 +50,12 @@ const activeTopics = topicFilters.filter(t => existingCategories.includes(t));
         <!-- Paths -->
         {activePaths.length > 0 && (
           <div>
-            <span class="text-sm font-medium text-slate-400 mr-3">Paths:</span>
+            <span class="text-sm font-medium text-[#6B6B6B] mr-3">Paths:</span>
             <div class="inline-flex flex-wrap gap-2 mt-2">
               {activePaths.map((cat) => (
                 <button
                   data-filter={cat}
-                  class="filter-btn px-3 py-1.5 text-sm font-medium rounded-lg border border-slate-600/50 text-slate-300 hover:border-gold/50 hover:text-gold transition-all duration-200"
+                  class="filter-btn px-3 py-1.5 text-sm font-medium rounded-lg border border-slate-600/50 text-[#4A4A4A] hover:border-[#B8860B]/50 hover:text-[#B8860B] transition-all duration-200"
                 >
                   {categoryLabels[cat] || cat}
                 </button>
@@ -67,12 +67,12 @@ const activeTopics = topicFilters.filter(t => existingCategories.includes(t));
         <!-- Topics -->
         {activeTopics.length > 0 && (
           <div>
-            <span class="text-sm font-medium text-slate-400 mr-3">Topics:</span>
+            <span class="text-sm font-medium text-[#6B6B6B] mr-3">Topics:</span>
             <div class="inline-flex flex-wrap gap-2 mt-2">
               {activeTopics.map((cat) => (
                 <button
                   data-filter={cat}
-                  class="filter-btn px-3 py-1.5 text-sm font-medium rounded-lg border border-slate-600/50 text-slate-300 hover:border-gold/50 hover:text-gold transition-all duration-200"
+                  class="filter-btn px-3 py-1.5 text-sm font-medium rounded-lg border border-slate-600/50 text-[#4A4A4A] hover:border-[#B8860B]/50 hover:text-[#B8860B] transition-all duration-200"
                 >
                   {categoryLabels[cat] || cat}
                 </button>
@@ -85,7 +85,7 @@ const activeTopics = topicFilters.filter(t => existingCategories.includes(t));
         <div>
           <button
             id="clear-filters"
-            class="text-sm text-slate-500 hover:text-gold transition-colors hidden"
+            class="text-sm text-[#6B6B6B] hover:text-[#B8860B] transition-colors hidden"
           >
             ✕ Clear filters
           </button>
@@ -98,22 +98,22 @@ const activeTopics = topicFilters.filter(t => existingCategories.includes(t));
           <a
             href={`/learn/articles/${article.id}`}
             data-category={article.data.category}
-            class="article-card group block bg-navy/30 border border-navy-light/20 rounded-2xl p-6 hover:border-gold/30 transition-all duration-300"
+            class="article-card group block bg-white border border-[#E8E6E1] rounded-2xl p-6 hover:border-[#B8860B]/30 transition-all duration-300"
           >
-            <span class="inline-block text-xs font-medium text-gold bg-gold/10 px-2.5 py-1 rounded-md mb-4">
+            <span class="inline-block text-xs font-medium text-[#B8860B] bg-[#B8860B]/10 px-2.5 py-1 rounded-md mb-4">
               {categoryLabels[article.data.category] || article.data.category}
             </span>
-            <h2 class="text-lg font-bold text-white group-hover:text-gold transition-colors mb-2">
+            <h2 class="text-lg font-bold text-[#1A1A1A] group-hover:text-[#B8860B] transition-colors mb-2">
               {article.data.title}
             </h2>
-            <p class="text-slate-300 text-sm leading-relaxed line-clamp-3">
+            <p class="text-[#4A4A4A] text-sm leading-relaxed line-clamp-3">
               {article.data.description}
             </p>
             <div class="mt-4 flex items-center justify-between">
-              <time class="text-xs text-slate-500" datetime={article.data.pubDate.toISOString()}>
+              <time class="text-xs text-[#6B6B6B]" datetime={article.data.pubDate.toISOString()}>
                 {article.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
               </time>
-              <svg class="w-4 h-4 text-slate-600 group-hover:text-gold transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-4 h-4 text-slate-600 group-hover:text-[#B8860B] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
               </svg>
             </div>
@@ -123,12 +123,12 @@ const activeTopics = topicFilters.filter(t => existingCategories.includes(t));
 
       <!-- No results message -->
       <div id="no-results" class="text-center py-12 hidden">
-        <p class="text-slate-300 text-lg">No articles match the selected filter.</p>
+        <p class="text-[#4A4A4A] text-lg">No articles match the selected filter.</p>
       </div>
 
       {articles.length === 0 && (
         <div class="text-center py-12">
-          <p class="text-slate-300 text-lg">No articles published yet. Check back soon!</p>
+          <p class="text-[#4A4A4A] text-lg">No articles published yet. Check back soon!</p>
         </div>
       )}
     </div>

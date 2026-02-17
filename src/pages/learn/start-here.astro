@@ -67,13 +67,13 @@ const steps = [
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Header -->
       <div class="text-center mb-16">
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/10 border border-gold/20 mb-6">
-          <span class="text-gold text-sm font-medium">Your Learning Path</span>
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#B8860B]/10 border border-[#B8860B]/20 mb-6">
+          <span class="text-[#B8860B] text-sm font-medium">Your Learning Path</span>
         </div>
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
-          Start <span class="text-gold">Here</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          Start <span class="text-[#B8860B]">Here</span>
         </h1>
-        <p class="mt-4 text-xl text-slate-300 max-w-2xl mx-auto">
+        <p class="mt-4 text-xl text-[#4A4A4A] max-w-2xl mx-auto">
           New to the Infinite Banking Concept? Follow this guided path. Each step builds on the last. Take your time — understanding matters more than speed.
         </p>
       </div>
@@ -87,20 +87,20 @@ const steps = [
           {steps.map((step) => (
             <div class="relative flex gap-6 group">
               <!-- Step number -->
-              <div class="shrink-0 w-12 h-12 rounded-full bg-navy border-2 border-gold/40 flex items-center justify-center z-10 group-hover:border-gold transition-colors">
-                <span class="text-gold font-bold text-lg">{step.number}</span>
+              <div class="shrink-0 w-12 h-12 rounded-full bg-navy border-2 border-[#B8860B]/40 flex items-center justify-center z-10 group-hover:border-[#B8860B] transition-colors">
+                <span class="text-[#B8860B] font-bold text-lg">{step.number}</span>
               </div>
 
               <!-- Content -->
-              <div class="flex-1 bg-navy/30 border border-navy-light/20 rounded-2xl p-6 lg:p-8 group-hover:border-gold/30 transition-all duration-300">
+              <div class="flex-1 bg-white border border-[#E8E6E1] rounded-2xl p-6 lg:p-8 group-hover:border-[#B8860B]/30 transition-all duration-300">
                 <div class="flex items-center justify-between mb-2">
-                  <h2 class="text-xl font-bold text-white">{step.title}</h2>
-                  <span class="text-xs text-slate-500 font-medium">{step.duration}</span>
+                  <h2 class="text-xl font-bold text-[#1A1A1A]">{step.title}</h2>
+                  <span class="text-xs text-[#6B6B6B] font-medium">{step.duration}</span>
                 </div>
-                <p class="text-slate-300 leading-relaxed mb-4">{step.description}</p>
+                <p class="text-[#4A4A4A] leading-relaxed mb-4">{step.description}</p>
                 <a
                   href={step.actionHref}
-                  class="inline-flex items-center text-gold text-sm font-semibold hover:text-gold-light transition-colors"
+                  class="inline-flex items-center text-[#B8860B] text-sm font-semibold hover:text-gold-light transition-colors"
                 >
                   {step.action}
                   <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -120,14 +120,14 @@ const steps = [
 
       <!-- Additional Resources -->
       <div class="mt-12 text-center">
-        <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-8">
-          <h3 class="text-2xl font-bold text-white mb-3">Ready to dive deeper?</h3>
-          <p class="text-slate-300 mb-6">Once you've completed the path above, explore our full library of articles, videos, and case studies.</p>
+        <div class="bg-white border border-[#E8E6E1] rounded-2xl p-8">
+          <h3 class="text-2xl font-bold text-[#1A1A1A] mb-3">Ready to dive deeper?</h3>
+          <p class="text-[#4A4A4A] mb-6">Once you've completed the path above, explore our full library of articles, videos, and case studies.</p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/learn/articles" class="px-6 py-3 bg-gold text-navy-900 font-bold rounded-xl hover:bg-gold-light transition-colors">
               Browse All Articles
             </a>
-            <a href="/watch" class="px-6 py-3 border-2 border-slate-600 text-white font-semibold rounded-xl hover:border-gold/50 hover:text-gold transition-colors">
+            <a href="/watch" class="px-6 py-3 border-2 border-slate-600 text-[#1A1A1A] font-semibold rounded-xl hover:border-[#B8860B]/50 hover:text-[#B8860B] transition-colors">
               Watch Videos
             </a>
           </div>

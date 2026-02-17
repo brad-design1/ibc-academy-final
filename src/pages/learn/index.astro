@@ -52,10 +52,10 @@ const sections = [
   <section class="py-16 lg:py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mb-16">
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
-          Learn <span class="text-gold">IBC</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          Learn <span class="text-[#B8860B]">IBC</span>
         </h1>
-        <p class="mt-4 text-xl text-slate-300">
+        <p class="mt-4 text-xl text-[#4A4A4A]">
           Everything you need to understand the Infinite Banking Concept — at your own pace, completely free.
         </p>
       </div>
@@ -67,17 +67,17 @@ const sections = [
             class:list={[
               'group block rounded-2xl p-8 transition-all duration-300',
               section.featured
-                ? 'bg-gradient-to-br from-gold/10 to-gold/5 border-2 border-gold/30 hover:border-gold/50 md:col-span-2 lg:col-span-1'
-                : 'bg-navy/30 border border-navy-light/20 hover:border-gold/30',
+                ? 'bg-gradient-to-br from-gold/10 to-gold/5 border-2 border-[#B8860B]/30 hover:border-[#B8860B]/50 md:col-span-2 lg:col-span-1'
+                : 'bg-white border border-[#E8E6E1] hover:border-[#B8860B]/30',
             ]}
           >
             <span class="text-3xl mb-4 block">{section.icon}</span>
-            <h2 class="text-xl font-bold text-white group-hover:text-gold transition-colors">
+            <h2 class="text-xl font-bold text-[#1A1A1A] group-hover:text-[#B8860B] transition-colors">
               {section.title}
             </h2>
-            <p class="mt-2 text-slate-300 leading-relaxed">{section.description}</p>
+            <p class="mt-2 text-[#4A4A4A] leading-relaxed">{section.description}</p>
             {section.featured && (
-              <span class="inline-block mt-4 text-gold text-sm font-semibold">
+              <span class="inline-block mt-4 text-[#B8860B] text-sm font-semibold">
                 Recommended starting point →
               </span>
             )}

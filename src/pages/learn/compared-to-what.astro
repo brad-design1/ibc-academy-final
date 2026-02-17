@@ -42,15 +42,15 @@ const comparisons = [
   <section class="py-16 lg:py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mb-16">
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
-          Compared to <span class="text-gold">What?</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          Compared to <span class="text-[#B8860B]">What?</span>
         </h1>
-        <p class="mt-4 text-xl text-slate-300">
+        <p class="mt-4 text-xl text-[#4A4A4A]">
           "Compared to what?" is the most important question in economics. You can't evaluate IBC in a vacuum — you have to compare it to the alternative.
         </p>
-        <blockquote class="mt-6 pl-4 border-l-2 border-gold/40 text-slate-300 italic">
+        <blockquote class="mt-6 pl-4 border-l-2 border-[#B8860B]/40 text-[#4A4A4A] italic">
           "Everything in life is a comparison. The question is never 'Is this good?' — it's 'Compared to what?'"
-          <span class="block mt-1 text-gold text-sm not-italic">— Nelson Nash</span>
+          <span class="block mt-1 text-[#B8860B] text-sm not-italic">— Nelson Nash</span>
         </blockquote>
       </div>
 
@@ -60,22 +60,22 @@ const comparisons = [
             <a href={comp.href} class:list={[
               "group block rounded-2xl p-8 transition-all duration-300",
               comp.featured 
-                ? "bg-gradient-to-br from-gold/10 to-gold/5 border-2 border-gold/30 hover:border-gold/50"
-                : "bg-navy/30 border border-navy-light/20 hover:border-gold/30"
+                ? "bg-gradient-to-br from-gold/10 to-gold/5 border-2 border-[#B8860B]/30 hover:border-[#B8860B]/50"
+                : "bg-white border border-[#E8E6E1] hover:border-[#B8860B]/30"
             ]}>
               <div class="flex items-center justify-between mb-3">
-                <h2 class="text-xl font-bold text-white group-hover:text-gold transition-colors">{comp.title}</h2>
-                <span class="text-xs text-gold font-semibold shrink-0 ml-4">{comp.status} →</span>
+                <h2 class="text-xl font-bold text-[#1A1A1A] group-hover:text-[#B8860B] transition-colors">{comp.title}</h2>
+                <span class="text-xs text-[#B8860B] font-semibold shrink-0 ml-4">{comp.status} →</span>
               </div>
-              <p class="text-slate-300 leading-relaxed">{comp.description}</p>
+              <p class="text-[#4A4A4A] leading-relaxed">{comp.description}</p>
             </a>
           ) : (
-            <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-8 opacity-75">
+            <div class="bg-white border border-[#E8E6E1] rounded-2xl p-8 opacity-75">
               <div class="flex items-center justify-between mb-3">
-                <h2 class="text-xl font-bold text-white">{comp.title}</h2>
-                <span class="text-xs text-slate-500 font-medium shrink-0 ml-4">{comp.status}</span>
+                <h2 class="text-xl font-bold text-[#1A1A1A]">{comp.title}</h2>
+                <span class="text-xs text-[#6B6B6B] font-medium shrink-0 ml-4">{comp.status}</span>
               </div>
-              <p class="text-slate-300 leading-relaxed">{comp.description}</p>
+              <p class="text-[#4A4A4A] leading-relaxed">{comp.description}</p>
             </div>
           )
         ))}

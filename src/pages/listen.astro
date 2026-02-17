@@ -27,23 +27,23 @@ const episodes = [
   <section class="py-16 lg:py-24">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mb-16">
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
-          <span class="text-gold">Listen</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          <span class="text-[#B8860B]">Listen</span>
         </h1>
-        <p class="mt-4 text-xl text-slate-300">
+        <p class="mt-4 text-xl text-[#4A4A4A]">
           The IBC Academy Podcast — in-depth conversations about the Infinite Banking Concept, Austrian economics, and building your personal banking system.
         </p>
       </div>
 
       <!-- Podcast platforms -->
       <div class="flex flex-wrap gap-4 mb-12">
-        <a href="https://podcasts.apple.com/us/podcast/ibc-academy/id1234567890" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-slate-300 hover:border-gold/30 hover:text-white transition-all">
+        <a href="https://podcasts.apple.com/us/podcast/ibc-academy/id1234567890" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-[#4A4A4A] hover:border-[#B8860B]/30 hover:text-[#1A1A1A] transition-all">
           🎧 Apple Podcasts
         </a>
-        <a href="https://open.spotify.com/show/1234567890abcdef" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-slate-300 hover:border-gold/30 hover:text-white transition-all">
+        <a href="https://open.spotify.com/show/1234567890abcdef" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-[#4A4A4A] hover:border-[#B8860B]/30 hover:text-[#1A1A1A] transition-all">
           🟢 Spotify
         </a>
-        <a href="https://ibcacademy.org/podcast/rss" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-slate-300 hover:border-gold/30 hover:text-white transition-all">
+        <a href="https://ibcacademy.org/podcast/rss" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-5 py-2.5 bg-navy/50 border border-navy-light/20 rounded-xl text-[#4A4A4A] hover:border-[#B8860B]/30 hover:text-[#1A1A1A] transition-all">
           📡 RSS Feed
         </a>
       </div>
@@ -51,10 +51,10 @@ const episodes = [
       <!-- Episodes -->
       <div class="space-y-6">
         {episodes.map((ep, i) => (
-          <div class="bg-navy/30 border border-navy-light/20 rounded-2xl p-6 lg:p-8 hover:border-gold/30 transition-all duration-200">
+          <div class="bg-white border border-[#E8E6E1] rounded-2xl p-6 lg:p-8 hover:border-[#B8860B]/30 transition-all duration-200">
             <div class="flex items-start gap-6">
-              <div class="shrink-0 w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center">
-                <svg class="w-6 h-6 text-gold" fill="currentColor" viewBox="0 0 24 24">
+              <div class="shrink-0 w-14 h-14 rounded-xl bg-[#B8860B]/10 flex items-center justify-center">
+                <svg class="w-6 h-6 text-[#B8860B]" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
                   <path d="M19 10v2a7 7 0 0 1-14 0v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                   <line x1="12" y1="19" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
@@ -63,12 +63,12 @@ const episodes = [
               </div>
               <div class="flex-1">
                 <div class="flex items-center gap-3 mb-2">
-                  <span class="text-xs text-slate-500">{ep.date}</span>
+                  <span class="text-xs text-[#6B6B6B]">{ep.date}</span>
                   <span class="text-xs text-slate-600">•</span>
-                  <span class="text-xs text-slate-500">{ep.duration}</span>
+                  <span class="text-xs text-[#6B6B6B]">{ep.duration}</span>
                 </div>
-                <h2 class="text-lg font-bold text-white mb-2">{ep.title}</h2>
-                <p class="text-slate-300 leading-relaxed">{ep.description}</p>
+                <h2 class="text-lg font-bold text-[#1A1A1A] mb-2">{ep.title}</h2>
+                <p class="text-[#4A4A4A] leading-relaxed">{ep.description}</p>
               </div>
             </div>
           </div>

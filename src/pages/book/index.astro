@@ -35,12 +35,12 @@ const sections = [
       <!-- Hero -->
       <div class="grid lg:grid-cols-2 gap-12 items-center mb-20">
         <div>
-          <span class="inline-block text-xs font-medium text-gold bg-gold/10 px-2.5 py-1 rounded-md mb-4">Essential Reading</span>
-          <h1 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight">
-            Becoming Your Own <span class="text-gold">Banker</span>
+          <span class="inline-block text-xs font-medium text-[#B8860B] bg-[#B8860B]/10 px-2.5 py-1 rounded-md mb-4">Essential Reading</span>
+          <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A] leading-tight">
+            Becoming Your Own <span class="text-[#B8860B]">Banker</span>
           </h1>
-          <p class="mt-4 text-xl text-slate-300">by R. Nelson Nash</p>
-          <p class="mt-6 text-slate-300 text-lg leading-relaxed">
+          <p class="mt-4 text-xl text-[#4A4A4A]">by R. Nelson Nash</p>
+          <p class="mt-6 text-[#4A4A4A] text-lg leading-relaxed">
             The foundational text for understanding the Infinite Banking Concept. Short, dense, and paradigm-shifting. Read it at least twice — you'll discover something new each time.
           </p>
           <div class="mt-8">
@@ -65,10 +65,10 @@ const sections = [
       <!-- Sections -->
       <div class="grid md:grid-cols-3 gap-6">
         {sections.map((section) => (
-          <a href={section.href} class="group block bg-navy/30 border border-navy-light/20 rounded-2xl p-6 hover:border-gold/30 transition-all duration-300">
+          <a href={section.href} class="group block bg-white border border-[#E8E6E1] rounded-2xl p-6 hover:border-[#B8860B]/30 transition-all duration-300">
             <span class="text-3xl block mb-4">{section.icon}</span>
-            <h2 class="text-lg font-bold text-white group-hover:text-gold transition-colors mb-2">{section.title}</h2>
-            <p class="text-slate-300 text-sm leading-relaxed">{section.description}</p>
+            <h2 class="text-lg font-bold text-[#1A1A1A] group-hover:text-[#B8860B] transition-colors mb-2">{section.title}</h2>
+            <p class="text-[#4A4A4A] text-sm leading-relaxed">{section.description}</p>
           </a>
         ))}
       </div>

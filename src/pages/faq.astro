@@ -227,10 +227,10 @@ const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
 
       <!-- Page Header -->
       <div class="mb-16">
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
-          Frequently Asked <span class="text-gold">Questions</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          Frequently Asked <span class="text-[#B8860B]">Questions</span>
         </h1>
-        <p class="mt-4 text-xl text-slate-300 max-w-2xl">
+        <p class="mt-4 text-xl text-[#4A4A4A] max-w-2xl">
           Honest, Nash-aligned answers to the most common questions about the Infinite Banking Concept. No sales pitch. Just principles.
         </p>
       </div>
@@ -240,7 +240,7 @@ const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
         {categories.map((cat) => (
           <a
             href={`#${cat.id}`}
-            class="px-4 py-2 rounded-lg text-sm font-medium bg-navy/30 border border-navy-light/20 text-slate-300 hover:border-gold/40 hover:text-gold transition-all duration-200"
+            class="px-4 py-2 rounded-lg text-sm font-medium bg-white border border-[#E8E6E1] text-[#4A4A4A] hover:border-[#B8860B]/40 hover:text-[#B8860B] transition-all duration-200"
           >
             {cat.name}
           </a>
@@ -251,7 +251,7 @@ const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
       <div class="space-y-16">
         {categories.map((cat) => (
           <div id={cat.id}>
-            <h2 class="text-2xl font-bold text-gold mb-6 flex items-center gap-3">
+            <h2 class="text-2xl font-bold text-[#B8860B] mb-6 flex items-center gap-3">
               <span class="w-8 h-0.5 bg-gold/50 hidden sm:block"></span>
               {cat.name}
             </h2>
@@ -259,22 +259,22 @@ const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
             <div class="space-y-3">
               {cat.faqs.map((faq, index) => (
                 <div
-                  class="faq-item bg-navy/30 border border-navy-light/20 rounded-xl overflow-hidden hover:border-gold/20 transition-all duration-200"
+                  class="faq-item bg-white border border-[#E8E6E1] rounded-xl overflow-hidden hover:border-[#B8860B]/20 transition-all duration-200"
                   data-faq
                 >
                   <button
                     class="faq-toggle w-full text-left px-6 py-5 flex items-start justify-between gap-4 cursor-pointer group"
                     aria-expanded="false"
                   >
-                    <span class="text-lg font-semibold text-white group-hover:text-gold transition-colors duration-200 pr-2">
+                    <span class="text-lg font-semibold text-[#1A1A1A] group-hover:text-[#B8860B] transition-colors duration-200 pr-2">
                       {faq.question}
                     </span>
-                    <span class="faq-icon flex-shrink-0 mt-1 w-6 h-6 flex items-center justify-center rounded-full border border-gold/40 text-gold text-sm font-bold transition-transform duration-300">
+                    <span class="faq-icon flex-shrink-0 mt-1 w-6 h-6 flex items-center justify-center rounded-full border border-[#B8860B]/40 text-[#B8860B] text-sm font-bold transition-transform duration-300">
                       +
                     </span>
                   </button>
                   <div class="faq-content hidden px-6 pb-6">
-                    <div class="text-slate-300 leading-relaxed prose-sm prose-p:mb-3 prose-strong:text-white prose-em:text-gold/80 prose-ul:mt-2 prose-li:text-slate-300" set:html={faq.answer} />
+                    <div class="text-[#4A4A4A] leading-relaxed prose-sm prose-p:mb-3 prose-strong:text-[#1A1A1A] prose-em:text-[#B8860B]/80 prose-ul:mt-2 prose-li:text-[#4A4A4A]" set:html={faq.answer} />
                   </div>
                 </div>
               ))}
@@ -285,8 +285,8 @@ const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
 
       <!-- Bottom CTA -->
       <div class="mt-20 bg-navy/40 border border-navy-light/20 rounded-2xl p-8 sm:p-10 text-center">
-        <h3 class="text-2xl font-bold text-white mb-3">Still have questions?</h3>
-        <p class="text-slate-300 mb-6 max-w-lg mx-auto">
+        <h3 class="text-2xl font-bold text-[#1A1A1A] mb-3">Still have questions?</h3>
+        <p class="text-[#4A4A4A] mb-6 max-w-lg mx-auto">
           Start with Nelson Nash's book, explore our free lessons, or find an Authorized IBC Practitioner when you're ready.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -300,7 +300,7 @@ const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
             href="https://infinitebanking.org"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-gold/40 text-gold font-bold hover:bg-gold/10 transition-colors duration-200"
+            class="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-[#B8860B]/40 text-[#B8860B] font-bold hover:bg-[#B8860B]/10 transition-colors duration-200"
           >
             Find a Practitioner ↗
           </a>
@@ -336,7 +336,7 @@ const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
               otherContent.classList.add('hidden');
               otherIcon.textContent = '+';
               otherIcon.classList.remove('rotate-45');
-              otherItem.classList.remove('border-gold/30');
+              otherItem.classList.remove('border-[#B8860B]/30');
             }
           });
 
@@ -346,13 +346,13 @@ const faqQuestions = categories.flatMap(cat => cat.faqs).map(faq => ({
             content.classList.add('hidden');
             icon.textContent = '+';
             icon.classList.remove('rotate-45');
-            item.classList.remove('border-gold/30');
+            item.classList.remove('border-[#B8860B]/30');
           } else {
             toggle.setAttribute('aria-expanded', 'true');
             content.classList.remove('hidden');
             icon.textContent = '−';
             icon.classList.add('rotate-45');
-            item.classList.add('border-gold/30');
+            item.classList.add('border-[#B8860B]/30');
           }
         });
       });

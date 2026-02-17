@@ -24,19 +24,19 @@ const terms = [
   <section class="py-16 lg:py-24">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="mb-16">
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
-          <span class="text-gold">Glossary</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          <span class="text-[#B8860B]">Glossary</span>
         </h1>
-        <p class="mt-4 text-xl text-slate-300">
+        <p class="mt-4 text-xl text-[#4A4A4A]">
           Key terms and definitions for understanding IBC and whole life insurance.
         </p>
       </div>
 
       <div class="space-y-6">
         {terms.map((item) => (
-          <div class="bg-navy/30 border border-navy-light/20 rounded-xl p-6 hover:border-gold/30 transition-all duration-200">
-            <h3 class="text-lg font-bold text-gold mb-2">{item.term}</h3>
-            <p class="text-slate-300 leading-relaxed">{item.definition}</p>
+          <div class="bg-white border border-[#E8E6E1] rounded-xl p-6 hover:border-[#B8860B]/30 transition-all duration-200">
+            <h3 class="text-lg font-bold text-[#B8860B] mb-2">{item.term}</h3>
+            <p class="text-[#4A4A4A] leading-relaxed">{item.definition}</p>
           </div>
         ))}
       </div>
