@@ -94,10 +94,10 @@ const ownerPoints = [
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
         <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">The Problem</span>
-        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-[#1A1A1A] tracking-tight">
           Your Lender Makes More Than <span style={`color: ${accent};`}>You Do</span>
         </h2>
-        <p class="mt-4 text-lg text-slate-300">
+        <p class="mt-4 text-lg text-[#4A4A4A]">
           You run the business. You take the risk. You do the work. But the financing company collects a guaranteed return on every piece of equipment you operate. Who's really winning?
         </p>
       </div>
@@ -110,11 +110,11 @@ const ownerPoints = [
             The Conventional Way
           </h3>
           <ul class="space-y-3">
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Finance equipment through a third-party lender at 8-15% interest</li>
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Every payment sends profit to the lender's shareholders - not yours</li>
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Need capital fast? Fill out applications, provide financials, wait weeks</li>
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Miss a payment and the bank controls the conversation - and possibly your assets</li>
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="text-rose-400 mt-0.5">✗</span> Every financing cycle restarts from zero - you never build banking equity</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="text-rose-400 mt-0.5">✗</span> Finance equipment through a third-party lender at 8-15% interest</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="text-rose-400 mt-0.5">✗</span> Every payment sends profit to the lender's shareholders - not yours</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="text-rose-400 mt-0.5">✗</span> Need capital fast? Fill out applications, provide financials, wait weeks</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="text-rose-400 mt-0.5">✗</span> Miss a payment and the bank controls the conversation - and possibly your assets</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="text-rose-400 mt-0.5">✗</span> Every financing cycle restarts from zero - you never build banking equity</li>
           </ul>
         </div>
         <div class="glass-card rounded-2xl p-6 lg:p-8 fade-in-right" style={`border-color: rgba(${rgb}, 0.2);`}>
@@ -123,11 +123,11 @@ const ownerPoints = [
             The IBC Way
           </h3>
           <ul class="space-y-3">
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Finance equipment through your own policy - interest goes back to your system</li>
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Every repayment cycle builds your capital base higher than before</li>
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Access capital in days - no applications, no credit checks, no committees</li>
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> You set the repayment schedule - your cash flow, your rules</li>
-            <li class="flex items-start gap-3 text-slate-300 text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Each financing cycle makes the next one more powerful - compounding control</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Finance equipment through your own policy - interest goes back to your system</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Every repayment cycle builds your capital base higher than before</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Access capital in days - no applications, no credit checks, no committees</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> You set the repayment schedule - your cash flow, your rules</li>
+            <li class="flex items-start gap-3 text-[#4A4A4A] text-sm"><span class="mt-0.5" style={`color: ${accent};`}>✓</span> Each financing cycle makes the next one more powerful - compounding control</li>
           </ul>
         </div>
       </div>
@@ -137,8 +137,8 @@ const ownerPoints = [
         {ownerPoints.map((item) => (
           <div class="glass-card rounded-2xl p-6 lg:p-8">
             <span class="text-3xl mb-4 block">{item.icon}</span>
-            <h3 class="text-xl font-bold text-white mb-2">{item.title}</h3>
-            <p class="text-slate-300 leading-relaxed">{item.description}</p>
+            <h3 class="text-xl font-bold text-[#1A1A1A] mb-2">{item.title}</h3>
+            <p class="text-[#4A4A4A] leading-relaxed">{item.description}</p>
           </div>
         ))}
       </div>
@@ -153,7 +153,7 @@ const ownerPoints = [
         <svg class="w-10 h-10 mx-auto mb-6" style={`color: rgba(${rgb}, 0.4);`} fill="currentColor" viewBox="0 0 24 24">
           <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
         </svg>
-        <blockquote class="text-xl lg:text-2xl text-white font-medium leading-relaxed italic">
+        <blockquote class="text-xl lg:text-2xl text-[#1A1A1A] font-medium leading-relaxed italic">
           "The need for finance is so great in a business that you should be financing it yourself."
         </blockquote>
         <cite class="block mt-4 font-semibold not-italic" style={`color: ${accent};`}>- Nelson Nash</cite>
@@ -168,10 +168,10 @@ const ownerPoints = [
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
         <span style={`color: ${accent};`} class="text-sm font-semibold tracking-[0.2em] uppercase">Your Curriculum</span>
-        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+        <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-[#1A1A1A] tracking-tight">
           The Business Banking <span style={`color: ${accent};`}>Track</span>
         </h2>
-        <p class="mt-4 text-lg text-slate-300">
+        <p class="mt-4 text-lg text-[#4A4A4A]">
           From concept to implementation. Learn how to move the banking function inside your business - where the profit belongs.
         </p>
       </div>
@@ -183,10 +183,10 @@ const ownerPoints = [
               <span class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style={`background: rgba(${rgb}, 0.2); color: ${accent};`}>{index + 1}</span>
               <span class="text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider" style={`color: ${accent}; background: rgba(${rgb}, 0.1);`}>{item.badge}</span>
             </div>
-            <h3 class="text-lg font-bold text-white transition-colors duration-300 mb-2 leading-snug">
+            <h3 class="text-lg font-bold text-[#1A1A1A] transition-colors duration-300 mb-2 leading-snug">
               {item.title}
             </h3>
-            <p class="text-slate-300 text-sm leading-relaxed mb-4">{item.description}</p>
+            <p class="text-[#4A4A4A] text-sm leading-relaxed mb-4">{item.description}</p>
             <div class="flex items-center justify-between pt-4 border-t border-white/[0.06]">
               <span class="text-slate-500 text-xs font-medium">{item.readTime}</span>
               <svg class="w-5 h-5 text-slate-600 group-hover:translate-x-1 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -203,10 +203,10 @@ const ownerPoints = [
   <section class="py-16 lg:py-20 relative">
     <div class="absolute inset-0" style={`background: linear-gradient(to bottom right, rgba(${rgb}, 0.1), rgb(10, 22, 40));`}></div>
     <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
-      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-[#1A1A1A] tracking-tight">
         Ready to Become Your Own <span style={`color: ${accent};`}>Bank</span>?
       </h2>
-      <p class="mt-4 text-lg text-slate-300">
+      <p class="mt-4 text-lg text-[#4A4A4A]">
         Start with the free course. See the numbers. Then decide if financing your business through your own system is the move.
       </p>
       <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
@@ -222,7 +222,7 @@ const ownerPoints = [
         </a>
         <a
           href="/"
-          class="path-secondary-cta inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-white font-semibold text-base rounded-xl transition-all duration-300 min-h-[48px]"
+          class="path-secondary-cta inline-flex items-center justify-center px-8 py-4 border border-slate-600/50 text-[#1A1A1A] font-semibold text-base rounded-xl transition-all duration-300 min-h-[48px]"
           style={`--hover-color: ${accent}; --hover-border: rgba(${rgb}, 0.4);`}
         >
           Explore Other Paths

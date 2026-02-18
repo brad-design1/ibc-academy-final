@@ -72,11 +72,11 @@ const masters = [
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <!-- Section header -->
     <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
-      <span class="text-gold text-sm font-semibold tracking-[0.2em] uppercase">Standing on the Shoulders of Giants</span>
-      <h2 class="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-        Learn From the <span class="text-gold">Masters</span>
+      <span class="text-[#B8860B] text-sm font-semibold tracking-[0.2em] uppercase">Standing on the Shoulders of Giants</span>
+      <h2 class="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1A1A1A] tracking-tight">
+        Learn From the <span class="text-[#B8860B]">Masters</span>
       </h2>
-      <p class="mt-4 text-lg text-slate-300">
+      <p class="mt-4 text-lg text-[#4A4A4A]">
         The ideas behind IBC span centuries of economic thought. These are the voices that shaped it.
       </p>
     </div>
@@ -103,14 +103,14 @@ const masters = [
             {/* Info overlay */}
             <div class="absolute bottom-0 left-0 right-0 p-6">
               <h3 class:list={[
-                'font-bold text-gold',
+                'font-bold text-[#B8860B]',
                 master.featured ? 'text-2xl' : 'text-xl',
               ]}>
                 {master.name}
               </h3>
-              <p class="text-white/80 text-sm mt-1">{master.title}</p>
+              <p class="text-[#1A1A1A]/80 text-sm mt-1">{master.title}</p>
               {master.years && (
-                <p class="text-slate-300 text-xs mt-1">{master.years}</p>
+                <p class="text-[#4A4A4A] text-xs mt-1">{master.years}</p>
               )}
             </div>
           </div>
@@ -133,10 +133,10 @@ const masters = [
                 />
                 <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/40 to-transparent opacity-70"></div>
                 <div class="absolute bottom-0 left-0 right-0 p-5">
-                  <h3 class="text-lg font-bold text-gold">{master.name}</h3>
-                  <p class="text-white/80 text-xs mt-1">{master.title}</p>
+                  <h3 class="text-lg font-bold text-[#B8860B]">{master.name}</h3>
+                  <p class="text-[#1A1A1A]/80 text-xs mt-1">{master.title}</p>
                   {master.years && (
-                    <p class="text-slate-300 text-xs mt-0.5">{master.years}</p>
+                    <p class="text-[#4A4A4A] text-xs mt-0.5">{master.years}</p>
                   )}
                 </div>
               </div>

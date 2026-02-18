@@ -41,17 +41,17 @@ const footerLinks = {
             <span class="text-navy-900 font-extrabold text-sm tracking-tight">IBC</span>
           </div>
           <div>
-            <span class="text-white font-bold text-lg tracking-tight">IBC Academy</span>
-            <span class="block text-gold/80 text-[10px] tracking-[0.2em] uppercase font-semibold">Education First</span>
+            <span class="text-[#1A1A1A] font-bold text-lg tracking-tight">IBC Academy</span>
+            <span class="block text-[#B8860B]/80 text-[10px] tracking-[0.2em] uppercase font-semibold">Education First</span>
           </div>
         </a>
-        <p class="text-slate-300 text-sm leading-relaxed max-w-xs mb-4">
+        <p class="text-[#4A4A4A] text-sm leading-relaxed max-w-xs mb-4">
           Founded by Brad Raschke, an Authorized IBC Practitioner with the Nelson Nash Institute. Free education on Nelson Nash's Infinite Banking Concept. No products sold. Just principles that work.
         </p>
         <!-- Talk to Brad CTA -->
         <a
           href="/contact"
-          class="inline-flex items-center gap-2 px-4 py-2 bg-gold/10 border border-gold/20 text-gold text-sm font-medium rounded-lg hover:bg-gold/20 transition-colors"
+          class="inline-flex items-center gap-2 px-4 py-2 bg-gold/10 border border-gold/20 text-[#B8860B] text-sm font-medium rounded-lg hover:bg-gold/20 transition-colors"
         >
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -63,11 +63,11 @@ const footerLinks = {
       <!-- Link Columns -->
       {Object.entries(footerLinks).map(([title, links]) => (
         <div>
-          <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">{title}</h3>
+          <h3 class="text-[#1A1A1A] font-semibold text-sm uppercase tracking-wider mb-4">{title}</h3>
           <ul class="space-y-2.5">
             {links.map((link) => (
               <li>
-                <a href={link.href} class="text-slate-300 hover:text-gold text-sm transition-colors duration-200">
+                <a href={link.href} class="text-[#4A4A4A] hover:text-[#B8860B] text-sm transition-colors duration-200">
                   {link.label}
                 </a>
               </li>
@@ -80,20 +80,20 @@ const footerLinks = {
     <!-- Trust Bar -->
     <div class="mt-12 pt-8 border-t border-white/[0.06]">
       <div class="flex flex-wrap items-center justify-center gap-6 lg:gap-10 mb-8">
-        <div class="flex items-center gap-2 text-slate-300">
-          <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+        <div class="flex items-center gap-2 text-[#4A4A4A]">
+          <svg class="w-4 h-4 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
           <span class="text-xs font-medium">Based on Nelson Nash's teachings</span>
         </div>
-        <div class="flex items-center gap-2 text-slate-300">
-          <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+        <div class="flex items-center gap-2 text-[#4A4A4A]">
+          <svg class="w-4 h-4 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
           <span class="text-xs font-medium">50+ free lessons</span>
         </div>
-        <div class="flex items-center gap-2 text-slate-300">
-          <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+        <div class="flex items-center gap-2 text-[#4A4A4A]">
+          <svg class="w-4 h-4 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
           <span class="text-xs font-medium">No products sold — ever</span>
         </div>
-        <div class="flex items-center gap-2 text-slate-300">
-          <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+        <div class="flex items-center gap-2 text-[#4A4A4A]">
+          <svg class="w-4 h-4 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
           <span class="text-xs font-medium">NNI Authorized Practitioner</span>
         </div>
       </div>
@@ -101,31 +101,31 @@ const footerLinks = {
 
     <!-- Disclaimer -->
     <div class="pt-6 border-t border-white/[0.06]">
-      <p class="text-slate-300/60 text-xs leading-relaxed max-w-3xl">
-        <strong class="text-slate-300/80">Disclaimer:</strong> IBC Academy is an educational resource. Nothing on this site constitutes financial advice or a recommendation to purchase any financial product. The Infinite Banking Concept® is a registered trademark of the Nelson Nash Institute. All educational content is provided for informational purposes only.
+      <p class="text-[#4A4A4A]/60 text-xs leading-relaxed max-w-3xl">
+        <strong class="text-[#4A4A4A]/80">Disclaimer:</strong> IBC Academy is an educational resource. Nothing on this site constitutes financial advice or a recommendation to purchase any financial product. The Infinite Banking Concept® is a registered trademark of the Nelson Nash Institute. All educational content is provided for informational purposes only.
       </p>
       <div class="mt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <p class="text-slate-300/40 text-xs">
+        <p class="text-[#4A4A4A]/40 text-xs">
           &copy; {new Date().getFullYear()} IBC Academy. All rights reserved.
         </p>
         <div class="flex items-center gap-4">
           <!-- Social Icons -->
           <div class="flex items-center gap-3 mr-4">
-            <a href="https://www.skool.com/ibc-academy" target="_blank" rel="noopener noreferrer" class="text-slate-300/40 hover:text-gold transition-colors" title="Join Skool Community">
+            <a href="https://www.skool.com/ibc-academy" target="_blank" rel="noopener noreferrer" class="text-[#4A4A4A]/40 hover:text-[#B8860B] transition-colors" title="Join Skool Community">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
             </a>
-            <a href="https://x.com/theibcacademy" target="_blank" rel="noopener noreferrer" class="text-slate-300/40 hover:text-gold transition-colors" title="Follow on X">
+            <a href="https://x.com/theibcacademy" target="_blank" rel="noopener noreferrer" class="text-[#4A4A4A]/40 hover:text-[#B8860B] transition-colors" title="Follow on X">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
             </a>
-            <a href="https://www.instagram.com/ibcacademy/" target="_blank" rel="noopener noreferrer" class="text-slate-300/40 hover:text-gold transition-colors" title="Follow on Instagram">
+            <a href="https://www.instagram.com/ibcacademy/" target="_blank" rel="noopener noreferrer" class="text-[#4A4A4A]/40 hover:text-[#B8860B] transition-colors" title="Follow on Instagram">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
             </a>
-            <a href="https://www.facebook.com/theibcacademy/" target="_blank" rel="noopener noreferrer" class="text-slate-300/40 hover:text-gold transition-colors" title="Follow on Facebook">
+            <a href="https://www.facebook.com/theibcacademy/" target="_blank" rel="noopener noreferrer" class="text-[#4A4A4A]/40 hover:text-[#B8860B] transition-colors" title="Follow on Facebook">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
             </a>
           </div>
-          <a href="/privacy" class="text-slate-300/40 hover:text-slate-300 text-xs transition-colors">Privacy Policy</a>
-          <a href="/terms" class="text-slate-300/40 hover:text-slate-300 text-xs transition-colors">Terms of Use</a>
+          <a href="/privacy" class="text-[#4A4A4A]/40 hover:text-[#4A4A4A] text-xs transition-colors">Privacy Policy</a>
+          <a href="/terms" class="text-[#4A4A4A]/40 hover:text-[#4A4A4A] text-xs transition-colors">Terms of Use</a>
         </div>
       </div>
     </div>
