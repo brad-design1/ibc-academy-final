@@ -54,22 +54,24 @@ const footerLinks = {
       </a>
     </div>
 
-    <!-- Links Grid: 2 cols on mobile, 4 cols on tablet, 5 cols (with brand) on desktop -->
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-8 md:hidden">
-      {Object.entries(footerLinks).map(([title, links]) => (
-        <div>
-          <h3 class="text-white/90 font-semibold text-xs uppercase tracking-wider mb-3">{title}</h3>
-          <ul class="space-y-2">
-            {links.map((link) => (
-              <li>
-                <a href={link.href} class="text-slate-400 hover:text-gold text-sm transition-colors duration-200">
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+    <!-- Links Grid: 2 cols on mobile, 4 cols on tablet -->
+    <div class="md:hidden">
+      <div class="grid grid-cols-2 gap-x-4 gap-y-6">
+        {Object.entries(footerLinks).map(([title, links]) => (
+          <div class="min-w-0">
+            <h3 class="text-white/90 font-semibold text-xs uppercase tracking-wider mb-2">{title}</h3>
+            <ul class="space-y-1.5">
+              {links.map((link) => (
+                <li>
+                  <a href={link.href} class="text-slate-400 hover:text-gold text-sm leading-tight block transition-colors duration-200">
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </div>
 
     <!-- Desktop: Full horizontal layout with brand column -->
