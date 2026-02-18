@@ -11,7 +11,7 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header id="main-header" class="sticky top-0 z-50 bg-navy-900/80 backdrop-blur-xl border-b border-white/[0.06] transition-all duration-300">
+<header id="main-header" class="sticky top-0 z-50 bg-[#FAF9F6]/80 backdrop-blur-xl border-b border-white/[0.06] transition-all duration-300">
   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16 lg:h-20">
       <!-- Logo -->
@@ -179,11 +179,11 @@ const currentPath = Astro.url.pathname;
     const scrollY = window.scrollY;
     
     if (scrollY > 50) {
-      mainHeader?.classList.add('bg-navy-900/95', 'shadow-lg', 'shadow-black/20');
-      mainHeader?.classList.remove('bg-navy-900/80');
+      mainHeader?.classList.add('bg-[#FAF9F6]/95', 'shadow-lg', 'shadow-black/20');
+      mainHeader?.classList.remove('bg-[#FAF9F6]/80');
     } else {
-      mainHeader?.classList.add('bg-navy-900/80');
-      mainHeader?.classList.remove('bg-navy-900/95', 'shadow-lg', 'shadow-black/20');
+      mainHeader?.classList.add('bg-[#FAF9F6]/80');
+      mainHeader?.classList.remove('bg-[#FAF9F6]/95', 'shadow-lg', 'shadow-black/20');
     }
     
     lastScrollY = scrollY;

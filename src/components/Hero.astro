@@ -28,13 +28,13 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
 ---
 
 <section class="relative overflow-x-clip">
-  <!-- Layered background -->
-  <div class="absolute inset-0 bg-gradient-to-br from-navy-900 via-[#0d1b30] to-navy-900"></div>
-  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,168,76,0.07)_0%,_transparent_50%)]"></div>
-  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(27,54,93,0.3)_0%,_transparent_50%)]"></div>
+  <!-- Layered background - Light cream theme -->
+  <div class="absolute inset-0 bg-gradient-to-br from-[#FAF9F6] via-[#F5F4F0] to-[#FAF9F6]"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(184,134,11,0.05)_0%,_transparent_50%)]"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(184,134,11,0.03)_0%,_transparent_50%)]"></div>
 
   <!-- Subtle grid pattern -->
-  <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 60px 60px;"></div>
+  <div class="absolute inset-0 opacity-[0.02]" style="background-image: linear-gradient(rgba(0,0,0,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.05) 1px, transparent 1px); background-size: 60px 60px;"></div>
 
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8 lg:pt-10 pb-12 sm:pb-16 w-full">
     <div class="grid lg:grid-cols-[1fr_0.9fr] gap-6 lg:gap-14 items-stretch">
@@ -112,9 +112,9 @@ const col2 = [masters[1], masters[3], masters[5], masters[7], masters[1], master
       <!-- Right: 2-column staggered scrolling photo columns — height matches left column -->
       <div class="hidden lg:block relative overflow-hidden fade-in-right" id="masters-scroll-container">
         <!-- Gradient fade top -->
-        <div class="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-navy-900 to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-[#FAF9F6] to-transparent z-10 pointer-events-none"></div>
         <!-- Gradient fade bottom -->
-        <div class="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-navy-900 to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-[#FAF9F6] to-transparent z-10 pointer-events-none"></div>
 
         <!-- Absolutely positioned so photos don't expand the grid row — left column controls height -->
         <div class="absolute inset-0 flex gap-4">
