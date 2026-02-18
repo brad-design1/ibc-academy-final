@@ -1,0 +1,165 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const bookingUrl = "https://calendar.app.google/H2wTUKcJnuhkpxFy8";
+// YouTube video ID - update once uploaded
+const youtubeVideoId = ""; // e.g., "dQw4w9WgXcQ"
+---
+
+<Layout 
+  title="Schedule a Call | IBC Academy" 
+  description="Book a free strategy session with Brad Raschke to learn how the Infinite Banking Concept can transform your financial future."
+>
+  <main class="min-h-screen bg-gradient-to-b from-navy-900 via-navy-800 to-navy-900">
+    <!-- Hero Section -->
+    <section class="relative pt-24 pb-16 lg:pt-32 lg:pb-24">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Badge -->
+        <div class="text-center mb-6">
+          <span class="inline-flex items-center gap-2 px-4 py-1.5 bg-gold/10 border border-gold/20 rounded-full text-gold text-sm font-medium">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Free 30-Minute Strategy Session
+          </span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-6 leading-tight">
+          Ready to <span class="text-gold">Become Your Own Banker?</span>
+        </h1>
+        
+        <p class="text-xl text-slate-300 text-center max-w-3xl mx-auto mb-12">
+          Discover how the Infinite Banking Concept can help you take control of your financial future. No pressure, no sales pitch — just education.
+        </p>
+
+        <!-- Video Section -->
+        <div class="max-w-4xl mx-auto mb-12">
+          {youtubeVideoId ? (
+            <div class="relative aspect-video rounded-2xl overflow-hidden shadow-2xl shadow-black/50 border border-white/10">
+              <iframe
+                src={`https://www.youtube.com/embed/${youtubeVideoId}?rel=0&modestbranding=1`}
+                title="IBC Strategy Session Introduction"
+                class="absolute inset-0 w-full h-full"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          ) : (
+            <div class="relative aspect-video rounded-2xl overflow-hidden shadow-2xl shadow-black/50 border border-white/10 bg-navy-800 flex items-center justify-center">
+              <div class="text-center">
+                <svg class="w-16 h-16 text-gold/50 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <p class="text-slate-400">Video coming soon</p>
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- CTA Button -->
+        <div class="text-center mb-16">
+          <a 
+            href={bookingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-bold text-lg rounded-xl hover:shadow-lg hover:shadow-gold/25 hover:scale-105 transition-all duration-200"
+          >
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            Schedule Your Free Call
+          </a>
+          <p class="text-slate-400 text-sm mt-3">
+            Pick a time that works for you. No obligation.
+          </p>
+        </div>
+
+        <!-- What to Expect -->
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-2xl font-bold text-white text-center mb-8">What We'll Cover</h2>
+          <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <div class="w-12 h-12 bg-gold/10 rounded-lg flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-2">Your Situation</h3>
+              <p class="text-slate-400 text-sm">We'll discuss your current financial picture and goals — no judgment, just understanding.</p>
+            </div>
+            
+            <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <div class="w-12 h-12 bg-gold/10 rounded-lg flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-2">The Concept</h3>
+              <p class="text-slate-400 text-sm">I'll explain how IBC works and answer any questions you have — education first, always.</p>
+            </div>
+            
+            <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <div class="w-12 h-12 bg-gold/10 rounded-lg flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-white mb-2">Next Steps</h3>
+              <p class="text-slate-400 text-sm">If it's a fit, we'll discuss what an IBC policy might look like for you. If not, no problem.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="py-12 border-t border-white/10">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-wrap items-center justify-center gap-8 text-slate-400 text-sm">
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+            NNI Authorized Practitioner
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            30 Minutes, No Obligation
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+            </svg>
+            Education First — Always
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16">
+      <div class="max-w-2xl mx-auto px-4 text-center">
+        <h2 class="text-2xl font-bold text-white mb-4">Still Have Questions?</h2>
+        <p class="text-slate-300 mb-6">That's exactly why we should talk. Every IBC journey starts with a conversation.</p>
+        <a 
+          href={bookingUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-gold/10 border border-gold/30 text-gold font-semibold rounded-lg hover:bg-gold/20 transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          Pick a Time
+        </a>
+      </div>
+    </section>
+  </main>
+</Layout>
