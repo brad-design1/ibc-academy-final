@@ -1,0 +1,546 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Free IBC Webinar | The 34.5% Problem" description="Free 45-minute workshop on the Infinite Banking Concept. Learn why 34.5 cents of every dollar goes to interest — and how to flip that equation. No pitch, no pressure.">
+
+  <!-- ═══════════════════════════════════════════════════
+       HERO — Above the Fold (Conversion Critical)
+       ═══════════════════════════════════════════════════ -->
+  <section class="relative overflow-hidden py-16 lg:py-24">
+    <!-- Background gradient -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#FAF9F6] via-navy-light/10 to-[#FAF9F6]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,168,76,0.08)_0%,_transparent_60%)]"></div>
+    
+    <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="fade-in-up">
+        <!-- Live badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-500/10 border border-red-500/20 mb-6">
+          <span class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
+          <span class="text-red-600 text-sm font-semibold">Free Live Workshop</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#1A1A1A] leading-tight tracking-tight">
+          The <span class="text-[#B8860B]">34.5% Problem</span>
+        </h1>
+        <p class="mt-4 text-xl sm:text-2xl text-[#4A4A4A] font-medium">
+          Why You Finance Everything You Buy<br class="hidden sm:block" />
+          <span class="text-[#6B6B6B]">(Even When You Pay Cash)</span>
+        </p>
+
+        <!-- Time slots -->
+        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-lg">
+          <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/60 border border-slate-200">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <span class="font-semibold text-[#1A1A1A]">Tuesday 12:00 PM CT</span>
+          </div>
+          <span class="text-[#6B6B6B] font-medium">or</span>
+          <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/60 border border-slate-200">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            </svg>
+            <span class="font-semibold text-[#1A1A1A]">Wednesday 7:00 PM CT</span>
+          </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="mt-10">
+          <a href="#register" class="inline-flex items-center px-10 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02]">
+            Register Free
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Trust signals -->
+        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm text-[#6B6B6B]">
+          <span class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+            NNI Authorized Practitioner
+          </span>
+          <span class="hidden sm:block">•</span>
+          <span class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            No pitch, no pressure
+          </span>
+          <span class="hidden sm:block">•</span>
+          <span class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+            </svg>
+            Education only
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       WHAT YOU'LL LEARN
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20 bg-white/50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="fade-in-up text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#1A1A1A]">
+          In <span class="text-[#B8860B]">45 Minutes</span>, You'll Discover
+        </h2>
+      </div>
+
+      <div class="space-y-6">
+        <div class="fade-in-up glass-card rounded-2xl p-6 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-[#1A1A1A]">Why 34.5 cents of every dollar goes to interest</h3>
+            <p class="mt-1 text-[#4A4A4A]">Even when you "pay cash," you're financing. The math is startling once you see it.</p>
+          </div>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-[#1A1A1A]">The "Banking Function" Nelson Nash spent 35 years teaching</h3>
+            <p class="mt-1 text-[#4A4A4A]">And why most financial advisors get it completely wrong.</p>
+          </div>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-[#1A1A1A]">How business owners fund growth without bank approval</h3>
+            <p class="mt-1 text-[#4A4A4A]">Policy loans work differently than any loan you've ever had. No collateral, no credit checks, no questions.</p>
+          </div>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-[#1A1A1A]">The "Compared to What?" framework</h3>
+            <p class="mt-1 text-[#4A4A4A]">The question that reveals the true cost of your current financial strategy.</p>
+          </div>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-[#1A1A1A]">Whether IBC is right for your situation</h3>
+            <p class="mt-1 text-[#4A4A4A]">Or if you should run the other direction. Honest assessment, no pressure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       WHO THIS IS FOR
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+        <!-- This is FOR you -->
+        <div class="fade-in-up">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-xl bg-green-500/15 flex items-center justify-center">
+              <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-[#1A1A1A]">This is for you if:</h3>
+          </div>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-green-600 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#4A4A4A]">You pay significant taxes and want to recapture that capital</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-green-600 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#4A4A4A]">You've heard about IBC and want to understand how it actually works</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-green-600 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#4A4A4A]">You're skeptical of "too good to be true" financial strategies</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-green-600 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#4A4A4A]">You want education, not a sales pitch</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- This is NOT for you -->
+        <div class="fade-in-up">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-xl bg-red-500/15 flex items-center justify-center">
+              <svg class="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-[#1A1A1A]">This is NOT for you if:</h3>
+          </div>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-red-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#6B6B6B]">You're looking for get-rich-quick schemes</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-red-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#6B6B6B]">You want someone to tell you what to do</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-red-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#6B6B6B]">You're not willing to read "Becoming Your Own Banker"</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-red-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#6B6B6B]">You expect a pitch at the end (there isn't one)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       ABOUT YOUR HOST
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20 bg-white/50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="fade-in-up glass-card rounded-3xl p-8 lg:p-12">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+          <!-- Photo -->
+          <div class="shrink-0">
+            <img 
+              src="/images/brad-raschke.jpg" 
+              alt="Brad Raschke" 
+              class="w-40 h-40 rounded-2xl object-cover shadow-lg"
+              loading="lazy"
+            />
+          </div>
+          
+          <!-- Bio -->
+          <div class="text-center md:text-left">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#B8860B]/10 border border-[#B8860B]/20 mb-4">
+              <span class="text-[#B8860B] text-sm font-medium">Your Host</span>
+            </div>
+            <h3 class="text-2xl sm:text-3xl font-bold text-[#1A1A1A]">Brad Raschke</h3>
+            <p class="mt-1 text-[#B8860B] font-semibold">NNI Authorized IBC Practitioner</p>
+            
+            <blockquote class="mt-6 text-lg text-[#4A4A4A] italic border-l-4 border-[#B8860B]/30 pl-4">
+              "I only teach one thing, and I teach it the way Nelson Nash intended. No gimmicks, no modifications, no 'improved' versions. Just the banking function."
+            </blockquote>
+
+            <div class="mt-6 flex flex-wrap items-center justify-center md:justify-start gap-4 text-sm text-[#6B6B6B]">
+              <span class="flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                Authorized by Nelson Nash Institute
+              </span>
+              <span class="flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                50+ free educational lessons
+              </span>
+              <span class="flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                Education first — always
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       SOCIAL PROOF
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="fade-in-up text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#1A1A1A]">
+          What <span class="text-[#B8860B]">Learners</span> Say
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <div class="flex items-center gap-1 mb-4">
+            {[1,2,3,4,5].map(() => (
+              <svg class="w-5 h-5 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+            ))}
+          </div>
+          <p class="text-[#4A4A4A] italic">"Finally, someone explaining IBC without trying to sell me a policy. Brad teaches the concept — and trusts you to make your own decision."</p>
+          <p class="mt-4 text-sm text-[#6B6B6B]">— Skool Community Member</p>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <div class="flex items-center gap-1 mb-4">
+            {[1,2,3,4,5].map(() => (
+              <svg class="w-5 h-5 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+            ))}
+          </div>
+          <p class="text-[#4A4A4A] italic">"The 'Compared to What' framework changed how I think about every financial decision. The math is the math — you can't argue with it."</p>
+          <p class="mt-4 text-sm text-[#6B6B6B]">— After completing the course</p>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <div class="flex items-center gap-1 mb-4">
+            {[1,2,3,4,5].map(() => (
+              <svg class="w-5 h-5 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+            ))}
+          </div>
+          <p class="text-[#4A4A4A] italic">"Brad breaks down Nelson Nash's concepts in a way that actually clicks. This is what financial education should look like."</p>
+          <p class="mt-4 text-sm text-[#6B6B6B]">— New to IBC</p>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <div class="flex items-center gap-1 mb-4">
+            {[1,2,3,4,5].map(() => (
+              <svg class="w-5 h-5 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+            ))}
+          </div>
+          <p class="text-[#4A4A4A] italic">"As a real estate investor, IBC changed how I think about financing. Every deal now starts with a policy loan."</p>
+          <p class="mt-4 text-sm text-[#6B6B6B]">— Real Estate Investor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       REGISTRATION FORM
+       ═══════════════════════════════════════════════════ -->
+  <section id="register" class="relative overflow-hidden py-16 lg:py-24">
+    <!-- Background -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2A2A2A] to-[#1A1A1A]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,168,76,0.15)_0%,_transparent_60%)]"></div>
+
+    <div class="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="fade-in-up">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
+          Reserve Your <span class="text-[#C9A84C]">Spot</span>
+        </h2>
+        <p class="mt-4 text-lg text-gray-300">
+          Pick the time that works for you. Same workshop, two options.
+        </p>
+
+        <!-- Registration Form -->
+        <form 
+          action="https://formspree.io/f/mvzqjabr" 
+          method="POST"
+          class="mt-10 max-w-md mx-auto"
+          id="webinar-form"
+        >
+          <input type="hidden" name="_subject" value="New Webinar Registration" />
+          <input type="hidden" name="form_type" value="webinar_registration" />
+          
+          <div class="space-y-4">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your name"
+              required
+              class="w-full px-5 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-gray-400 focus:outline-none focus:border-[#C9A84C]/50 focus:ring-2 focus:ring-[#C9A84C]/20 transition-all"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email address"
+              required
+              class="w-full px-5 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-gray-400 focus:outline-none focus:border-[#C9A84C]/50 focus:ring-2 focus:ring-[#C9A84C]/20 transition-all"
+            />
+            
+            <!-- Time slot selection -->
+            <div class="pt-2">
+              <p class="text-sm text-gray-400 mb-3 text-left">Choose your preferred time:</p>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <label class="relative cursor-pointer">
+                  <input type="radio" name="time_slot" value="tuesday_12pm_ct" class="peer sr-only" required />
+                  <div class="px-4 py-3 bg-white/5 border border-white/20 rounded-xl text-left peer-checked:border-[#C9A84C] peer-checked:bg-[#C9A84C]/10 transition-all">
+                    <span class="block text-white font-semibold">Tuesday</span>
+                    <span class="block text-sm text-gray-400">12:00 PM CT</span>
+                  </div>
+                </label>
+                <label class="relative cursor-pointer">
+                  <input type="radio" name="time_slot" value="wednesday_7pm_ct" class="peer sr-only" />
+                  <div class="px-4 py-3 bg-white/5 border border-white/20 rounded-xl text-left peer-checked:border-[#C9A84C] peer-checked:bg-[#C9A84C]/10 transition-all">
+                    <span class="block text-white font-semibold">Wednesday</span>
+                    <span class="block text-sm text-gray-400">7:00 PM CT</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            id="webinar-btn"
+            class="mt-6 w-full px-8 py-4 bg-gradient-to-r from-[#C9A84C] to-[#B8860B] text-[#1A1A1A] font-extrabold text-lg rounded-xl hover:from-[#D4AF37] hover:to-[#C9A84C] transition-all duration-300 shadow-lg shadow-[#C9A84C]/20 hover:shadow-[#C9A84C]/40 disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+          >
+            <span id="webinar-btn-text">Register Free</span>
+            <svg id="webinar-btn-spinner" class="hidden w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+          </button>
+        </form>
+
+        <script>
+          const webinarForm = document.getElementById('webinar-form');
+          const webinarBtn = document.getElementById('webinar-btn');
+          const webinarBtnText = document.getElementById('webinar-btn-text');
+          const webinarBtnSpinner = document.getElementById('webinar-btn-spinner');
+
+          webinarForm?.addEventListener('submit', () => {
+            if (webinarBtn) webinarBtn.setAttribute('disabled', 'true');
+            webinarBtnText?.classList.add('hidden');
+            webinarBtnSpinner?.classList.remove('hidden');
+          });
+        </script>
+
+        <!-- Trust signals -->
+        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm text-gray-400">
+          <span class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            45 minutes
+          </span>
+          <span class="hidden sm:block">•</span>
+          <span class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+            Limited to 100 attendees
+          </span>
+          <span class="hidden sm:block">•</span>
+          <span class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            Calendar invite sent instantly
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       FAQ
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="fade-in-up text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#1A1A1A]">
+          Frequently Asked <span class="text-[#B8860B]">Questions</span>
+        </h2>
+      </div>
+
+      <div class="space-y-6">
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <h3 class="text-lg font-bold text-[#1A1A1A]">Is this a sales pitch?</h3>
+          <p class="mt-2 text-[#4A4A4A]">No. This is pure education. If you want to explore working together afterward, we can schedule a separate discovery call. The webinar is 100% teaching the concept.</p>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <h3 class="text-lg font-bold text-[#1A1A1A]">Do I need to read BYOB first?</h3>
+          <p class="mt-2 text-[#4A4A4A]">No, but you should read it after. The webinar will make the book 10x clearer. We'll cover the foundation that makes everything click.</p>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <h3 class="text-lg font-bold text-[#1A1A1A]">Will there be a replay?</h3>
+          <p class="mt-2 text-[#4A4A4A]">Live attendees only. This keeps the session interactive, the Q&A relevant, and the energy high. We run it every week — pick a date that works.</p>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <h3 class="text-lg font-bold text-[#1A1A1A]">What if I can't make my chosen time?</h3>
+          <p class="mt-2 text-[#4A4A4A]">No problem. We run the same webinar twice a week — Tuesday lunch and Wednesday evening. Register again for a different date.</p>
+        </div>
+
+        <div class="fade-in-up glass-card rounded-2xl p-6">
+          <h3 class="text-lg font-bold text-[#1A1A1A]">What's IBC in one sentence?</h3>
+          <p class="mt-2 text-[#4A4A4A]">It's a process of using dividend-paying whole life insurance to become your own source of financing — taught by Nelson Nash since the 1980s.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       FINAL CTA
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20 bg-white/50">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="fade-in-up">
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#1A1A1A]">
+          Ready to understand the <span class="text-[#B8860B]">banking function</span>?
+        </h2>
+        <p class="mt-4 text-lg text-[#4A4A4A]">
+          45 minutes. No pitch. Just the education Nelson Nash spent 35 years perfecting.
+        </p>
+        <div class="mt-8">
+          <a href="#register" class="inline-flex items-center px-10 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50">
+            Register Free
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</Layout>
