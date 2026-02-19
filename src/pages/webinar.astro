@@ -378,78 +378,81 @@ import Layout from '../layouts/Layout.astro';
           Pick the time that works for you. Same workshop, two options.
         </p>
 
-        <!-- Registration Form -->
-        <form 
-          action="https://formspree.io/f/mvzqjabr" 
-          method="POST"
-          class="mt-10 max-w-md mx-auto"
-          id="webinar-form"
-        >
-          <input type="hidden" name="_subject" value="New Webinar Registration" />
-          <input type="hidden" name="form_type" value="webinar_registration" />
+        <!-- Time Slot Tabs -->
+        <div class="mt-10 max-w-2xl mx-auto">
+          <p class="text-sm text-gray-400 mb-4 text-center">Choose your preferred time:</p>
           
-          <div class="space-y-4">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your name"
-              required
-              class="w-full px-5 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-gray-400 focus:outline-none focus:border-[#C9A84C]/50 focus:ring-2 focus:ring-[#C9A84C]/20 transition-all"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your email address"
-              required
-              class="w-full px-5 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-gray-400 focus:outline-none focus:border-[#C9A84C]/50 focus:ring-2 focus:ring-[#C9A84C]/20 transition-all"
-            />
-            
-            <!-- Time slot selection -->
-            <div class="pt-2">
-              <p class="text-sm text-gray-400 mb-3 text-left">Choose your preferred time:</p>
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <label class="relative cursor-pointer">
-                  <input type="radio" name="time_slot" value="tuesday_12pm_ct" class="peer sr-only" required />
-                  <div class="px-4 py-3 bg-white/5 border border-white/20 rounded-xl text-left peer-checked:border-[#C9A84C] peer-checked:bg-[#C9A84C]/10 transition-all">
-                    <span class="block text-white font-semibold">Tuesday</span>
-                    <span class="block text-sm text-gray-400">12:00 PM CT</span>
-                  </div>
-                </label>
-                <label class="relative cursor-pointer">
-                  <input type="radio" name="time_slot" value="wednesday_7pm_ct" class="peer sr-only" />
-                  <div class="px-4 py-3 bg-white/5 border border-white/20 rounded-xl text-left peer-checked:border-[#C9A84C] peer-checked:bg-[#C9A84C]/10 transition-all">
-                    <span class="block text-white font-semibold">Wednesday</span>
-                    <span class="block text-sm text-gray-400">7:00 PM CT</span>
-                  </div>
-                </label>
-              </div>
-            </div>
+          <!-- Tab Buttons -->
+          <div class="flex justify-center gap-3 mb-6">
+            <button
+              type="button"
+              id="tab-tuesday"
+              class="px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-[#C9A84C] bg-[#C9A84C]/20 text-white"
+              onclick="showTab('tuesday')"
+            >
+              <span class="block">Tuesday</span>
+              <span class="block text-sm opacity-80">12:00 PM CT</span>
+            </button>
+            <button
+              type="button"
+              id="tab-wednesday"
+              class="px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-white/20 bg-white/5 text-gray-300 hover:border-white/40"
+              onclick="showTab('wednesday')"
+            >
+              <span class="block">Wednesday</span>
+              <span class="block text-sm opacity-80">7:00 PM CT</span>
+            </button>
           </div>
 
-          <button
-            type="submit"
-            id="webinar-btn"
-            class="mt-6 w-full px-8 py-4 bg-gradient-to-r from-[#C9A84C] to-[#B8860B] text-[#1A1A1A] font-extrabold text-lg rounded-xl hover:from-[#D4AF37] hover:to-[#C9A84C] transition-all duration-300 shadow-lg shadow-[#C9A84C]/20 hover:shadow-[#C9A84C]/40 disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-          >
-            <span id="webinar-btn-text">Register Free</span>
-            <svg id="webinar-btn-spinner" class="hidden w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
-              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-            </svg>
-          </button>
-        </form>
+          <!-- Zoom Registration Embeds -->
+          <div class="relative">
+            <!-- Tuesday 12pm Form -->
+            <div id="form-tuesday" class="zoom-form-container">
+              <iframe
+                src="https://us06web.zoom.us/webinar/register/WN_NVnbVFRtS-a2-VI0mNqe-A"
+                width="100%"
+                height="550"
+                frameborder="0"
+                class="rounded-xl"
+                style="background: white;"
+                title="Tuesday 12pm CT Webinar Registration"
+              ></iframe>
+            </div>
+
+            <!-- Wednesday 7pm Form -->
+            <div id="form-wednesday" class="zoom-form-container hidden">
+              <iframe
+                src="https://us06web.zoom.us/webinar/register/WN_P22EHu65RqKsbHBUKMGfog"
+                width="100%"
+                height="550"
+                frameborder="0"
+                class="rounded-xl"
+                style="background: white;"
+                title="Wednesday 7pm CT Webinar Registration"
+              ></iframe>
+            </div>
+          </div>
+        </div>
 
         <script>
-          const webinarForm = document.getElementById('webinar-form');
-          const webinarBtn = document.getElementById('webinar-btn');
-          const webinarBtnText = document.getElementById('webinar-btn-text');
-          const webinarBtnSpinner = document.getElementById('webinar-btn-spinner');
+          function showTab(tab) {
+            const tuesdayTab = document.getElementById('tab-tuesday');
+            const wednesdayTab = document.getElementById('tab-wednesday');
+            const tuesdayForm = document.getElementById('form-tuesday');
+            const wednesdayForm = document.getElementById('form-wednesday');
 
-          webinarForm?.addEventListener('submit', () => {
-            if (webinarBtn) webinarBtn.setAttribute('disabled', 'true');
-            webinarBtnText?.classList.add('hidden');
-            webinarBtnSpinner?.classList.remove('hidden');
-          });
+            if (tab === 'tuesday') {
+              tuesdayTab.className = 'px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-[#C9A84C] bg-[#C9A84C]/20 text-white';
+              wednesdayTab.className = 'px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-white/20 bg-white/5 text-gray-300 hover:border-white/40';
+              tuesdayForm.classList.remove('hidden');
+              wednesdayForm.classList.add('hidden');
+            } else {
+              wednesdayTab.className = 'px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-[#C9A84C] bg-[#C9A84C]/20 text-white';
+              tuesdayTab.className = 'px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-white/20 bg-white/5 text-gray-300 hover:border-white/40';
+              wednesdayForm.classList.remove('hidden');
+              tuesdayForm.classList.add('hidden');
+            }
+          }
         </script>
 
         <!-- Trust signals -->
