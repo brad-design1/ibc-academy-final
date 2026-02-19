@@ -378,82 +378,68 @@ import Layout from '../layouts/Layout.astro';
           Pick the time that works for you. Same workshop, two options.
         </p>
 
-        <!-- Time Slot Tabs -->
-        <div class="mt-10 max-w-2xl mx-auto">
-          <p class="text-sm text-gray-400 mb-4 text-center">Choose your preferred time:</p>
+        <!-- Time Slot Selection Cards -->
+        <div class="mt-10 max-w-xl mx-auto">
+          <p class="text-gray-300 mb-6 text-center">Pick the time that works for you:</p>
           
-          <!-- Tab Buttons -->
-          <div class="flex justify-center gap-3 mb-6">
-            <button
-              type="button"
-              id="tab-tuesday"
-              class="px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-[#C9A84C] bg-[#C9A84C]/20 text-white"
-              onclick="showTab('tuesday')"
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Tuesday Card -->
+            <a 
+              href="https://us06web.zoom.us/webinar/register/WN_NVnbVFRtS-a2-VI0mNqe-A"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group block p-6 rounded-2xl border-2 border-white/20 bg-white/5 hover:border-[#C9A84C] hover:bg-[#C9A84C]/10 transition-all duration-300"
             >
-              <span class="block">Tuesday</span>
-              <span class="block text-sm opacity-80">12:00 PM CT</span>
-            </button>
-            <button
-              type="button"
-              id="tab-wednesday"
-              class="px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-white/20 bg-white/5 text-gray-300 hover:border-white/40"
-              onclick="showTab('wednesday')"
+              <div class="flex items-center justify-between mb-4">
+                <div class="w-12 h-12 rounded-xl bg-[#C9A84C]/20 flex items-center justify-center">
+                  <svg class="w-6 h-6 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                </div>
+                <svg class="w-5 h-5 text-gray-500 group-hover:text-[#C9A84C] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-white mb-1">Tuesday</h3>
+              <p class="text-[#C9A84C] font-semibold text-lg">12:00 PM CT</p>
+              <p class="text-gray-400 text-sm mt-2">Lunch & Learn</p>
+              <div class="mt-4 inline-flex items-center text-[#C9A84C] font-semibold group-hover:underline">
+                Register Now
+                <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </a>
+
+            <!-- Wednesday Card -->
+            <a 
+              href="https://us06web.zoom.us/webinar/register/WN_P22EHu65RqKsbHBUKMGfog"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group block p-6 rounded-2xl border-2 border-white/20 bg-white/5 hover:border-[#C9A84C] hover:bg-[#C9A84C]/10 transition-all duration-300"
             >
-              <span class="block">Wednesday</span>
-              <span class="block text-sm opacity-80">7:00 PM CT</span>
-            </button>
-          </div>
-
-          <!-- Zoom Registration Embeds -->
-          <div class="relative">
-            <!-- Tuesday 12pm Form -->
-            <div id="form-tuesday" class="zoom-form-container">
-              <iframe
-                src="https://us06web.zoom.us/webinar/register/WN_NVnbVFRtS-a2-VI0mNqe-A"
-                width="100%"
-                height="550"
-                frameborder="0"
-                class="rounded-xl"
-                style="background: white;"
-                title="Tuesday 12pm CT Webinar Registration"
-              ></iframe>
-            </div>
-
-            <!-- Wednesday 7pm Form -->
-            <div id="form-wednesday" class="zoom-form-container hidden">
-              <iframe
-                src="https://us06web.zoom.us/webinar/register/WN_P22EHu65RqKsbHBUKMGfog"
-                width="100%"
-                height="550"
-                frameborder="0"
-                class="rounded-xl"
-                style="background: white;"
-                title="Wednesday 7pm CT Webinar Registration"
-              ></iframe>
-            </div>
+              <div class="flex items-center justify-between mb-4">
+                <div class="w-12 h-12 rounded-xl bg-[#C9A84C]/20 flex items-center justify-center">
+                  <svg class="w-6 h-6 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                  </svg>
+                </div>
+                <svg class="w-5 h-5 text-gray-500 group-hover:text-[#C9A84C] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-white mb-1">Wednesday</h3>
+              <p class="text-[#C9A84C] font-semibold text-lg">7:00 PM CT</p>
+              <p class="text-gray-400 text-sm mt-2">After Hours</p>
+              <div class="mt-4 inline-flex items-center text-[#C9A84C] font-semibold group-hover:underline">
+                Register Now
+                <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </a>
           </div>
         </div>
-
-        <script>
-          function showTab(tab) {
-            const tuesdayTab = document.getElementById('tab-tuesday');
-            const wednesdayTab = document.getElementById('tab-wednesday');
-            const tuesdayForm = document.getElementById('form-tuesday');
-            const wednesdayForm = document.getElementById('form-wednesday');
-
-            if (tab === 'tuesday') {
-              tuesdayTab.className = 'px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-[#C9A84C] bg-[#C9A84C]/20 text-white';
-              wednesdayTab.className = 'px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-white/20 bg-white/5 text-gray-300 hover:border-white/40';
-              tuesdayForm.classList.remove('hidden');
-              wednesdayForm.classList.add('hidden');
-            } else {
-              wednesdayTab.className = 'px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-[#C9A84C] bg-[#C9A84C]/20 text-white';
-              tuesdayTab.className = 'px-6 py-3 rounded-xl font-semibold transition-all duration-300 border-2 border-white/20 bg-white/5 text-gray-300 hover:border-white/40';
-              wednesdayForm.classList.remove('hidden');
-              tuesdayForm.classList.add('hidden');
-            }
-          }
-        </script>
 
         <!-- Trust signals -->
         <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm text-gray-400">
