@@ -384,11 +384,13 @@ import Layout from '../layouts/Layout.astro';
           
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <!-- Tuesday Card -->
-            <a 
+            <a
               href="https://us06web.zoom.us/webinar/register/WN_NVnbVFRtS-a2-VI0mNqe-A"
               target="_blank"
               rel="noopener noreferrer"
               class="group block p-6 rounded-2xl border-2 border-white/20 bg-white/5 hover:border-[#C9A84C] hover:bg-[#C9A84C]/10 transition-all duration-300"
+              data-track="webinar-register-tuesday"
+              onclick="typeof gtag==='function'&&gtag('event','webinar_registration',{time_slot:'tuesday_noon',method:'zoom'});typeof fbq==='function'&&fbq('track','Lead',{content_name:'webinar_tuesday'})"
             >
               <div class="flex items-center justify-between mb-4">
                 <div class="w-12 h-12 rounded-xl bg-[#C9A84C]/20 flex items-center justify-center">
@@ -412,11 +414,13 @@ import Layout from '../layouts/Layout.astro';
             </a>
 
             <!-- Wednesday Card -->
-            <a 
+            <a
               href="https://us06web.zoom.us/webinar/register/WN_P22EHu65RqKsbHBUKMGfog"
               target="_blank"
               rel="noopener noreferrer"
               class="group block p-6 rounded-2xl border-2 border-white/20 bg-white/5 hover:border-[#C9A84C] hover:bg-[#C9A84C]/10 transition-all duration-300"
+              data-track="webinar-register-wednesday"
+              onclick="typeof gtag==='function'&&gtag('event','webinar_registration',{time_slot:'wednesday_evening',method:'zoom'});typeof fbq==='function'&&fbq('track','Lead',{content_name:'webinar_wednesday'})"
             >
               <div class="flex items-center justify-between mb-4">
                 <div class="w-12 h-12 rounded-xl bg-[#C9A84C]/20 flex items-center justify-center">
