@@ -39,8 +39,22 @@ const currentPath = Astro.url.pathname;
         ))}
       </nav>
 
-      {/* CTA Buttons */}
+      {/* Search + CTA Buttons */}
       <div class="hidden md:flex items-center gap-4">
+        {/* Search trigger */}
+        <button
+          id="search-trigger"
+          class="flex items-center gap-2 px-3 py-2 rounded-lg bg-[#F5F4F0] border border-[#E8E6E1] text-[#6B6B6B] hover:text-[#1A1A1A] hover:border-[#C9C7C2] transition-all text-sm"
+          aria-label="Search"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+          <span>Search</span>
+          <kbd class="hidden lg:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-white border border-[#E8E6E1] text-[10px] text-[#6B6B6B] font-mono ml-1">
+            <span id="search-shortcut-key">⌘</span>K
+          </kbd>
+        </button>
         <a 
           href="https://www.skool.com/ibc-academy" 
           target="_blank"
@@ -59,16 +73,29 @@ const currentPath = Astro.url.pathname;
         </a>
       </div>
 
-      {/* Mobile Menu Button */}
-      <button 
-        id="mobile-menu-btn" 
-        class="md:hidden p-2 rounded-lg hover:bg-[#F5F4F0] transition-colors"
-        aria-label="Open menu"
-      >
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
-      </button>
+      {/* Mobile: Search + Menu */}
+      <div class="md:hidden flex items-center gap-1">
+        {/* Mobile search trigger */}
+        <button
+          id="mobile-search-trigger"
+          class="p-2 rounded-lg hover:bg-[#F5F4F0] transition-colors"
+          aria-label="Search"
+        >
+          <svg class="w-5 h-5 text-[#4A4A4A]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+        </button>
+        {/* Mobile Menu Button */}
+        <button 
+          id="mobile-menu-btn" 
+          class="p-2 rounded-lg hover:bg-[#F5F4F0] transition-colors"
+          aria-label="Open menu"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 
@@ -119,4 +146,12 @@ const currentPath = Astro.url.pathname;
       mobileMenu?.classList.add('hidden');
     }
   });
+
+  // Platform-aware keyboard shortcut display
+  const shortcutKey = document.getElementById('search-shortcut-key');
+  if (shortcutKey) {
+    const isMac = navigator.platform?.toUpperCase().indexOf('MAC') >= 0 || 
+                  navigator.userAgent?.toUpperCase().indexOf('MAC') >= 0;
+    shortcutKey.textContent = isMac ? '⌘' : 'Ctrl+';
+  }
 </script>
