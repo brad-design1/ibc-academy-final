@@ -84,8 +84,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacade
       gtag('config', 'G-XXXXXXXXXX');
     </script>
 
-    <!-- Meta Pixel -->
-    <!-- TODO: Replace PIXEL_ID with your Meta Pixel ID from https://business.facebook.com/events_manager -->
+    <!-- Meta Pixel Code -->
     <script is:inline>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -95,10 +94,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ibcacade
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', 'PIXEL_ID');
+      fbq('init', '778596651461891');
       fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=PIXEL_ID&ev=PageView&noscript=1" /></noscript>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=778596651461891&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
   </head>
   <body class="min-h-screen flex flex-col antialiased">
     <!-- P1: Skip to content link (accessibility) -->
