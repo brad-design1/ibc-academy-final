@@ -1,34 +1,50 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-// Google Calendar Appointment Scheduling - using popup button approach
 const bookingUrl = "https://calendar.app.google/H2wTUKcJnuhkpxFy8";
 ---
 
 <Layout title="Pick a Time | IBC Academy" description="Schedule your free strategy call with Brad.">
 
-  <!-- Google Calendar Appointment Scheduling Script -->
-  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-
   <section class="py-12 lg:py-20">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Dynamic Header based on intent -->
       <div class="fade-in-up text-center mb-10">
-        <!-- Success Badge -->
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-green-500/10 border border-green-500/20 mb-6">
+        <div id="success-badge" class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-green-500/10 border border-green-500/20 mb-6">
           <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
           </svg>
-          <span class="text-green-700 text-sm font-semibold">Information Received</span>
+          <span id="badge-text" class="text-green-700 text-sm font-semibold">Information Received</span>
         </div>
 
-        <!-- Headline -->
-        <h1 class="text-3xl sm:text-4xl font-extrabold text-[#1A1A1A]">
+        <h1 id="headline" class="text-3xl sm:text-4xl font-extrabold text-[#1A1A1A]">
           Now Pick a <span class="text-[#B8860B]">Time</span>
         </h1>
-        <p class="mt-3 text-lg text-[#4A4A4A]">
-          Brad received your info. Click below to schedule your call — opens right here, no redirect.
+        <p id="subheadline" class="mt-3 text-lg text-[#4A4A4A]">
+          Brad received your info. Click below to schedule your call.
         </p>
+      </div>
+
+      <!-- Intent-based recommendation (hidden by default, shown dynamically) -->
+      <div id="recommendation-card" class="hidden fade-in-up mb-8 p-6 rounded-2xl border-2 border-[#B8860B]/30 bg-[#B8860B]/5">
+        <div class="flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-[#B8860B]/20 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <p id="recommendation-title" class="font-bold text-[#1A1A1A]"></p>
+            <p id="recommendation-text" class="mt-1 text-sm text-[#4A4A4A]"></p>
+            <a id="recommendation-cta" href="#" class="hidden inline-flex items-center mt-3 text-[#B8860B] font-semibold hover:underline">
+              <span id="recommendation-cta-text"></span>
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
 
       <!-- Main Booking Card -->
@@ -43,20 +59,15 @@ const bookingUrl = "https://calendar.app.google/H2wTUKcJnuhkpxFy8";
         <p class="text-[#6B6B6B] mb-6">Free • Via Zoom • No Obligation</p>
 
         <!-- Google Calendar Popup Button -->
-        <div id="calendar-button-container" class="mb-4">
-          <button 
-            id="schedule-btn"
-            onclick="openCalendarPopup()"
-            class="inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-xl rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02]"
-          >
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-            Pick a Time
-          </button>
-        </div>
+        <button id="schedule-btn" onclick="openCalendarPopup()"
+          class="inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-xl rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02]">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <span id="schedule-btn-text">Pick a Time</span>
+        </button>
 
-        <p class="text-xs text-[#6B6B6B]">Opens Google Calendar in a popup — stays on this page</p>
+        <p class="mt-4 text-xs text-[#6B6B6B]">Opens Google Calendar in a popup — stays on this page</p>
       </div>
 
       <!-- What to expect -->
@@ -68,7 +79,6 @@ const bookingUrl = "https://calendar.app.google/H2wTUKcJnuhkpxFy8";
           <p class="text-sm font-semibold text-[#1A1A1A]">Pick a Time</p>
           <p class="text-xs text-[#6B6B6B] mt-1">Choose what works for you</p>
         </div>
-
         <div class="glass-card rounded-xl p-5 text-center">
           <div class="w-10 h-10 rounded-full bg-[#B8860B]/10 flex items-center justify-center mx-auto mb-3">
             <span class="text-[#B8860B] font-bold">2</span>
@@ -76,7 +86,6 @@ const bookingUrl = "https://calendar.app.google/H2wTUKcJnuhkpxFy8";
           <p class="text-sm font-semibold text-[#1A1A1A]">Get Zoom Link</p>
           <p class="text-xs text-[#6B6B6B] mt-1">Sent to your email instantly</p>
         </div>
-
         <div class="glass-card rounded-xl p-5 text-center">
           <div class="w-10 h-10 rounded-full bg-[#B8860B]/10 flex items-center justify-center mx-auto mb-3">
             <span class="text-[#B8860B] font-bold">3</span>
@@ -86,21 +95,118 @@ const bookingUrl = "https://calendar.app.google/H2wTUKcJnuhkpxFy8";
         </div>
       </div>
 
-      <!-- Alternative -->
+      <!-- Alternative content (shows for "just learning" timeline) -->
+      <div id="learning-mode" class="hidden fade-in-up mt-10 p-6 rounded-2xl bg-slate-50 border border-slate-200">
+        <h3 class="font-bold text-[#1A1A1A] mb-2">No rush — learn at your own pace</h3>
+        <p class="text-sm text-[#4A4A4A] mb-4">
+          While you're exploring IBC, here are some resources to help you understand the concept:
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="/free-guide" class="inline-flex items-center px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-medium text-[#4A4A4A] hover:border-[#B8860B] hover:text-[#B8860B] transition-colors">
+            📄 Free Guide
+          </a>
+          <a href="/webinar" class="inline-flex items-center px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-medium text-[#4A4A4A] hover:border-[#B8860B] hover:text-[#B8860B] transition-colors">
+            🎥 Free Webinar
+          </a>
+          <a href="/learn/start-here" class="inline-flex items-center px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-medium text-[#4A4A4A] hover:border-[#B8860B] hover:text-[#B8860B] transition-colors">
+            📚 IBC Basics
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer -->
       <div class="fade-in-up mt-10 text-center text-sm text-[#6B6B6B]">
         <p>Not ready to schedule? No problem — Brad will follow up by email.</p>
-        <p class="mt-2">
-          In the meantime: 
-          <a href="/learn/start-here" class="text-[#B8860B] hover:underline">explore IBC basics</a> or 
-          <a href="/webinar" class="text-[#B8860B] hover:underline">join the free webinar</a>.
-        </p>
       </div>
     </div>
   </section>
 
   <script is:inline define:vars={{ bookingUrl }}>
+    // Parse URL params for intent signals
+    const params = new URLSearchParams(window.location.search);
+    const name = params.get('name') || '';
+    const familiarity = params.get('familiarity') || '';
+    const interest = params.get('interest') || '';
+    const capacity = params.get('capacity') || '';
+    const timeline = params.get('timeline') || '';
+
+    // Elements
+    const headline = document.getElementById('headline');
+    const subheadline = document.getElementById('subheadline');
+    const badgeText = document.getElementById('badge-text');
+    const recommendationCard = document.getElementById('recommendation-card');
+    const recommendationTitle = document.getElementById('recommendation-title');
+    const recommendationText = document.getElementById('recommendation-text');
+    const recommendationCta = document.getElementById('recommendation-cta');
+    const recommendationCtaText = document.getElementById('recommendation-cta-text');
+    const scheduleBtnText = document.getElementById('schedule-btn-text');
+    const learningMode = document.getElementById('learning-mode');
+
+    // Personalize based on name
+    if (name) {
+      headline.innerHTML = `<span class="text-[#B8860B]">${name}</span>, Pick a Time`;
+    }
+
+    // Dynamic content based on intent signals
+    
+    // HIGH INTENT: ASAP timeline + high capacity
+    if (timeline === 'asap' && (capacity === '2500_plus' || capacity === '1000_2500')) {
+      badgeText.textContent = 'High Priority Request';
+      subheadline.textContent = 'Brad will prioritize your call. Pick the earliest slot that works.';
+      scheduleBtnText.textContent = 'Book Priority Call';
+      
+    // ASAP but lower capacity — still urgent
+    } else if (timeline === 'asap') {
+      subheadline.textContent = "You're ready to move. Let's get you on the calendar ASAP.";
+      
+    // LEARNING MODE: Just exploring
+    } else if (timeline === 'just_learning') {
+      subheadline.textContent = "No rush — but a quick call can answer questions faster than reading.";
+      learningMode?.classList.remove('hidden');
+    }
+
+    // BRAND NEW to IBC — suggest free guide
+    if (familiarity === 'brand_new') {
+      recommendationCard?.classList.remove('hidden');
+      recommendationTitle.textContent = 'New to IBC?';
+      recommendationText.textContent = 'Download the free guide before your call. It covers the core concepts so you can ask better questions.';
+      recommendationCta?.classList.remove('hidden');
+      recommendationCta.href = '/free-guide';
+      recommendationCtaText.textContent = 'Get the Free Guide';
+      
+    // HAS A POLICY — different messaging
+    } else if (familiarity === 'have_policy') {
+      recommendationCard?.classList.remove('hidden');
+      recommendationTitle.textContent = 'Existing Policy Holder';
+      recommendationText.textContent = "Brad can review your current policy and help you optimize it — or determine if it's already structured correctly.";
+    }
+
+    // Interest-specific messaging
+    if (interest === 'real_estate') {
+      if (!recommendationCard?.classList.contains('hidden')) {
+        // Already showing something
+      } else {
+        recommendationCard?.classList.remove('hidden');
+        recommendationTitle.textContent = 'Real Estate Investor?';
+        recommendationText.textContent = 'Many investors use IBC to fund deals without bank approval. Brad can show you how the numbers work.';
+        recommendationCta?.classList.remove('hidden');
+        recommendationCta.href = '/paths/real-estate';
+        recommendationCtaText.textContent = 'See Real Estate Case Studies';
+      }
+    } else if (interest === 'business_capital') {
+      if (!recommendationCard?.classList.contains('hidden')) {
+        // Already showing something
+      } else {
+        recommendationCard?.classList.remove('hidden');
+        recommendationTitle.textContent = 'Need Business Capital?';
+        recommendationText.textContent = 'IBC gives business owners access to capital on their terms — no bank approval, no collateral.';
+        recommendationCta?.classList.remove('hidden');
+        recommendationCta.href = '/for-business-owners';
+        recommendationCtaText.textContent = 'Learn About IBC for Business';
+      }
+    }
+
     function openCalendarPopup() {
-      // Open Google Calendar in a centered popup window
       const width = 600;
       const height = 700;
       const left = (window.innerWidth - width) / 2 + window.screenX;

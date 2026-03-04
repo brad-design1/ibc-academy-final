@@ -98,57 +98,108 @@ const formspreeEndpoint = "https://formspree.io/f/mpwzgvvd";
             <h2 class="text-2xl font-bold text-[#1A1A1A] mb-2">Get Your Free Copy</h2>
             <p class="text-[#6B6B6B] mb-6">Enter your email and we'll send the guide straight to your inbox.</p>
             
-            <form 
-              action={formspreeEndpoint}
-              method="POST"
-              class="space-y-4"
-            >
-              <!-- Hidden field for form identification -->
-              <input type="hidden" name="_subject" value="New Free Guide Download" />
-              <input type="hidden" name="form_type" value="free-guide" />
-              <input type="hidden" name="_next" value="https://ibcacademy.org/free-guide/thank-you" />
-              
+            <form id="guide-form" class="space-y-4">
               <!-- First Name -->
               <div>
                 <label for="first_name" class="block text-sm font-medium text-[#4A4A4A] mb-1">First Name</label>
-                <input 
-                  type="text" 
-                  id="first_name" 
-                  name="first_name" 
-                  required
+                <input type="text" id="first_name" name="first_name" required
                   class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
-                  placeholder="Your first name"
-                />
+                  placeholder="Your first name" />
               </div>
 
               <!-- Email -->
               <div>
                 <label for="email" class="block text-sm font-medium text-[#4A4A4A] mb-1">Email Address</label>
-                <input 
-                  type="email" 
-                  id="email" 
-                  name="email" 
-                  required
+                <input type="email" id="email" name="email" required
                   class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
-                  placeholder="you@example.com"
-                />
+                  placeholder="you@example.com" />
               </div>
 
               <!-- Submit -->
-              <button 
-                type="submit"
-                class="w-full px-6 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02]"
-              >
-                Send Me the Free Guide
-                <svg class="inline-block ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
+              <button type="submit" id="submit-btn"
+                class="w-full px-6 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed">
+                <span id="btn-text">Send Me the Free Guide</span>
+                <span id="btn-loading" class="hidden">
+                  <svg class="animate-spin inline w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                  </svg>
+                  Sending...
+                </span>
               </button>
+
+              <!-- Error message -->
+              <div id="error-message" class="hidden p-4 rounded-xl bg-red-50 border border-red-200 text-red-700 text-sm"></div>
             </form>
 
             <p class="mt-4 text-xs text-[#6B6B6B] text-center">
               By submitting, you agree to receive educational emails from IBC Academy. Unsubscribe anytime.
             </p>
+
+            <script is:inline>
+              const form = document.getElementById('guide-form');
+              const submitBtn = document.getElementById('submit-btn');
+              const btnText = document.getElementById('btn-text');
+              const btnLoading = document.getElementById('btn-loading');
+              const errorMessage = document.getElementById('error-message');
+
+              form?.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                errorMessage.classList.add('hidden');
+                submitBtn.disabled = true;
+                btnText.classList.add('hidden');
+                btnLoading.classList.remove('hidden');
+                
+                const formData = new FormData(form);
+                const name = formData.get('first_name');
+                
+                try {
+                  // Try our API first
+                  const response = await fetch('/api/capture-lead', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                      email: formData.get('email'),
+                      firstName: formData.get('first_name'),
+                      source: 'free-guide'
+                    })
+                  });
+                  
+                  if (response.ok) {
+                    if (typeof gtag === 'function') {
+                      gtag('event', 'lead_magnet_download', { lead_magnet: '34-problem-guide' });
+                    }
+                    window.location.href = `/free-guide/thank-you?name=${encodeURIComponent(name)}`;
+                    return;
+                  }
+                  throw new Error('API failed');
+                  
+                } catch (err) {
+                  // Fallback to Formspree
+                  try {
+                    const formspreeResponse = await fetch('https://formspree.io/f/mpwzgvvd', {
+                      method: 'POST',
+                      body: formData,
+                      headers: { 'Accept': 'application/json' }
+                    });
+                    
+                    if (formspreeResponse.ok) {
+                      window.location.href = `/free-guide/thank-you?name=${encodeURIComponent(name)}`;
+                      return;
+                    }
+                  } catch (fallbackErr) {
+                    console.error('Both APIs failed:', fallbackErr);
+                  }
+                  
+                  errorMessage.textContent = 'Something went wrong. Please try again.';
+                  errorMessage.classList.remove('hidden');
+                  submitBtn.disabled = false;
+                  btnText.classList.remove('hidden');
+                  btnLoading.classList.add('hidden');
+                }
+              });
+            </script>
           </div>
         </div>
       </div>

@@ -14,13 +14,22 @@ import Layout from '../../layouts/Layout.astro';
           </svg>
         </div>
 
-        <!-- Headline -->
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+        <!-- Headline (personalized if name available) -->
+        <h1 id="headline" class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
           Check Your <span class="text-[#B8860B]">Inbox</span>
         </h1>
         <p class="mt-4 text-xl text-[#4A4A4A]">
           Your free guide "The 34.5% Problem" is on its way to your email.
         </p>
+
+        <script is:inline>
+          const params = new URLSearchParams(window.location.search);
+          const name = params.get('name');
+          if (name) {
+            document.getElementById('headline').innerHTML = 
+              `<span class="text-[#B8860B]">${name}</span>, Check Your Inbox`;
+          }
+        </script>
 
         <!-- What to expect -->
         <div class="mt-8 glass-card rounded-2xl p-6 text-left">
