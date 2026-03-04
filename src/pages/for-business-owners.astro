@@ -1,299 +1,162 @@
 ---
-import Layout from '../layouts/Layout.astro';
+// Standalone landing page — NO navigation
 ---
 
-<Layout title="IBC for Business Owners | IBC Academy" description="How business owners use Infinite Banking to fund growth without banks, maintain liquidity, and build tax-efficient wealth while running their companies.">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBC for Business Owners | IBC Academy</title>
+  <meta name="description" content="How business owners use the Infinite Banking Concept to fund growth, control their capital, and build wealth on their terms.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: { gold: { DEFAULT: '#B8860B', light: '#D4A84B', dark: '#8B6914' } }
+        }
+      }
+    }
+  </script>
+  <style>body { font-family: 'Inter', system-ui, sans-serif; }</style>
+</head>
+<body class="bg-gradient-to-b from-slate-50 to-white min-h-screen">
 
-  <!-- ═══════════════════════════════════════════════════
-       HERO — Business Owner Landing Page
-       ═══════════════════════════════════════════════════ -->
-  <section class="relative overflow-hidden py-16 lg:py-24">
-    <!-- Background -->
-    <div class="absolute inset-0 bg-gradient-to-br from-[#FAF9F6] via-navy-light/10 to-[#FAF9F6]"></div>
-    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,168,76,0.08)_0%,_transparent_60%)]"></div>
-    
-    <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="fade-in-up text-center">
-        <!-- Badge -->
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#B8860B]/10 border border-[#B8860B]/20 mb-6">
-          <svg class="w-4 h-4 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-          </svg>
-          <span class="text-[#B8860B] text-sm font-semibold">For Business Owners</span>
-        </div>
+  <main class="max-w-xl mx-auto px-4 py-8 lg:py-12">
 
-        <!-- Headline -->
-        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#1A1A1A] leading-tight tracking-tight">
-          Fund Your Business Growth<br class="hidden md:block" />
-          <span class="text-[#B8860B]">Without Asking a Bank</span>
-        </h1>
-        <p class="mt-6 text-xl text-[#4A4A4A] max-w-3xl mx-auto">
-          What if you could access capital for equipment, inventory, or expansion on your terms — no credit checks, no collateral, no waiting for approval?
-        </p>
-
-        <!-- CTA Buttons -->
-        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="/webinar" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50">
-            Watch the Free Webinar
-            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </a>
-          <a href="/discovery" class="inline-flex items-center px-8 py-4 border-2 border-slate-300 text-[#1A1A1A] font-bold rounded-xl hover:border-[#B8860B]/50 hover:text-[#B8860B] transition-all">
-            Talk to Brad
-          </a>
-        </div>
-      </div>
+    <!-- Minimal branding -->
+    <div class="text-center mb-8">
+      <span class="text-xl font-bold text-slate-800">IBC<span class="text-gold">Academy</span></span>
     </div>
-  </section>
 
-  <!-- ═══════════════════════════════════════════════════
-       THE BUSINESS OWNER'S DILEMMA
-       ═══════════════════════════════════════════════════ -->
-  <section class="py-16 lg:py-20 bg-white/50">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="fade-in-up text-center mb-12">
-        <h2 class="text-3xl sm:text-4xl font-bold text-[#1A1A1A]">
-          Sound <span class="text-[#B8860B]">Familiar?</span>
-        </h2>
+    <!-- Hero -->
+    <section class="text-center mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50 border border-purple-200 mb-4">
+        <svg class="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        <span class="text-purple-700 text-sm font-semibold">For Business Owners</span>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="fade-in-up glass-card rounded-2xl p-6">
-          <div class="flex items-start gap-4">
-            <div class="w-10 h-10 rounded-xl bg-red-500/10 flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <div>
-              <h3 class="font-bold text-[#1A1A1A]">"The bank wants my firstborn for a loan"</h3>
-              <p class="mt-2 text-[#4A4A4A]">Collateral requirements, personal guarantees, endless paperwork — and they still might say no.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6">
-          <div class="flex items-start gap-4">
-            <div class="w-10 h-10 rounded-xl bg-red-500/10 flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <div>
-              <h3 class="font-bold text-[#1A1A1A]">"Great opportunity, no capital"</h3>
-              <p class="mt-2 text-[#4A4A4A]">You see the deal. You know the ROI. But your cash is tied up and the bank moves too slow.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6">
-          <div class="flex items-start gap-4">
-            <div class="w-10 h-10 rounded-xl bg-red-500/10 flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <div>
-              <h3 class="font-bold text-[#1A1A1A]">"Taxes are eating my profits"</h3>
-              <p class="mt-2 text-[#4A4A4A]">You're making money, but between income tax, capital gains, and estate tax, the government takes more than you keep.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6">
-          <div class="flex items-start gap-4">
-            <div class="w-10 h-10 rounded-xl bg-red-500/10 flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <div>
-              <h3 class="font-bold text-[#1A1A1A]">"I'm building the business, not my wealth"</h3>
-              <p class="mt-2 text-[#4A4A4A]">All your money goes back into the business. Great for growth, but where's your personal financial security?</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════════════
-       THE IBC SOLUTION FOR BUSINESS OWNERS
-       ═══════════════════════════════════════════════════ -->
-  <section class="py-16 lg:py-20">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="fade-in-up text-center mb-12">
-        <h2 class="text-3xl sm:text-4xl font-bold text-[#1A1A1A]">
-          How Business Owners Use <span class="text-[#B8860B]">IBC</span>
-        </h2>
-        <p class="mt-4 text-lg text-[#4A4A4A] max-w-2xl mx-auto">
-          The Infinite Banking Concept gives you a private pool of capital you control — accessible anytime, for any purpose, with no approval needed.
-        </p>
-      </div>
-
-      <div class="space-y-6">
-        <div class="fade-in-up glass-card rounded-2xl p-6 flex flex-col md:flex-row items-start gap-6">
-          <div class="w-12 h-12 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
-            <span class="text-[#B8860B] font-bold text-xl">1</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-[#1A1A1A]">Fund Equipment & Inventory</h3>
-            <p class="mt-2 text-[#4A4A4A]">Need a new truck? More inventory for the busy season? Take a policy loan, make the purchase, then pay yourself back on your own schedule. No bank approval, no interest rate negotiations, no waiting.</p>
-          </div>
-        </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6 flex flex-col md:flex-row items-start gap-6">
-          <div class="w-12 h-12 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
-            <span class="text-[#B8860B] font-bold text-xl">2</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-[#1A1A1A]">Bridge Cashflow Gaps</h3>
-            <p class="mt-2 text-[#4A4A4A]">Receivables are 60 days out but payroll is Friday? Access your policy cash value immediately. Make payroll, then replenish when the client pays. Your policy keeps growing either way.</p>
-          </div>
-        </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6 flex flex-col md:flex-row items-start gap-6">
-          <div class="w-12 h-12 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
-            <span class="text-[#B8860B] font-bold text-xl">3</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-[#1A1A1A]">Seize Opportunities Fast</h3>
-            <p class="mt-2 text-[#4A4A4A]">Competitor going out of business? Real estate deal with a 48-hour window? By the time a bank approves your loan, the opportunity is gone. Policy loans fund within days.</p>
-          </div>
-        </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6 flex flex-col md:flex-row items-start gap-6">
-          <div class="w-12 h-12 rounded-xl bg-[#B8860B]/15 flex items-center justify-center shrink-0">
-            <span class="text-[#B8860B] font-bold text-xl">4</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold text-[#1A1A1A]">Build Tax-Advantaged Wealth</h3>
-            <p class="mt-2 text-[#4A4A4A]">Policy cash value grows tax-deferred. Death benefit passes tax-free. Policy loans aren't taxable events. You're building wealth for your family while funding your business.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════════════
-       KEY INSIGHT
-       ═══════════════════════════════════════════════════ -->
-  <section class="py-16 lg:py-20 bg-gradient-to-br from-navy-900 to-navy-800">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
-      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">
-        The Key Insight
-      </h2>
-      <blockquote class="text-xl sm:text-2xl text-slate-300 italic leading-relaxed">
-        "When you finance through a bank, the interest you pay builds <em>their</em> wealth. When you finance through your policy, the interest you pay builds <em>your</em> wealth."
-      </blockquote>
-      <p class="mt-6 text-[#C9A84C] font-semibold">
-        — The Banking Function, from Nelson Nash's "Becoming Your Own Banker"
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight mb-3">
+        Stop Asking Banks for <span class="text-gold">Your Own Money</span>
+      </h1>
+      <p class="text-lg text-slate-600">
+        How business owners use the Infinite Banking Concept to fund growth, control their capital, and build wealth — without bank approval.
       </p>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══════════════════════════════════════════════════
-       WHAT YOU GET
-       ═══════════════════════════════════════════════════ -->
-  <section class="py-16 lg:py-20">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="fade-in-up text-center mb-12">
-        <h2 class="text-3xl sm:text-4xl font-bold text-[#1A1A1A]">
-          A Properly Designed IBC Policy <span class="text-[#B8860B]">Gives You</span>
-        </h2>
+    <!-- The Problem -->
+    <section class="mb-10">
+      <div class="bg-red-50 rounded-2xl p-6 border border-red-100 mb-6">
+        <h3 class="font-bold text-red-800 mb-3">The Problem Every Business Owner Knows:</h3>
+        <ul class="space-y-2 text-red-700">
+          <li class="flex items-start gap-2">
+            <span class="text-red-400 mt-1">✗</span>
+            <span>Banks approve loans on THEIR timeline, not yours</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-red-400 mt-1">✗</span>
+            <span>Good opportunities disappear while you wait for approval</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-red-400 mt-1">✗</span>
+            <span>Your cash sits earning 0.5% while you pay 8%+ on debt</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-red-400 mt-1">✗</span>
+            <span>Every financing decision costs you twice — interest out, opportunity lost</span>
+          </li>
+        </ul>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="fade-in-up glass-card rounded-2xl p-6 text-center">
-          <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-[#1A1A1A] mb-2">Guaranteed Liquidity</h3>
-          <p class="text-sm text-[#4A4A4A]">Access your cash value anytime, for any reason, no questions asked.</p>
-        </div>
+      <div class="bg-green-50 rounded-2xl p-6 border border-green-100">
+        <h3 class="font-bold text-green-800 mb-3">What If You Could:</h3>
+        <ul class="space-y-2 text-green-700">
+          <li class="flex items-start gap-2">
+            <span class="text-green-500 mt-1">✓</span>
+            <span>Access capital in 24-48 hours — no application, no approval</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-green-500 mt-1">✓</span>
+            <span>Pay yourself back the interest instead of a bank</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-green-500 mt-1">✓</span>
+            <span>Keep your money growing even while you use it</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-green-500 mt-1">✓</span>
+            <span>Build a capital reserve that compounds tax-free for decades</span>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-        <div class="fade-in-up glass-card rounded-2xl p-6 text-center">
-          <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-[#1A1A1A] mb-2">Uninterrupted Compound Growth</h3>
-          <p class="text-sm text-[#4A4A4A]">Your full cash value keeps earning dividends even while you borrow against it.</p>
+    <!-- Use Cases -->
+    <section class="mb-10">
+      <p class="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-4 text-center">Business Owners Use IBC For:</p>
+      <div class="grid grid-cols-2 gap-3">
+        <div class="p-4 bg-white rounded-xl border border-slate-100 text-center">
+          <span class="text-2xl mb-2 block">🏗️</span>
+          <p class="text-sm font-medium text-slate-700">Equipment purchases</p>
         </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6 text-center">
-          <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-[#1A1A1A] mb-2">Tax Advantages</h3>
-          <p class="text-sm text-[#4A4A4A]">Tax-deferred growth, tax-free death benefit, policy loans aren't taxable.</p>
+        <div class="p-4 bg-white rounded-xl border border-slate-100 text-center">
+          <span class="text-2xl mb-2 block">📦</span>
+          <p class="text-sm font-medium text-slate-700">Inventory financing</p>
         </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6 text-center">
-          <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-[#1A1A1A] mb-2">Flexible Repayment</h3>
-          <p class="text-sm text-[#4A4A4A]">Pay back on your schedule. No mandatory payments. You set the terms.</p>
+        <div class="p-4 bg-white rounded-xl border border-slate-100 text-center">
+          <span class="text-2xl mb-2 block">🏢</span>
+          <p class="text-sm font-medium text-slate-700">Real estate down payments</p>
         </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6 text-center">
-          <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-[#1A1A1A] mb-2">Asset Protection</h3>
-          <p class="text-sm text-[#4A4A4A]">In many states, life insurance cash value is protected from creditors and lawsuits.</p>
-        </div>
-
-        <div class="fade-in-up glass-card rounded-2xl p-6 text-center">
-          <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-[#1A1A1A] mb-2">Legacy Planning</h3>
-          <p class="text-sm text-[#4A4A4A]">Death benefit provides for your family and can fund buy-sell agreements.</p>
+        <div class="p-4 bg-white rounded-xl border border-slate-100 text-center">
+          <span class="text-2xl mb-2 block">📈</span>
+          <p class="text-sm font-medium text-slate-700">Opportunity capital</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══════════════════════════════════════════════════
-       CTA — NEXT STEPS
-       ═══════════════════════════════════════════════════ -->
-  <section class="py-16 lg:py-24 bg-gradient-to-br from-[#1A1A1A] via-[#2A2A2A] to-[#1A1A1A]">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
-      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-6">
-        Ready to <span class="text-[#C9A84C]">Become Your Own Banker?</span>
-      </h2>
-      <p class="text-xl text-gray-300 mb-10">
-        Join the free 45-minute webinar to see exactly how IBC works — with real numbers, real examples, and zero sales pressure.
+    <!-- CTA -->
+    <section class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 lg:p-8 mb-8">
+      <h2 class="text-xl font-bold text-slate-800 text-center mb-2">See How This Works</h2>
+      <p class="text-slate-500 text-center text-sm mb-6">Take the 2-minute assessment to see what's possible for your business.</p>
+
+      <a href="/assessment"
+        class="block w-full py-4 bg-gold hover:bg-gold-dark text-white font-bold text-lg rounded-xl transition-colors shadow-lg shadow-gold/25 text-center">
+        Start Free Assessment →
+      </a>
+
+      <div class="flex items-center justify-center gap-4 mt-6 text-sm text-slate-400">
+        <span>Or:</span>
+        <a href="/webinar" class="text-gold hover:underline">Watch the free workshop</a>
+        <span>•</span>
+        <a href="/discovery" class="text-gold hover:underline">Talk to Brad</a>
+      </div>
+    </section>
+
+    <!-- About Brad -->
+    <section class="text-center mb-8">
+      <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-slate-200 flex items-center justify-center">
+        <span class="text-2xl font-bold text-slate-500">BR</span>
+      </div>
+      <h3 class="font-bold text-slate-800 mb-1">Brad Raschke</h3>
+      <p class="text-sm text-slate-500 mb-3">NNI Authorized IBC Practitioner</p>
+      <p class="text-sm text-slate-600 max-w-md mx-auto">
+        I help business owners implement the Infinite Banking Concept — the wealth-building strategy that lets you become your own source of financing.
       </p>
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <a href="/webinar" class="inline-flex items-center px-10 py-5 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-xl rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50">
-          Watch the Free Webinar
-          <svg class="ml-3 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </a>
-        <a href="/free-guide" class="inline-flex items-center px-10 py-5 border-2 border-white/30 text-white font-bold text-xl rounded-xl hover:border-[#C9A84C] hover:text-[#C9A84C] transition-all">
-          Get the Free Guide
-        </a>
-      </div>
-      <p class="mt-6 text-sm text-gray-500">
-        Education first, always. No pressure, no obligation.
-      </p>
-    </div>
-  </section>
+    </section>
 
-</Layout>
+    <footer class="text-center text-xs text-slate-400 pt-6 border-t border-slate-100">
+      <p>© 2026 IBC Academy</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>

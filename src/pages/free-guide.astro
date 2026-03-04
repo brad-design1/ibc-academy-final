@@ -1,292 +1,212 @@
 ---
-import Layout from '../layouts/Layout.astro';
-
-// Formspree endpoint - reuse the existing one or create new
-const formspreeEndpoint = "https://formspree.io/f/mpwzgvvd";
+// Standalone landing page — NO navigation, NO escape routes
 ---
 
-<Layout title="Free Guide: The 34.5% Problem | IBC Academy" description="Download our free guide explaining why 34.5 cents of every dollar you earn goes to interest — and the simple framework to flip that equation in your favor.">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Guide: The 34.5% Problem | IBC Academy</title>
+  <meta name="description" content="Download our free guide explaining why 34.5 cents of every dollar goes to interest — and the framework to flip that equation.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: { gold: { DEFAULT: '#B8860B', light: '#D4A84B', dark: '#8B6914' } }
+        }
+      }
+    }
+  </script>
+  <style>body { font-family: 'Inter', system-ui, sans-serif; }</style>
+</head>
+<body class="bg-gradient-to-b from-slate-50 to-white min-h-screen">
 
-  <!-- ═══════════════════════════════════════════════════
-       HERO — Lead Magnet Landing Page
-       ═══════════════════════════════════════════════════ -->
-  <section class="relative overflow-hidden py-16 lg:py-24">
-    <!-- Background gradient -->
-    <div class="absolute inset-0 bg-gradient-to-br from-[#FAF9F6] via-navy-light/10 to-[#FAF9F6]"></div>
-    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,168,76,0.08)_0%,_transparent_60%)]"></div>
-    
-    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-2 gap-12 items-center">
-        
-        <!-- Left: Copy -->
-        <div class="fade-in-up">
-          <!-- Badge -->
-          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#B8860B]/10 border border-[#B8860B]/20 mb-6">
-            <svg class="w-4 h-4 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            <span class="text-[#B8860B] text-sm font-semibold">Free PDF Guide</span>
-          </div>
+  <main class="max-w-xl mx-auto px-4 py-8 lg:py-12">
 
-          <!-- Headline -->
-          <h1 class="text-4xl sm:text-5xl lg:text-5xl font-extrabold text-[#1A1A1A] leading-tight tracking-tight">
-            The <span class="text-[#B8860B]">34.5% Problem</span>
-          </h1>
-          <p class="mt-4 text-xl text-[#4A4A4A]">
-            Why you finance everything you buy — even when you pay cash — and the simple framework to flip that equation.
-          </p>
-
-          <!-- What's Inside -->
-          <div class="mt-8 space-y-4">
-            <p class="text-sm font-semibold text-[#6B6B6B] uppercase tracking-wider">Inside this free guide:</p>
-            <ul class="space-y-3">
-              <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-                <span class="text-[#4A4A4A]">The math behind "34.5 cents of every dollar" — and why most people never see it</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-                <span class="text-[#4A4A4A]">Why "paying cash" and "financing" are economically identical (Nelson Nash's key insight)</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-                <span class="text-[#4A4A4A]">The "banking function" — the wealth-building mechanism banks use that you can capture</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-                <span class="text-[#4A4A4A]">One simple diagram that changes how you see every financial decision</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Trust signals -->
-          <div class="mt-8 flex flex-wrap items-center gap-4 text-sm text-[#6B6B6B]">
-            <span class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-              </svg>
-              No spam, ever
-            </span>
-            <span>•</span>
-            <span class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              Instant download
-            </span>
-            <span>•</span>
-            <span class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z" />
-              </svg>
-              Education only
-            </span>
-          </div>
-        </div>
-
-        <!-- Right: Form -->
-        <div class="fade-in-up">
-          <div class="glass-card rounded-2xl p-8 shadow-xl">
-            <h2 class="text-2xl font-bold text-[#1A1A1A] mb-2">Get Your Free Copy</h2>
-            <p class="text-[#6B6B6B] mb-6">Enter your email and we'll send the guide straight to your inbox.</p>
-            
-            <form id="guide-form" class="space-y-4">
-              <!-- First Name -->
-              <div>
-                <label for="first_name" class="block text-sm font-medium text-[#4A4A4A] mb-1">First Name</label>
-                <input type="text" id="first_name" name="first_name" required
-                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
-                  placeholder="Your first name" />
-              </div>
-
-              <!-- Email -->
-              <div>
-                <label for="email" class="block text-sm font-medium text-[#4A4A4A] mb-1">Email Address</label>
-                <input type="email" id="email" name="email" required
-                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
-                  placeholder="you@example.com" />
-              </div>
-
-              <!-- Submit -->
-              <button type="submit" id="submit-btn"
-                class="w-full px-6 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed">
-                <span id="btn-text">Send Me the Free Guide</span>
-                <span id="btn-loading" class="hidden">
-                  <svg class="animate-spin inline w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24">
-                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
-                  Sending...
-                </span>
-              </button>
-
-              <!-- Error message -->
-              <div id="error-message" class="hidden p-4 rounded-xl bg-red-50 border border-red-200 text-red-700 text-sm"></div>
-            </form>
-
-            <p class="mt-4 text-xs text-[#6B6B6B] text-center">
-              By submitting, you agree to receive educational emails from IBC Academy. Unsubscribe anytime.
-            </p>
-
-            <script is:inline>
-              const form = document.getElementById('guide-form');
-              const submitBtn = document.getElementById('submit-btn');
-              const btnText = document.getElementById('btn-text');
-              const btnLoading = document.getElementById('btn-loading');
-              const errorMessage = document.getElementById('error-message');
-
-              form?.addEventListener('submit', async (e) => {
-                e.preventDefault();
-                
-                errorMessage.classList.add('hidden');
-                submitBtn.disabled = true;
-                btnText.classList.add('hidden');
-                btnLoading.classList.remove('hidden');
-                
-                const formData = new FormData(form);
-                const name = formData.get('first_name');
-                
-                try {
-                  // Try our API first
-                  const response = await fetch('/api/capture-lead', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                      email: formData.get('email'),
-                      firstName: formData.get('first_name'),
-                      source: 'free-guide'
-                    })
-                  });
-                  
-                  if (response.ok) {
-                    if (typeof gtag === 'function') {
-                      gtag('event', 'lead_magnet_download', { lead_magnet: '34-problem-guide' });
-                    }
-                    window.location.href = `/free-guide/thank-you?name=${encodeURIComponent(name)}`;
-                    return;
-                  }
-                  throw new Error('API failed');
-                  
-                } catch (err) {
-                  // Fallback to Formspree
-                  try {
-                    const formspreeResponse = await fetch('https://formspree.io/f/mpwzgvvd', {
-                      method: 'POST',
-                      body: formData,
-                      headers: { 'Accept': 'application/json' }
-                    });
-                    
-                    if (formspreeResponse.ok) {
-                      window.location.href = `/free-guide/thank-you?name=${encodeURIComponent(name)}`;
-                      return;
-                    }
-                  } catch (fallbackErr) {
-                    console.error('Both APIs failed:', fallbackErr);
-                  }
-                  
-                  errorMessage.textContent = 'Something went wrong. Please try again.';
-                  errorMessage.classList.remove('hidden');
-                  submitBtn.disabled = false;
-                  btnText.classList.remove('hidden');
-                  btnLoading.classList.add('hidden');
-                }
-              });
-            </script>
-          </div>
-        </div>
-      </div>
+    <!-- Minimal branding -->
+    <div class="text-center mb-8">
+      <span class="text-xl font-bold text-slate-800">IBC<span class="text-gold">Academy</span></span>
     </div>
-  </section>
 
-  <!-- ═══════════════════════════════════════════════════
-       SOCIAL PROOF / ABOUT BRAD
-       ═══════════════════════════════════════════════════ -->
-  <section class="py-16 lg:py-20 bg-white/50">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="fade-in-up glass-card rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8">
-        <!-- Brad's Photo -->
-        <div class="shrink-0">
-          <img 
-            src="/images/brad-raschke.jpg" 
-            alt="Brad Raschke" 
-            class="w-32 h-32 rounded-full object-cover border-4 border-[#B8860B]/20"
-          />
-        </div>
-        
-        <!-- Bio -->
-        <div>
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#B8860B]/10 border border-[#B8860B]/20 mb-3">
-            <span class="text-[#B8860B] text-xs font-semibold">NNI Authorized Practitioner</span>
-          </div>
-          <h3 class="text-xl font-bold text-[#1A1A1A]">Brad Raschke</h3>
-          <p class="mt-2 text-[#4A4A4A]">
-            Brad is an authorized Infinite Banking Concept practitioner serving families nationwide. He believes financial education should be free and accessible — which is why this guide exists. No pitch, no pressure. Just the information you need to make your own decisions.
-          </p>
-          <a href="/about" class="inline-flex items-center gap-2 mt-4 text-[#B8860B] font-semibold hover:text-[#B8860B]/80 transition-colors">
-            Learn more about Brad
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════════════
-       FAQ
-       ═══════════════════════════════════════════════════ -->
-  <section class="py-16 lg:py-20">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="fade-in-up text-center mb-12">
-        <h2 class="text-3xl font-bold text-[#1A1A1A]">Common Questions</h2>
-      </div>
-
-      <div class="space-y-4 fade-in-up">
-        <div class="glass-card rounded-xl p-6">
-          <h3 class="font-bold text-[#1A1A1A]">Is this really free?</h3>
-          <p class="mt-2 text-[#4A4A4A]">Yes. No credit card, no hidden fees. Just enter your email and we'll send you the guide.</p>
-        </div>
-        
-        <div class="glass-card rounded-xl p-6">
-          <h3 class="font-bold text-[#1A1A1A]">What happens after I download?</h3>
-          <p class="mt-2 text-[#4A4A4A]">You'll receive the PDF immediately via email. We may send occasional educational content, but you can unsubscribe anytime with one click.</p>
-        </div>
-        
-        <div class="glass-card rounded-xl p-6">
-          <h3 class="font-bold text-[#1A1A1A]">Will someone try to sell me something?</h3>
-          <p class="mt-2 text-[#4A4A4A]">Not from this guide. IBC Academy is education-first. If you want to learn more about working with Brad, that's your choice — we'll never pressure you.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════════════
-       FINAL CTA
-       ═══════════════════════════════════════════════════ -->
-  <section class="py-16 lg:py-20 bg-gradient-to-br from-navy-900 to-navy-800">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
-      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">
-        Ready to See the 34.5% Problem?
-      </h2>
-      <p class="text-xl text-slate-300 mb-8">
-        Get the free guide and start understanding how money really moves.
-      </p>
-      <a href="#" onclick="document.getElementById('email').focus(); return false;" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50">
-        Get the Free Guide
-        <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    <!-- Hero -->
+    <section class="text-center mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 mb-4">
+        <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
-      </a>
-    </div>
-  </section>
+        <span class="text-gold text-sm font-semibold">Free PDF Guide</span>
+      </div>
 
-</Layout>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight mb-3">
+        The <span class="text-gold">34.5% Problem</span>
+      </h1>
+      <p class="text-lg text-slate-600">
+        Why you finance everything you buy — even when you pay cash — and the framework to flip that equation.
+      </p>
+    </section>
+
+    <!-- What's Inside -->
+    <section class="mb-10">
+      <p class="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-4 text-center">Inside This Free Guide:</p>
+      <div class="space-y-3">
+        <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-100">
+          <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-slate-700">The math behind "34.5 cents of every dollar"</span>
+        </div>
+        <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-100">
+          <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-slate-700">Why "paying cash" and "financing" are economically identical</span>
+        </div>
+        <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-100">
+          <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-slate-700">The "banking function" you can capture for yourself</span>
+        </div>
+        <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-100">
+          <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-slate-700">One diagram that changes how you see every financial decision</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <section class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 lg:p-8 mb-8">
+      <h2 class="text-xl font-bold text-slate-800 text-center mb-2">Get Your Free Copy</h2>
+      <p class="text-slate-500 text-center text-sm mb-6">Instant download — no fluff, just the math.</p>
+
+      <form id="guide-form" class="space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium text-slate-700 mb-1">First Name</label>
+          <input type="text" id="name" name="name" required
+            class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-gold focus:ring-0 transition-colors text-slate-800 text-lg"
+            placeholder="Your first name" />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-slate-700 mb-1">Email</label>
+          <input type="email" id="email" name="email" required
+            class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-gold focus:ring-0 transition-colors text-slate-800 text-lg"
+            placeholder="you@example.com" />
+        </div>
+        <button type="submit" id="submit-btn"
+          class="w-full py-4 bg-gold hover:bg-gold-dark text-white font-bold text-lg rounded-xl transition-colors shadow-lg shadow-gold/25">
+          <span id="btn-text">Send Me the Free Guide →</span>
+          <span id="btn-loading" class="hidden">
+            <svg class="animate-spin inline w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            Sending...
+          </span>
+        </button>
+        <div id="error-msg" class="hidden p-3 rounded-lg bg-red-50 text-red-700 text-sm text-center"></div>
+      </form>
+
+      <!-- Success State -->
+      <div id="success-state" class="hidden text-center py-8">
+        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-green-100 flex items-center justify-center">
+          <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <h3 id="success-name" class="text-xl font-bold text-slate-800 mb-2">Check Your Inbox!</h3>
+        <p class="text-slate-600">Your guide is on its way.</p>
+      </div>
+
+      <p class="text-xs text-slate-400 text-center mt-4">No spam. Unsubscribe anytime.</p>
+    </section>
+
+    <!-- Trust -->
+    <div class="flex flex-wrap justify-center gap-4 text-sm text-slate-400 mb-8">
+      <span class="flex items-center gap-1.5">
+        <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+        </svg>
+        No spam
+      </span>
+      <span class="flex items-center gap-1.5">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+        Instant download
+      </span>
+      <span class="flex items-center gap-1.5">
+        <svg class="w-4 h-4 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z" />
+        </svg>
+        Education only
+      </span>
+    </div>
+
+    <footer class="text-center text-xs text-slate-400 pt-6 border-t border-slate-100">
+      <p>© 2026 IBC Academy</p>
+    </footer>
+
+  </main>
+
+  <script>
+    const form = document.getElementById('guide-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const btnText = document.getElementById('btn-text');
+    const btnLoading = document.getElementById('btn-loading');
+    const errorMsg = document.getElementById('error-msg');
+    const successState = document.getElementById('success-state');
+    const successName = document.getElementById('success-name');
+
+    form?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errorMsg.classList.add('hidden');
+      submitBtn.disabled = true;
+      btnText.classList.add('hidden');
+      btnLoading.classList.remove('hidden');
+
+      const formData = new FormData(form);
+      const name = formData.get('name');
+      const email = formData.get('email');
+
+      try {
+        const res = await fetch('/api/capture-lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, firstName: name, source: 'free-guide' })
+        });
+        if (res.ok) { showSuccess(name); return; }
+        throw new Error('API failed');
+      } catch (err) {
+        try {
+          const fallback = await fetch('https://formspree.io/f/mpwzgvvd', {
+            method: 'POST', body: formData, headers: { 'Accept': 'application/json' }
+          });
+          if (fallback.ok) { showSuccess(name); return; }
+        } catch (e) {}
+        
+        errorMsg.textContent = 'Something went wrong. Please try again.';
+        errorMsg.classList.remove('hidden');
+        submitBtn.disabled = false;
+        btnText.classList.remove('hidden');
+        btnLoading.classList.add('hidden');
+      }
+    });
+
+    function showSuccess(name) {
+      form.classList.add('hidden');
+      successState.classList.remove('hidden');
+      successName.textContent = name + ', Check Your Inbox!';
+    }
+  </script>
+
+</body>
+</html>

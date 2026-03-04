@@ -1,270 +1,228 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+// Standalone landing page — NO navigation
 ---
 
-<Layout title="Discovery Call | IBC Academy" description="Answer a few quick questions to see if a strategy call makes sense for your situation.">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Discovery Call | IBC Academy</title>
+  <meta name="description" content="Schedule a free 30-minute call to explore if the Infinite Banking Concept is right for your situation. No pressure, no pitch — just answers.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: { gold: { DEFAULT: '#B8860B', light: '#D4A84B', dark: '#8B6914' } }
+        }
+      }
+    }
+  </script>
+  <style>body { font-family: 'Inter', system-ui, sans-serif; }</style>
+</head>
+<body class="bg-gradient-to-b from-slate-50 to-white min-h-screen">
 
-  <section class="relative overflow-hidden py-16 lg:py-24">
-    <div class="absolute inset-0 bg-gradient-to-br from-[#FAF9F6] via-navy-light/10 to-[#FAF9F6]"></div>
-    
-    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="fade-in-up text-center mb-10">
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#B8860B]/10 border border-[#B8860B]/20 mb-6">
-          <svg class="w-4 h-4 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-          </svg>
-          <span class="text-[#B8860B] text-sm font-semibold">Free Strategy Call</span>
-        </div>
+  <main class="max-w-xl mx-auto px-4 py-8 lg:py-12">
 
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A] leading-tight">
-          Let's See If We're a <span class="text-[#B8860B]">Good Fit</span>
-        </h1>
-        <p class="mt-4 text-xl text-[#4A4A4A] max-w-2xl mx-auto">
-          Answer a few quick questions so Brad can prepare for our conversation. Takes about 2 minutes.
-        </p>
-      </div>
-
-      <!-- Qualification Form -->
-      <div class="fade-in-up glass-card rounded-2xl p-8 shadow-xl">
-        <form id="discovery-form" class="space-y-6">
-          <!-- Contact Info -->
-          <div class="grid sm:grid-cols-2 gap-4">
-            <div>
-              <label for="first_name" class="block text-sm font-medium text-[#4A4A4A] mb-1">First Name *</label>
-              <input type="text" id="first_name" name="first_name" required
-                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
-                placeholder="Your first name" />
-            </div>
-            <div>
-              <label for="last_name" class="block text-sm font-medium text-[#4A4A4A] mb-1">Last Name *</label>
-              <input type="text" id="last_name" name="last_name" required
-                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
-                placeholder="Your last name" />
-            </div>
-          </div>
-
-          <div>
-            <label for="email" class="block text-sm font-medium text-[#4A4A4A] mb-1">Email Address *</label>
-            <input type="email" id="email" name="email" required
-              class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
-              placeholder="you@example.com" />
-          </div>
-
-          <div>
-            <label for="phone" class="block text-sm font-medium text-[#4A4A4A] mb-1">Phone Number</label>
-            <input type="tel" id="phone" name="phone"
-              class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
-              placeholder="(555) 123-4567" />
-          </div>
-
-          <div class="border-t border-slate-200 pt-6">
-            <p class="text-sm font-semibold text-[#6B6B6B] uppercase tracking-wider mb-4">Help Brad prepare for your call:</p>
-          </div>
-
-          <!-- Q1: IBC Familiarity -->
-          <div>
-            <label for="ibc_familiarity" class="block text-sm font-medium text-[#4A4A4A] mb-1">How familiar are you with IBC? *</label>
-            <select id="ibc_familiarity" name="ibc_familiarity" required
-              class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none bg-white">
-              <option value="">Select an option...</option>
-              <option value="brand_new">Brand new — just heard about it</option>
-              <option value="researching">I've been researching online</option>
-              <option value="read_byob">I've read Becoming Your Own Banker</option>
-              <option value="have_policy">I already have a policy (looking for guidance)</option>
-            </select>
-          </div>
-
-          <!-- Q2: Interest trigger -->
-          <div>
-            <label for="interest_trigger" class="block text-sm font-medium text-[#4A4A4A] mb-1">What's prompting your interest? *</label>
-            <select id="interest_trigger" name="interest_trigger" required
-              class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none bg-white">
-              <option value="">Select an option...</option>
-              <option value="wealth_building">Building long-term wealth</option>
-              <option value="business_capital">Need capital for business</option>
-              <option value="real_estate">Real estate investing</option>
-              <option value="debt_payoff">Getting out of debt</option>
-              <option value="retirement">Retirement planning</option>
-              <option value="legacy">Legacy / family wealth</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-
-          <!-- Q3: Monthly capacity -->
-          <div>
-            <label for="monthly_capacity" class="block text-sm font-medium text-[#4A4A4A] mb-1">Monthly budget for a policy? *</label>
-            <select id="monthly_capacity" name="monthly_capacity" required
-              class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none bg-white">
-              <option value="">Select an option...</option>
-              <option value="under_500">Under $500/month</option>
-              <option value="500_1000">$500 - $1,000/month</option>
-              <option value="1000_2500">$1,000 - $2,500/month</option>
-              <option value="2500_plus">$2,500+/month</option>
-              <option value="not_sure">Not sure yet</option>
-            </select>
-          </div>
-
-          <!-- Q4: Timeline -->
-          <div>
-            <label for="timeline" class="block text-sm font-medium text-[#4A4A4A] mb-1">How soon to get started? *</label>
-            <select id="timeline" name="timeline" required
-              class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none bg-white">
-              <option value="">Select an option...</option>
-              <option value="asap">As soon as possible</option>
-              <option value="1_3_months">Within 1-3 months</option>
-              <option value="3_6_months">3-6 months</option>
-              <option value="just_learning">Just learning for now</option>
-            </select>
-          </div>
-
-          <!-- Q5: Additional context -->
-          <div>
-            <label for="questions" class="block text-sm font-medium text-[#4A4A4A] mb-1">Anything else Brad should know?</label>
-            <textarea id="questions" name="questions" rows="3"
-              class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none resize-none"
-              placeholder="Your situation, questions, or concerns..."></textarea>
-          </div>
-
-          <!-- Submit -->
-          <button type="submit" id="submit-btn"
-            class="w-full px-6 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed">
-            <span id="btn-text">Submit & Schedule Your Call</span>
-            <span id="btn-loading" class="hidden">
-              <svg class="animate-spin inline w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24">
-                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-              </svg>
-              Submitting...
-            </span>
-          </button>
-
-          <!-- Error message -->
-          <div id="error-message" class="hidden p-4 rounded-xl bg-red-50 border border-red-200 text-red-700 text-sm"></div>
-        </form>
-
-        <p class="mt-4 text-xs text-[#6B6B6B] text-center">
-          No spam. No pressure. This call is about education, not sales.
-        </p>
-      </div>
-
-      <!-- What to expect -->
-      <div class="fade-in-up mt-12 text-center">
-        <h2 class="text-xl font-bold text-[#1A1A1A] mb-4">What to expect on the call:</h2>
-        <div class="grid sm:grid-cols-3 gap-4">
-          <div class="glass-card rounded-xl p-4">
-            <div class="w-10 h-10 rounded-full bg-[#B8860B]/10 flex items-center justify-center mx-auto mb-3">
-              <span class="text-[#B8860B] font-bold">1</span>
-            </div>
-            <p class="text-sm text-[#4A4A4A]">Brad reviews your situation and answers questions</p>
-          </div>
-          <div class="glass-card rounded-xl p-4">
-            <div class="w-10 h-10 rounded-full bg-[#B8860B]/10 flex items-center justify-center mx-auto mb-3">
-              <span class="text-[#B8860B] font-bold">2</span>
-            </div>
-            <p class="text-sm text-[#4A4A4A]">You learn if IBC is right for your goals</p>
-          </div>
-          <div class="glass-card rounded-xl p-4">
-            <div class="w-10 h-10 rounded-full bg-[#B8860B]/10 flex items-center justify-center mx-auto mb-3">
-              <span class="text-[#B8860B] font-bold">3</span>
-            </div>
-            <p class="text-sm text-[#4A4A4A]">No pressure — next steps are your choice</p>
-          </div>
-        </div>
-      </div>
+    <!-- Minimal branding -->
+    <div class="text-center mb-8">
+      <span class="text-xl font-bold text-slate-800">IBC<span class="text-gold">Academy</span></span>
     </div>
-  </section>
 
-  <script is:inline>
+    <!-- Hero -->
+    <section class="text-center mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-50 border border-green-200 mb-4">
+        <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+        <span class="text-green-700 text-sm font-semibold">Free 30-Minute Call</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight mb-3">
+        Let's Talk About <span class="text-gold">Your Situation</span>
+      </h1>
+      <p class="text-lg text-slate-600">
+        A free conversation to see if the Infinite Banking Concept makes sense for you. No pitch, no pressure — just honest answers.
+      </p>
+    </section>
+
+    <!-- What to Expect -->
+    <section class="mb-10">
+      <p class="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-4 text-center">On This Call, We'll:</p>
+      <div class="space-y-3">
+        <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-100">
+          <div class="w-8 h-8 rounded-lg bg-gold/10 flex items-center justify-center shrink-0">
+            <span class="text-gold font-bold text-sm">1</span>
+          </div>
+          <span class="text-slate-700">Understand your current financial situation and goals</span>
+        </div>
+        <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-100">
+          <div class="w-8 h-8 rounded-lg bg-gold/10 flex items-center justify-center shrink-0">
+            <span class="text-gold font-bold text-sm">2</span>
+          </div>
+          <span class="text-slate-700">Explain how IBC works with YOUR numbers</span>
+        </div>
+        <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-100">
+          <div class="w-8 h-8 rounded-lg bg-gold/10 flex items-center justify-center shrink-0">
+            <span class="text-gold font-bold text-sm">3</span>
+          </div>
+          <span class="text-slate-700">Answer all your questions honestly</span>
+        </div>
+        <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-100">
+          <div class="w-8 h-8 rounded-lg bg-gold/10 flex items-center justify-center shrink-0">
+            <span class="text-gold font-bold text-sm">4</span>
+          </div>
+          <span class="text-slate-700">Determine if IBC is a good fit (or not)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Qualification -->
+    <section class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 lg:p-8 mb-8">
+      <h2 class="text-xl font-bold text-slate-800 text-center mb-2">Book Your Free Call</h2>
+      <p class="text-slate-500 text-center text-sm mb-6">Just a few quick questions, then pick your time.</p>
+
+      <form id="discovery-form" class="space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium text-slate-700 mb-1">First Name</label>
+          <input type="text" id="name" name="name" required
+            class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-gold focus:ring-0 transition-colors text-slate-800 text-lg"
+            placeholder="Your first name" />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-slate-700 mb-1">Email</label>
+          <input type="email" id="email" name="email" required
+            class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-gold focus:ring-0 transition-colors text-slate-800 text-lg"
+            placeholder="you@example.com" />
+        </div>
+        <div>
+          <label for="savings" class="block text-sm font-medium text-slate-700 mb-1">Annual Savings Capacity</label>
+          <select id="savings" name="savings" required
+            class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-gold focus:ring-0 transition-colors text-slate-800 text-lg bg-white">
+            <option value="">Select...</option>
+            <option value="under_10k">Under $10,000/year</option>
+            <option value="10k_25k">$10,000 - $25,000/year</option>
+            <option value="25k_50k">$25,000 - $50,000/year</option>
+            <option value="50k_plus">$50,000+/year</option>
+          </select>
+        </div>
+        <div>
+          <label for="timeline" class="block text-sm font-medium text-slate-700 mb-1">When Are You Looking to Start?</label>
+          <select id="timeline" name="timeline" required
+            class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-gold focus:ring-0 transition-colors text-slate-800 text-lg bg-white">
+            <option value="">Select...</option>
+            <option value="asap">As soon as possible</option>
+            <option value="1_3_months">1-3 months</option>
+            <option value="3_6_months">3-6 months</option>
+            <option value="just_learning">Just learning for now</option>
+          </select>
+        </div>
+        <button type="submit" id="submit-btn"
+          class="w-full py-4 bg-gold hover:bg-gold-dark text-white font-bold text-lg rounded-xl transition-colors shadow-lg shadow-gold/25">
+          <span id="btn-text">Continue to Calendar →</span>
+          <span id="btn-loading" class="hidden">
+            <svg class="animate-spin inline w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            Processing...
+          </span>
+        </button>
+        <div id="error-msg" class="hidden p-3 rounded-lg bg-red-50 text-red-700 text-sm text-center"></div>
+      </form>
+
+      <!-- Success State -->
+      <div id="success-state" class="hidden text-center py-6">
+        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-green-100 flex items-center justify-center">
+          <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-slate-800 mb-2">Great! Now Pick Your Time</h3>
+        <p class="text-slate-600 mb-4">Click below to choose a slot on Brad's calendar.</p>
+        <a href="https://calendar.app.google/H2wTUKcJnuhkpxFy8" target="_blank"
+          class="inline-block w-full py-4 bg-gold hover:bg-gold-dark text-white font-bold text-lg rounded-xl transition-colors shadow-lg shadow-gold/25">
+          Open Calendar →
+        </a>
+      </div>
+
+      <p class="text-xs text-slate-400 text-center mt-4">No spam. No pressure. Just a conversation.</p>
+    </section>
+
+    <!-- About Brad -->
+    <section class="text-center mb-8">
+      <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-slate-200 flex items-center justify-center">
+        <span class="text-2xl font-bold text-slate-500">BR</span>
+      </div>
+      <h3 class="font-bold text-slate-800 mb-1">Brad Raschke</h3>
+      <p class="text-sm text-slate-500 mb-3">NNI Authorized IBC Practitioner</p>
+      <p class="text-sm text-slate-600 max-w-md mx-auto">
+        I help families and business owners implement the Infinite Banking Concept the way Nelson Nash intended — education first, no gimmicks.
+      </p>
+    </section>
+
+    <footer class="text-center text-xs text-slate-400 pt-6 border-t border-slate-100">
+      <p>© 2026 IBC Academy</p>
+    </footer>
+
+  </main>
+
+  <script>
     const form = document.getElementById('discovery-form');
     const submitBtn = document.getElementById('submit-btn');
     const btnText = document.getElementById('btn-text');
     const btnLoading = document.getElementById('btn-loading');
-    const errorMessage = document.getElementById('error-message');
+    const errorMsg = document.getElementById('error-msg');
+    const successState = document.getElementById('success-state');
 
     form?.addEventListener('submit', async (e) => {
       e.preventDefault();
-      
-      // Reset error state
-      errorMessage.classList.add('hidden');
+      errorMsg.classList.add('hidden');
       submitBtn.disabled = true;
       btnText.classList.add('hidden');
       btnLoading.classList.remove('hidden');
-      
+
       const formData = new FormData(form);
-      
-      // Collect intent signals for thank-you page
-      const intentParams = new URLSearchParams({
-        name: formData.get('first_name'),
-        familiarity: formData.get('ibc_familiarity'),
-        interest: formData.get('interest_trigger'),
-        capacity: formData.get('monthly_capacity'),
-        timeline: formData.get('timeline')
-      });
-      
+      const name = formData.get('name');
+      const email = formData.get('email');
+      const savings = formData.get('savings');
+      const timeline = formData.get('timeline');
+
       try {
-        // Try our API first
-        const response = await fetch('/api/capture-lead', {
+        const res = await fetch('/api/capture-lead', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            email: formData.get('email'),
-            firstName: formData.get('first_name'),
-            lastName: formData.get('last_name'),
-            phone: formData.get('phone'),
-            source: 'discovery',
-            ibcFamiliarity: formData.get('ibc_familiarity'),
-            interestTrigger: formData.get('interest_trigger'),
-            monthlyCapacity: formData.get('monthly_capacity'),
-            timeline: formData.get('timeline'),
-            questions: formData.get('questions')
-          })
+          body: JSON.stringify({ email, firstName: name, source: 'discovery', savings, timeline })
         });
-        
-        const result = await response.json();
-        
-        if (result.success || response.ok) {
-          // Track conversion
-          if (typeof gtag === 'function') {
-            gtag('event', 'discovery_request', {
-              timeline: formData.get('timeline'),
-              capacity: formData.get('monthly_capacity')
-            });
-          }
-          
-          // Redirect with intent params for dynamic thank-you page
-          window.location.href = `/discovery/thank-you?${intentParams.toString()}`;
-          return;
-        }
-        
-        throw new Error(result.error || 'Submission failed');
-        
+        if (res.ok) { showSuccess(); return; }
+        throw new Error('API failed');
       } catch (err) {
-        console.error('API failed, trying Formspree fallback:', err);
-        
-        // Fallback to Formspree
         try {
-          const formspreeResponse = await fetch('https://formspree.io/f/mpwzgvvd', {
-            method: 'POST',
-            body: formData,
-            headers: { 'Accept': 'application/json' }
+          const fallback = await fetch('https://formspree.io/f/mpwzgvvd', {
+            method: 'POST', body: formData, headers: { 'Accept': 'application/json' }
           });
-          
-          if (formspreeResponse.ok) {
-            window.location.href = `/discovery/thank-you?${intentParams.toString()}`;
-            return;
-          }
-        } catch (fallbackErr) {
-          console.error('Formspree also failed:', fallbackErr);
-        }
+          if (fallback.ok) { showSuccess(); return; }
+        } catch (e) {}
         
-        // Show error if both failed
-        errorMessage.textContent = 'Something went wrong. Please try again or email support@ibcacademy.org';
-        errorMessage.classList.remove('hidden');
+        errorMsg.textContent = 'Something went wrong. Please try again.';
+        errorMsg.classList.remove('hidden');
         submitBtn.disabled = false;
         btnText.classList.remove('hidden');
         btnLoading.classList.add('hidden');
       }
     });
+
+    function showSuccess() {
+      form.classList.add('hidden');
+      successState.classList.remove('hidden');
+    }
   </script>
 
-</Layout>
+</body>
+</html>
