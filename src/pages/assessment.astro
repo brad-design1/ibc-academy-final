@@ -4,311 +4,378 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Free IBC Assessment | Discover Your Interest Leak" description="Take this 2-minute assessment to discover how much you're losing to banks every year — and what recapturing it could mean for your wealth.">
 
-  <section class="min-h-screen bg-gradient-to-br from-[#FAF9F6] via-white to-[#FAF9F6] py-12 lg:py-16">
+  <style>
+    /* Dark dashboard aesthetic */
+    .quiz-container {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    }
+    .quiz-card {
+      background: rgba(30, 41, 59, 0.8);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .quiz-option {
+      background: rgba(15, 23, 42, 0.6);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+    }
+    .quiz-option:hover {
+      border-color: #B8860B;
+      background: rgba(184, 134, 11, 0.1);
+    }
+    .quiz-option.selected {
+      border-color: #B8860B;
+      background: rgba(184, 134, 11, 0.15);
+    }
+    .counter-animate {
+      animation: countUp 1.5s ease-out forwards;
+    }
+    @keyframes countUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in {
+      animation: fadeIn 0.5s ease-out forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <section class="quiz-container min-h-screen py-8 lg:py-12">
     <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
       
+      <!-- Header -->
+      <div class="text-center mb-8">
+        <a href="/" class="inline-block mb-4">
+          <span class="text-2xl font-bold text-white">IBC<span class="text-[#B8860B]">Academy</span></span>
+        </a>
+        <h1 class="text-xl text-slate-400">Free Financial Assessment</h1>
+      </div>
+
       <!-- Progress Bar -->
-      <div class="mb-8">
-        <div class="flex justify-between text-sm text-[#6B6B6B] mb-2">
-          <span id="progress-text">Question 1 of 5</span>
-          <span id="progress-percent">20%</span>
+      <div class="mb-6">
+        <div class="flex justify-between text-sm text-slate-400 mb-2">
+          <span id="progress-text">Question 1 of 6</span>
+          <span id="progress-percent">17%</span>
         </div>
-        <div class="h-2 bg-slate-200 rounded-full overflow-hidden">
-          <div id="progress-bar" class="h-full bg-gradient-to-r from-[#B8860B] to-[#D4A84B] transition-all duration-500" style="width: 20%"></div>
+        <div class="h-1.5 bg-slate-700 rounded-full overflow-hidden">
+          <div id="progress-bar" class="h-full bg-gradient-to-r from-[#B8860B] to-[#D4A84B] transition-all duration-500" style="width: 17%"></div>
         </div>
       </div>
 
       <!-- Quiz Container -->
-      <div id="quiz-container" class="bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden">
+      <div id="quiz-container" class="quiz-card rounded-2xl overflow-hidden">
         
-        <!-- Question 1: The Revelation -->
-        <div id="q1" class="quiz-step p-8 lg:p-10" data-step="1">
-          <div class="mb-6">
-            <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#B8860B]/10 text-[#B8860B] text-sm font-medium">
-              💡 The Opportunity Cost Question
+        <!-- Question 1: CONTEXT — Opportunity Cost Revelation -->
+        <div id="q1" class="quiz-step fade-in p-6 lg:p-8" data-step="1">
+          <div class="mb-4">
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#B8860B]/20 text-[#B8860B] text-xs font-medium uppercase tracking-wider">
+              Context
             </span>
           </div>
-          <h2 class="text-2xl lg:text-3xl font-bold text-[#1A1A1A] mb-4">
-            When you pay cash for something, what happens to the interest you <em>could have earned</em> on that money?
+          <h2 class="text-xl lg:text-2xl font-bold text-white mb-3 leading-tight">
+            When you pay cash for a major purchase, what happens to the interest that money <em class="text-[#B8860B] not-italic">could have earned</em>?
           </h2>
-          <p class="text-[#6B6B6B] mb-8">Think about your last major purchase...</p>
+          <p class="text-slate-400 text-sm mb-6">Think about your last car, equipment purchase, or large expense...</p>
           
           <div class="space-y-3">
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="keep" data-score="0">
-              <span class="font-medium text-[#1A1A1A]">I keep it</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">The money stays in my account earning interest</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="keep" data-sophistication="low">
+              <span class="font-medium text-white">I keep it — the money stays in my account</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="lose" data-score="30">
-              <span class="font-medium text-[#1A1A1A]">I lose it</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">The money is gone, along with any future growth</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="lose" data-sophistication="high">
+              <span class="font-medium text-white">I lose it — the money AND future growth are gone</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="never_thought" data-score="10">
-              <span class="font-medium text-[#1A1A1A]">I never thought about it</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">This is a new concept for me</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="never_thought" data-sophistication="medium">
+              <span class="font-medium text-white">I've never thought about it this way</span>
             </button>
           </div>
         </div>
 
-        <!-- Question 2: The Discovery -->
-        <div id="q2" class="quiz-step hidden p-8 lg:p-10" data-step="2">
-          <div class="mb-6">
-            <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#B8860B]/10 text-[#B8860B] text-sm font-medium">
-              🔍 The 34.5% Discovery
+        <!-- Question 2: CONFRONTATION — How Much Flows to Banks -->
+        <div id="q2" class="quiz-step hidden p-6 lg:p-8" data-step="2">
+          <div class="mb-4">
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-red-500/20 text-red-400 text-xs font-medium uppercase tracking-wider">
+              Confrontation
             </span>
           </div>
-          <h2 class="text-2xl lg:text-3xl font-bold text-[#1A1A1A] mb-4">
-            If you finance a $40,000 car at 6% for 5 years, you pay ~$46,400 total. If you pay cash, how much did that car <em>really</em> cost you?
+          <h2 class="text-xl lg:text-2xl font-bold text-white mb-3 leading-tight">
+            How much of your income flows to banks each year?
           </h2>
-          <p class="text-[#6B6B6B] mb-8">Consider the full economic picture...</p>
+          <p class="text-slate-400 text-sm mb-6">Add up: mortgage payments, car loans, credit cards, business financing, equipment leases...</p>
           
           <div class="space-y-3">
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="40k" data-score="0">
-              <span class="font-medium text-[#1A1A1A]">$40,000 — I paid no interest</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Cash means no financing costs</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="under_20k" data-bank-flow="15000">
+              <span class="font-medium text-white">Under $20,000/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Mortgage and maybe a car payment</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="more" data-score="30">
-              <span class="font-medium text-[#1A1A1A]">More than $40,000 — I lost the growth</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">That $40k could have been earning compound interest</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="20k_50k" data-bank-flow="35000">
+              <span class="font-medium text-white">$20,000 - $50,000/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Multiple debts or larger obligations</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="unsure" data-score="10">
-              <span class="font-medium text-[#1A1A1A]">I'm not sure</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">This math is new to me</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="50k_100k" data-bank-flow="75000">
+              <span class="font-medium text-white">$50,000 - $100,000/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Significant business or real estate debt</span>
             </button>
-          </div>
-          
-          <!-- Teaching moment reveal (shown after selection) -->
-          <div id="q2-insight" class="hidden mt-6 p-4 rounded-xl bg-amber-50 border border-amber-200">
-            <p class="text-sm text-amber-800">
-              <strong>The insight:</strong> Nelson Nash called this the "opportunity cost" — even paying cash has a cost. That $40,000 could have grown to $53,000+ over 5 years at 6%. You "paid" over $13,000 in lost opportunity. This is why Nash said "you finance everything you buy."
-            </p>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="100k_plus" data-bank-flow="150000">
+              <span class="font-medium text-white">$100,000+/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Major financing across multiple areas</span>
+            </button>
           </div>
         </div>
 
-        <!-- Question 3: The Context -->
-        <div id="q3" class="quiz-step hidden p-8 lg:p-10" data-step="3">
-          <div class="mb-6">
-            <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#B8860B]/10 text-[#B8860B] text-sm font-medium">
-              📊 Your Current Approach
+        <!-- Question 3: ARTICULATION — The Vision -->
+        <div id="q3" class="quiz-step hidden p-6 lg:p-8" data-step="3">
+          <div class="mb-4">
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-medium uppercase tracking-wider">
+              Vision
             </span>
           </div>
-          <h2 class="text-2xl lg:text-3xl font-bold text-[#1A1A1A] mb-4">
+          <h2 class="text-xl lg:text-2xl font-bold text-white mb-3 leading-tight">
+            If you could recapture just <em class="text-[#B8860B] not-italic">half</em> that interest, what would you do with it?
+          </h2>
+          <p class="text-slate-400 text-sm mb-6">Imagine keeping that money instead of sending it to banks...</p>
+          
+          <div class="space-y-3">
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="business" data-intent="business">
+              <span class="font-medium text-white">Reinvest in my business</span>
+              <span class="block text-sm text-slate-400 mt-1">Fund growth without asking a bank</span>
+            </button>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="real_estate" data-intent="real_estate">
+              <span class="font-medium text-white">Fund real estate deals</span>
+              <span class="block text-sm text-slate-400 mt-1">Down payments, flips, rental acquisitions</span>
+            </button>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="wealth" data-intent="wealth">
+              <span class="font-medium text-white">Build generational wealth</span>
+              <span class="block text-sm text-slate-400 mt-1">Family legacy, kids' future, retirement</span>
+            </button>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="unsure" data-intent="unsure">
+              <span class="font-medium text-white">I'm not sure it's possible</span>
+              <span class="block text-sm text-slate-400 mt-1">This sounds too good to be true</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Question 4: SCALE — Current Behavior -->
+        <div id="q4" class="quiz-step hidden p-6 lg:p-8" data-step="4">
+          <div class="mb-4">
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-blue-500/20 text-blue-400 text-xs font-medium uppercase tracking-wider">
+              Your Approach
+            </span>
+          </div>
+          <h2 class="text-xl lg:text-2xl font-bold text-white mb-3 leading-tight">
             How do you currently fund major purchases?
           </h2>
-          <p class="text-[#6B6B6B] mb-8">Cars, equipment, real estate down payments, large expenses...</p>
+          <p class="text-slate-400 text-sm mb-6">Equipment, vehicles, real estate down payments, large expenses...</p>
           
           <div class="space-y-3">
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="cash" data-score="20" data-behavior="cash">
-              <span class="font-medium text-[#1A1A1A]">Pay cash from savings</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">I save up and pay in full</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="cash" data-behavior="cash">
+              <span class="font-medium text-white">Pay cash from savings</span>
+              <span class="block text-sm text-slate-400 mt-1">Save up and pay in full</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="finance" data-score="20" data-behavior="finance">
-              <span class="font-medium text-[#1A1A1A]">Traditional financing</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Bank loans, leases, financing plans</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="finance" data-behavior="finance">
+              <span class="font-medium text-white">Traditional financing</span>
+              <span class="block text-sm text-slate-400 mt-1">Bank loans, leases, financing plans</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="mix" data-score="25" data-behavior="mix">
-              <span class="font-medium text-[#1A1A1A]">Mix of both</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Depends on the purchase</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="mix" data-behavior="mix">
+              <span class="font-medium text-white">Mix of both</span>
+              <span class="block text-sm text-slate-400 mt-1">Depends on the purchase and timing</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="credit" data-score="15" data-behavior="credit">
-              <span class="font-medium text-[#1A1A1A]">Credit cards / lines of credit</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Short-term debt for purchases</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="credit" data-behavior="credit">
+              <span class="font-medium text-white">Credit cards / lines of credit</span>
+              <span class="block text-sm text-slate-400 mt-1">Short-term debt, pay off when possible</span>
             </button>
           </div>
         </div>
 
-        <!-- Question 4: The Personalization -->
-        <div id="q4" class="quiz-step hidden p-8 lg:p-10" data-step="4">
-          <div class="mb-6">
-            <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#B8860B]/10 text-[#B8860B] text-sm font-medium">
-              💰 Your Numbers
+        <!-- Question 5: CONSEQUENCE — The Pain Point -->
+        <div id="q5" class="quiz-step hidden p-6 lg:p-8" data-step="5">
+          <div class="mb-4">
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-orange-500/20 text-orange-400 text-xs font-medium uppercase tracking-wider">
+              Cost of Inaction
             </span>
           </div>
-          <h2 class="text-2xl lg:text-3xl font-bold text-[#1A1A1A] mb-4">
+          <h2 class="text-xl lg:text-2xl font-bold text-white mb-3 leading-tight">
+            Have you ever <em class="text-[#B8860B] not-italic">passed on an opportunity</em> because capital was tied up or unavailable?
+          </h2>
+          <p class="text-slate-400 text-sm mb-6">A deal you couldn't close, equipment you couldn't buy, an investment you had to skip...</p>
+          
+          <div class="space-y-3">
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="yes_multiple" data-pain="high">
+              <span class="font-medium text-white">Yes, multiple times</span>
+              <span class="block text-sm text-slate-400 mt-1">It's happened more than once</span>
+            </button>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="yes_once" data-pain="medium">
+              <span class="font-medium text-white">Yes, at least once</span>
+              <span class="block text-sm text-slate-400 mt-1">I can think of a specific situation</span>
+            </button>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="almost" data-pain="low">
+              <span class="font-medium text-white">Almost — I've had to scramble</span>
+              <span class="block text-sm text-slate-400 mt-1">Made it work but it was stressful</span>
+            </button>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="no" data-pain="none">
+              <span class="font-medium text-white">No, I always have access to capital</span>
+              <span class="block text-sm text-slate-400 mt-1">Never been an issue</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Question 6: QUALIFICATION — Savings Capacity -->
+        <div id="q6" class="quiz-step hidden p-6 lg:p-8" data-step="6">
+          <div class="mb-4">
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#B8860B]/20 text-[#B8860B] text-xs font-medium uppercase tracking-wider">
+              Your Numbers
+            </span>
+          </div>
+          <h2 class="text-xl lg:text-2xl font-bold text-white mb-3 leading-tight">
             What's your approximate annual savings capacity?
           </h2>
-          <p class="text-[#6B6B6B] mb-8">Not income — what you actually set aside each year. This helps us calculate your opportunity.</p>
+          <p class="text-slate-400 text-sm mb-6">Beyond living expenses — what you actually set aside each year. This determines the scale of your opportunity.</p>
           
           <div class="space-y-3">
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="under_10k" data-score="10" data-savings="7500">
-              <span class="font-medium text-[#1A1A1A]">Under $10,000/year</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Building the foundation</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="under_10k" data-savings="7500" data-tier="starter">
+              <span class="font-medium text-white">Under $10,000/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Building the foundation</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="10k_50k" data-score="25" data-savings="30000">
-              <span class="font-medium text-[#1A1A1A]">$10,000 - $50,000/year</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Solid savings discipline</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="10k_25k" data-savings="17500" data-tier="foundation">
+              <span class="font-medium text-white">$10,000 - $25,000/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Solid savings discipline</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="50k_100k" data-score="35" data-savings="75000">
-              <span class="font-medium text-[#1A1A1A]">$50,000 - $100,000/year</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Significant capital to deploy</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="25k_50k" data-savings="37500" data-tier="growth">
+              <span class="font-medium text-white">$25,000 - $50,000/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Strong position for the banking function</span>
             </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="100k_plus" data-score="40" data-savings="150000">
-              <span class="font-medium text-[#1A1A1A]">$100,000+/year</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Maximum opportunity for the banking function</span>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="50k_100k" data-savings="75000" data-tier="accelerator">
+              <span class="font-medium text-white">$50,000 - $100,000/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Maximum leverage opportunity</span>
+            </button>
+            <button class="quiz-option w-full p-4 text-left rounded-xl" data-value="100k_plus" data-savings="150000" data-tier="executive">
+              <span class="font-medium text-white">$100,000+/year</span>
+              <span class="block text-sm text-slate-400 mt-1">Enterprise-scale banking function</span>
             </button>
           </div>
         </div>
 
-        <!-- Question 5: The Intent Signal -->
-        <div id="q5" class="quiz-step hidden p-8 lg:p-10" data-step="5">
-          <div class="mb-6">
-            <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#B8860B]/10 text-[#B8860B] text-sm font-medium">
-              🎯 Your Vision
-            </span>
-          </div>
-          <h2 class="text-2xl lg:text-3xl font-bold text-[#1A1A1A] mb-4">
-            If you could recapture the interest you're currently losing to banks, what would you do with it?
-          </h2>
-          <p class="text-[#6B6B6B] mb-8">This helps us understand what matters most to you.</p>
-          
-          <div class="space-y-3">
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="business" data-score="30" data-intent="business">
-              <span class="font-medium text-[#1A1A1A]">Reinvest in my business</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Fund growth without bank approval</span>
-            </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="real_estate" data-score="30" data-intent="real_estate">
-              <span class="font-medium text-[#1A1A1A]">Fund real estate deals</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Down payments, flips, rental acquisitions</span>
-            </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="wealth" data-score="25" data-intent="wealth">
-              <span class="font-medium text-[#1A1A1A]">Build generational wealth</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Family legacy, kids' future</span>
-            </button>
-            <button class="quiz-option w-full p-4 text-left rounded-xl border-2 border-slate-200 hover:border-[#B8860B] hover:bg-[#B8860B]/5 transition-all" data-value="skeptical" data-score="10" data-intent="skeptical">
-              <span class="font-medium text-[#1A1A1A]">I'm still skeptical this is possible</span>
-              <span class="block text-sm text-[#6B6B6B] mt-1">Show me the math first</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Contact Collection (after quiz) -->
-        <div id="contact-step" class="quiz-step hidden p-8 lg:p-10" data-step="6">
-          <div class="text-center mb-8">
-            <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-[#B8860B]/10 flex items-center justify-center">
+        <!-- Email Gate -->
+        <div id="email-gate" class="quiz-step hidden p-6 lg:p-8" data-step="7">
+          <div class="text-center mb-6">
+            <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-[#B8860B]/20 flex items-center justify-center">
               <svg class="w-8 h-8 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h2 class="text-2xl lg:text-3xl font-bold text-[#1A1A1A] mb-2">
+            <h2 class="text-xl lg:text-2xl font-bold text-white mb-2">
               Your Analysis is Ready
             </h2>
-            <p class="text-[#6B6B6B]">
-              Enter your info to see your personalized results — including your estimated annual "interest leak."
+            <p id="gate-message" class="text-slate-400">
+              Based on your answers, you're likely losing <span id="preview-leak" class="text-[#B8860B] font-semibold">$X</span> per year to banks — money you could be keeping.
             </p>
           </div>
           
-          <form id="results-form" class="space-y-4 max-w-md mx-auto">
+          <form id="results-form" class="space-y-4 max-w-sm mx-auto">
             <div>
-              <label for="name" class="block text-sm font-medium text-[#4A4A4A] mb-1">First Name</label>
+              <label for="name" class="block text-sm font-medium text-slate-300 mb-1">First Name</label>
               <input type="text" id="name" name="name" required
-                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
+                class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-600 text-white focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none placeholder-slate-500"
                 placeholder="Your first name" />
             </div>
             <div>
-              <label for="email" class="block text-sm font-medium text-[#4A4A4A] mb-1">Email</label>
+              <label for="email" class="block text-sm font-medium text-slate-300 mb-1">Email</label>
               <input type="email" id="email" name="email" required
-                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
+                class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-600 text-white focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none placeholder-slate-500"
                 placeholder="you@example.com" />
             </div>
             <button type="submit" id="see-results-btn"
-              class="w-full px-6 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50">
-              See My Results
+              class="w-full px-6 py-4 bg-gradient-to-r from-[#B8860B] to-[#D4A84B] text-slate-900 font-bold text-lg rounded-xl hover:from-[#D4A84B] hover:to-[#B8860B] transition-all duration-300 shadow-lg shadow-[#B8860B]/30">
+              See My Personalized Analysis
               <svg class="inline-block ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </button>
+            <p class="text-xs text-slate-500 text-center">
+              No spam. Unsubscribe anytime.
+            </p>
           </form>
         </div>
 
         <!-- Results Page -->
-        <div id="results-step" class="quiz-step hidden p-8 lg:p-10" data-step="7">
-          <div class="text-center mb-8">
-            <h2 class="text-2xl lg:text-3xl font-bold text-[#1A1A1A] mb-2">
-              <span id="results-name">Your</span> Financial Analysis
+        <div id="results-step" class="quiz-step hidden p-6 lg:p-8" data-step="8">
+          <div class="text-center mb-6">
+            <h2 class="text-xl lg:text-2xl font-bold text-white mb-1">
+              <span id="results-name">Your</span> 34.5% Analysis
             </h2>
-            <p class="text-[#6B6B6B]">Based on your answers, here's what we found:</p>
+            <p class="text-slate-400 text-sm">Based on your answers, here's what you're losing:</p>
           </div>
           
           <!-- Interest Leak Card -->
-          <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-6 mb-6 border border-red-100">
-            <div class="flex items-center gap-3 mb-3">
-              <div class="w-10 h-10 rounded-xl bg-red-500/20 flex items-center justify-center">
-                <svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" />
-                </svg>
-              </div>
-              <span class="font-semibold text-red-800">Your Estimated Annual Interest Leak</span>
+          <div class="bg-gradient-to-br from-red-900/40 to-red-800/20 rounded-2xl p-5 mb-4 border border-red-500/20">
+            <div class="flex items-center gap-2 mb-2">
+              <svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" />
+              </svg>
+              <span class="font-medium text-red-300 text-sm">Estimated Annual Interest Leak</span>
             </div>
-            <div class="text-4xl lg:text-5xl font-extrabold text-red-600 mb-2">
-              $<span id="interest-leak">0</span>
+            <div class="text-3xl lg:text-4xl font-extrabold text-red-400 counter-animate">
+              $<span id="interest-leak">0</span><span class="text-lg text-red-400/60">/year</span>
             </div>
-            <p class="text-sm text-red-700">
-              This is roughly how much you're losing to banks each year in opportunity cost.
+            <p class="text-xs text-red-300/70 mt-1">
+              Money flowing to banks instead of building YOUR wealth
             </p>
           </div>
 
-          <!-- Recapture Opportunity Card -->
-          <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 mb-6 border border-green-100">
-            <div class="flex items-center gap-3 mb-3">
-              <div class="w-10 h-10 rounded-xl bg-green-500/20 flex items-center justify-center">
-                <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                </svg>
-              </div>
-              <span class="font-semibold text-green-800">Your 10-Year Recapture Potential</span>
+          <!-- Recapture Cards -->
+          <div class="grid grid-cols-3 gap-3 mb-6">
+            <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 text-center">
+              <div class="text-xs text-slate-400 mb-1">10 Years</div>
+              <div class="text-lg font-bold text-emerald-400">$<span id="recapture-10">0</span></div>
             </div>
-            <div class="text-4xl lg:text-5xl font-extrabold text-green-600 mb-2">
-              $<span id="recapture-potential">0</span>
+            <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 text-center">
+              <div class="text-xs text-slate-400 mb-1">20 Years</div>
+              <div class="text-lg font-bold text-emerald-400">$<span id="recapture-20">0</span></div>
             </div>
-            <p class="text-sm text-green-700">
-              What redirecting that interest to yourself could mean over a decade.
-            </p>
+            <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 text-center">
+              <div class="text-xs text-slate-400 mb-1">30 Years</div>
+              <div class="text-lg font-bold text-emerald-400">$<span id="recapture-30">0</span></div>
+            </div>
           </div>
 
           <!-- Mini Calculator -->
-          <div class="bg-slate-50 rounded-2xl p-6 mb-8 border border-slate-200">
-            <h3 class="font-bold text-[#1A1A1A] mb-4">Adjust Your Numbers</h3>
+          <div class="bg-slate-800/30 rounded-xl p-4 mb-6 border border-slate-700">
+            <h3 class="font-medium text-white text-sm mb-3">Adjust Your Numbers</h3>
             <div class="space-y-4">
               <div>
-                <label class="block text-sm text-[#6B6B6B] mb-1">Annual Savings</label>
-                <input type="range" id="calc-savings" min="5000" max="200000" step="5000" value="30000" 
-                  class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#B8860B]" />
-                <div class="flex justify-between text-xs text-[#6B6B6B] mt-1">
-                  <span>$5k</span>
-                  <span id="calc-savings-display" class="font-semibold text-[#B8860B]">$30,000</span>
-                  <span>$200k</span>
+                <div class="flex justify-between text-xs text-slate-400 mb-1">
+                  <span>Annual Savings</span>
+                  <span id="calc-savings-display" class="text-[#B8860B]">$30,000</span>
                 </div>
+                <input type="range" id="calc-savings" min="5000" max="200000" step="5000" value="30000" 
+                  class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-[#B8860B]" />
               </div>
               <div>
-                <label class="block text-sm text-[#6B6B6B] mb-1">Assumed Growth Rate</label>
-                <input type="range" id="calc-rate" min="3" max="8" step="0.5" value="5" 
-                  class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#B8860B]" />
-                <div class="flex justify-between text-xs text-[#6B6B6B] mt-1">
-                  <span>3%</span>
-                  <span id="calc-rate-display" class="font-semibold text-[#B8860B]">5%</span>
-                  <span>8%</span>
+                <div class="flex justify-between text-xs text-slate-400 mb-1">
+                  <span>Growth Rate</span>
+                  <span id="calc-rate-display" class="text-[#B8860B]">5%</span>
                 </div>
+                <input type="range" id="calc-rate" min="3" max="8" step="0.5" value="5" 
+                  class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-[#B8860B]" />
               </div>
             </div>
           </div>
 
-          <!-- CTA -->
-          <div class="text-center">
-            <p class="text-[#4A4A4A] mb-4" id="cta-text">
-              Want to see exactly how the banking function could work for your situation?
-            </p>
-            <a href="/schedule" id="cta-btn"
-              class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50">
-              Talk to Brad — Free 30-Min Call
-              <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </a>
-            <p class="mt-4 text-sm text-[#6B6B6B]">
-              Or <a href="/webinar" class="text-[#B8860B] hover:underline">watch the free webinar first</a>
-            </p>
+          <!-- Conditional CTA -->
+          <div id="cta-section" class="text-center">
+            <!-- Will be populated by JS based on score -->
           </div>
         </div>
 
+      </div>
+
+      <!-- Trust footer -->
+      <div class="mt-6 text-center">
+        <p class="text-xs text-slate-500">
+          <span class="text-[#B8860B]">✓</span> NNI Authorized IBC Practitioner · Education First · No Pressure
+        </p>
       </div>
     </div>
   </section>
@@ -316,9 +383,46 @@ import Layout from '../layouts/Layout.astro';
   <script is:inline>
     // Quiz state
     let currentStep = 1;
-    let totalScore = 0;
     let answers = {};
+    let bankFlow = 35000;
     let savings = 30000;
+    let intent = 'wealth';
+    let pain = 'medium';
+    let sophistication = 'medium';
+    let tier = 'growth';
+    
+    // Calculate score for routing
+    function calculateScore() {
+      let score = 0;
+      
+      // Sophistication (Q1)
+      if (sophistication === 'high') score += 30;
+      else if (sophistication === 'medium') score += 15;
+      
+      // Bank flow (Q2) - higher = more opportunity
+      if (bankFlow >= 100000) score += 30;
+      else if (bankFlow >= 50000) score += 25;
+      else if (bankFlow >= 35000) score += 20;
+      else score += 10;
+      
+      // Intent (Q3)
+      if (intent === 'business' || intent === 'real_estate') score += 30;
+      else if (intent === 'wealth') score += 20;
+      else score += 5;
+      
+      // Pain (Q5)
+      if (pain === 'high') score += 25;
+      else if (pain === 'medium') score += 15;
+      else if (pain === 'low') score += 10;
+      
+      // Savings tier (Q6)
+      if (tier === 'executive') score += 40;
+      else if (tier === 'accelerator') score += 30;
+      else if (tier === 'growth') score += 20;
+      else if (tier === 'foundation') score += 10;
+      
+      return score;
+    }
     
     // Elements
     const progressBar = document.getElementById('progress-bar');
@@ -331,31 +435,26 @@ import Layout from '../layouts/Layout.astro';
         const step = this.closest('.quiz-step');
         const stepNum = parseInt(step.dataset.step);
         
-        // Store answer
+        // Store answer and metadata
         answers[`q${stepNum}`] = this.dataset.value;
-        totalScore += parseInt(this.dataset.score || 0);
         
-        // Store savings if applicable
-        if (this.dataset.savings) {
-          savings = parseInt(this.dataset.savings);
-        }
+        if (this.dataset.sophistication) sophistication = this.dataset.sophistication;
+        if (this.dataset.bankFlow) bankFlow = parseInt(this.dataset.bankFlow);
+        if (this.dataset.intent) intent = this.dataset.intent;
+        if (this.dataset.pain) pain = this.dataset.pain;
+        if (this.dataset.savings) savings = parseInt(this.dataset.savings);
+        if (this.dataset.tier) tier = this.dataset.tier;
         
         // Visual feedback
         step.querySelectorAll('.quiz-option').forEach(opt => {
-          opt.classList.remove('border-[#B8860B]', 'bg-[#B8860B]/10');
+          opt.classList.remove('selected');
         });
-        this.classList.add('border-[#B8860B]', 'bg-[#B8860B]/10');
+        this.classList.add('selected');
         
-        // Show insight if exists (Q2)
-        const insight = document.getElementById(`q${stepNum}-insight`);
-        if (insight) {
-          insight.classList.remove('hidden');
-        }
-        
-        // Wait a moment then advance
+        // Wait then advance
         setTimeout(() => {
           goToStep(stepNum + 1);
-        }, 500);
+        }, 400);
       });
     });
     
@@ -367,27 +466,34 @@ import Layout from '../layouts/Layout.astro';
         s.classList.add('hidden');
       });
       
-      // Show target step
-      const targetId = step <= 5 ? `q${step}` : step === 6 ? 'contact-step' : 'results-step';
+      // Determine target
+      let targetId;
+      if (step <= 6) targetId = `q${step}`;
+      else if (step === 7) targetId = 'email-gate';
+      else targetId = 'results-step';
+      
       const target = document.getElementById(targetId);
       if (target) {
         target.classList.remove('hidden');
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        target.classList.add('fade-in');
       }
       
       // Update progress
-      const progress = Math.min((step / 6) * 100, 100);
+      const progress = Math.min((step / 7) * 100, 100);
       progressBar.style.width = `${progress}%`;
       
-      if (step <= 5) {
-        progressText.textContent = `Question ${step} of 5`;
+      if (step <= 6) {
+        progressText.textContent = `Question ${step} of 6`;
         progressPercent.textContent = `${Math.round(progress)}%`;
-      } else if (step === 6) {
-        progressText.textContent = 'Almost done!';
-        progressPercent.textContent = '90%';
       } else {
-        progressText.textContent = 'Your Results';
-        progressPercent.textContent = '100%';
+        progressText.textContent = step === 7 ? 'Almost done!' : 'Your Results';
+        progressPercent.textContent = step === 7 ? '95%' : '100%';
+      }
+      
+      // Pre-populate email gate message
+      if (step === 7) {
+        const previewLeak = Math.round(bankFlow * 0.25); // ~25% of bank flow is pure interest
+        document.getElementById('preview-leak').textContent = '$' + previewLeak.toLocaleString();
       }
     }
     
@@ -399,22 +505,32 @@ import Layout from '../layouts/Layout.astro';
       const email = document.getElementById('email').value;
       
       // Calculate results
-      const interestLeak = Math.round(savings * 0.05); // 5% opportunity cost
-      const recapturePotential = Math.round(interestLeak * 10 * 1.5); // 10 years with compounding
+      const interestLeak = Math.round(bankFlow * 0.25);
+      const recapture10 = Math.round(interestLeak * 10 * 1.3);
+      const recapture20 = Math.round(interestLeak * 20 * 1.8);
+      const recapture30 = Math.round(interestLeak * 30 * 2.5);
+      
+      const score = calculateScore();
       
       // Store for API
       const leadData = {
         email,
         firstName: name,
         source: 'assessment',
-        assessmentScore: totalScore,
+        assessmentScore: score,
         answers: JSON.stringify(answers),
-        estimatedSavings: savings,
+        bankFlow,
+        savings,
+        intent,
+        pain,
+        tier,
         interestLeak,
-        recapturePotential
+        recapture10,
+        recapture20,
+        recapture30
       };
       
-      // Try API capture (non-blocking)
+      // API capture (non-blocking)
       fetch('/api/capture-lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -424,59 +540,90 @@ import Layout from '../layouts/Layout.astro';
       // Show results
       document.getElementById('results-name').textContent = name + "'s";
       document.getElementById('interest-leak').textContent = interestLeak.toLocaleString();
-      document.getElementById('recapture-potential').textContent = recapturePotential.toLocaleString();
+      document.getElementById('recapture-10').textContent = (recapture10 / 1000).toFixed(0) + 'k';
+      document.getElementById('recapture-20').textContent = (recapture20 / 1000).toFixed(0) + 'k';
+      document.getElementById('recapture-30').textContent = (recapture30 / 1000).toFixed(0) + 'k';
       
-      // Set up calculator
+      // Set calculator
       document.getElementById('calc-savings').value = savings;
       document.getElementById('calc-savings-display').textContent = '$' + savings.toLocaleString();
       
-      // Customize CTA based on intent
-      const intent = answers.q5;
-      const ctaText = document.getElementById('cta-text');
-      const ctaBtn = document.getElementById('cta-btn');
+      // Conditional CTA based on score
+      const ctaSection = document.getElementById('cta-section');
       
-      if (intent === 'skeptical') {
-        ctaText.textContent = "Still skeptical? Let Brad show you the math with YOUR numbers.";
-      } else if (intent === 'business') {
-        ctaText.textContent = "Ready to fund business growth without asking a bank?";
-      } else if (intent === 'real_estate') {
-        ctaText.textContent = "Ready to become your own private lender for real estate deals?";
+      if (score >= 90) {
+        // HIGH INTENT — Book call
+        ctaSection.innerHTML = `
+          <p class="text-slate-300 mb-3 text-sm">You're an ideal candidate for the banking function.</p>
+          <a href="https://calendar.app.google/H2wTUKcJnuhkpxFy8" target="_blank"
+            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#B8860B] to-[#D4A84B] text-slate-900 font-bold rounded-xl hover:from-[#D4A84B] hover:to-[#B8860B] transition-all shadow-lg shadow-[#B8860B]/30">
+            Book a Free Discovery Call with Brad
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </a>
+          <p class="mt-3 text-xs text-slate-500">30 minutes · No pressure · Education first</p>
+        `;
+      } else if (score >= 50) {
+        // MEDIUM — Webinar first
+        ctaSection.innerHTML = `
+          <p class="text-slate-300 mb-3 text-sm">Start with the free workshop to see how this works.</p>
+          <a href="/webinar"
+            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#B8860B] to-[#D4A84B] text-slate-900 font-bold rounded-xl hover:from-[#D4A84B] hover:to-[#B8860B] transition-all shadow-lg shadow-[#B8860B]/30">
+            Register for Free Workshop
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+          </a>
+          <p class="mt-3 text-xs text-slate-500">
+            Or <a href="https://calendar.app.google/H2wTUKcJnuhkpxFy8" target="_blank" class="text-[#B8860B] hover:underline">book a call with Brad</a> if you're ready now
+          </p>
+        `;
+      } else {
+        // LOW — Guide first
+        ctaSection.innerHTML = `
+          <p class="text-slate-300 mb-3 text-sm">Start with the fundamentals — understand the 34.5% problem first.</p>
+          <a href="/free-guide"
+            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#B8860B] to-[#D4A84B] text-slate-900 font-bold rounded-xl hover:from-[#D4A84B] hover:to-[#B8860B] transition-all shadow-lg shadow-[#B8860B]/30">
+            Download Free Guide
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+          </a>
+          <p class="mt-3 text-xs text-slate-500">
+            Then <a href="/webinar" class="text-[#B8860B] hover:underline">join the free workshop</a>
+          </p>
+        `;
       }
       
-      goToStep(7);
+      goToStep(8);
       
-      // Track conversion
+      // Track
       if (typeof gtag === 'function') {
-        gtag('event', 'assessment_complete', {
-          score: totalScore,
-          savings_tier: answers.q4,
-          intent: intent
-        });
+        gtag('event', 'assessment_complete', { score, tier, intent });
       }
     });
     
     // Calculator interactivity
-    document.getElementById('calc-savings')?.addEventListener('input', function() {
-      const val = parseInt(this.value);
-      document.getElementById('calc-savings-display').textContent = '$' + val.toLocaleString();
-      updateCalculations(val);
-    });
+    document.getElementById('calc-savings')?.addEventListener('input', updateCalc);
+    document.getElementById('calc-rate')?.addEventListener('input', updateCalc);
     
-    document.getElementById('calc-rate')?.addEventListener('input', function() {
-      const val = parseFloat(this.value);
-      document.getElementById('calc-rate-display').textContent = val + '%';
-      updateCalculations(null, val);
-    });
-    
-    function updateCalculations(newSavings, newRate) {
-      const s = newSavings || parseInt(document.getElementById('calc-savings').value);
-      const r = newRate || parseFloat(document.getElementById('calc-rate').value);
+    function updateCalc() {
+      const s = parseInt(document.getElementById('calc-savings').value);
+      const r = parseFloat(document.getElementById('calc-rate').value);
+      
+      document.getElementById('calc-savings-display').textContent = '$' + s.toLocaleString();
+      document.getElementById('calc-rate-display').textContent = r + '%';
       
       const leak = Math.round(s * (r / 100));
-      const potential = Math.round(leak * 10 * 1.5);
+      const r10 = Math.round(leak * 10 * 1.3);
+      const r20 = Math.round(leak * 20 * 1.8);
+      const r30 = Math.round(leak * 30 * 2.5);
       
       document.getElementById('interest-leak').textContent = leak.toLocaleString();
-      document.getElementById('recapture-potential').textContent = potential.toLocaleString();
+      document.getElementById('recapture-10').textContent = (r10 / 1000).toFixed(0) + 'k';
+      document.getElementById('recapture-20').textContent = (r20 / 1000).toFixed(0) + 'k';
+      document.getElementById('recapture-30').textContent = (r30 / 1000).toFixed(0) + 'k';
     }
   </script>
 
