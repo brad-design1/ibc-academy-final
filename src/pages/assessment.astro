@@ -402,11 +402,25 @@
       const r30 = Math.round(interestLeak * 30 * 2.5);
       const score = calculateScore();
       
-      fetch('/api/capture-lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, firstName: name, source: 'assessment', assessmentScore: score, answers: JSON.stringify(answers), bankFlow, savings, intent, pain, tier, interestLeak })
-      }).catch(console.error);
+      // Try API first, fallback to Formspree
+      try {
+        const res = await fetch('/api/capture-lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, firstName: name, source: 'assessment', assessmentScore: score, answers: JSON.stringify(answers), bankFlow, savings, intent, pain, tier, interestLeak })
+        });
+        if (!res.ok) throw new Error('API failed');
+      } catch (err) {
+        // Fallback to Formspree
+        const formData = new FormData();
+        formData.append('email', email);
+        formData.append('first_name', name);
+        formData.append('source', 'assessment');
+        formData.append('score', score);
+        formData.append('savings', savings);
+        formData.append('intent', intent);
+        fetch('https://formspree.io/f/mpwzgvvd', { method: 'POST', body: formData, headers: { 'Accept': 'application/json' } }).catch(console.error);
+      }
       
       document.getElementById('results-name').textContent = name + "'s";
       document.getElementById('interest-leak').textContent = interestLeak.toLocaleString();
