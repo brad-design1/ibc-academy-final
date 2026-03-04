@@ -362,115 +362,232 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
   <!-- ═══════════════════════════════════════════════════
-       REGISTRATION FORM
+       REGISTRATION FORM — No Redirect, API-Powered
        ═══════════════════════════════════════════════════ -->
   <section id="register" class="relative overflow-hidden py-16 lg:py-24">
     <!-- Background -->
     <div class="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2A2A2A] to-[#1A1A1A]"></div>
     <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,168,76,0.15)_0%,_transparent_60%)]"></div>
 
-    <div class="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <div class="fade-in-up">
+    <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="fade-in-up text-center mb-10">
         <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
           Reserve Your <span class="text-[#C9A84C]">Spot</span>
         </h2>
         <p class="mt-4 text-lg text-gray-300">
-          Pick the time that works for you. Same workshop, two options.
+          Enter your details and pick a time. You'll get instant confirmation.
         </p>
+      </div>
 
-        <!-- Time Slot Selection Cards -->
-        <div class="mt-10 max-w-xl mx-auto">
-          <p class="text-gray-300 mb-6 text-center">Pick the time that works for you:</p>
-          
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <!-- Tuesday Card -->
-            <a
-              href="https://us06web.zoom.us/webinar/register/WN_NVnbVFRtS-a2-VI0mNqe-A"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="group block p-6 rounded-2xl border-2 border-white/20 bg-white/5 hover:border-[#C9A84C] hover:bg-[#C9A84C]/10 transition-all duration-300"
-              data-track="webinar-register-tuesday"
-              onclick="typeof gtag==='function'&&gtag('event','webinar_registration',{time_slot:'tuesday_noon',method:'zoom'});typeof fbq==='function'&&fbq('track','Lead',{content_name:'webinar_tuesday'})"
-            >
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-12 h-12 rounded-xl bg-[#C9A84C]/20 flex items-center justify-center">
-                  <svg class="w-6 h-6 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-gray-500 group-hover:text-[#C9A84C] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </div>
-              <h3 class="text-xl font-bold text-white mb-1">Tuesday</h3>
-              <p class="text-[#C9A84C] font-semibold text-lg">12:00 PM CT</p>
-              <p class="text-gray-400 text-sm mt-2">Lunch & Learn</p>
-              <div class="mt-4 inline-flex items-center text-[#C9A84C] font-semibold group-hover:underline">
-                Register Now
-                <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
-            </a>
+      <!-- Registration Form -->
+      <div class="fade-in-up bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+        <form id="webinar-form" class="space-y-5">
+          <!-- Name Fields -->
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label for="first_name" class="block text-sm font-medium text-gray-300 mb-1">First Name *</label>
+              <input 
+                type="text" 
+                id="first_name" 
+                name="first_name" 
+                required
+                class="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:border-[#C9A84C] focus:ring-2 focus:ring-[#C9A84C]/20 transition-all outline-none"
+                placeholder="Your first name"
+              />
+            </div>
+            <div>
+              <label for="last_name" class="block text-sm font-medium text-gray-300 mb-1">Last Name</label>
+              <input 
+                type="text" 
+                id="last_name" 
+                name="last_name"
+                class="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:border-[#C9A84C] focus:ring-2 focus:ring-[#C9A84C]/20 transition-all outline-none"
+                placeholder="Your last name"
+              />
+            </div>
+          </div>
 
-            <!-- Wednesday Card -->
-            <a
-              href="https://us06web.zoom.us/webinar/register/WN_P22EHu65RqKsbHBUKMGfog"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="group block p-6 rounded-2xl border-2 border-white/20 bg-white/5 hover:border-[#C9A84C] hover:bg-[#C9A84C]/10 transition-all duration-300"
-              data-track="webinar-register-wednesday"
-              onclick="typeof gtag==='function'&&gtag('event','webinar_registration',{time_slot:'wednesday_evening',method:'zoom'});typeof fbq==='function'&&fbq('track','Lead',{content_name:'webinar_wednesday'})"
-            >
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-12 h-12 rounded-xl bg-[#C9A84C]/20 flex items-center justify-center">
-                  <svg class="w-6 h-6 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                  </svg>
+          <!-- Email -->
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-300 mb-1">Email Address *</label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              required
+              class="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:border-[#C9A84C] focus:ring-2 focus:ring-[#C9A84C]/20 transition-all outline-none"
+              placeholder="you@example.com"
+            />
+          </div>
+
+          <!-- Time Slot Selection -->
+          <div>
+            <label class="block text-sm font-medium text-gray-300 mb-3">Choose Your Session *</label>
+            <div class="grid grid-cols-2 gap-4">
+              <!-- Tuesday Option -->
+              <label class="cursor-pointer">
+                <input type="radio" name="time_slot" value="tuesday" class="sr-only peer" required />
+                <div class="p-4 rounded-xl border-2 border-white/20 bg-white/5 peer-checked:border-[#C9A84C] peer-checked:bg-[#C9A84C]/10 hover:border-white/40 transition-all">
+                  <div class="flex items-center gap-3 mb-2">
+                    <svg class="w-5 h-5 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                    <span class="font-bold text-white">Tuesday</span>
+                  </div>
+                  <p class="text-[#C9A84C] font-semibold">12:00 PM CT</p>
+                  <p class="text-gray-400 text-sm">Lunch & Learn</p>
                 </div>
-                <svg class="w-5 h-5 text-gray-500 group-hover:text-[#C9A84C] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </div>
-              <h3 class="text-xl font-bold text-white mb-1">Wednesday</h3>
-              <p class="text-[#C9A84C] font-semibold text-lg">7:00 PM CT</p>
-              <p class="text-gray-400 text-sm mt-2">After Hours</p>
-              <div class="mt-4 inline-flex items-center text-[#C9A84C] font-semibold group-hover:underline">
-                Register Now
-                <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </div>
+              </label>
+
+              <!-- Wednesday Option -->
+              <label class="cursor-pointer">
+                <input type="radio" name="time_slot" value="wednesday" class="sr-only peer" />
+                <div class="p-4 rounded-xl border-2 border-white/20 bg-white/5 peer-checked:border-[#C9A84C] peer-checked:bg-[#C9A84C]/10 hover:border-white/40 transition-all">
+                  <div class="flex items-center gap-3 mb-2">
+                    <svg class="w-5 h-5 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                    <span class="font-bold text-white">Wednesday</span>
+                  </div>
+                  <p class="text-[#C9A84C] font-semibold">7:00 PM CT</p>
+                  <p class="text-gray-400 text-sm">After Hours</p>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <button 
+            type="submit"
+            id="submit-btn"
+            class="w-full px-6 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+          >
+            <span id="btn-text">Register Free — Get Instant Access</span>
+            <span id="btn-loading" class="hidden">
+              <svg class="animate-spin inline w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+              </svg>
+              Registering...
+            </span>
+          </button>
+
+          <!-- Error Message -->
+          <div id="error-message" class="hidden p-4 rounded-xl bg-red-500/20 border border-red-500/30 text-red-300 text-sm"></div>
+        </form>
+
+        <!-- Success State (hidden by default) -->
+        <div id="success-state" class="hidden text-center py-8">
+          <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-green-500/20 flex items-center justify-center">
+            <svg class="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-2">You're Registered!</h3>
+          <p class="text-gray-300 mb-6">Check your email for the Zoom link and calendar invite.</p>
+          <div id="join-url-container" class="hidden">
+            <a id="join-url" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-[#C9A84C] text-navy-900 font-bold rounded-xl hover:bg-[#d4b65c] transition-colors">
+              Add to Calendar
+              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
             </a>
           </div>
+          <p class="mt-6 text-sm text-gray-400">
+            Want to learn more before the webinar? <a href="/free-guide" class="text-[#C9A84C] hover:underline">Get the free guide</a>
+          </p>
         </div>
+      </div>
 
-        <!-- Trust signals -->
-        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm text-gray-400">
-          <span class="flex items-center gap-2">
-            <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            45 minutes
-          </span>
-          <span class="hidden sm:block">•</span>
-          <span class="flex items-center gap-2">
-            <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
-            Limited to 100 attendees
-          </span>
-          <span class="hidden sm:block">•</span>
-          <span class="flex items-center gap-2">
-            <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            Calendar invite sent instantly
-          </span>
-        </div>
+      <!-- Trust signals -->
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm text-gray-400 fade-in-up">
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          45 minutes
+        </span>
+        <span class="hidden sm:block">•</span>
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+          Limited to 100 attendees
+        </span>
+        <span class="hidden sm:block">•</span>
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+          Calendar invite sent instantly
+        </span>
       </div>
     </div>
   </section>
+
+  <!-- Form Handler Script -->
+  <script>
+    const form = document.getElementById('webinar-form') as HTMLFormElement;
+    const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
+    const btnText = document.getElementById('btn-text') as HTMLSpanElement;
+    const btnLoading = document.getElementById('btn-loading') as HTMLSpanElement;
+    const errorMessage = document.getElementById('error-message') as HTMLDivElement;
+    const successState = document.getElementById('success-state') as HTMLDivElement;
+    const joinUrlContainer = document.getElementById('join-url-container') as HTMLDivElement;
+    const joinUrl = document.getElementById('join-url') as HTMLAnchorElement;
+
+    form?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      // Reset states
+      errorMessage.classList.add('hidden');
+      submitBtn.disabled = true;
+      btnText.classList.add('hidden');
+      btnLoading.classList.remove('hidden');
+      
+      const formData = new FormData(form);
+      
+      try {
+        const response = await fetch('/api/register-webinar', {
+          method: 'POST',
+          body: formData
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+          // Track conversion
+          if (typeof gtag === 'function') {
+            gtag('event', 'webinar_registration', {
+              time_slot: formData.get('time_slot'),
+              method: 'api'
+            });
+          }
+          if (typeof fbq === 'function') {
+            fbq('track', 'Lead', { content_name: 'webinar_' + formData.get('time_slot') });
+          }
+          
+          // Show success state
+          form.classList.add('hidden');
+          successState.classList.remove('hidden');
+          
+          // Show join URL if available
+          if (result.joinUrl) {
+            joinUrl.href = result.joinUrl;
+            joinUrlContainer.classList.remove('hidden');
+          }
+        } else {
+          throw new Error(result.error || 'Registration failed');
+        }
+      } catch (err) {
+        errorMessage.textContent = err instanceof Error ? err.message : 'Something went wrong. Please try again.';
+        errorMessage.classList.remove('hidden');
+        submitBtn.disabled = false;
+        btnText.classList.remove('hidden');
+        btnLoading.classList.add('hidden');
+      }
+    });
+  </script>
 
   <!-- ═══════════════════════════════════════════════════
        FAQ
