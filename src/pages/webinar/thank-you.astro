@@ -1,0 +1,101 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="You're Registered! | IBC Academy Webinar" description="You're registered for the free IBC webinar. Here's what to expect.">
+
+  <section class="min-h-[70vh] flex items-center py-16 lg:py-24">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="fade-in-up">
+        <!-- Success Icon -->
+        <div class="w-20 h-20 mx-auto mb-8 rounded-full bg-green-100 flex items-center justify-center">
+          <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          You're <span class="text-[#B8860B]">Registered!</span>
+        </h1>
+        <p class="mt-4 text-xl text-[#4A4A4A]">
+          You've secured your spot for "The 34.5% Problem" webinar.
+        </p>
+
+        <!-- Webinar Details Card -->
+        <div class="mt-8 glass-card rounded-2xl p-6 text-left">
+          <h2 class="font-bold text-[#1A1A1A] mb-4 flex items-center gap-2">
+            <svg class="w-5 h-5 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            Webinar Details
+          </h2>
+          
+          <div class="space-y-4">
+            <div class="flex items-center gap-3 p-3 rounded-xl bg-[#B8860B]/5 border border-[#B8860B]/10">
+              <svg class="w-5 h-5 text-[#B8860B] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <div>
+                <p class="font-semibold text-[#1A1A1A]">Tuesday 12:00 PM CT</p>
+                <p class="text-sm text-[#6B6B6B]">or Wednesday 7:00 PM CT</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center gap-3 p-3 rounded-xl bg-slate-50 border border-slate-100">
+              <svg class="w-5 h-5 text-blue-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+              </svg>
+              <div>
+                <p class="font-semibold text-[#1A1A1A]">Live on Zoom</p>
+                <p class="text-sm text-[#6B6B6B]">Link will be emailed before the session</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- What to expect -->
+        <div class="mt-6 glass-card rounded-2xl p-6 text-left">
+          <h2 class="font-bold text-[#1A1A1A] mb-4">Before the webinar:</h2>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#4A4A4A]">Check your email for a confirmation with the Zoom link</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#4A4A4A]">Add it to your calendar (link in confirmation email)</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-[#4A4A4A]">Come with questions — there's time for Q&A at the end</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Alternative CTA -->
+        <div class="mt-8">
+          <p class="text-sm text-[#6B6B6B] mb-4">Want to dive in before the webinar?</p>
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="/free-guide" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-bold rounded-xl hover:from-gold-light hover:to-gold transition-all">
+              Get the Free Guide
+              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3" />
+              </svg>
+            </a>
+            <a href="/learn/start-here" class="inline-flex items-center px-6 py-3 border-2 border-slate-300 text-[#4A4A4A] font-bold rounded-xl hover:border-[#B8860B]/50 hover:text-[#B8860B] transition-all">
+              Explore IBC Basics
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</Layout>

@@ -1,0 +1,63 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="Check Your Inbox | IBC Academy" description="Your free guide is on its way!">
+
+  <section class="min-h-[70vh] flex items-center py-16 lg:py-24">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="fade-in-up">
+        <!-- Success Icon -->
+        <div class="w-20 h-20 mx-auto mb-8 rounded-full bg-green-100 flex items-center justify-center">
+          <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-[#1A1A1A]">
+          Check Your <span class="text-[#B8860B]">Inbox</span>
+        </h1>
+        <p class="mt-4 text-xl text-[#4A4A4A]">
+          Your free guide "The 34.5% Problem" is on its way to your email.
+        </p>
+
+        <!-- What to expect -->
+        <div class="mt-8 glass-card rounded-2xl p-6 text-left">
+          <h2 class="font-bold text-[#1A1A1A] mb-4">What happens next:</h2>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-[#B8860B]/10 flex items-center justify-center text-[#B8860B] font-bold text-sm shrink-0">1</span>
+              <span class="text-[#4A4A4A]">Check your inbox (and spam folder, just in case) for an email from IBC Academy</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-[#B8860B]/10 flex items-center justify-center text-[#B8860B] font-bold text-sm shrink-0">2</span>
+              <span class="text-[#4A4A4A]">Download the PDF and read through the core concepts</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-[#B8860B]/10 flex items-center justify-center text-[#B8860B] font-bold text-sm shrink-0">3</span>
+              <span class="text-[#4A4A4A]">If you have questions, reply to any email — Brad reads them all</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Next steps -->
+        <div class="mt-8">
+          <p class="text-sm text-[#6B6B6B] mb-4">While you wait, you might enjoy:</p>
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="/webinar" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-bold rounded-xl hover:from-gold-light hover:to-gold transition-all">
+              Join the Free Webinar
+              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+            <a href="/learn/start-here" class="inline-flex items-center px-6 py-3 border-2 border-slate-300 text-[#4A4A4A] font-bold rounded-xl hover:border-[#B8860B]/50 hover:text-[#B8860B] transition-all">
+              Explore IBC Basics
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</Layout>

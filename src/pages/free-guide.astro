@@ -1,0 +1,241 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Formspree endpoint - reuse the existing one or create new
+const formspreeEndpoint = "https://formspree.io/f/mpwzgvvd";
+---
+
+<Layout title="Free Guide: The 34.5% Problem | IBC Academy" description="Download our free guide explaining why 34.5 cents of every dollar you earn goes to interest — and the simple framework to flip that equation in your favor.">
+
+  <!-- ═══════════════════════════════════════════════════
+       HERO — Lead Magnet Landing Page
+       ═══════════════════════════════════════════════════ -->
+  <section class="relative overflow-hidden py-16 lg:py-24">
+    <!-- Background gradient -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#FAF9F6] via-navy-light/10 to-[#FAF9F6]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,168,76,0.08)_0%,_transparent_60%)]"></div>
+    
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        
+        <!-- Left: Copy -->
+        <div class="fade-in-up">
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#B8860B]/10 border border-[#B8860B]/20 mb-6">
+            <svg class="w-4 h-4 text-[#B8860B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            <span class="text-[#B8860B] text-sm font-semibold">Free PDF Guide</span>
+          </div>
+
+          <!-- Headline -->
+          <h1 class="text-4xl sm:text-5xl lg:text-5xl font-extrabold text-[#1A1A1A] leading-tight tracking-tight">
+            The <span class="text-[#B8860B]">34.5% Problem</span>
+          </h1>
+          <p class="mt-4 text-xl text-[#4A4A4A]">
+            Why you finance everything you buy — even when you pay cash — and the simple framework to flip that equation.
+          </p>
+
+          <!-- What's Inside -->
+          <div class="mt-8 space-y-4">
+            <p class="text-sm font-semibold text-[#6B6B6B] uppercase tracking-wider">Inside this free guide:</p>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-[#4A4A4A]">The math behind "34.5 cents of every dollar" — and why most people never see it</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-[#4A4A4A]">Why "paying cash" and "financing" are economically identical (Nelson Nash's key insight)</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-[#4A4A4A]">The "banking function" — the wealth-building mechanism banks use that you can capture</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-[#4A4A4A]">One simple diagram that changes how you see every financial decision</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Trust signals -->
+          <div class="mt-8 flex flex-wrap items-center gap-4 text-sm text-[#6B6B6B]">
+            <span class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-[#B8860B]" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              No spam, ever
+            </span>
+            <span>•</span>
+            <span class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              Instant download
+            </span>
+            <span>•</span>
+            <span class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z" />
+              </svg>
+              Education only
+            </span>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="fade-in-up">
+          <div class="glass-card rounded-2xl p-8 shadow-xl">
+            <h2 class="text-2xl font-bold text-[#1A1A1A] mb-2">Get Your Free Copy</h2>
+            <p class="text-[#6B6B6B] mb-6">Enter your email and we'll send the guide straight to your inbox.</p>
+            
+            <form 
+              action={formspreeEndpoint}
+              method="POST"
+              class="space-y-4"
+            >
+              <!-- Hidden field for form identification -->
+              <input type="hidden" name="_subject" value="New Free Guide Download" />
+              <input type="hidden" name="form_type" value="free-guide" />
+              <input type="hidden" name="_next" value="https://ibcacademy.org/free-guide/thank-you" />
+              
+              <!-- First Name -->
+              <div>
+                <label for="first_name" class="block text-sm font-medium text-[#4A4A4A] mb-1">First Name</label>
+                <input 
+                  type="text" 
+                  id="first_name" 
+                  name="first_name" 
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
+                  placeholder="Your first name"
+                />
+              </div>
+
+              <!-- Email -->
+              <div>
+                <label for="email" class="block text-sm font-medium text-[#4A4A4A] mb-1">Email Address</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-[#B8860B] focus:ring-2 focus:ring-[#B8860B]/20 transition-all outline-none"
+                  placeholder="you@example.com"
+                />
+              </div>
+
+              <!-- Submit -->
+              <button 
+                type="submit"
+                class="w-full px-6 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:scale-[1.02]"
+              >
+                Send Me the Free Guide
+                <svg class="inline-block ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </button>
+            </form>
+
+            <p class="mt-4 text-xs text-[#6B6B6B] text-center">
+              By submitting, you agree to receive educational emails from IBC Academy. Unsubscribe anytime.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       SOCIAL PROOF / ABOUT BRAD
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20 bg-white/50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="fade-in-up glass-card rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8">
+        <!-- Brad's Photo -->
+        <div class="shrink-0">
+          <img 
+            src="/images/brad-raschke.jpg" 
+            alt="Brad Raschke" 
+            class="w-32 h-32 rounded-full object-cover border-4 border-[#B8860B]/20"
+          />
+        </div>
+        
+        <!-- Bio -->
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#B8860B]/10 border border-[#B8860B]/20 mb-3">
+            <span class="text-[#B8860B] text-xs font-semibold">NNI Authorized Practitioner</span>
+          </div>
+          <h3 class="text-xl font-bold text-[#1A1A1A]">Brad Raschke</h3>
+          <p class="mt-2 text-[#4A4A4A]">
+            Brad is an authorized Infinite Banking Concept practitioner serving families nationwide. He believes financial education should be free and accessible — which is why this guide exists. No pitch, no pressure. Just the information you need to make your own decisions.
+          </p>
+          <a href="/about" class="inline-flex items-center gap-2 mt-4 text-[#B8860B] font-semibold hover:text-[#B8860B]/80 transition-colors">
+            Learn more about Brad
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       FAQ
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="fade-in-up text-center mb-12">
+        <h2 class="text-3xl font-bold text-[#1A1A1A]">Common Questions</h2>
+      </div>
+
+      <div class="space-y-4 fade-in-up">
+        <div class="glass-card rounded-xl p-6">
+          <h3 class="font-bold text-[#1A1A1A]">Is this really free?</h3>
+          <p class="mt-2 text-[#4A4A4A]">Yes. No credit card, no hidden fees. Just enter your email and we'll send you the guide.</p>
+        </div>
+        
+        <div class="glass-card rounded-xl p-6">
+          <h3 class="font-bold text-[#1A1A1A]">What happens after I download?</h3>
+          <p class="mt-2 text-[#4A4A4A]">You'll receive the PDF immediately via email. We may send occasional educational content, but you can unsubscribe anytime with one click.</p>
+        </div>
+        
+        <div class="glass-card rounded-xl p-6">
+          <h3 class="font-bold text-[#1A1A1A]">Will someone try to sell me something?</h3>
+          <p class="mt-2 text-[#4A4A4A]">Not from this guide. IBC Academy is education-first. If you want to learn more about working with Brad, that's your choice — we'll never pressure you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       FINAL CTA
+       ═══════════════════════════════════════════════════ -->
+  <section class="py-16 lg:py-20 bg-gradient-to-br from-navy-900 to-navy-800">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">
+        Ready to See the 34.5% Problem?
+      </h2>
+      <p class="text-xl text-slate-300 mb-8">
+        Get the free guide and start understanding how money really moves.
+      </p>
+      <a href="#" onclick="document.getElementById('email').focus(); return false;" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-gold to-gold-dark text-navy-900 font-extrabold text-lg rounded-xl hover:from-gold-light hover:to-gold transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-gold/50">
+        Get the Free Guide
+        <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+</Layout>
